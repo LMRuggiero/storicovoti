@@ -1,7 +1,7 @@
 from consigli_di_giornata import *
 from titolari_e_panchinari import *
 
-create = False
+create = True
 
 ultima_giornata = 17
 
