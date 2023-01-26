@@ -65,7 +65,7 @@ def media(lista):
 
 
 def modello_fantacalcio(
-        ultima_giornata,
+        giornata_esaminata,
         numero_giornate,
         salva_excel=False,
         percentuale_presenze=0.375,
@@ -73,11 +73,18 @@ def modello_fantacalcio(
 ):
     percorso = f"{os.getcwd()}/Voti_Fantacalcio"
     nomi_excel = [file for (root, dirs, file) in os.walk(percorso)][0]
+    nomi_excel.reverse()
     percorsi_excel = [f"Voti_Fantacalcio/{ex}" for ex in nomi_excel]
-    lista_dataframe = [dataframe_corretto(ex) for ex in percorsi_excel]
+    ultima_file_scaricato = nomi_excel[0]
+    ultima_giornata_scaricata = int(ultima_file_scaricato.split("_")[-1].split(".xlsx")[0])
+    if ultima_giornata_scaricata < giornata_esaminata:
+        raise Exception(f"non è presente file Voti_Fantacalcio per la giornata {giornata_esaminata}")
+    indice_file = ultima_giornata_scaricata - giornata_esaminata
+
+    lista_dataframe = [dataframe_corretto(ex) for ex in percorsi_excel[indice_file:indice_file + numero_giornate]]
 
     dizionario_statistiche = {}
-    for dataframe in lista_dataframe[-numero_giornate:]:
+    for dataframe in lista_dataframe:
         for _, ruolo, nome, voto, gol_fatti, gol_subiti, rigori_parati, rigori_sbagliati, rigori_fatti, autogol, ammonizioni, espulsione, assist, fanta_voto in dataframe.values:
             # line = ndarray.tolist()
             try:
@@ -148,7 +155,7 @@ def modello_fantacalcio(
     modello_fantacalcio = pd.concat([porta, difesa, centrocampo, attacco])[colonne]
 
     if salva_excel:
-        path_modello_fantacalcio = f"modello_fantacalcio/giornata_{ultima_giornata}"
+        path_modello_fantacalcio = f"modello_fantacalcio/giornata_{giornata_esaminata}"
         file_modello_fantacalcio = f"modello_fantacalcio_ultime_{numero_giornate}.xlsx"
         if not os.path.exists(path_modello_fantacalcio):
             os.makedirs(path_modello_fantacalcio)
@@ -169,14 +176,14 @@ def modello_fantacalcio(
         writer.save()
 
         print(
-            f"salvato modello fantacalcio {ultima_giornata} considerando le precedenti {numero_giornate} in {path_finale_modello_fantacalcio}")
+            f"salvato modello fantacalcio {giornata_esaminata} considerando le precedenti {numero_giornate} in {path_finale_modello_fantacalcio}")
 
     return percorsi_excel, modello_fantacalcio
 
 
 if __name__ == "__main__":
     modello_fantacalcio(
-        ultima_giornata=17,
+        giornata_esaminata=17,
         numero_giornate=4,
         salva_excel=True,
         percentuale_presenze=0.375,

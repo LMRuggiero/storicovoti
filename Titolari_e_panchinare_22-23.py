@@ -3,11 +3,12 @@ from titolari_e_panchinari import *
 
 create = True
 
-ultima_giornata = 17
+ultima_giornata = 18
 
 l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
 if create:
-    [consigli_di_giornata(ultima_giornata, n_giornate, salva_consigli=create, salva_modello=create, file_quotazioni="Quotazioni_Fantacalcio_Stagione_2022_23_01_11.xlsx") for n_giornate in l]
+    [consigli_di_giornata(ultima_giornata, n_giornate, salva_consigli=create, salva_modello=create,
+                          file_quotazioni="Quotazioni_Fantacalcio_Stagione_2022_23_01_22.xlsx") for n_giornate in l]
 
 
 def consigli_di_giornata_formazione(ultima_giornata, n_giornate, lega, team='Io'):
@@ -27,11 +28,10 @@ dfs = [pd.read_excel(f"consigli_giornata/giornata_{ultima_giornata + 1}/consigli
 # dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Lega dei Cojon", "Io") for n in l]
 dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FANTABERTEBOOM", "Io") for n in l]
 
-
 squadra_titolare, panchinari, listone = titolari_e_panchinari3(
     dfs,
     num_df=6,
-    esclusioni=["LOBOTKA"],
+    # esclusioni=["BARAK"],
     # aggiunte=["TONALI"],
     # modulo=["3-4-3"],
     # modulo=["4-3-3"],

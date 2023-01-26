@@ -278,9 +278,6 @@ def titolari_e_panchinari3(dfs, num_df=None, esclusioni=None, aggiunte=None, lis
         aggiunte = []
     if esclusioni is None:
         esclusioni = []
-    formazioni_prescelte = []
-    formazioni_nomi_prescelti = []
-    tit = []
     formazioni = [
         "3-5-2",
         "3-4-3",
@@ -293,20 +290,18 @@ def titolari_e_panchinari3(dfs, num_df=None, esclusioni=None, aggiunte=None, lis
     i = 0
     medie_punteggi = []
     dizionario_titolari_per_modulo = {f: [] for f in formazioni}
+    non_schierabili_default = [""]
+    lista_esclusi = [""]
     if lista_giocatori_titolari is None:
         squalificati, indisponibili, in_dubbio = non_schierabili()
         non_schierabili_default = [giocatore for giocatore in squalificati + indisponibili if giocatore not in aggiunte]
         lista_esclusi = non_schierabili_default + esclusioni
-        sub_dfs = [df.query(f"""Nome not in {to_string_list(lista_esclusi)}""").sort_values(
-            ["R", "FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"],
-            ascending=(False, False, False, False, False)) for df in dfs[:num_df]]
         sub_dfs_complete = [df.query(f"""Nome not in {to_string_list(non_schierabili_default)}""").sort_values(
             ["R", "FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"],
             ascending=(False, False, False, False, False)) for df in dfs[:num_df]]
     else:
-        sub_dfs = [df.query(f"""Nome in {to_string_list(lista_giocatori_titolari)}""").sort_values(
+        sub_dfs_complete = [df.query(f"""Nome in {to_string_list(lista_giocatori_titolari)}""").sort_values(
             ["R", "FantaVoto", "FantaVotoPotenziale"], ascending=(False, False, False)) for df in dfs[:num_df]]
-        sub_dfs_complete = sub_dfs
     t = pd.concat(sub_dfs_complete)
     listone = t.groupby(["R", "Nome", "Squadra"])[["FantaVotoPotenziale", "VotoPotenziale"]].mean().query(
         f"Nome not in {to_string_list(non_schierabili_default)}").reset_index()
@@ -317,8 +312,6 @@ def titolari_e_panchinari3(dfs, num_df=None, esclusioni=None, aggiunte=None, lis
     listone_per_squadra_titolare = listone.query(f"""Nome not in {to_string_list(lista_esclusi)}""")
     for formazione in formazioni:
         punteggi = []
-        # for df in sub_dfs:
-        #     i += 1
         n_dif, n_cen, n_att, squadra_prescelta = ottieniTitolari(formazione, listone_per_squadra_titolare)
         if n_dif < 4:
             punteggio = squadra_prescelta.FantaVoto.sum()
