@@ -1,73 +1,9 @@
-from pandasql import sqldf
-import pandas as pd
 import os
 
+from root import ROOT_DIR
+from utils.metodi import *
+
 pd.options.mode.chained_assignment = None
-
-
-def estrai_voto(x):
-    return x not in ["Voto", "6*"]
-
-
-def voto_troncato(x):
-    return 0.5 * round(int(x * 100 / 25) / 2 + 0.1)
-
-
-def dataframe_corretto(file):
-    stringa_stagione, stringa_giornata = file.split("_Giornata_")
-    stagione = int(stringa_stagione[-2:])
-    giornata = int(stringa_giornata[:2])
-    dataframe = pd.DataFrame([])
-    colonne = ["Ruolo", "Nome", "Voto", "Gf", "Gs", "Rp", "Rs", "Rf", "Au", "Amm", "Esp", "Ass"]
-    dataframe[colonne] = pd.read_excel(file).dropna().iloc[:, 1:13]
-    dataframe = dataframe.loc[dataframe.Ruolo != 'ALL']
-    dataframe = dataframe.loc[dataframe.Voto.apply(estrai_voto)]
-    fantavoti = [voto + 3 * (Gf + Rp - Rs + Rf) - 2 * Au - Gs - Esp + Ass - 0.5 * Amm for
-                 _, _, voto, Gf, Gs, Rp, Rs, Rf, Au, Amm, Esp, Ass in dataframe.values]
-    dataframe["FantaVoto"] = fantavoti
-    dataframe["Nome"] = dataframe.Nome.str.upper()
-    dataframe["Stagione"] = stagione
-    dataframe["Giornata"] = giornata
-    return dataframe
-
-
-def coefficiente_binomiale(n, k):
-    if n < k or k < 0:
-        raise ValueError(f"n deve essere maggiore o uguale a k ed entrambi non possono essere negativi"
-                         f":\nn = {n}, k = {k}")
-    delta = n - k
-    k = min(delta, k)
-    if k == 0:
-        return 1
-    return int(n / k * coefficiente_binomiale(n - 1, k - 1))
-
-
-def binomiale(n, k, p):
-    return coefficiente_binomiale(n, k) * p ** k * (1 - p) ** (n - k)
-
-
-def estrai_probabilita(numero_possibili_voti, voto, voto_minimo, media):
-    k = 2 * (voto - voto_minimo)
-    p = 2 * (media - voto_minimo) / numero_possibili_voti
-    return binomiale(numero_possibili_voti, k, p)
-
-
-def voto_centrale(lista):
-    media = sum(lista) / len(lista)
-    minimo, massimo = min(lista), max(lista)
-    numero_possibili_voti = int(2 * (massimo - minimo)) + 1
-    voti_possibili = [minimo + 0.5 * i for i in range(numero_possibili_voti)]
-    probabilita = [estrai_probabilita(numero_possibili_voti, voto_possibile, minimo, media) for voto_possibile in
-                   voti_possibili]
-    occorrenze = [probabilita.count(x) for x in probabilita]
-    z = list(zip(probabilita, voti_possibili, occorrenze))
-    z.sort(reverse=True)
-    voto_centrale = sum(list(map(lambda x: x[1], z[:z[0][2]]))) / z[0][2]
-    return voto_centrale
-
-
-def media(lista):
-    return sum(lista) / len(lista)
 
 
 def modello_fantacalcio2(
@@ -75,12 +11,12 @@ def modello_fantacalcio2(
         numero_giornate,
         salva_excel=False,
         percentuale_presenze=0.375,
-        file_quotazioni="Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        file_quotazioni=f"{ROOT_DIR}/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
-    percorso = f"{os.getcwd()}/Voti_Fantacalcio"
+    percorso = f"{ROOT_DIR}/Voti_Fantacalcio"
     nomi_excel = [file for (root, dirs, file) in os.walk(percorso)][0]
     nomi_excel.reverse()
-    percorsi_excel = [f"Voti_Fantacalcio/{ex}" for ex in nomi_excel]
+    percorsi_excel = [f"{ROOT_DIR}/Voti_Fantacalcio/{ex}" for ex in nomi_excel]
     ultima_file_scaricato = nomi_excel[0]
     ultima_giornata_scaricata = int(ultima_file_scaricato.split("_")[-1].split(".xlsx")[0])
     if ultima_giornata_scaricata < giornata_esaminata:
@@ -170,7 +106,7 @@ def modello_fantacalcio2(
     modello_fantacalcio2 = pd.concat([porta, difesa, centrocampo, attacco])[colonne]
 
     if salva_excel:
-        path_modello_fantacalcio2 = f"modello_fantacalcio2/giornata_{giornata_esaminata}"
+        path_modello_fantacalcio2 = f"{ROOT_DIR}/estrazioni/modello_fantacalcio2/giornata_{giornata_esaminata}"
         file_modello_fantacalcio2 = f"modello_fantacalcio2_ultime_{numero_giornate}.xlsx"
         if not os.path.exists(path_modello_fantacalcio2):
             os.makedirs(path_modello_fantacalcio2)
@@ -202,5 +138,5 @@ if __name__ == "__main__":
         numero_giornate=4,
         salva_excel=True,
         percentuale_presenze=0.375,
-        file_quotazioni="Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
     )

@@ -1,16 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import numpy as np
 
 
 def estrai_gol_casa(squadra, risultato):
     if squadra == 'casa':
-        if ":" in risultato:
+        if ":" in risultato or risultato == "LIVE":
             return "-"
         return risultato.split(" - ")[0]
     if squadra == 'ospite':
-        if ":" in risultato:
+        if ":" in risultato or risultato == "LIVE":
             return "-"
         return risultato.split(" - ")[1]
     raise ValueError("assegnare 'casa' o 'ospite' al parametro 'squadra'")
@@ -21,7 +20,7 @@ def ottieni_giornate_soup(anno_inizio):
     re_stagione_attuale = requests.get(http_stagione_attuale)
     soup_stagione_attuale = BeautifulSoup(re_stagione_attuale.text, "html.parser")
     data_stagione_corrente_soup = soup_stagione_attuale.find("span", attrs={
-        "class": "ftbl__text ftbl__text--span ftbl__text--color-blue ftbl__text--font-size-16 ftbl__match-data-row__date-long"})
+        "class": "ftbl__text ftbl__text--span ftbl__text--color-blue ftbl__text--font-size-14--16 ftbl__match-data-row__date-long"})
     anno_inizio_stagione_corrente = int(data_stagione_corrente_soup.text.split(" ")[-1][-2:])
     anno = f"20{anno_inizio}/" if anno_inizio < anno_inizio_stagione_corrente else ""
     http = f"https://sport.sky.it/calcio/serie-a/{anno}calendario-risultati"

@@ -1,7 +1,10 @@
 from math import isnan
 
-from modello_fantacalcio import *
-from SeasonDf import *
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+import utils.metodi as me
 
 
 def remove_all(lista, el):
@@ -133,7 +136,7 @@ def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, list
                 punteggio = squadra_prescelta.FantaVoto.sum() + modificatore(squadra_prescelta.head(4).Voto.mean())
             punteggi.append(punteggio)
             dizionario_titolari_per_modulo[formazione].append(squadra_prescelta)
-        medie_punteggi.append([media(punteggi), inv_varianza(punteggi, media(punteggi)), formazione])
+        medie_punteggi.append([me.media(punteggi), inv_varianza(punteggi, me.media(punteggi)), formazione])
     punteggio_medio, _, modulo_migliore = max(medie_punteggi)
     multi_formazione = [p for p, inv_var, mod in medie_punteggi].count(punteggio_medio) > 1
     if multi_formazione:
@@ -319,7 +322,7 @@ def titolari_e_panchinari3(dfs, num_df=None, esclusioni=None, aggiunte=None, lis
             punteggio = squadra_prescelta.FantaVoto.sum() + modificatore(squadra_prescelta.head(4).Voto.mean())
         punteggi.append(punteggio)
         dizionario_titolari_per_modulo[formazione].append(squadra_prescelta)
-        medie_punteggi.append([media(punteggi), inv_varianza(punteggi, media(punteggi)), formazione])
+        medie_punteggi.append([me.media(punteggi), inv_varianza(punteggi, me.media(punteggi)), formazione])
     punteggio_medio, _, modulo_migliore = max(medie_punteggi)
     multi_formazione = [p for p, inv_var, mod in medie_punteggi].count(punteggio_medio) > 1
     if multi_formazione:
@@ -410,7 +413,7 @@ def titolari_e_panchinari4(dfs, num_df=None, esclusioni=None, aggiunte=None, lis
             punteggio = squadra_prescelta.FantaVoto.sum() + modificatore(squadra_prescelta.head(4).Voto.mean())
         punteggi.append(punteggio)
         dizionario_titolari_per_modulo[formazione].append(squadra_prescelta)
-        medie_punteggi.append([media(punteggi), inv_varianza(punteggi, media(punteggi)), formazione])
+        medie_punteggi.append([me.media(punteggi), inv_varianza(punteggi, me.media(punteggi)), formazione])
     punteggio_medio, _, modulo_migliore = max(medie_punteggi)
     multi_formazione = [p for p, inv_var, mod in medie_punteggi].count(punteggio_medio) > 1
     if multi_formazione:

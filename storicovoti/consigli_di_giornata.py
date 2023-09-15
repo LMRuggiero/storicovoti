@@ -1,67 +1,10 @@
-from SeasonDf import *
-from modello_fantacalcio import *
+import pandas as pd
+import os
 
-
-def maiuscolo(el):
-    return el.upper()
-
-
-def estrai_sfidante(
-        df,
-        squadra
-):
-    if df.HomeTeam.apply(maiuscolo).values[0] == squadra:
-        return df.AwayTeam.apply(maiuscolo).values[0]
-    return df.HomeTeam.apply(maiuscolo).values[0]
-
-
-def estrai_voti(
-        df,
-        squadra
-):
-    df_all = df.loc[df["Ruolo"] == "ALL"]
-    index_start = df.loc[df["Cod."] == squadra].index[0]
-    index_end = list(filter(lambda x: x > index_start + 1, df_all.index.tolist()))[0]
-    return df.iloc[index_start + 2:index_end].loc[df.Voto.apply(voto_valido) == True]
-
-
-def voto_valido(x):
-    if isinstance(x, str):
-        return False
-    return True
-
-
-def ottieni_fantavoto(row):
-    return 3 * (row[1] + row[3] - row[4] + row[5]) - 2 * row[6] + row[0] - row[2] - row[8] + row[9] - 0.5 * row[7]
-
-
-def inserisci(
-        diz,
-        col_media,
-        squadra,
-        media_voto
-):
-    try:
-        diz[col_media][squadra] += media_voto
-    except KeyError:
-        diz[col_media][squadra] = media_voto
-
-
-def voto_con_modificatore(lista_v_fv):
-    a = 2
-    b = -21
-    c = 55
-    return [(a * v ** 2 + b * v + c) / 4 + fv for v, fv in lista_v_fv]
-
-
-def voto_potenziale(
-        voto,
-        fanta_voto,
-        ruolo
-):
-    if ruolo in ["D", "P"]:
-        return (2 * voto ** 2 - 21 * voto + 55) / 4 + fanta_voto
-    return fanta_voto
+from root import ROOT_DIR
+from storicovoti.modello_fantacalcio import modello_fantacalcio
+from utils.SeasonDf import *
+from utils.metodi import *
 
 
 def consigli_di_giornata(
@@ -71,7 +14,7 @@ def consigli_di_giornata(
         salva_modello=False,
         create_season_df=True,
         perc_presenze=0.375,
-        file_quotazioni="Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
     lista_excel, risultato_finale = modello_fantacalcio(
         ultima_giornata,
@@ -80,16 +23,15 @@ def consigli_di_giornata(
         perc_presenze,
         file_quotazioni
     )
-    sub_excels = lista_excel[-n_giornate:]
     stagioni = list(
-        set([int([x[-2:] for x in ex.split("_") if "20" in x and "xlsx" not in x][0]) for ex in sub_excels]))
+        set([int([x[-2:] for x in ex.split("_") if "20" in x and "xlsx" not in x][0]) for ex in lista_excel]))
 
     diz = {x: {} for x in
            ["Voti_P", "Voti_D", "Voti_C", "Voti_A", "FantaVoti_P", "FantaVoti_D", "FantaVoti_C", "FantaVoti_A"]}
 
     for stagione in stagioni:
         df_season = leggi(stagione, create=create_season_df)
-        for ex in sub_excels:
+        for ex in lista_excel:
             giornata = int(ex.split(".")[0].split("_")[-1])
             s = int([x[-2:] for x in ex.split("_") if "20" in x and "xlsx" not in x][0])
             if s == stagione:
@@ -206,7 +148,7 @@ def consigli_di_giornata(
     print(f"creato consigli di giornata {ultima_giornata + 1} considerando le precedenti {n_giornate}")
 
     if salva_consigli:
-        path_consigli_di_giornata = f"consigli_giornata/giornata_{ultima_giornata + 1}"
+        path_consigli_di_giornata = f"estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}"
         file_consigli_di_giornata = f"consigli_ultime_{n_giornate}.xlsx"
         if not os.path.exists(path_consigli_di_giornata):
             os.makedirs(path_consigli_di_giornata)
