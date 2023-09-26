@@ -1,0 +1,7981 @@
+giornata,partita,titolari
+1,Milan,Maignan
+1,Milan,Calabria
+1,Milan,Tomori
+1,Milan,Kalulu
+1,Milan,Hernandez T.
+1,Milan,Bennacer
+1,Milan,Krunic
+1,Milan,Messias
+1,Milan,Diaz B.
+1,Milan,Rafael Leao
+1,Milan,Rebic
+1,Udinese,Deulofeu
+1,Udinese,Masina
+1,Udinese,Makengo
+1,Udinese,Walace
+1,Udinese,Pereyra
+1,Udinese,Soppy
+1,Udinese,Perez N.
+1,Udinese,Nuytinck
+1,Udinese,Rodrigo Becao
+1,Udinese,Silvestri
+1,Sampdoria,Audero
+1,Sampdoria,Bereszynski
+1,Sampdoria,Ferrari A.
+1,Sampdoria,Colley
+1,Sampdoria,Augello
+1,Sampdoria,Leris
+1,Sampdoria,Rincon
+1,Sampdoria,Vieira
+1,Sampdoria,Sabiri
+1,Sampdoria,Djuricic
+1,Sampdoria,Caputo
+1,Atalanta,Muriel
+1,Atalanta,Pasalic
+1,Atalanta,Maehle
+1,Atalanta,Koopmeiners
+1,Atalanta,De Roon
+1,Atalanta,Hateboer
+1,Atalanta,Djimsiti
+1,Atalanta,Okoli
+1,Atalanta,Toloi
+1,Atalanta,Musso
+1,Lecce,Falcone
+1,Lecce,Gendrey
+1,Lecce,Cetin
+1,Lecce,Baschirotto
+1,Lecce,Gallo
+1,Lecce,Bistrovic
+1,Lecce,Hjulmand
+1,Lecce,Gonzalez J.
+1,Lecce,Strefezza
+1,Lecce,Ceesay
+1,Lecce,Di Francesco F.
+1,Inter,Martinez L.
+1,Inter,Gosens
+1,Inter,Calhanoglu
+1,Inter,Brozovic
+1,Inter,Barella
+1,Inter,Darmian
+1,Inter,Dimarco
+1,Inter,De Vrij
+1,Inter,Skriniar
+1,Inter,Handanovic
+1,Monza,Di Gregorio
+1,Monza,Marlon
+1,Monza,Mari'
+1,Monza,Carlos Augusto
+1,Monza,Birindelli
+1,Monza,Valoti
+1,Monza,Barberis
+1,Monza,Ranocchia F.
+1,Monza,D'alessandro
+1,Monza,Caprari
+1,Monza,Petagna
+1,Torino,Radonjic
+1,Torino,Miranchuk
+1,Torino,Aina
+1,Torino,Linetty
+1,Torino,Ricci S.
+1,Torino,Singo
+1,Torino,Rodriguez R.
+1,Torino,Djidji
+1,Torino,Adopo
+1,Torino,Milinkovic-Savic V.
+1,Fiorentina,Gollini
+1,Fiorentina,Benassi
+1,Fiorentina,Milenkovic
+1,Fiorentina,Martinez Quarta
+1,Fiorentina,Biraghi
+1,Fiorentina,Bonaventura
+1,Fiorentina,Amrabat
+1,Fiorentina,Maleh
+1,Fiorentina,Kouame'
+1,Fiorentina,Jovic
+1,Fiorentina,Sottil
+1,Cremonese,Okereke
+1,Cremonese,Zanimacchia
+1,Cremonese,Sernicola
+1,Cremonese,Pickel
+1,Cremonese,Escalante
+1,Cremonese,Ghiglione
+1,Cremonese,Chiriches
+1,Cremonese,Vasquez
+1,Cremonese,Bianchetti
+1,Cremonese,Radu I.
+1,Lazio,Luis Maximiano
+1,Lazio,Lazzari
+1,Lazio,Patric
+1,Lazio,Romagnoli
+1,Lazio,Marusic
+1,Lazio,Milinkovic-Savic
+1,Lazio,Cataldi
+1,Lazio,Basic
+1,Lazio,Felipe Anderson
+1,Lazio,Immobile
+1,Lazio,Zaccagni
+1,Bologna,Sansone
+1,Bologna,Cambiaso
+1,Bologna,Soriano
+1,Bologna,Schouten
+1,Bologna,Dominguez
+1,Bologna,De Silvestri
+1,Bologna,Lykogiannis
+1,Bologna,Medel
+1,Bologna,Soumaoro
+1,Bologna,Skorupski
+1,Salernitana,Sepe
+1,Salernitana,Bronn
+1,Salernitana,Fazio
+1,Salernitana,Gyomber
+1,Salernitana,Candreva
+1,Salernitana,Kastanos
+1,Salernitana,Coulibaly L.
+1,Salernitana,Vilhena
+1,Salernitana,Mazzocchi
+1,Salernitana,Botheim
+1,Salernitana,Bonazzoli
+1,Roma,Dybala
+1,Roma,Zaniolo
+1,Roma,Spinazzola
+1,Roma,Pellegrini Lo.
+1,Roma,Cristante
+1,Roma,Karsdorp
+1,Roma,Ibanez
+1,Roma,Smalling
+1,Roma,Mancini
+1,Roma,Rui Patricio
+1,Spezia,Dragowski
+1,Spezia,Caldara
+1,Spezia,Kiwior
+1,Spezia,Nikolaou
+1,Spezia,Gyasi
+1,Spezia,Agudelo
+1,Spezia,Bourabia
+1,Spezia,Bastoni S.
+1,Spezia,Reca
+1,Spezia,Verde
+1,Spezia,Nzola
+1,Empoli,Destro
+1,Empoli,Bajrami
+1,Empoli,Bandinelli
+1,Empoli,Marin
+1,Empoli,Henderson L.
+1,Empoli,Parisi
+1,Empoli,Luperto
+1,Empoli,Ismajli
+1,Empoli,Stojanovic
+1,Empoli,Vicario
+1,Verona,Montipo'
+1,Verona,Dawidowicz
+1,Verona,Gunter
+1,Verona,Amione
+1,Verona,Faraoni
+1,Verona,Tameze
+1,Verona,Hongla
+1,Verona,Ilic
+1,Verona,Lazovic
+1,Verona,Henry
+1,Verona,Lasagna
+1,Napoli,Osimhen
+1,Napoli,Lozano
+1,Napoli,Zielinski
+1,Napoli,Lobotka
+1,Napoli,Zambo Anguissa
+1,Napoli,Mario Rui
+1,Napoli,Kim
+1,Napoli,Rrahmani
+1,Napoli,Di Lorenzo
+1,Napoli,Meret
+1,Juventus,Perin
+1,Juventus,Danilo
+1,Juventus,Bonucci
+1,Juventus,Bremer
+1,Juventus,Alex Sandro
+1,Juventus,Cuadrado
+1,Juventus,Locatelli
+1,Juventus,Zakaria
+1,Juventus,Mckennie
+1,Juventus,Di Maria
+1,Juventus,Vlahovic
+1,Sassuolo,Defrel
+1,Sassuolo,Berardi
+1,Sassuolo,Thorstvedt
+1,Sassuolo,Matheus Henrique
+1,Sassuolo,Frattesi
+1,Sassuolo,Rogerio
+1,Sassuolo,Ferrari G.
+1,Sassuolo,Ayhan
+1,Sassuolo,Muldur
+1,Sassuolo,Consigli
+2,Torino,Milinkovic-Savic V.
+2,Torino,Djidji
+2,Torino,Buongiorno
+2,Torino,Rodriguez R.
+2,Torino,Singo
+2,Torino,Linetty
+2,Torino,Ricci S.
+2,Torino,Aina
+2,Torino,Vlasic
+2,Torino,Radonjic
+2,Torino,Sanabria
+2,Lazio,Immobile
+2,Lazio,Felipe Anderson
+2,Lazio,Vecino
+2,Lazio,Cataldi
+2,Lazio,Milinkovic-Savic
+2,Lazio,Marusic
+2,Lazio,Romagnoli
+2,Lazio,Patric
+2,Lazio,Lazzari
+2,Lazio,Provedel
+2,Udinese,Silvestri
+2,Udinese,Rodrigo Becao
+2,Udinese,Bijol
+2,Udinese,Masina
+2,Udinese,Perez N.
+2,Udinese,Pereyra
+2,Udinese,Walace
+2,Udinese,Makengo
+2,Udinese,Udogie
+2,Udinese,Deulofeu
+2,Udinese,Success
+2,Salernitana,Botheim
+2,Salernitana,Candreva
+2,Salernitana,Vilhena
+2,Salernitana,Radovanovic
+2,Salernitana,Maggiore
+2,Salernitana,Mazzocchi
+2,Salernitana,Gyomber
+2,Salernitana,Fazio
+2,Salernitana,Bronn
+2,Salernitana,Sepe
+2,Inter,Handanovic
+2,Inter,Skriniar
+2,Inter,De Vrij
+2,Inter,Bastoni
+2,Inter,Dumfries
+2,Inter,Barella
+2,Inter,Brozovic
+2,Inter,Calhanoglu
+2,Inter,Dimarco
+2,Inter,Martinez L.
+2,Inter,Lukaku
+2,Spezia,Agudelo
+2,Spezia,Reca
+2,Spezia,Bastoni S.
+2,Spezia,Sala
+2,Spezia,Bourabia
+2,Spezia,Gyasi
+2,Spezia,Nikolaou
+2,Spezia,Kiwior
+2,Spezia,Caldara
+2,Spezia,Dragowski
+2,Sassuolo,Consigli
+2,Sassuolo,Toljan
+2,Sassuolo,Erlic
+2,Sassuolo,Ferrari G.
+2,Sassuolo,Rogerio
+2,Sassuolo,Frattesi
+2,Sassuolo,Lopez M.
+2,Sassuolo,Matheus Henrique
+2,Sassuolo,Berardi
+2,Sassuolo,Pinamonti
+2,Sassuolo,Kyriakopoulos
+2,Lecce,Ceesay
+2,Lecce,Strefezza
+2,Lecce,Gonzalez J.
+2,Lecce,Hjulmand
+2,Lecce,Bistrovic
+2,Lecce,Gallo
+2,Lecce,Baschirotto
+2,Lecce,Blin
+2,Lecce,Gendrey
+2,Lecce,Falcone
+2,Empoli,Vicario
+2,Empoli,Stojanovic
+2,Empoli,Ismajli
+2,Empoli,Luperto
+2,Empoli,Parisi
+2,Empoli,Henderson L.
+2,Empoli,Marin
+2,Empoli,Bandinelli
+2,Empoli,Bajrami
+2,Empoli,Lammers
+2,Empoli,Destro
+2,Fiorentina,Jovic
+2,Fiorentina,Ikone'
+2,Fiorentina,Maleh
+2,Fiorentina,Mandragora
+2,Fiorentina,Bonaventura
+2,Fiorentina,Terzic
+2,Fiorentina,Martinez Quarta
+2,Fiorentina,Milenkovic
+2,Fiorentina,Dodo'
+2,Fiorentina,Gollini
+2,Napoli,Meret
+2,Napoli,Di Lorenzo
+2,Napoli,Rrahmani
+2,Napoli,Kim
+2,Napoli,Mario Rui
+2,Napoli,Zambo Anguissa
+2,Napoli,Lobotka
+2,Napoli,Zielinski
+2,Napoli,Lozano
+2,Napoli,Osimhen
+2,Napoli,Kvaratskhelia
+2,Monza,Caprari
+2,Monza,D'alessandro
+2,Monza,Sensi
+2,Monza,Barberis
+2,Monza,Ranocchia F.
+2,Monza,Birindelli
+2,Monza,Carboni
+2,Monza,Ranocchia
+2,Monza,Marlon
+2,Monza,Di Gregorio
+2,Atalanta,Musso
+2,Atalanta,Toloi
+2,Atalanta,Demiral
+2,Atalanta,Djimsiti
+2,Atalanta,Hateboer
+2,Atalanta,De Roon
+2,Atalanta,Koopmeiners
+2,Atalanta,Maehle
+2,Atalanta,Pasalic
+2,Atalanta,Malinovskyi
+2,Atalanta,Zapata D.
+2,Milan,Rafael Leao
+2,Milan,Diaz B.
+2,Milan,Messias
+2,Milan,Bennacer
+2,Milan,Tonali
+2,Milan,Hernandez T.
+2,Milan,Tomori
+2,Milan,Kalulu
+2,Milan,Calabria
+2,Milan,Maignan
+2,Bologna,Skorupski
+2,Bologna,De Silvestri
+2,Bologna,Medel
+2,Bologna,Bonifazi
+2,Bologna,Kasius
+2,Bologna,Schouten
+2,Bologna,Dominguez
+2,Bologna,Soriano
+2,Bologna,Cambiaso
+2,Bologna,Orsolini
+2,Bologna,Arnautovic
+2,Verona,Henry
+2,Verona,Lazovic
+2,Verona,Tameze
+2,Verona,Ilic
+2,Verona,Hongla
+2,Verona,Faraoni
+2,Verona,Coppola D.
+2,Verona,Gunter
+2,Verona,Retsos
+2,Verona,Montipo'
+2,Roma,Rui Patricio
+2,Roma,Mancini
+2,Roma,Smalling
+2,Roma,Ibanez
+2,Roma,Karsdorp
+2,Roma,Pellegrini Lo.
+2,Roma,Cristante
+2,Roma,Spinazzola
+2,Roma,Dybala
+2,Roma,Zaniolo
+2,Roma,Abraham
+2,Cremonese,Dessers
+2,Cremonese,Zanimacchia
+2,Cremonese,Valeri
+2,Cremonese,Ascacibar
+2,Cremonese,Pickel
+2,Cremonese,Ghiglione
+2,Cremonese,Lochoshvili
+2,Cremonese,Chiriches
+2,Cremonese,Aiwu
+2,Cremonese,Radu I.
+2,Sampdoria,Audero
+2,Sampdoria,Bereszynski
+2,Sampdoria,Ferrari A.
+2,Sampdoria,Colley
+2,Sampdoria,Augello
+2,Sampdoria,Vieira
+2,Sampdoria,Rincon
+2,Sampdoria,Leris
+2,Sampdoria,Sabiri
+2,Sampdoria,Djuricic
+2,Sampdoria,Caputo
+2,Juventus,Vlahovic
+2,Juventus,Cuadrado
+2,Juventus,Rabiot
+2,Juventus,Locatelli
+2,Juventus,Mckennie
+2,Juventus,Alex Sandro
+2,Juventus,Bremer
+2,Juventus,Rugani
+2,Juventus,Danilo
+2,Juventus,Perin
+3,Monza,Di Gregorio
+3,Monza,Caldirola
+3,Monza,Marrone
+3,Monza,Carlos Augusto
+3,Monza,Birindelli
+3,Monza,Colpani
+3,Monza,Sensi
+3,Monza,Valoti
+3,Monza,Molina S.
+3,Monza,Petagna
+3,Monza,Caprari
+3,Udinese,Beto
+3,Udinese,Udogie
+3,Udinese,Lovric
+3,Udinese,Walace
+3,Udinese,Makengo
+3,Udinese,Pereyra
+3,Udinese,Masina
+3,Udinese,Nuytinck
+3,Udinese,Rodrigo Becao
+3,Udinese,Silvestri
+3,Lazio,Provedel
+3,Lazio,Lazzari
+3,Lazio,Patric
+3,Lazio,Romagnoli
+3,Lazio,Marusic
+3,Lazio,Milinkovic-Savic
+3,Lazio,Cataldi
+3,Lazio,Vecino
+3,Lazio,Felipe Anderson
+3,Lazio,Immobile
+3,Lazio,Zaccagni
+3,Inter,Lukaku
+3,Inter,Dimarco
+3,Inter,Gagliardini
+3,Inter,Brozovic
+3,Inter,Barella
+3,Inter,Dumfries
+3,Inter,Bastoni
+3,Inter,De Vrij
+3,Inter,Skriniar
+3,Inter,Handanovic
+3,Cremonese,Radu I.
+3,Cremonese,Bianchetti
+3,Cremonese,Aiwu
+3,Cremonese,Vasquez
+3,Cremonese,Baez
+3,Cremonese,Pickel
+3,Cremonese,Escalante
+3,Cremonese,Valeri
+3,Cremonese,Zanimacchia
+3,Cremonese,Okereke
+3,Cremonese,Dessers
+3,Torino,Vlasic
+3,Torino,Radonjic
+3,Torino,Aina
+3,Torino,Linetty
+3,Torino,Ricci S.
+3,Torino,Singo
+3,Torino,Rodriguez R.
+3,Torino,Buongiorno
+3,Torino,Schuurs
+3,Torino,Milinkovic-Savic V.
+3,Juventus,Szczesny
+3,Juventus,De Sciglio
+3,Juventus,Bremer
+3,Juventus,Danilo
+3,Juventus,Alex Sandro
+3,Juventus,Rabiot
+3,Juventus,Locatelli
+3,Juventus,Miretti
+3,Juventus,Cuadrado
+3,Juventus,Vlahovic
+3,Juventus,Kostic
+3,Roma,Pellegrini Lo.
+3,Roma,Dybala
+3,Roma,Spinazzola
+3,Roma,Matic
+3,Roma,Cristante
+3,Roma,Karsdorp
+3,Roma,Ibanez
+3,Roma,Smalling
+3,Roma,Mancini
+3,Roma,Rui Patricio
+3,Milan,Maignan
+3,Milan,Calabria
+3,Milan,Kalulu
+3,Milan,Tomori
+3,Milan,Hernandez T.
+3,Milan,Bennacer
+3,Milan,Tonali
+3,Milan,Messias
+3,Milan,De Ketelaere
+3,Milan,Rafael Leao
+3,Milan,Giroud
+3,Bologna,Arnautovic
+3,Bologna,Cambiaso
+3,Bologna,Dominguez
+3,Bologna,Schouten
+3,Bologna,Vignato
+3,Bologna,Kasius
+3,Bologna,Lucumi'
+3,Bologna,Medel
+3,Bologna,Soumaoro
+3,Bologna,Skorupski
+3,Spezia,Dragowski
+3,Spezia,Hristov
+3,Spezia,Kiwior
+3,Spezia,Nikolaou
+3,Spezia,Gyasi
+3,Spezia,Agudelo
+3,Spezia,Bourabia
+3,Spezia,Bastoni S.
+3,Spezia,Reca
+3,Spezia,Strelec
+3,Spezia,Nzola
+3,Sassuolo,Pinamonti
+3,Sassuolo,Berardi
+3,Sassuolo,Matheus Henrique
+3,Sassuolo,Lopez M.
+3,Sassuolo,Frattesi
+3,Sassuolo,Rogerio
+3,Sassuolo,Ferrari G.
+3,Sassuolo,Erlic
+3,Sassuolo,Toljan
+3,Sassuolo,Consigli
+3,Verona,Montipo'
+3,Verona,Coppola D.
+3,Verona,Gunter
+3,Verona,Ceccherini
+3,Verona,Terracciano F.
+3,Verona,Ilic
+3,Verona,Miguel Veloso
+3,Verona,Tameze
+3,Verona,Lazovic
+3,Verona,Lasagna
+3,Verona,Henry
+3,Atalanta,Zapata D.
+3,Atalanta,Malinovskyi
+3,Atalanta,Soppy
+3,Atalanta,Koopmeiners
+3,Atalanta,De Roon
+3,Atalanta,Hateboer
+3,Atalanta,Okoli
+3,Atalanta,Demiral
+3,Atalanta,Toloi
+3,Atalanta,Musso
+3,Salernitana,Sepe
+3,Salernitana,Bronn
+3,Salernitana,Fazio
+3,Salernitana,Gyomber
+3,Salernitana,Candreva
+3,Salernitana,Maggiore
+3,Salernitana,Coulibaly L.
+3,Salernitana,Vilhena
+3,Salernitana,Mazzocchi
+3,Salernitana,Bonazzoli
+3,Salernitana,Dia
+3,Sampdoria,Caputo
+3,Sampdoria,Leris
+3,Sampdoria,Sabiri
+3,Sampdoria,Villar
+3,Sampdoria,Rincon
+3,Sampdoria,Augello
+3,Sampdoria,Colley
+3,Sampdoria,Ferrari A.
+3,Sampdoria,Depaoli
+3,Sampdoria,Audero
+3,Fiorentina,Gollini
+3,Fiorentina,Dodo'
+3,Fiorentina,Milenkovic
+3,Fiorentina,Martinez Quarta
+3,Fiorentina,Biraghi
+3,Fiorentina,Bonaventura
+3,Fiorentina,Amrabat
+3,Fiorentina,Barak
+3,Fiorentina,Ikone'
+3,Fiorentina,Jovic
+3,Fiorentina,Sottil
+3,Napoli,Osimhen
+3,Napoli,Lozano
+3,Napoli,Zielinski
+3,Napoli,Lobotka
+3,Napoli,Zambo Anguissa
+3,Napoli,Mario Rui
+3,Napoli,Kim
+3,Napoli,Rrahmani
+3,Napoli,Di Lorenzo
+3,Napoli,Meret
+3,Lecce,Falcone
+3,Lecce,Gendrey
+3,Lecce,Pongracic
+3,Lecce,Baschirotto
+3,Lecce,Gallo
+3,Lecce,Gonzalez J.
+3,Lecce,Hjulmand
+3,Lecce,Bistrovic
+3,Lecce,Strefezza
+3,Lecce,Ceesay
+3,Lecce,Banda
+3,Empoli,Lammers
+3,Empoli,Baldanzi
+3,Empoli,Bandinelli
+3,Empoli,Marin
+3,Empoli,Henderson L.
+3,Empoli,Parisi
+3,Empoli,De Winter
+3,Empoli,Ismajli
+3,Empoli,Stojanovic
+3,Empoli,Vicario
+4,Sassuolo,Consigli
+4,Sassuolo,Toljan
+4,Sassuolo,Erlic
+4,Sassuolo,Ferrari G.
+4,Sassuolo,Rogerio
+4,Sassuolo,Frattesi
+4,Sassuolo,Lopez M.
+4,Sassuolo,Thorstvedt
+4,Sassuolo,Berardi
+4,Sassuolo,Pinamonti
+4,Sassuolo,Kyriakopoulos
+4,Milan,Rafael Leao
+4,Milan,Diaz B.
+4,Milan,Saelemaekers
+4,Milan,Pobega
+4,Milan,Bennacer
+4,Milan,Hernandez T.
+4,Milan,Tomori
+4,Milan,Kjaer
+4,Milan,Florenzi
+4,Milan,Maignan
+4,Inter,Handanovic
+4,Inter,Skriniar
+4,Inter,De Vrij
+4,Inter,Dimarco
+4,Inter,Dumfries
+4,Inter,Barella
+4,Inter,Brozovic
+4,Inter,Calhanoglu
+4,Inter,Darmian
+4,Inter,Dzeko
+4,Inter,Correa
+4,Cremonese,Okereke
+4,Cremonese,Quagliata
+4,Cremonese,Ascacibar
+4,Cremonese,Pickel
+4,Cremonese,Escalante
+4,Cremonese,Ghiglione
+4,Cremonese,Lochoshvili
+4,Cremonese,Bianchetti
+4,Cremonese,Aiwu
+4,Cremonese,Radu I.
+4,Roma,Rui Patricio
+4,Roma,Mancini
+4,Roma,Kumbulla
+4,Roma,Ibanez
+4,Roma,Celik
+4,Roma,Matic
+4,Roma,Cristante
+4,Roma,Zalewski
+4,Roma,Dybala
+4,Roma,Pellegrini Lo.
+4,Roma,Abraham
+4,Monza,Caprari
+4,Monza,Carlos Augusto
+4,Monza,Machin
+4,Monza,Sensi
+4,Monza,Pessina
+4,Monza,Birindelli
+4,Monza,Caldirola
+4,Monza,Marrone
+4,Monza,Marlon
+4,Monza,Di Gregorio
+4,Empoli,Vicario
+4,Empoli,Stojanovic
+4,Empoli,Ismajli
+4,Empoli,Luperto
+4,Empoli,Parisi
+4,Empoli,Haas
+4,Empoli,Grassi
+4,Empoli,Bandinelli
+4,Empoli,Baldanzi
+4,Empoli,Satriano
+4,Empoli,Lammers
+4,Verona,Lasagna
+4,Verona,Lazovic
+4,Verona,Ilic
+4,Verona,Hongla
+4,Verona,Tameze
+4,Verona,Faraoni
+4,Verona,Ceccherini
+4,Verona,Coppola D.
+4,Verona,Dawidowicz
+4,Verona,Montipo'
+4,Sampdoria,Audero
+4,Sampdoria,Bereszynski
+4,Sampdoria,Colley
+4,Sampdoria,Murillo
+4,Sampdoria,Augello
+4,Sampdoria,Leris
+4,Sampdoria,Rincon
+4,Sampdoria,Vieira
+4,Sampdoria,Sabiri
+4,Sampdoria,Verre
+4,Sampdoria,Quagliarella
+4,Lazio,Immobile
+4,Lazio,Felipe Anderson
+4,Lazio,Luis Alberto
+4,Lazio,Cataldi
+4,Lazio,Milinkovic-Savic
+4,Lazio,Marusic
+4,Lazio,Romagnoli
+4,Lazio,Patric
+4,Lazio,Lazzari
+4,Lazio,Provedel
+4,Udinese,Silvestri
+4,Udinese,Rodrigo Becao
+4,Udinese,Bijol
+4,Udinese,Masina
+4,Udinese,Pereyra
+4,Udinese,Lovric
+4,Udinese,Walace
+4,Udinese,Makengo
+4,Udinese,Udogie
+4,Udinese,Beto
+4,Udinese,Deulofeu
+4,Fiorentina,Cabral
+4,Fiorentina,Kouame'
+4,Fiorentina,Maleh
+4,Fiorentina,Mandragora
+4,Fiorentina,Barak
+4,Fiorentina,Terzic
+4,Fiorentina,Igor
+4,Fiorentina,Martinez Quarta
+4,Fiorentina,Venuti
+4,Fiorentina,Terracciano
+4,Juventus,Szczesny
+4,Juventus,Danilo
+4,Juventus,Gatti
+4,Juventus,Bremer
+4,Juventus,De Sciglio
+4,Juventus,Rabiot
+4,Juventus,Locatelli
+4,Juventus,Miretti
+4,Juventus,Cuadrado
+4,Juventus,Vlahovic
+4,Juventus,Kean
+4,Spezia,Gyasi
+4,Spezia,Reca
+4,Spezia,Bastoni S.
+4,Spezia,Bourabia
+4,Spezia,Kovalenko
+4,Spezia,Holm
+4,Spezia,Nikolaou
+4,Spezia,Kiwior
+4,Spezia,Hristov
+4,Spezia,Dragowski
+4,Napoli,Meret
+4,Napoli,Di Lorenzo
+4,Napoli,Ostigard
+4,Napoli,Kim
+4,Napoli,Olivera
+4,Napoli,Ndombele'
+4,Napoli,Zambo Anguissa
+4,Napoli,Politano
+4,Napoli,Raspadori
+4,Napoli,Elmas
+4,Napoli,Osimhen
+4,Lecce,Colombo
+4,Lecce,Banda
+4,Lecce,Askildsen
+4,Lecce,Hjulmand
+4,Lecce,Helgason
+4,Lecce,Pezzella Giu.
+4,Lecce,Tuia
+4,Lecce,Baschirotto
+4,Lecce,Gendrey
+4,Lecce,Falcone
+4,Atalanta,Musso
+4,Atalanta,Toloi
+4,Atalanta,Demiral
+4,Atalanta,Okoli
+4,Atalanta,Zappacosta
+4,Atalanta,De Roon
+4,Atalanta,Koopmeiners
+4,Atalanta,Soppy
+4,Atalanta,Ederson D.s.
+4,Atalanta,Pasalic
+4,Atalanta,Zapata D.
+4,Torino,Seck
+4,Torino,Vlasic
+4,Torino,Aina
+4,Torino,Lukic
+4,Torino,Linetty
+4,Torino,Lazaro
+4,Torino,Rodriguez R.
+4,Torino,Buongiorno
+4,Torino,Djidji
+4,Torino,Milinkovic-Savic V.
+4,Bologna,Skorupski
+4,Bologna,Soumaoro
+4,Bologna,Medel
+4,Bologna,Lucumi'
+4,Bologna,Kasius
+4,Bologna,Schouten
+4,Bologna,Dominguez
+4,Bologna,Cambiaso
+4,Bologna,Sansone
+4,Bologna,Vignato
+4,Bologna,Arnautovic
+4,Salernitana,Dia
+4,Salernitana,Bradaric
+4,Salernitana,Vilhena
+4,Salernitana,Coulibaly L.
+4,Salernitana,Maggiore
+4,Salernitana,Mazzocchi
+4,Salernitana,Fazio
+4,Salernitana,Gyomber
+4,Salernitana,Bronn
+4,Salernitana,Sepe
+5,Fiorentina,Terracciano
+5,Fiorentina,Dodo'
+5,Fiorentina,Milenkovic
+5,Fiorentina,Igor
+5,Fiorentina,Biraghi
+5,Fiorentina,Barak
+5,Fiorentina,Amrabat
+5,Fiorentina,Maleh
+5,Fiorentina,Kouame'
+5,Fiorentina,Jovic
+5,Fiorentina,Sottil
+5,Juventus,Milik
+5,Juventus,Di Maria
+5,Juventus,Locatelli
+5,Juventus,Paredes
+5,Juventus,Mckennie
+5,Juventus,Alex Sandro
+5,Juventus,Danilo
+5,Juventus,Bremer
+5,Juventus,Cuadrado
+5,Juventus,Perin
+5,Milan,Maignan
+5,Milan,Calabria
+5,Milan,Kalulu
+5,Milan,Tomori
+5,Milan,Hernandez T.
+5,Milan,Bennacer
+5,Milan,Tonali
+5,Milan,Messias
+5,Milan,De Ketelaere
+5,Milan,Rafael Leao
+5,Milan,Giroud
+5,Inter,Correa
+5,Inter,Darmian
+5,Inter,Calhanoglu
+5,Inter,Brozovic
+5,Inter,Barella
+5,Inter,Dumfries
+5,Inter,Bastoni
+5,Inter,De Vrij
+5,Inter,Skriniar
+5,Inter,Handanovic
+5,Lazio,Provedel
+5,Lazio,Lazzari
+5,Lazio,Patric
+5,Lazio,Romagnoli
+5,Lazio,Marusic
+5,Lazio,Milinkovic-Savic
+5,Lazio,Cataldi
+5,Lazio,Luis Alberto
+5,Lazio,Felipe Anderson
+5,Lazio,Immobile
+5,Lazio,Zaccagni
+5,Napoli,Osimhen
+5,Napoli,Lozano
+5,Napoli,Zielinski
+5,Napoli,Lobotka
+5,Napoli,Zambo Anguissa
+5,Napoli,Mario Rui
+5,Napoli,Kim
+5,Napoli,Rrahmani
+5,Napoli,Di Lorenzo
+5,Napoli,Meret
+5,Cremonese,Radu I.
+5,Cremonese,Aiwu
+5,Cremonese,Chiriches
+5,Cremonese,Lochoshvili
+5,Cremonese,Ghiglione
+5,Cremonese,Escalante
+5,Cremonese,Pickel
+5,Cremonese,Valeri
+5,Cremonese,Zanimacchia
+5,Cremonese,Dessers
+5,Cremonese,Okereke
+5,Sassuolo,Pinamonti
+5,Sassuolo,Lauriente'
+5,Sassuolo,Thorstvedt
+5,Sassuolo,Lopez M.
+5,Sassuolo,Frattesi
+5,Sassuolo,Rogerio
+5,Sassuolo,Ferrari G.
+5,Sassuolo,Erlic
+5,Sassuolo,Toljan
+5,Sassuolo,Consigli
+5,Spezia,Dragowski
+5,Spezia,Hristov
+5,Spezia,Kiwior
+5,Spezia,Nikolaou
+5,Spezia,Holm
+5,Spezia,Kovalenko
+5,Spezia,Bourabia
+5,Spezia,Bastoni S.
+5,Spezia,Reca
+5,Spezia,Gyasi
+5,Spezia,Nzola
+5,Bologna,Barrow
+5,Bologna,Orsolini
+5,Bologna,Lykogiannis
+5,Bologna,Schouten
+5,Bologna,Moro N.
+5,Bologna,De Silvestri
+5,Bologna,Lucumi'
+5,Bologna,Medel
+5,Bologna,Soumaoro
+5,Bologna,Skorupski
+5,Verona,Montipo'
+5,Verona,Dawidowicz
+5,Verona,Hien
+5,Verona,Coppola D.
+5,Verona,Terracciano F.
+5,Verona,Miguel Veloso
+5,Verona,Ilic
+5,Verona,Doig
+5,Verona,Lazovic
+5,Verona,Lasagna
+5,Verona,Henry
+5,Sampdoria,Quagliarella
+5,Sampdoria,Sabiri
+5,Sampdoria,Rincon
+5,Sampdoria,Vieira
+5,Sampdoria,Verre
+5,Sampdoria,Augello
+5,Sampdoria,Colley
+5,Sampdoria,Ferrari A.
+5,Sampdoria,Bereszynski
+5,Sampdoria,Audero
+5,Udinese,Silvestri
+5,Udinese,Rodrigo Becao
+5,Udinese,Bijol
+5,Udinese,Perez N.
+5,Udinese,Pereyra
+5,Udinese,Arslan
+5,Udinese,Walace
+5,Udinese,Samardzic
+5,Udinese,Udogie
+5,Udinese,Success
+5,Udinese,Deulofeu
+5,Roma,Pellegrini Lo.
+5,Roma,Dybala
+5,Roma,Spinazzola
+5,Roma,Matic
+5,Roma,Cristante
+5,Roma,Karsdorp
+5,Roma,Ibanez
+5,Roma,Smalling
+5,Roma,Mancini
+5,Roma,Rui Patricio
+5,Monza,Di Gregorio
+5,Monza,Marlon
+5,Monza,Mari'
+5,Monza,Caldirola
+5,Monza,Birindelli
+5,Monza,Pessina
+5,Monza,Rovella
+5,Monza,Sensi
+5,Monza,Carlos Augusto
+5,Monza,Caprari
+5,Monza,Mota
+5,Atalanta,Ederson D.s.
+5,Atalanta,Malinovskyi
+5,Atalanta,Lookman
+5,Atalanta,Koopmeiners
+5,Atalanta,De Roon
+5,Atalanta,Zappacosta
+5,Atalanta,Demiral
+5,Atalanta,Toloi
+5,Atalanta,Hateboer
+5,Atalanta,Musso
+5,Salernitana,Sepe
+5,Salernitana,Bronn
+5,Salernitana,Fazio
+5,Salernitana,Gyomber
+5,Salernitana,Candreva
+5,Salernitana,Maggiore
+5,Salernitana,Coulibaly L.
+5,Salernitana,Vilhena
+5,Salernitana,Mazzocchi
+5,Salernitana,Dia
+5,Salernitana,Bonazzoli
+5,Empoli,Satriano
+5,Empoli,Pjaca
+5,Empoli,Henderson L.
+5,Empoli,Grassi
+5,Empoli,Haas
+5,Empoli,Parisi
+5,Empoli,Luperto
+5,Empoli,Ismajli
+5,Empoli,Stojanovic
+5,Empoli,Vicario
+5,Torino,Milinkovic-Savic V.
+5,Torino,Djidji
+5,Torino,Schuurs
+5,Torino,Rodriguez R.
+5,Torino,Lazaro
+5,Torino,Lukic
+5,Torino,Ilkhan
+5,Torino,Vojvoda
+5,Torino,Vlasic
+5,Torino,Radonjic
+5,Torino,Pellegri
+5,Lecce,Ceesay
+5,Lecce,Di Francesco F.
+5,Lecce,Gonzalez J.
+5,Lecce,Hjulmand
+5,Lecce,Bistrovic
+5,Lecce,Gallo
+5,Lecce,Baschirotto
+5,Lecce,Tuia
+5,Lecce,Gendrey
+5,Lecce,Falcone
+6,Napoli,Meret
+6,Napoli,Di Lorenzo
+6,Napoli,Rrahmani
+6,Napoli,Juan Jesus
+6,Napoli,Mario Rui
+6,Napoli,Zambo Anguissa
+6,Napoli,Ndombele'
+6,Napoli,Elmas
+6,Napoli,Politano
+6,Napoli,Raspadori
+6,Napoli,Kvaratskhelia
+6,Spezia,Gyasi
+6,Spezia,Reca
+6,Spezia,Bastoni S.
+6,Spezia,Bourabia
+6,Spezia,Agudelo
+6,Spezia,Holm
+6,Spezia,Nikolaou
+6,Spezia,Kiwior
+6,Spezia,Ampadu
+6,Spezia,Dragowski
+6,Inter,Handanovic
+6,Inter,Skriniar
+6,Inter,De Vrij
+6,Inter,Dimarco
+6,Inter,Dumfries
+6,Inter,Barella
+6,Inter,Brozovic
+6,Inter,Calhanoglu
+6,Inter,Darmian
+6,Inter,Martinez L.
+6,Inter,Dzeko
+6,Torino,Vlasic
+6,Torino,Seck
+6,Torino,Vojvoda
+6,Torino,Linetty
+6,Torino,Lukic
+6,Torino,Lazaro
+6,Torino,Rodriguez R.
+6,Torino,Buongiorno
+6,Torino,Djidji
+6,Torino,Milinkovic-Savic V.
+6,Sampdoria,Audero
+6,Sampdoria,Bereszynski
+6,Sampdoria,Ferrari A.
+6,Sampdoria,Murillo
+6,Sampdoria,Augello
+6,Sampdoria,Leris
+6,Sampdoria,Rincon
+6,Sampdoria,Villar
+6,Sampdoria,Sabiri
+6,Sampdoria,Djuricic
+6,Sampdoria,Caputo
+6,Milan,Rafael Leao
+6,Milan,De Ketelaere
+6,Milan,Messias
+6,Milan,Tonali
+6,Milan,Pobega
+6,Milan,Hernandez T.
+6,Milan,Kjaer
+6,Milan,Kalulu
+6,Milan,Calabria
+6,Milan,Maignan
+6,Atalanta,Musso
+6,Atalanta,Toloi
+6,Atalanta,Demiral
+6,Atalanta,Okoli
+6,Atalanta,Hateboer
+6,Atalanta,De Roon
+6,Atalanta,Koopmeiners
+6,Atalanta,Soppy
+6,Atalanta,Malinovskyi
+6,Atalanta,Lookman
+6,Atalanta,Muriel
+6,Cremonese,Okereke
+6,Cremonese,Pickel
+6,Cremonese,Valeri
+6,Cremonese,Escalante
+6,Cremonese,Meite'
+6,Cremonese,Sernicola
+6,Cremonese,Lochoshvili
+6,Cremonese,Chiriches
+6,Cremonese,Aiwu
+6,Cremonese,Radu I.
+6,Bologna,Skorupski
+6,Bologna,Posch
+6,Bologna,Medel
+6,Bologna,Lucumi'
+6,Bologna,Kasius
+6,Bologna,Aebischer
+6,Bologna,Schouten
+6,Bologna,Soriano
+6,Bologna,Cambiaso
+6,Bologna,Arnautovic
+6,Bologna,Barrow
+6,Fiorentina,Jovic
+6,Fiorentina,Kouame'
+6,Fiorentina,Barak
+6,Fiorentina,Amrabat
+6,Fiorentina,Bonaventura
+6,Fiorentina,Biraghi
+6,Fiorentina,Igor
+6,Fiorentina,Martinez Quarta
+6,Fiorentina,Dodo'
+6,Fiorentina,Terracciano
+6,Lecce,Falcone
+6,Lecce,Gendrey
+6,Lecce,Pongracic
+6,Lecce,Baschirotto
+6,Lecce,Pezzella Giu.
+6,Lecce,Bistrovic
+6,Lecce,Hjulmand
+6,Lecce,Helgason
+6,Lecce,Di Francesco F.
+6,Lecce,Ceesay
+6,Lecce,Banda
+6,Monza,Caprari
+6,Monza,Carlos Augusto
+6,Monza,Sensi
+6,Monza,Rovella
+6,Monza,Pessina
+6,Monza,Birindelli
+6,Monza,Izzo
+6,Monza,Mari'
+6,Monza,Marlon
+6,Monza,Di Gregorio
+6,Sassuolo,Consigli
+6,Sassuolo,Toljan
+6,Sassuolo,Ruan
+6,Sassuolo,Ferrari G.
+6,Sassuolo,Rogerio
+6,Sassuolo,Frattesi
+6,Sassuolo,Lopez M.
+6,Sassuolo,Matheus Henrique
+6,Sassuolo,Lauriente'
+6,Sassuolo,Pinamonti
+6,Sassuolo,Kyriakopoulos
+6,Udinese,Success
+6,Udinese,Udogie
+6,Udinese,Lovric
+6,Udinese,Walace
+6,Udinese,Arslan
+6,Udinese,Pereyra
+6,Udinese,Perez N.
+6,Udinese,Ebosse
+6,Udinese,Rodrigo Becao
+6,Udinese,Silvestri
+6,Lazio,Provedel
+6,Lazio,Lazzari
+6,Lazio,Patric
+6,Lazio,Casale
+6,Lazio,Marusic
+6,Lazio,Milinkovic-Savic
+6,Lazio,Marcos Antonio
+6,Lazio,Basic
+6,Lazio,Felipe Anderson
+6,Lazio,Immobile
+6,Lazio,Zaccagni
+6,Verona,Lasagna
+6,Verona,Lazovic
+6,Verona,Doig
+6,Verona,Miguel Veloso
+6,Verona,Ilic
+6,Verona,Terracciano F.
+6,Verona,Coppola D.
+6,Verona,Hien
+6,Verona,Ceccherini
+6,Verona,Montipo'
+6,Juventus,Perin
+6,Juventus,Cuadrado
+6,Juventus,Bremer
+6,Juventus,Bonucci
+6,Juventus,De Sciglio
+6,Juventus,Mckennie
+6,Juventus,Paredes
+6,Juventus,Miretti
+6,Juventus,Kean
+6,Juventus,Vlahovic
+6,Juventus,Kostic
+6,Salernitana,Dia
+6,Salernitana,Mazzocchi
+6,Salernitana,Vilhena
+6,Salernitana,Coulibaly L.
+6,Salernitana,Maggiore
+6,Salernitana,Candreva
+6,Salernitana,Bronn
+6,Salernitana,Fazio
+6,Salernitana,Daniliuc
+6,Salernitana,Sepe
+6,Empoli,Vicario
+6,Empoli,Stojanovic
+6,Empoli,Ismajli
+6,Empoli,Luperto
+6,Empoli,Parisi
+6,Empoli,Haas
+6,Empoli,Marin
+6,Empoli,Bandinelli
+6,Empoli,Pjaca
+6,Empoli,Lammers
+6,Empoli,Satriano
+6,Roma,Pellegrini Lo.
+6,Roma,Dybala
+6,Roma,Spinazzola
+6,Roma,Matic
+6,Roma,Cristante
+6,Roma,Celik
+6,Roma,Ibanez
+6,Roma,Smalling
+6,Roma,Mancini
+6,Roma,Rui Patricio
+7,Salernitana,Sepe
+7,Salernitana,Bronn
+7,Salernitana,Daniliuc
+7,Salernitana,Gyomber
+7,Salernitana,Candreva
+7,Salernitana,Coulibaly L.
+7,Salernitana,Maggiore
+7,Salernitana,Vilhena
+7,Salernitana,Mazzocchi
+7,Salernitana,Dia
+7,Salernitana,Piatek
+7,Lecce,Ceesay
+7,Lecce,Di Francesco F.
+7,Lecce,Askildsen
+7,Lecce,Hjulmand
+7,Lecce,Gonzalez J.
+7,Lecce,Pezzella Giu.
+7,Lecce,Baschirotto
+7,Lecce,Pongracic
+7,Lecce,Gendrey
+7,Lecce,Falcone
+7,Bologna,Skorupski
+7,Bologna,De Silvestri
+7,Bologna,Posch
+7,Bologna,Lucumi'
+7,Bologna,Cambiaso
+7,Bologna,Medel
+7,Bologna,Schouten
+7,Bologna,Orsolini
+7,Bologna,Soriano
+7,Bologna,Barrow
+7,Bologna,Arnautovic
+7,Empoli,Lammers
+7,Empoli,Bajrami
+7,Empoli,Bandinelli
+7,Empoli,Marin
+7,Empoli,Haas
+7,Empoli,Parisi
+7,Empoli,Luperto
+7,Empoli,Ismajli
+7,Empoli,Stojanovic
+7,Empoli,Vicario
+7,Spezia,Dragowski
+7,Spezia,Ampadu
+7,Spezia,Kiwior
+7,Spezia,Nikolaou
+7,Spezia,Holm
+7,Spezia,Kovalenko
+7,Spezia,Bourabia
+7,Spezia,Bastoni S.
+7,Spezia,Reca
+7,Spezia,Gyasi
+7,Spezia,Nzola
+7,Sampdoria,Djuricic
+7,Sampdoria,Sabiri
+7,Sampdoria,Leris
+7,Sampdoria,Villar
+7,Sampdoria,Rincon
+7,Sampdoria,Augello
+7,Sampdoria,Murillo
+7,Sampdoria,Ferrari A.
+7,Sampdoria,Bereszynski
+7,Sampdoria,Audero
+7,Torino,Milinkovic-Savic V.
+7,Torino,Buongiorno
+7,Torino,Schuurs
+7,Torino,Djidji
+7,Torino,Singo
+7,Torino,Lukic
+7,Torino,Linetty
+7,Torino,Lazaro
+7,Torino,Radonjic
+7,Torino,Vlasic
+7,Torino,Seck
+7,Sassuolo,Pinamonti
+7,Sassuolo,D'andrea
+7,Sassuolo,Harroui
+7,Sassuolo,Lopez M.
+7,Sassuolo,Frattesi
+7,Sassuolo,Rogerio
+7,Sassuolo,Ferrari G.
+7,Sassuolo,Ayhan
+7,Sassuolo,Toljan
+7,Sassuolo,Consigli
+7,Udinese,Silvestri
+7,Udinese,Rodrigo Becao
+7,Udinese,Bijol
+7,Udinese,Perez N.
+7,Udinese,Pereyra
+7,Udinese,Lovric
+7,Udinese,Walace
+7,Udinese,Makengo
+7,Udinese,Udogie
+7,Udinese,Deulofeu
+7,Udinese,Beto
+7,Inter,Dzeko
+7,Inter,Darmian
+7,Inter,Mkhitaryan
+7,Inter,Brozovic
+7,Inter,Barella
+7,Inter,Dumfries
+7,Inter,Bastoni
+7,Inter,Acerbi
+7,Inter,Skriniar
+7,Inter,Handanovic
+7,Cremonese,Radu I.
+7,Cremonese,Aiwu
+7,Cremonese,Chiriches
+7,Cremonese,Lochoshvili
+7,Cremonese,Sernicola
+7,Cremonese,Escalante
+7,Cremonese,Meite'
+7,Cremonese,Valeri
+7,Cremonese,Zanimacchia
+7,Cremonese,Dessers
+7,Cremonese,Okereke
+7,Lazio,Immobile
+7,Lazio,Felipe Anderson
+7,Lazio,Vecino
+7,Lazio,Cataldi
+7,Lazio,Milinkovic-Savic
+7,Lazio,Marusic
+7,Lazio,Casale
+7,Lazio,Patric
+7,Lazio,Hysaj
+7,Lazio,Provedel
+7,Fiorentina,Terracciano
+7,Fiorentina,Venuti
+7,Fiorentina,Martinez Quarta
+7,Fiorentina,Ranieri L.
+7,Fiorentina,Biraghi
+7,Fiorentina,Barak
+7,Fiorentina,Amrabat
+7,Fiorentina,Mandragora
+7,Fiorentina,Ikone'
+7,Fiorentina,Kouame'
+7,Fiorentina,Sottil
+7,Verona,Lasagna
+7,Verona,Hrustic
+7,Verona,Lazovic
+7,Verona,Ilic
+7,Verona,Tameze
+7,Verona,Depaoli
+7,Verona,Coppola D.
+7,Verona,Gunter
+7,Verona,Hien
+7,Verona,Montipo'
+7,Monza,Di Gregorio
+7,Monza,Marlon
+7,Monza,Mari'
+7,Monza,Izzo
+7,Monza,Ciurria
+7,Monza,Rovella
+7,Monza,Sensi
+7,Monza,Carlos Augusto
+7,Monza,Pessina
+7,Monza,Mota
+7,Monza,Caprari
+7,Juventus,Vlahovic
+7,Juventus,Di Maria
+7,Juventus,Miretti
+7,Juventus,Paredes
+7,Juventus,Mckennie
+7,Juventus,Danilo
+7,Juventus,Bremer
+7,Juventus,Gatti
+7,Juventus,De Sciglio
+7,Juventus,Perin
+7,Roma,Rui Patricio
+7,Roma,Mancini
+7,Roma,Smalling
+7,Roma,Ibanez
+7,Roma,Celik
+7,Roma,Matic
+7,Roma,Cristante
+7,Roma,Spinazzola
+7,Roma,Zaniolo
+7,Roma,Pellegrini Lo.
+7,Roma,Abraham
+7,Atalanta,Pasalic
+7,Atalanta,Ederson D.s.
+7,Atalanta,Maehle
+7,Atalanta,Koopmeiners
+7,Atalanta,De Roon
+7,Atalanta,Hateboer
+7,Atalanta,Scalvini
+7,Atalanta,Demiral
+7,Atalanta,Toloi
+7,Atalanta,Musso
+7,Milan,Maignan
+7,Milan,Calabria
+7,Milan,Kjaer
+7,Milan,Tomori
+7,Milan,Hernandez T.
+7,Milan,Tonali
+7,Milan,Bennacer
+7,Milan,Krunic
+7,Milan,De Ketelaere
+7,Milan,Saelemaekers
+7,Milan,Giroud
+7,Napoli,Raspadori
+7,Napoli,Politano
+7,Napoli,Zielinski
+7,Napoli,Lobotka
+7,Napoli,Zambo Anguissa
+7,Napoli,Mario Rui
+7,Napoli,Kim
+7,Napoli,Rrahmani
+7,Napoli,Di Lorenzo
+7,Napoli,Meret
+8,Napoli,Meret
+8,Napoli,Di Lorenzo
+8,Napoli,Rrahmani
+8,Napoli,Kim
+8,Napoli,Mario Rui
+8,Napoli,Zambo Anguissa
+8,Napoli,Lobotka
+8,Napoli,Zielinski
+8,Napoli,Politano
+8,Napoli,Raspadori
+8,Napoli,Kvaratskhelia
+8,Torino,Miranchuk
+8,Torino,Vlasic
+8,Torino,Lazaro
+8,Torino,Linetty
+8,Torino,Lukic
+8,Torino,Singo
+8,Torino,Rodriguez R.
+8,Torino,Buongiorno
+8,Torino,Djidji
+8,Torino,Milinkovic-Savic V.
+8,Inter,Handanovic
+8,Inter,Skriniar
+8,Inter,Acerbi
+8,Inter,Bastoni
+8,Inter,Dumfries
+8,Inter,Barella
+8,Inter,Asllani
+8,Inter,Calhanoglu
+8,Inter,Dimarco
+8,Inter,Martinez L.
+8,Inter,Dzeko
+8,Roma,Pellegrini Lo.
+8,Roma,Zaniolo
+8,Roma,Spinazzola
+8,Roma,Cristante
+8,Roma,Matic
+8,Roma,Celik
+8,Roma,Ibanez
+8,Roma,Smalling
+8,Roma,Mancini
+8,Roma,Rui Patricio
+8,Empoli,Vicario
+8,Empoli,Stojanovic
+8,Empoli,De Winter
+8,Empoli,Luperto
+8,Empoli,Parisi
+8,Empoli,Haas
+8,Empoli,Grassi
+8,Empoli,Henderson L.
+8,Empoli,Pjaca
+8,Empoli,Lammers
+8,Empoli,Satriano
+8,Milan,Rafael Leao
+8,Milan,De Ketelaere
+8,Milan,Saelemaekers
+8,Milan,Bennacer
+8,Milan,Tonali
+8,Milan,Ballo-Toure'
+8,Milan,Tomori
+8,Milan,Kjaer
+8,Milan,Calabria
+8,Milan,Tatarusanu
+8,Lazio,Provedel
+8,Lazio,Lazzari
+8,Lazio,Patric
+8,Lazio,Romagnoli
+8,Lazio,Marusic
+8,Lazio,Milinkovic-Savic
+8,Lazio,Cataldi
+8,Lazio,Luis Alberto
+8,Lazio,Felipe Anderson
+8,Lazio,Immobile
+8,Lazio,Zaccagni
+8,Spezia,Gyasi
+8,Spezia,Bastoni S.
+8,Spezia,Bourabia
+8,Spezia,Ellertsson
+8,Spezia,Kiwior
+8,Spezia,Nikolaou
+8,Spezia,Caldara
+8,Spezia,Ampadu
+8,Spezia,Holm
+8,Spezia,Dragowski
+8,Lecce,Falcone
+8,Lecce,Gendrey
+8,Lecce,Pongracic
+8,Lecce,Baschirotto
+8,Lecce,Gallo
+8,Lecce,Gonzalez J.
+8,Lecce,Hjulmand
+8,Lecce,Askildsen
+8,Lecce,Strefezza
+8,Lecce,Colombo
+8,Lecce,Banda
+8,Cremonese,Okereke
+8,Cremonese,Pickel
+8,Cremonese,Zanimacchia
+8,Cremonese,Castagnetti
+8,Cremonese,Ascacibar
+8,Cremonese,Valeri
+8,Cremonese,Lochoshvili
+8,Cremonese,Bianchetti
+8,Cremonese,Sernicola
+8,Cremonese,Radu I.
+8,Sampdoria,Audero
+8,Sampdoria,Bereszynski
+8,Sampdoria,Murillo
+8,Sampdoria,Colley
+8,Sampdoria,Augello
+8,Sampdoria,Rincon
+8,Sampdoria,Villar
+8,Sampdoria,Djuricic
+8,Sampdoria,Sabiri
+8,Sampdoria,Caputo
+8,Sampdoria,Gabbiadini
+8,Monza,Caprari
+8,Monza,Pessina
+8,Monza,Carlos Augusto
+8,Monza,Sensi
+8,Monza,Rovella
+8,Monza,Ciurria
+8,Monza,Caldirola
+8,Monza,Mari'
+8,Monza,Izzo
+8,Monza,Di Gregorio
+8,Sassuolo,Consigli
+8,Sassuolo,Toljan
+8,Sassuolo,Erlic
+8,Sassuolo,Ferrari G.
+8,Sassuolo,Rogerio
+8,Sassuolo,Frattesi
+8,Sassuolo,Lopez M.
+8,Sassuolo,Thorstvedt
+8,Sassuolo,Ceide
+8,Sassuolo,Pinamonti
+8,Sassuolo,Lauriente'
+8,Salernitana,Piatek
+8,Salernitana,Mazzocchi
+8,Salernitana,Vilhena
+8,Salernitana,Maggiore
+8,Salernitana,Coulibaly L.
+8,Salernitana,Candreva
+8,Salernitana,Lovato
+8,Salernitana,Daniliuc
+8,Salernitana,Bronn
+8,Salernitana,Sepe
+8,Atalanta,Sportiello
+8,Atalanta,Toloi
+8,Atalanta,Okoli
+8,Atalanta,Scalvini
+8,Atalanta,Hateboer
+8,Atalanta,De Roon
+8,Atalanta,Koopmeiners
+8,Atalanta,Soppy
+8,Atalanta,Ederson D.s.
+8,Atalanta,Lookman
+8,Atalanta,Muriel
+8,Fiorentina,Kouame'
+8,Fiorentina,Ikone'
+8,Fiorentina,Barak
+8,Fiorentina,Mandragora
+8,Fiorentina,Bonaventura
+8,Fiorentina,Biraghi
+8,Fiorentina,Igor
+8,Fiorentina,Martinez Quarta
+8,Fiorentina,Venuti
+8,Fiorentina,Terracciano
+8,Juventus,Szczesny
+8,Juventus,Danilo
+8,Juventus,Bonucci
+8,Juventus,Bremer
+8,Juventus,Alex Sandro
+8,Juventus,Mckennie
+8,Juventus,Locatelli
+8,Juventus,Rabiot
+8,Juventus,Kostic
+8,Juventus,Milik
+8,Juventus,Vlahovic
+8,Bologna,Orsolini
+8,Bologna,Soriano
+8,Bologna,Sansone
+8,Bologna,Dominguez
+8,Bologna,Schouten
+8,Bologna,Lykogiannis
+8,Bologna,Bonifazi
+8,Bologna,Sosa
+8,Bologna,De Silvestri
+8,Bologna,Skorupski
+8,Verona,Montipo'
+8,Verona,Hien
+8,Verona,Gunter
+8,Verona,Ceccherini
+8,Verona,Lazovic
+8,Verona,Tameze
+8,Verona,Miguel Veloso
+8,Verona,Doig
+8,Verona,Verdi
+8,Verona,Piccoli
+8,Verona,Henry
+8,Udinese,Success
+8,Udinese,Udogie
+8,Udinese,Makengo
+8,Udinese,Walace
+8,Udinese,Lovric
+8,Udinese,Pereyra
+8,Udinese,Perez N.
+8,Udinese,Bijol
+8,Udinese,Rodrigo Becao
+8,Udinese,Silvestri
+9,Sassuolo,Consigli
+9,Sassuolo,Toljan
+9,Sassuolo,Erlic
+9,Sassuolo,Ferrari G.
+9,Sassuolo,Rogerio
+9,Sassuolo,Frattesi
+9,Sassuolo,Lopez M.
+9,Sassuolo,Thorstvedt
+9,Sassuolo,Ceide
+9,Sassuolo,Pinamonti
+9,Sassuolo,Lauriente'
+9,Inter,Dzeko
+9,Inter,Dimarco
+9,Inter,Calhanoglu
+9,Inter,Asllani
+9,Inter,Barella
+9,Inter,Dumfries
+9,Inter,Bastoni
+9,Inter,Acerbi
+9,Inter,D'ambrosio
+9,Inter,Onana
+9,Milan,Tatarusanu
+9,Milan,Kalulu
+9,Milan,Gabbia
+9,Milan,Tomori
+9,Milan,Hernandez T.
+9,Milan,Pobega
+9,Milan,Bennacer
+9,Milan,Tonali
+9,Milan,Diaz B.
+9,Milan,Giroud
+9,Milan,Rafael Leao
+9,Juventus,Vlahovic
+9,Juventus,Kostic
+9,Juventus,Rabiot
+9,Juventus,Locatelli
+9,Juventus,Cuadrado
+9,Juventus,Alex Sandro
+9,Juventus,Bremer
+9,Juventus,Bonucci
+9,Juventus,Danilo
+9,Juventus,Szczesny
+9,Bologna,Skorupski
+9,Bologna,Cambiaso
+9,Bologna,Soumaoro
+9,Bologna,Lucumi'
+9,Bologna,Lykogiannis
+9,Bologna,Medel
+9,Bologna,Schouten
+9,Bologna,Aebischer
+9,Bologna,Dominguez
+9,Bologna,Orsolini
+9,Bologna,Arnautovic
+9,Sampdoria,Caputo
+9,Sampdoria,Djuricic
+9,Sampdoria,Sabiri
+9,Sampdoria,Vieira
+9,Sampdoria,Rincon
+9,Sampdoria,Augello
+9,Sampdoria,Colley
+9,Sampdoria,Murillo
+9,Sampdoria,Bereszynski
+9,Sampdoria,Audero
+9,Torino,Milinkovic-Savic V.
+9,Torino,Djidji
+9,Torino,Schuurs
+9,Torino,Rodriguez R.
+9,Torino,Aina
+9,Torino,Lukic
+9,Torino,Linetty
+9,Torino,Lazaro
+9,Torino,Miranchuk
+9,Torino,Vlasic
+9,Torino,Sanabria
+9,Empoli,Cambiaghi
+9,Empoli,Bajrami
+9,Empoli,Bandinelli
+9,Empoli,Marin
+9,Empoli,Haas
+9,Empoli,Parisi
+9,Empoli,Luperto
+9,Empoli,De Winter
+9,Empoli,Ebuehi
+9,Empoli,Vicario
+9,Monza,Di Gregorio
+9,Monza,Izzo
+9,Monza,Mari'
+9,Monza,Caldirola
+9,Monza,Ciurria
+9,Monza,Rovella
+9,Monza,Sensi
+9,Monza,Carlos Augusto
+9,Monza,Pessina
+9,Monza,Caprari
+9,Monza,Gytkjaer
+9,Spezia,Nzola
+9,Spezia,Bastoni S.
+9,Spezia,Agudelo
+9,Spezia,Kovalenko
+9,Spezia,Bourabia
+9,Spezia,Holm
+9,Spezia,Nikolaou
+9,Spezia,Kiwior
+9,Spezia,Ampadu
+9,Spezia,Dragowski
+9,Salernitana,Sepe
+9,Salernitana,Gyomber
+9,Salernitana,Daniliuc
+9,Salernitana,Pirola
+9,Salernitana,Candreva
+9,Salernitana,Coulibaly L.
+9,Salernitana,Radovanovic
+9,Salernitana,Maggiore
+9,Salernitana,Mazzocchi
+9,Salernitana,Bonazzoli
+9,Salernitana,Piatek
+9,Verona,Verdi
+9,Verona,Hrustic
+9,Verona,Doig
+9,Verona,Miguel Veloso
+9,Verona,Tameze
+9,Verona,Depaoli
+9,Verona,Ceccherini
+9,Verona,Gunter
+9,Verona,Hien
+9,Verona,Montipo'
+9,Udinese,Silvestri
+9,Udinese,Perez N.
+9,Udinese,Bijol
+9,Udinese,Ebosse
+9,Udinese,Pereyra
+9,Udinese,Lovric
+9,Udinese,Walace
+9,Udinese,Makengo
+9,Udinese,Udogie
+9,Udinese,Beto
+9,Udinese,Deulofeu
+9,Atalanta,Pasalic
+9,Atalanta,Lookman
+9,Atalanta,Maehle
+9,Atalanta,De Roon
+9,Atalanta,Koopmeiners
+9,Atalanta,Hateboer
+9,Atalanta,Okoli
+9,Atalanta,Demiral
+9,Atalanta,Scalvini
+9,Atalanta,Sportiello
+9,Cremonese,Radu I.
+9,Cremonese,Sernicola
+9,Cremonese,Bianchetti
+9,Cremonese,Lochoshvili
+9,Cremonese,Quagliata
+9,Cremonese,Ascacibar
+9,Cremonese,Meite'
+9,Cremonese,Valeri
+9,Cremonese,Zanimacchia
+9,Cremonese,Afena-Gyan
+9,Cremonese,Dessers
+9,Napoli,Raspadori
+9,Napoli,Politano
+9,Napoli,Ndombele'
+9,Napoli,Lobotka
+9,Napoli,Zambo Anguissa
+9,Napoli,Mario Rui
+9,Napoli,Kim
+9,Napoli,Rrahmani
+9,Napoli,Di Lorenzo
+9,Napoli,Meret
+9,Roma,Rui Patricio
+9,Roma,Mancini
+9,Roma,Smalling
+9,Roma,Ibanez
+9,Roma,Zalewski
+9,Roma,Cristante
+9,Roma,Pellegrini Lo.
+9,Roma,Vina
+9,Roma,Dybala
+9,Roma,Zaniolo
+9,Roma,Belotti
+9,Lecce,Ceesay
+9,Lecce,Strefezza
+9,Lecce,Askildsen
+9,Lecce,Hjulmand
+9,Lecce,Gonzalez J.
+9,Lecce,Pezzella Giu.
+9,Lecce,Umtiti
+9,Lecce,Baschirotto
+9,Lecce,Gendrey
+9,Lecce,Falcone
+9,Fiorentina,Terracciano
+9,Fiorentina,Dodo'
+9,Fiorentina,Martinez Quarta
+9,Fiorentina,Igor
+9,Fiorentina,Biraghi
+9,Fiorentina,Bonaventura
+9,Fiorentina,Amrabat
+9,Fiorentina,Mandragora
+9,Fiorentina,Ikone'
+9,Fiorentina,Jovic
+9,Fiorentina,Kouame'
+9,Lazio,Immobile
+9,Lazio,Felipe Anderson
+9,Lazio,Vecino
+9,Lazio,Marcos Antonio
+9,Lazio,Milinkovic-Savic
+9,Lazio,Marusic
+9,Lazio,Romagnoli
+9,Lazio,Patric
+9,Lazio,Lazzari
+9,Lazio,Provedel
+10,Empoli,Vicario
+10,Empoli,Stojanovic
+10,Empoli,De Winter
+10,Empoli,Luperto
+10,Empoli,Parisi
+10,Empoli,Haas
+10,Empoli,Henderson L.
+10,Empoli,Bandinelli
+10,Empoli,Baldanzi
+10,Empoli,Destro
+10,Empoli,Satriano
+10,Monza,Gytkjaer
+10,Monza,Carlos Augusto
+10,Monza,Pessina
+10,Monza,Sensi
+10,Monza,Rovella
+10,Monza,Ciurria
+10,Monza,Caldirola
+10,Monza,Mari'
+10,Monza,Marlon
+10,Monza,Di Gregorio
+10,Torino,Milinkovic-Savic V.
+10,Torino,Djidji
+10,Torino,Schuurs
+10,Torino,Rodriguez R.
+10,Torino,Aina
+10,Torino,Lukic
+10,Torino,Linetty
+10,Torino,Lazaro
+10,Torino,Miranchuk
+10,Torino,Vlasic
+10,Torino,Radonjic
+10,Juventus,Kean
+10,Juventus,Kostic
+10,Juventus,Rabiot
+10,Juventus,Locatelli
+10,Juventus,Mckennie
+10,Juventus,Cuadrado
+10,Juventus,Alex Sandro
+10,Juventus,Bremer
+10,Juventus,Danilo
+10,Juventus,Szczesny
+10,Atalanta,Sportiello
+10,Atalanta,Scalvini
+10,Atalanta,Demiral
+10,Atalanta,Okoli
+10,Atalanta,Soppy
+10,Atalanta,De Roon
+10,Atalanta,Koopmeiners
+10,Atalanta,Maehle
+10,Atalanta,Pasalic
+10,Atalanta,Lookman
+10,Atalanta,Muriel
+10,Sassuolo,Pinamonti
+10,Sassuolo,D'andrea
+10,Sassuolo,Thorstvedt
+10,Sassuolo,Lopez M.
+10,Sassuolo,Frattesi
+10,Sassuolo,Rogerio
+10,Sassuolo,Ferrari G.
+10,Sassuolo,Erlic
+10,Sassuolo,Toljan
+10,Sassuolo,Consigli
+10,Inter,Onana
+10,Inter,Skriniar
+10,Inter,De Vrij
+10,Inter,Acerbi
+10,Inter,Dumfries
+10,Inter,Barella
+10,Inter,Calhanoglu
+10,Inter,Mkhitaryan
+10,Inter,Dimarco
+10,Inter,Dzeko
+10,Inter,Martinez L.
+10,Salernitana,Dia
+10,Salernitana,Mazzocchi
+10,Salernitana,Kastanos
+10,Salernitana,Vilhena
+10,Salernitana,Coulibaly L.
+10,Salernitana,Candreva
+10,Salernitana,Pirola
+10,Salernitana,Daniliuc
+10,Salernitana,Gyomber
+10,Salernitana,Sepe
+10,Lazio,Provedel
+10,Lazio,Lazzari
+10,Lazio,Casale
+10,Lazio,Romagnoli
+10,Lazio,Marusic
+10,Lazio,Milinkovic-Savic
+10,Lazio,Cataldi
+10,Lazio,Vecino
+10,Lazio,Felipe Anderson
+10,Lazio,Immobile
+10,Lazio,Zaccagni
+10,Udinese,Beto
+10,Udinese,Udogie
+10,Udinese,Makengo
+10,Udinese,Walace
+10,Udinese,Samardzic
+10,Udinese,Pereyra
+10,Udinese,Perez N.
+10,Udinese,Bijol
+10,Udinese,Rodrigo Becao
+10,Udinese,Silvestri
+10,Spezia,Dragowski
+10,Spezia,Amian
+10,Spezia,Ampadu
+10,Spezia,Caldara
+10,Spezia,Nikolaou
+10,Spezia,Bourabia
+10,Spezia,Kiwior
+10,Spezia,Agudelo
+10,Spezia,Holm
+10,Spezia,Nzola
+10,Spezia,Gyasi
+10,Cremonese,Okereke
+10,Cremonese,Pickel
+10,Cremonese,Zanimacchia
+10,Cremonese,Meite'
+10,Cremonese,Castagnetti
+10,Cremonese,Valeri
+10,Cremonese,Lochoshvili
+10,Cremonese,Bianchetti
+10,Cremonese,Sernicola
+10,Cremonese,Carnesecchi
+10,Napoli,Meret
+10,Napoli,Di Lorenzo
+10,Napoli,Kim
+10,Napoli,Juan Jesus
+10,Napoli,Mario Rui
+10,Napoli,Zielinski
+10,Napoli,Lobotka
+10,Napoli,Ndombele'
+10,Napoli,Politano
+10,Napoli,Raspadori
+10,Napoli,Kvaratskhelia
+10,Bologna,Barrow
+10,Bologna,Dominguez
+10,Bologna,Ferguson
+10,Bologna,Aebischer
+10,Bologna,Medel
+10,Bologna,Cambiaso
+10,Bologna,Lucumi'
+10,Bologna,Bonifazi
+10,Bologna,Posch
+10,Bologna,Skorupski
+10,Verona,Montipo'
+10,Verona,Hien
+10,Verona,Gunter
+10,Verona,Magnani
+10,Verona,Faraoni
+10,Verona,Miguel Veloso
+10,Verona,Tameze
+10,Verona,Depaoli
+10,Verona,Hrustic
+10,Verona,Verdi
+10,Verona,Henry
+10,Milan,Rafael Leao
+10,Milan,Diaz B.
+10,Milan,Krunic
+10,Milan,Tonali
+10,Milan,Adli
+10,Milan,Hernandez T.
+10,Milan,Tomori
+10,Milan,Gabbia
+10,Milan,Kalulu
+10,Milan,Tatarusanu
+10,Sampdoria,Audero
+10,Sampdoria,Bereszynski
+10,Sampdoria,Colley
+10,Sampdoria,Ferrari A.
+10,Sampdoria,Augello
+10,Sampdoria,Villar
+10,Sampdoria,Rincon
+10,Sampdoria,Leris
+10,Sampdoria,Gabbiadini
+10,Sampdoria,Djuricic
+10,Sampdoria,Caputo
+10,Roma,Abraham
+10,Roma,El Shaarawy
+10,Roma,Pellegrini Lo.
+10,Roma,Camara Ma.
+10,Roma,Cristante
+10,Roma,Zalewski
+10,Roma,Ibanez
+10,Roma,Smalling
+10,Roma,Mancini
+10,Roma,Rui Patricio
+10,Lecce,Falcone
+10,Lecce,Baschirotto
+10,Lecce,Pongracic
+10,Lecce,Umtiti
+10,Lecce,Gallo
+10,Lecce,Gonzalez J.
+10,Lecce,Blin
+10,Lecce,Askildsen
+10,Lecce,Strefezza
+10,Lecce,Ceesay
+10,Lecce,Banda
+10,Fiorentina,Jovic
+10,Fiorentina,Gonzalez N.
+10,Fiorentina,Barak
+10,Fiorentina,Mandragora
+10,Fiorentina,Bonaventura
+10,Fiorentina,Biraghi
+10,Fiorentina,Igor
+10,Fiorentina,Martinez Quarta
+10,Fiorentina,Dodo'
+10,Fiorentina,Terracciano
+11,Juventus,Szczesny
+11,Juventus,Rugani
+11,Juventus,Bonucci
+11,Juventus,Danilo
+11,Juventus,Cuadrado
+11,Juventus,Mckennie
+11,Juventus,Locatelli
+11,Juventus,Rabiot
+11,Juventus,Kostic
+11,Juventus,Vlahovic
+11,Juventus,Kean
+11,Empoli,Destro
+11,Empoli,Pjaca
+11,Empoli,Bandinelli
+11,Empoli,Marin
+11,Empoli,Haas
+11,Empoli,Parisi
+11,Empoli,Luperto
+11,Empoli,De Winter
+11,Empoli,Stojanovic
+11,Empoli,Vicario
+11,Salernitana,Sepe
+11,Salernitana,Gyomber
+11,Salernitana,Fazio
+11,Salernitana,Daniliuc
+11,Salernitana,Candreva
+11,Salernitana,Coulibaly L.
+11,Salernitana,Radovanovic
+11,Salernitana,Vilhena
+11,Salernitana,Mazzocchi
+11,Salernitana,Dia
+11,Salernitana,Bonazzoli
+11,Spezia,Gyasi
+11,Spezia,Agudelo
+11,Spezia,Holm
+11,Spezia,Bourabia
+11,Spezia,Ekdal
+11,Spezia,Nikolaou
+11,Spezia,Kiwior
+11,Spezia,Ampadu
+11,Spezia,Amian
+11,Spezia,Dragowski
+11,Milan,Tatarusanu
+11,Milan,Dest
+11,Milan,Kjaer
+11,Milan,Tomori
+11,Milan,Hernandez T.
+11,Milan,Pobega
+11,Milan,Bennacer
+11,Milan,Messias
+11,Milan,Diaz B.
+11,Milan,Rebic
+11,Milan,Origi
+11,Monza,Caprari
+11,Monza,Pessina
+11,Monza,Carlos Augusto
+11,Monza,Barberis
+11,Monza,Sensi
+11,Monza,Ciurria
+11,Monza,Caldirola
+11,Monza,Mari'
+11,Monza,Antov
+11,Monza,Di Gregorio
+11,Fiorentina,Terracciano
+11,Fiorentina,Dodo'
+11,Fiorentina,Milenkovic
+11,Fiorentina,Martinez Quarta
+11,Fiorentina,Biraghi
+11,Fiorentina,Bonaventura
+11,Fiorentina,Amrabat
+11,Fiorentina,Duncan
+11,Fiorentina,Gonzalez N.
+11,Fiorentina,Cabral
+11,Fiorentina,Kouame'
+11,Inter,Correa
+11,Inter,Dimarco
+11,Inter,Mkhitaryan
+11,Inter,Calhanoglu
+11,Inter,Barella
+11,Inter,Darmian
+11,Inter,Acerbi
+11,Inter,De Vrij
+11,Inter,Skriniar
+11,Inter,Onana
+11,Udinese,Silvestri
+11,Udinese,Perez N.
+11,Udinese,Bijol
+11,Udinese,Ebosse
+11,Udinese,Pereyra
+11,Udinese,Samardzic
+11,Udinese,Walace
+11,Udinese,Makengo
+11,Udinese,Udogie
+11,Udinese,Success
+11,Udinese,Deulofeu
+11,Torino,Vlasic
+11,Torino,Miranchuk
+11,Torino,Lazaro
+11,Torino,Ricci S.
+11,Torino,Lukic
+11,Torino,Aina
+11,Torino,Buongiorno
+11,Torino,Schuurs
+11,Torino,Zima
+11,Torino,Milinkovic-Savic V.
+11,Bologna,Skorupski
+11,Bologna,Posch
+11,Bologna,Bonifazi
+11,Bologna,Lucumi'
+11,Bologna,Cambiaso
+11,Bologna,Ferguson
+11,Bologna,Medel
+11,Bologna,Aebischer
+11,Bologna,Dominguez
+11,Bologna,Barrow
+11,Bologna,Arnautovic
+11,Lecce,Ceesay
+11,Lecce,Strefezza
+11,Lecce,Askildsen
+11,Lecce,Hjulmand
+11,Lecce,Gonzalez J.
+11,Lecce,Pezzella Giu.
+11,Lecce,Pongracic
+11,Lecce,Baschirotto
+11,Lecce,Gendrey
+11,Lecce,Falcone
+11,Atalanta,Sportiello
+11,Atalanta,Scalvini
+11,Atalanta,Demiral
+11,Atalanta,Okoli
+11,Atalanta,Soppy
+11,Atalanta,De Roon
+11,Atalanta,Koopmeiners
+11,Atalanta,Hateboer
+11,Atalanta,Pasalic
+11,Atalanta,Lookman
+11,Atalanta,Muriel
+11,Lazio,Felipe Anderson
+11,Lazio,Pedro
+11,Lazio,Vecino
+11,Lazio,Cataldi
+11,Lazio,Milinkovic-Savic
+11,Lazio,Marusic
+11,Lazio,Romagnoli
+11,Lazio,Casale
+11,Lazio,Lazzari
+11,Lazio,Provedel
+11,Roma,Rui Patricio
+11,Roma,Mancini
+11,Roma,Smalling
+11,Roma,Ibanez
+11,Roma,Karsdorp
+11,Roma,Camara Ma.
+11,Roma,Cristante
+11,Roma,Spinazzola
+11,Roma,Zaniolo
+11,Roma,Pellegrini Lo.
+11,Roma,Abraham
+11,Napoli,Osimhen
+11,Napoli,Lozano
+11,Napoli,Zielinski
+11,Napoli,Lobotka
+11,Napoli,Ndombele'
+11,Napoli,Olivera
+11,Napoli,Juan Jesus
+11,Napoli,Kim
+11,Napoli,Di Lorenzo
+11,Napoli,Meret
+11,Cremonese,Carnesecchi
+11,Cremonese,Sernicola
+11,Cremonese,Aiwu
+11,Cremonese,Bianchetti
+11,Cremonese,Lochoshvili
+11,Cremonese,Valeri
+11,Cremonese,Ascacibar
+11,Cremonese,Meite'
+11,Cremonese,Pickel
+11,Cremonese,Okereke
+11,Cremonese,Dessers
+11,Sampdoria,Pussetto
+11,Sampdoria,Sabiri
+11,Sampdoria,Djuricic
+11,Sampdoria,Rincon
+11,Sampdoria,Verre
+11,Sampdoria,Murru
+11,Sampdoria,Colley
+11,Sampdoria,Amione
+11,Sampdoria,Bereszynski
+11,Sampdoria,Audero
+11,Sassuolo,Consigli
+11,Sassuolo,Toljan
+11,Sassuolo,Erlic
+11,Sassuolo,Ayhan
+11,Sassuolo,Kyriakopoulos
+11,Sassuolo,Frattesi
+11,Sassuolo,Obiang
+11,Sassuolo,Thorstvedt
+11,Sassuolo,D'andrea
+11,Sassuolo,Pinamonti
+11,Sassuolo,Lauriente'
+11,Verona,Piccoli
+11,Verona,Verdi
+11,Verona,Depaoli
+11,Verona,Miguel Veloso
+11,Verona,Tameze
+11,Verona,Faraoni
+11,Verona,Ceccherini
+11,Verona,Gunter
+11,Verona,Hien
+11,Verona,Montipo'
+12,Napoli,Meret
+12,Napoli,Di Lorenzo
+12,Napoli,Kim
+12,Napoli,Juan Jesus
+12,Napoli,Mario Rui
+12,Napoli,Zambo Anguissa
+12,Napoli,Lobotka
+12,Napoli,Zielinski
+12,Napoli,Lozano
+12,Napoli,Osimhen
+12,Napoli,Kvaratskhelia
+12,Sassuolo,Pinamonti
+12,Sassuolo,Ceide
+12,Sassuolo,Thorstvedt
+12,Sassuolo,Lopez M.
+12,Sassuolo,Frattesi
+12,Sassuolo,Rogerio
+12,Sassuolo,Ferrari G.
+12,Sassuolo,Erlic
+12,Sassuolo,Toljan
+12,Sassuolo,Consigli
+12,Lecce,Falcone
+12,Lecce,Gendrey
+12,Lecce,Baschirotto
+12,Lecce,Pongracic
+12,Lecce,Gallo
+12,Lecce,Blin
+12,Lecce,Hjulmand
+12,Lecce,Gonzalez J.
+12,Lecce,Oudin
+12,Lecce,Ceesay
+12,Lecce,Strefezza
+12,Juventus,Soule'
+12,Juventus,Kostic
+12,Juventus,Rabiot
+12,Juventus,Miretti
+12,Juventus,Mckennie
+12,Juventus,Alex Sandro
+12,Juventus,Gatti
+12,Juventus,Danilo
+12,Juventus,Cuadrado
+12,Juventus,Szczesny
+12,Inter,Onana
+12,Inter,Skriniar
+12,Inter,De Vrij
+12,Inter,Bastoni
+12,Inter,Dumfries
+12,Inter,Barella
+12,Inter,Calhanoglu
+12,Inter,Mkhitaryan
+12,Inter,Dimarco
+12,Inter,Martinez L.
+12,Inter,Dzeko
+12,Sampdoria,Gabbiadini
+12,Sampdoria,Leris
+12,Sampdoria,Villar
+12,Sampdoria,Yepes
+12,Sampdoria,Djuricic
+12,Sampdoria,Amione
+12,Sampdoria,Colley
+12,Sampdoria,Ferrari A.
+12,Sampdoria,Bereszynski
+12,Sampdoria,Audero
+12,Empoli,Vicario
+12,Empoli,Ebuehi
+12,Empoli,De Winter
+12,Empoli,Luperto
+12,Empoli,Cacace
+12,Empoli,Henderson L.
+12,Empoli,Marin
+12,Empoli,Bandinelli
+12,Empoli,Bajrami
+12,Empoli,Destro
+12,Empoli,Pjaca
+12,Atalanta,Lookman
+12,Atalanta,Ederson D.s.
+12,Atalanta,Maehle
+12,Atalanta,Koopmeiners
+12,Atalanta,Pasalic
+12,Atalanta,Hateboer
+12,Atalanta,Scalvini
+12,Atalanta,Demiral
+12,Atalanta,Toloi
+12,Atalanta,Musso
+12,Cremonese,Carnesecchi
+12,Cremonese,Aiwu
+12,Cremonese,Bianchetti
+12,Cremonese,Lochoshvili
+12,Cremonese,Sernicola
+12,Cremonese,Meite'
+12,Cremonese,Ascacibar
+12,Cremonese,Pickel
+12,Cremonese,Valeri
+12,Cremonese,Okereke
+12,Cremonese,Dessers
+12,Udinese,Success
+12,Udinese,Udogie
+12,Udinese,Arslan
+12,Udinese,Walace
+12,Udinese,Lovric
+12,Udinese,Pereyra
+12,Udinese,Ebosse
+12,Udinese,Bijol
+12,Udinese,Perez N.
+12,Udinese,Silvestri
+12,Spezia,Dragowski
+12,Spezia,Ampadu
+12,Spezia,Kiwior
+12,Spezia,Nikolaou
+12,Spezia,Holm
+12,Spezia,Ekdal
+12,Spezia,Bourabia
+12,Spezia,Agudelo
+12,Spezia,Reca
+12,Spezia,Gyasi
+12,Spezia,Nzola
+12,Fiorentina,Jovic
+12,Fiorentina,Ikone'
+12,Fiorentina,Mandragora
+12,Fiorentina,Amrabat
+12,Fiorentina,Bonaventura
+12,Fiorentina,Biraghi
+12,Fiorentina,Martinez Quarta
+12,Fiorentina,Milenkovic
+12,Fiorentina,Dodo'
+12,Fiorentina,Terracciano
+12,Lazio,Provedel
+12,Lazio,Lazzari
+12,Lazio,Casale
+12,Lazio,Romagnoli
+12,Lazio,Marusic
+12,Lazio,Vecino
+12,Lazio,Cataldi
+12,Lazio,Luis Alberto
+12,Lazio,Pedro
+12,Lazio,Felipe Anderson
+12,Lazio,Zaccagni
+12,Salernitana,Piatek
+12,Salernitana,Bradaric
+12,Salernitana,Coulibaly L.
+12,Salernitana,Radovanovic
+12,Salernitana,Candreva
+12,Salernitana,Mazzocchi
+12,Salernitana,Fazio
+12,Salernitana,Daniliuc
+12,Salernitana,Gyomber
+12,Salernitana,Sepe
+12,Torino,Milinkovic-Savic V.
+12,Torino,Djidji
+12,Torino,Schuurs
+12,Torino,Buongiorno
+12,Torino,Singo
+12,Torino,Lukic
+12,Torino,Ricci S.
+12,Torino,Lazaro
+12,Torino,Miranchuk
+12,Torino,Vlasic
+12,Torino,Pellegri
+12,Milan,Rafael Leao
+12,Milan,Diaz B.
+12,Milan,Messias
+12,Milan,Pobega
+12,Milan,Tonali
+12,Milan,Hernandez T.
+12,Milan,Tomori
+12,Milan,Gabbia
+12,Milan,Kalulu
+12,Milan,Tatarusanu
+12,Verona,Montipo'
+12,Verona,Dawidowicz
+12,Verona,Gunter
+12,Verona,Ceccherini
+12,Verona,Faraoni
+12,Verona,Hongla
+12,Verona,Miguel Veloso
+12,Verona,Depaoli
+12,Verona,Tameze
+12,Verona,Kallon
+12,Verona,Henry
+12,Roma,Pellegrini Lo.
+12,Roma,Zaniolo
+12,Roma,Zalewski
+12,Roma,Camara Ma.
+12,Roma,Cristante
+12,Roma,Karsdorp
+12,Roma,Ibanez
+12,Roma,Smalling
+12,Roma,Mancini
+12,Roma,Rui Patricio
+12,Monza,Di Gregorio
+12,Monza,Donati
+12,Monza,Marlon
+12,Monza,Carlos Augusto
+12,Monza,Birindelli
+12,Monza,Ranocchia F.
+12,Monza,Rovella
+12,Monza,Sensi
+12,Monza,D'alessandro
+12,Monza,Pessina
+12,Monza,Petagna
+12,Bologna,Barrow
+12,Bologna,Ferguson
+12,Bologna,Aebischer
+12,Bologna,Medel
+12,Bologna,Dominguez
+12,Bologna,Cambiaso
+12,Bologna,Lucumi'
+12,Bologna,Soumaoro
+12,Bologna,Posch
+12,Bologna,Skorupski
+13,Udinese,Silvestri
+13,Udinese,Perez N.
+13,Udinese,Bijol
+13,Udinese,Ebosse
+13,Udinese,Ehizibue
+13,Udinese,Samardzic
+13,Udinese,Walace
+13,Udinese,Arslan
+13,Udinese,Pereyra
+13,Udinese,Beto
+13,Udinese,Deulofeu
+13,Lecce,Colombo
+13,Lecce,Strefezza
+13,Lecce,Gonzalez J.
+13,Lecce,Hjulmand
+13,Lecce,Blin
+13,Lecce,Gallo
+13,Lecce,Umtiti
+13,Lecce,Baschirotto
+13,Lecce,Gendrey
+13,Lecce,Falcone
+13,Empoli,Vicario
+13,Empoli,Ebuehi
+13,Empoli,Ismajli
+13,Empoli,Luperto
+13,Empoli,Parisi
+13,Empoli,Fazzini
+13,Empoli,Marin
+13,Empoli,Bandinelli
+13,Empoli,Baldanzi
+13,Empoli,Destro
+13,Empoli,Satriano
+13,Sassuolo,Pinamonti
+13,Sassuolo,D'andrea
+13,Sassuolo,Thorstvedt
+13,Sassuolo,Lopez M.
+13,Sassuolo,Frattesi
+13,Sassuolo,Rogerio
+13,Sassuolo,Ferrari G.
+13,Sassuolo,Erlic
+13,Sassuolo,Toljan
+13,Sassuolo,Consigli
+13,Salernitana,Sepe
+13,Salernitana,Bronn
+13,Salernitana,Fazio
+13,Salernitana,Lovato
+13,Salernitana,Mazzocchi
+13,Salernitana,Candreva
+13,Salernitana,Radovanovic
+13,Salernitana,Coulibaly L.
+13,Salernitana,Bradaric
+13,Salernitana,Dia
+13,Salernitana,Piatek
+13,Cremonese,Tsadjout
+13,Cremonese,Buonaiuto
+13,Cremonese,Quagliata
+13,Cremonese,Pickel
+13,Cremonese,Meite'
+13,Cremonese,Sernicola
+13,Cremonese,Lochoshvili
+13,Cremonese,Hendry
+13,Cremonese,Aiwu
+13,Cremonese,Carnesecchi
+13,Atalanta,Musso
+13,Atalanta,Toloi
+13,Atalanta,Demiral
+13,Atalanta,Scalvini
+13,Atalanta,Hateboer
+13,Atalanta,Koopmeiners
+13,Atalanta,Ederson D.s.
+13,Atalanta,Maehle
+13,Atalanta,Pasalic
+13,Atalanta,Lookman
+13,Atalanta,Hojlund
+13,Napoli,Osimhen
+13,Napoli,Lozano
+13,Napoli,Zielinski
+13,Napoli,Lobotka
+13,Napoli,Zambo Anguissa
+13,Napoli,Olivera
+13,Napoli,Juan Jesus
+13,Napoli,Kim
+13,Napoli,Di Lorenzo
+13,Napoli,Meret
+13,Milan,Tatarusanu
+13,Milan,Kalulu
+13,Milan,Tomori
+13,Milan,Gabbia
+13,Milan,Hernandez T.
+13,Milan,Bennacer
+13,Milan,Krunic
+13,Milan,Messias
+13,Milan,Diaz B.
+13,Milan,Rafael Leao
+13,Milan,Origi
+13,Spezia,Maldini
+13,Spezia,Holm
+13,Spezia,Ekdal
+13,Spezia,Bourabia
+13,Spezia,Agudelo
+13,Spezia,Amian
+13,Spezia,Ampadu
+13,Spezia,Kiwior
+13,Spezia,Caldara
+13,Spezia,Dragowski
+13,Bologna,Skorupski
+13,Bologna,Posch
+13,Bologna,Soumaoro
+13,Bologna,Lucumi'
+13,Bologna,Cambiaso
+13,Bologna,Medel
+13,Bologna,Ferguson
+13,Bologna,Aebischer
+13,Bologna,Dominguez
+13,Bologna,Barrow
+13,Bologna,Arnautovic
+13,Torino,Vlasic
+13,Torino,Miranchuk
+13,Torino,Lazaro
+13,Torino,Ricci S.
+13,Torino,Lukic
+13,Torino,Singo
+13,Torino,Buongiorno
+13,Torino,Schuurs
+13,Torino,Djidji
+13,Torino,Milinkovic-Savic V.
+13,Monza,Di Gregorio
+13,Monza,Izzo
+13,Monza,Marlon
+13,Monza,Caldirola
+13,Monza,Ciurria
+13,Monza,Rovella
+13,Monza,Sensi
+13,Monza,Carlos Augusto
+13,Monza,Pessina
+13,Monza,Caprari
+13,Monza,Mota
+13,Verona,Kallon
+13,Verona,Lazovic
+13,Verona,Depaoli
+13,Verona,Miguel Veloso
+13,Verona,Hongla
+13,Verona,Faraoni
+13,Verona,Gunter
+13,Verona,Magnani
+13,Verona,Tameze
+13,Verona,Montipo'
+13,Sampdoria,Audero
+13,Sampdoria,Ferrari A.
+13,Sampdoria,Colley
+13,Sampdoria,Amione
+13,Sampdoria,Bereszynski
+13,Sampdoria,Leris
+13,Sampdoria,Villar
+13,Sampdoria,Djuricic
+13,Sampdoria,Augello
+13,Sampdoria,Montevago
+13,Sampdoria,Caputo
+13,Fiorentina,Jovic
+13,Fiorentina,Ikone'
+13,Fiorentina,Duncan
+13,Fiorentina,Mandragora
+13,Fiorentina,Bonaventura
+13,Fiorentina,Biraghi
+13,Fiorentina,Martinez Quarta
+13,Fiorentina,Milenkovic
+13,Fiorentina,Dodo'
+13,Fiorentina,Terracciano
+13,Roma,Rui Patricio
+13,Roma,Mancini
+13,Roma,Smalling
+13,Roma,Ibanez
+13,Roma,Karsdorp
+13,Roma,Camara Ma.
+13,Roma,Cristante
+13,Roma,Zalewski
+13,Roma,Pellegrini Lo.
+13,Roma,Zaniolo
+13,Roma,Abraham
+13,Lazio,Felipe Anderson
+13,Lazio,Pedro
+13,Lazio,Vecino
+13,Lazio,Cataldi
+13,Lazio,Luis Alberto
+13,Lazio,Marusic
+13,Lazio,Romagnoli
+13,Lazio,Casale
+13,Lazio,Lazzari
+13,Lazio,Provedel
+13,Juventus,Szczesny
+13,Juventus,Danilo
+13,Juventus,Bremer
+13,Juventus,Alex Sandro
+13,Juventus,Cuadrado
+13,Juventus,Locatelli
+13,Juventus,Fagioli
+13,Juventus,Rabiot
+13,Juventus,Kostic
+13,Juventus,Miretti
+13,Juventus,Milik
+13,Inter,Dzeko
+13,Inter,Dimarco
+13,Inter,Mkhitaryan
+13,Inter,Calhanoglu
+13,Inter,Barella
+13,Inter,Dumfries
+13,Inter,Acerbi
+13,Inter,De Vrij
+13,Inter,Skriniar
+13,Inter,Onana
+14,Napoli,Meret
+14,Napoli,Di Lorenzo
+14,Napoli,Kim
+14,Napoli,Ostigard
+14,Napoli,Mario Rui
+14,Napoli,Ndombele'
+14,Napoli,Lobotka
+14,Napoli,Zambo Anguissa
+14,Napoli,Politano
+14,Napoli,Osimhen
+14,Napoli,Raspadori
+14,Empoli,Baldanzi
+14,Empoli,Bajrami
+14,Empoli,Bandinelli
+14,Empoli,Marin
+14,Empoli,Haas
+14,Empoli,Parisi
+14,Empoli,Luperto
+14,Empoli,Ismajli
+14,Empoli,Stojanovic
+14,Empoli,Vicario
+14,Spezia,Zoet
+14,Spezia,Ampadu
+14,Spezia,Kiwior
+14,Spezia,Nikolaou
+14,Spezia,Holm
+14,Spezia,Bourabia
+14,Spezia,Ekdal
+14,Spezia,Agudelo
+14,Spezia,Reca
+14,Spezia,Verde
+14,Spezia,Nzola
+14,Udinese,Success
+14,Udinese,Ebosse
+14,Udinese,Arslan
+14,Udinese,Walace
+14,Udinese,Lovric
+14,Udinese,Pereyra
+14,Udinese,Nuytinck
+14,Udinese,Bijol
+14,Udinese,Perez N.
+14,Udinese,Silvestri
+14,Cremonese,Carnesecchi
+14,Cremonese,Aiwu
+14,Cremonese,Bianchetti
+14,Cremonese,Vasquez
+14,Cremonese,Ghiglione
+14,Cremonese,Meite'
+14,Cremonese,Escalante
+14,Cremonese,Castagnetti
+14,Cremonese,Valeri
+14,Cremonese,Afena-Gyan
+14,Cremonese,Ciofani D.
+14,Milan,Rebic
+14,Milan,Diaz B.
+14,Milan,Messias
+14,Milan,Tonali
+14,Milan,Bennacer
+14,Milan,Ballo-Toure'
+14,Milan,Tomori
+14,Milan,Kjaer
+14,Milan,Thiaw
+14,Milan,Tatarusanu
+14,Lecce,Falcone
+14,Lecce,Gendrey
+14,Lecce,Baschirotto
+14,Lecce,Pongracic
+14,Lecce,Gallo
+14,Lecce,Blin
+14,Lecce,Hjulmand
+14,Lecce,Gonzalez J.
+14,Lecce,Strefezza
+14,Lecce,Colombo
+14,Lecce,Di Francesco F.
+14,Atalanta,Pasalic
+14,Atalanta,Malinovskyi
+14,Atalanta,Zortea
+14,Atalanta,Ederson D.s.
+14,Atalanta,De Roon
+14,Atalanta,Soppy
+14,Atalanta,Ruggeri
+14,Atalanta,Okoli
+14,Atalanta,Djimsiti
+14,Atalanta,Sportiello
+14,Sassuolo,Consigli
+14,Sassuolo,Toljan
+14,Sassuolo,Ayhan
+14,Sassuolo,Ferrari G.
+14,Sassuolo,Kyriakopoulos
+14,Sassuolo,Frattesi
+14,Sassuolo,Lopez M.
+14,Sassuolo,Harroui
+14,Sassuolo,D'andrea
+14,Sassuolo,Pinamonti
+14,Sassuolo,Lauriente'
+14,Roma,Volpato
+14,Roma,Zaniolo
+14,Roma,Zalewski
+14,Roma,Matic
+14,Roma,Cristante
+14,Roma,Celik
+14,Roma,Ibanez
+14,Roma,Smalling
+14,Roma,Mancini
+14,Roma,Rui Patricio
+14,Fiorentina,Terracciano
+14,Fiorentina,Dodo'
+14,Fiorentina,Milenkovic
+14,Fiorentina,Igor
+14,Fiorentina,Biraghi
+14,Fiorentina,Amrabat
+14,Fiorentina,Mandragora
+14,Fiorentina,Ikone'
+14,Fiorentina,Bonaventura
+14,Fiorentina,Kouame'
+14,Fiorentina,Cabral
+14,Salernitana,Piatek
+14,Salernitana,Mazzocchi
+14,Salernitana,Vilhena
+14,Salernitana,Bohinen
+14,Salernitana,Coulibaly L.
+14,Salernitana,Candreva
+14,Salernitana,Pirola
+14,Salernitana,Daniliuc
+14,Salernitana,Bronn
+14,Salernitana,Sepe
+14,Inter,Onana
+14,Inter,Skriniar
+14,Inter,Acerbi
+14,Inter,Bastoni
+14,Inter,Dumfries
+14,Inter,Barella
+14,Inter,Calhanoglu
+14,Inter,Mkhitaryan
+14,Inter,Dimarco
+14,Inter,Dzeko
+14,Inter,Martinez L.
+14,Bologna,Arnautovic
+14,Bologna,Orsolini
+14,Bologna,Schouten
+14,Bologna,Medel
+14,Bologna,Ferguson
+14,Bologna,Lykogiannis
+14,Bologna,Lucumi'
+14,Bologna,Soumaoro
+14,Bologna,Posch
+14,Bologna,Skorupski
+14,Torino,Milinkovic-Savic V.
+14,Torino,Zima
+14,Torino,Schuurs
+14,Torino,Rodriguez R.
+14,Torino,Singo
+14,Torino,Ricci S.
+14,Torino,Linetty
+14,Torino,Vojvoda
+14,Torino,Vlasic
+14,Torino,Miranchuk
+14,Torino,Radonjic
+14,Sampdoria,Montevago
+14,Sampdoria,Augello
+14,Sampdoria,Djuricic
+14,Sampdoria,Yepes
+14,Sampdoria,Rincon
+14,Sampdoria,Bereszynski
+14,Sampdoria,Murillo
+14,Sampdoria,Colley
+14,Sampdoria,Amione
+14,Sampdoria,Audero
+14,Verona,Montipo'
+14,Verona,Hien
+14,Verona,Dawidowicz
+14,Verona,Ceccherini
+14,Verona,Terracciano F.
+14,Verona,Sulemana I.
+14,Verona,Hongla
+14,Verona,Doig
+14,Verona,Lasagna
+14,Verona,Kallon
+14,Verona,Djuric
+14,Juventus,Kean
+14,Juventus,Kostic
+14,Juventus,Rabiot
+14,Juventus,Locatelli
+14,Juventus,Fagioli
+14,Juventus,Cuadrado
+14,Juventus,Bremer
+14,Juventus,Bonucci
+14,Juventus,Danilo
+14,Juventus,Perin
+14,Lazio,Provedel
+14,Lazio,Lazzari
+14,Lazio,Casale
+14,Lazio,Romagnoli
+14,Lazio,Hysaj
+14,Lazio,Milinkovic-Savic
+14,Lazio,Marcos Antonio
+14,Lazio,Vecino
+14,Lazio,Cancellieri
+14,Lazio,Felipe Anderson
+14,Lazio,Pedro
+14,Monza,Colpani
+14,Monza,Pessina
+14,Monza,Carlos Augusto
+14,Monza,Machin
+14,Monza,Ranocchia F.
+14,Monza,Ciurria
+14,Monza,Izzo
+14,Monza,Caldirola
+14,Monza,Donati
+14,Monza,Di Gregorio
+15,Empoli,Vicario
+15,Empoli,Ebuehi
+15,Empoli,Ismajli
+15,Empoli,Walukiewicz
+15,Empoli,Parisi
+15,Empoli,Akpa Akpro
+15,Empoli,Grassi
+15,Empoli,Bandinelli
+15,Empoli,Bajrami
+15,Empoli,Lammers
+15,Empoli,Satriano
+15,Cremonese,Okereke
+15,Cremonese,Valeri
+15,Cremonese,Meite'
+15,Cremonese,Ascacibar
+15,Cremonese,Pickel
+15,Cremonese,Sernicola
+15,Cremonese,Lochoshvili
+15,Cremonese,Hendry
+15,Cremonese,Aiwu
+15,Cremonese,Carnesecchi
+15,Napoli,Meret
+15,Napoli,Di Lorenzo
+15,Napoli,Kim
+15,Napoli,Juan Jesus
+15,Napoli,Olivera
+15,Napoli,Zielinski
+15,Napoli,Lobotka
+15,Napoli,Zambo Anguissa
+15,Napoli,Lozano
+15,Napoli,Osimhen
+15,Napoli,Elmas
+15,Udinese,Deulofeu
+15,Udinese,Pereyra
+15,Udinese,Lovric
+15,Udinese,Walace
+15,Udinese,Arslan
+15,Udinese,Ehizibue
+15,Udinese,Ebosse
+15,Udinese,Bijol
+15,Udinese,Perez N.
+15,Udinese,Silvestri
+15,Sampdoria,Audero
+15,Sampdoria,Murillo
+15,Sampdoria,Ferrari A.
+15,Sampdoria,Amione
+15,Sampdoria,Bereszynski
+15,Sampdoria,Rincon
+15,Sampdoria,Villar
+15,Sampdoria,Djuricic
+15,Sampdoria,Leris
+15,Sampdoria,Gabbiadini
+15,Sampdoria,Montevago
+15,Lecce,Colombo
+15,Lecce,Strefezza
+15,Lecce,Gonzalez J.
+15,Lecce,Hjulmand
+15,Lecce,Blin
+15,Lecce,Gallo
+15,Lecce,Umtiti
+15,Lecce,Pongracic
+15,Lecce,Baschirotto
+15,Lecce,Falcone
+15,Bologna,Skorupski
+15,Bologna,Posch
+15,Bologna,Soumaoro
+15,Bologna,Lucumi'
+15,Bologna,Lykogiannis
+15,Bologna,Medel
+15,Bologna,Ferguson
+15,Bologna,Aebischer
+15,Bologna,Dominguez
+15,Bologna,Soriano
+15,Bologna,Arnautovic
+15,Sassuolo,Pinamonti
+15,Sassuolo,Lauriente'
+15,Sassuolo,Thorstvedt
+15,Sassuolo,Obiang
+15,Sassuolo,Frattesi
+15,Sassuolo,Rogerio
+15,Sassuolo,Ayhan
+15,Sassuolo,Ferrari G.
+15,Sassuolo,Toljan
+15,Sassuolo,Consigli
+15,Atalanta,Musso
+15,Atalanta,Demiral
+15,Atalanta,Palomino
+15,Atalanta,Scalvini
+15,Atalanta,Hateboer
+15,Atalanta,Ederson D.s.
+15,Atalanta,Koopmeiners
+15,Atalanta,Maehle
+15,Atalanta,Lookman
+15,Atalanta,Pasalic
+15,Atalanta,Zapata D.
+15,Inter,Dzeko
+15,Inter,Dimarco
+15,Inter,Mkhitaryan
+15,Inter,Calhanoglu
+15,Inter,Barella
+15,Inter,Dumfries
+15,Inter,Bastoni
+15,Inter,De Vrij
+15,Inter,Skriniar
+15,Inter,Onana
+15,Verona,Montipo'
+15,Verona,Dawidowicz
+15,Verona,Gunter
+15,Verona,Ceccherini
+15,Verona,Depaoli
+15,Verona,Tameze
+15,Verona,Miguel Veloso
+15,Verona,Lazovic
+15,Verona,Verdi
+15,Verona,Lasagna
+15,Verona,Djuric
+15,Spezia,Gyasi
+15,Spezia,Bastoni S.
+15,Spezia,Agudelo
+15,Spezia,Ampadu
+15,Spezia,Ekdal
+15,Spezia,Holm
+15,Spezia,Caldara
+15,Spezia,Kiwior
+15,Spezia,Amian
+15,Spezia,Dragowski
+15,Monza,Di Gregorio
+15,Monza,Izzo
+15,Monza,Marlon
+15,Monza,Caldirola
+15,Monza,Ciurria
+15,Monza,Pessina
+15,Monza,Rovella
+15,Monza,Colpani
+15,Monza,Carlos Augusto
+15,Monza,Caprari
+15,Monza,Mota
+15,Salernitana,Dia
+15,Salernitana,Bradaric
+15,Salernitana,Coulibaly L.
+15,Salernitana,Radovanovic
+15,Salernitana,Maggiore
+15,Salernitana,Mazzocchi
+15,Salernitana,Pirola
+15,Salernitana,Daniliuc
+15,Salernitana,Bronn
+15,Salernitana,Sepe
+15,Roma,Rui Patricio
+15,Roma,Mancini
+15,Roma,Smalling
+15,Roma,Ibanez
+15,Roma,Celik
+15,Roma,Cristante
+15,Roma,Camara Ma.
+15,Roma,Zalewski
+15,Roma,Zaniolo
+15,Roma,Volpato
+15,Roma,Abraham
+15,Torino,Vlasic
+15,Torino,Miranchuk
+15,Torino,Vojvoda
+15,Torino,Linetty
+15,Torino,Ricci S.
+15,Torino,Lazaro
+15,Torino,Buongiorno
+15,Torino,Zima
+15,Torino,Djidji
+15,Torino,Milinkovic-Savic V.
+15,Milan,Tatarusanu
+15,Milan,Kalulu
+15,Milan,Thiaw
+15,Milan,Tomori
+15,Milan,Hernandez T.
+15,Milan,Tonali
+15,Milan,Bennacer
+15,Milan,Krunic
+15,Milan,Diaz B.
+15,Milan,Rafael Leao
+15,Milan,Giroud
+15,Fiorentina,Saponara
+15,Fiorentina,Barak
+15,Fiorentina,Ikone'
+15,Fiorentina,Mandragora
+15,Fiorentina,Amrabat
+15,Fiorentina,Biraghi
+15,Fiorentina,Igor
+15,Fiorentina,Milenkovic
+15,Fiorentina,Dodo'
+15,Fiorentina,Terracciano
+15,Juventus,Szczesny
+15,Juventus,Gatti
+15,Juventus,Bremer
+15,Juventus,Danilo
+15,Juventus,Cuadrado
+15,Juventus,Fagioli
+15,Juventus,Locatelli
+15,Juventus,Rabiot
+15,Juventus,Kostic
+15,Juventus,Milik
+15,Juventus,Kean
+15,Lazio,Felipe Anderson
+15,Lazio,Romero L.
+15,Lazio,Basic
+15,Lazio,Cataldi
+15,Lazio,Milinkovic-Savic
+15,Lazio,Marusic
+15,Lazio,Romagnoli
+15,Lazio,Casale
+15,Lazio,Hysaj
+15,Lazio,Provedel
+16,Salernitana,Ochoa
+16,Salernitana,Lovato
+16,Salernitana,Radovanovic
+16,Salernitana,Fazio
+16,Salernitana,Sambia
+16,Salernitana,Coulibaly L.
+16,Salernitana,Bohinen
+16,Salernitana,Vilhena
+16,Salernitana,Bradaric
+16,Salernitana,Piatek
+16,Salernitana,Dia
+16,Milan,Rafael Leao
+16,Milan,Diaz B.
+16,Milan,Saelemaekers
+16,Milan,Bennacer
+16,Milan,Tonali
+16,Milan,Hernandez T.
+16,Milan,Tomori
+16,Milan,Kalulu
+16,Milan,Calabria
+16,Milan,Tatarusanu
+16,Sassuolo,Consigli
+16,Sassuolo,Toljan
+16,Sassuolo,Ruan
+16,Sassuolo,Ferrari G.
+16,Sassuolo,Rogerio
+16,Sassuolo,Frattesi
+16,Sassuolo,Matheus Henrique
+16,Sassuolo,Thorstvedt
+16,Sassuolo,Berardi
+16,Sassuolo,Pinamonti
+16,Sassuolo,Lauriente'
+16,Sampdoria,Gabbiadini
+16,Sampdoria,Verre
+16,Sampdoria,Augello
+16,Sampdoria,Vieira
+16,Sampdoria,Rincon
+16,Sampdoria,Leris
+16,Sampdoria,Amione
+16,Sampdoria,Nuytinck
+16,Sampdoria,Bereszynski
+16,Sampdoria,Audero
+16,Spezia,Zoet
+16,Spezia,Amian
+16,Spezia,Kiwior
+16,Spezia,Nikolaou
+16,Spezia,Holm
+16,Spezia,Bourabia
+16,Spezia,Ampadu
+16,Spezia,Bastoni S.
+16,Spezia,Reca
+16,Spezia,Nzola
+16,Spezia,Gyasi
+16,Atalanta,Lookman
+16,Atalanta,Koopmeiners
+16,Atalanta,Ruggeri
+16,Atalanta,Ederson D.s.
+16,Atalanta,De Roon
+16,Atalanta,Maehle
+16,Atalanta,Scalvini
+16,Atalanta,Palomino
+16,Atalanta,Toloi
+16,Atalanta,Sportiello
+16,Torino,Milinkovic-Savic V.
+16,Torino,Djidji
+16,Torino,Schuurs
+16,Torino,Rodriguez R.
+16,Torino,Lazaro
+16,Torino,Lukic
+16,Torino,Ricci S.
+16,Torino,Vojvoda
+16,Torino,Radonjic
+16,Torino,Miranchuk
+16,Torino,Vlasic
+16,Verona,Kallon
+16,Verona,Lazovic
+16,Verona,Doig
+16,Verona,Tameze
+16,Verona,Sulemana I.
+16,Verona,Depaoli
+16,Verona,Hien
+16,Verona,Dawidowicz
+16,Verona,Ceccherini
+16,Verona,Montipo'
+16,Lecce,Falcone
+16,Lecce,Gendrey
+16,Lecce,Baschirotto
+16,Lecce,Umtiti
+16,Lecce,Gallo
+16,Lecce,Blin
+16,Lecce,Hjulmand
+16,Lecce,Gonzalez J.
+16,Lecce,Strefezza
+16,Lecce,Colombo
+16,Lecce,Banda
+16,Lazio,Immobile
+16,Lazio,Pedro
+16,Lazio,Basic
+16,Lazio,Cataldi
+16,Lazio,Milinkovic-Savic
+16,Lazio,Marusic
+16,Lazio,Romagnoli
+16,Lazio,Casale
+16,Lazio,Lazzari
+16,Lazio,Provedel
+16,Roma,Rui Patricio
+16,Roma,Mancini
+16,Roma,Smalling
+16,Roma,Ibanez
+16,Roma,Celik
+16,Roma,Pellegrini Lo.
+16,Roma,Cristante
+16,Roma,Tahirovic
+16,Roma,El Shaarawy
+16,Roma,Zaniolo
+16,Roma,Dybala
+16,Bologna,Soriano
+16,Bologna,Ferguson
+16,Bologna,Orsolini
+16,Bologna,Dominguez
+16,Bologna,Medel
+16,Bologna,Lykogiannis
+16,Bologna,Lucumi'
+16,Bologna,Soumaoro
+16,Bologna,Posch
+16,Bologna,Skorupski
+16,Cremonese,Carnesecchi
+16,Cremonese,Bianchetti
+16,Cremonese,Ferrari A.
+16,Cremonese,Lochoshvili
+16,Cremonese,Sernicola
+16,Cremonese,Pickel
+16,Cremonese,Castagnetti
+16,Cremonese,Meite'
+16,Cremonese,Valeri
+16,Cremonese,Dessers
+16,Cremonese,Okereke
+16,Juventus,Miretti
+16,Juventus,Kostic
+16,Juventus,Fagioli
+16,Juventus,Locatelli
+16,Juventus,Mckennie
+16,Juventus,Soule'
+16,Juventus,Danilo
+16,Juventus,Bremer
+16,Juventus,Gatti
+16,Juventus,Szczesny
+16,Fiorentina,Terracciano
+16,Fiorentina,Dodo'
+16,Fiorentina,Martinez Quarta
+16,Fiorentina,Igor
+16,Fiorentina,Biraghi
+16,Fiorentina,Bianco
+16,Fiorentina,Duncan
+16,Fiorentina,Ikone'
+16,Fiorentina,Barak
+16,Fiorentina,Saponara
+16,Fiorentina,Cabral
+16,Monza,Caprari
+16,Monza,Colpani
+16,Monza,Carlos Augusto
+16,Monza,Pessina
+16,Monza,Ranocchia F.
+16,Monza,Ciurria
+16,Monza,Izzo
+16,Monza,Caldirola
+16,Monza,Marlon
+16,Monza,Di Gregorio
+16,Inter,Onana
+16,Inter,Skriniar
+16,Inter,Acerbi
+16,Inter,Bastoni
+16,Inter,Darmian
+16,Inter,Mkhitaryan
+16,Inter,Calhanoglu
+16,Inter,Barella
+16,Inter,Dimarco
+16,Inter,Dzeko
+16,Inter,Lukaku
+16,Napoli,Osimhen
+16,Napoli,Politano
+16,Napoli,Zielinski
+16,Napoli,Lobotka
+16,Napoli,Zambo Anguissa
+16,Napoli,Olivera
+16,Napoli,Kim
+16,Napoli,Rrahmani
+16,Napoli,Di Lorenzo
+16,Napoli,Meret
+16,Udinese,Silvestri
+16,Udinese,Perez N.
+16,Udinese,Rodrigo Becao
+16,Udinese,Ebosse
+16,Udinese,Pereyra
+16,Udinese,Lovric
+16,Udinese,Walace
+16,Udinese,Arslan
+16,Udinese,Udogie
+16,Udinese,Beto
+16,Udinese,Success
+16,Empoli,Caputo
+16,Empoli,Baldanzi
+16,Empoli,Akpa Akpro
+16,Empoli,Grassi
+16,Empoli,Marin
+16,Empoli,Parisi
+16,Empoli,Luperto
+16,Empoli,Ismajli
+16,Empoli,Stojanovic
+16,Empoli,Vicario
+17,Fiorentina,Terracciano
+17,Fiorentina,Venuti
+17,Fiorentina,Milenkovic
+17,Fiorentina,Igor
+17,Fiorentina,Biraghi
+17,Fiorentina,Bianco
+17,Fiorentina,Duncan
+17,Fiorentina,Ikone'
+17,Fiorentina,Bonaventura
+17,Fiorentina,Kouame'
+17,Fiorentina,Cabral
+17,Sassuolo,Pinamonti
+17,Sassuolo,Berardi
+17,Sassuolo,Traore' Hj.
+17,Sassuolo,Obiang
+17,Sassuolo,Frattesi
+17,Sassuolo,Rogerio
+17,Sassuolo,Ferrari G.
+17,Sassuolo,Ruan
+17,Sassuolo,Toljan
+17,Sassuolo,Consigli
+17,Juventus,Szczesny
+17,Juventus,Danilo
+17,Juventus,Rugani
+17,Juventus,Alex Sandro
+17,Juventus,Mckennie
+17,Juventus,Miretti
+17,Juventus,Locatelli
+17,Juventus,Rabiot
+17,Juventus,Kostic
+17,Juventus,Di Maria
+17,Juventus,Kean
+17,Udinese,Success
+17,Udinese,Udogie
+17,Udinese,Makengo
+17,Udinese,Walace
+17,Udinese,Lovric
+17,Udinese,Pereyra
+17,Udinese,Perez N.
+17,Udinese,Bijol
+17,Udinese,Rodrigo Becao
+17,Udinese,Silvestri
+17,Monza,Di Gregorio
+17,Monza,Marlon
+17,Monza,Mari'
+17,Monza,Izzo
+17,Monza,Birindelli
+17,Monza,Pessina
+17,Monza,Machin
+17,Monza,Carlos Augusto
+17,Monza,Ciurria
+17,Monza,Petagna
+17,Monza,Mota
+17,Inter,Dzeko
+17,Inter,Dimarco
+17,Inter,Mkhitaryan
+17,Inter,Calhanoglu
+17,Inter,Barella
+17,Inter,Darmian
+17,Inter,Bastoni
+17,Inter,Acerbi
+17,Inter,Skriniar
+17,Inter,Onana
+17,Salernitana,Ochoa
+17,Salernitana,Bronn
+17,Salernitana,Daniliuc
+17,Salernitana,Fazio
+17,Salernitana,Candreva
+17,Salernitana,Nicolussi Caviglia
+17,Salernitana,Bohinen
+17,Salernitana,Vilhena
+17,Salernitana,Bradaric
+17,Salernitana,Dia
+17,Salernitana,Bonazzoli
+17,Torino,Vlasic
+17,Torino,Radonjic
+17,Torino,Vojvoda
+17,Torino,Lukic
+17,Torino,Linetty
+17,Torino,Lazaro
+17,Torino,Buongiorno
+17,Torino,Schuurs
+17,Torino,Zima
+17,Torino,Milinkovic-Savic V.
+17,Lazio,Provedel
+17,Lazio,Lazzari
+17,Lazio,Casale
+17,Lazio,Romagnoli
+17,Lazio,Marusic
+17,Lazio,Milinkovic-Savic
+17,Lazio,Cataldi
+17,Lazio,Luis Alberto
+17,Lazio,Felipe Anderson
+17,Lazio,Immobile
+17,Lazio,Zaccagni
+17,Empoli,Caputo
+17,Empoli,Baldanzi
+17,Empoli,Fazzini
+17,Empoli,Grassi
+17,Empoli,Marin
+17,Empoli,Parisi
+17,Empoli,Luperto
+17,Empoli,Ismajli
+17,Empoli,Stojanovic
+17,Empoli,Vicario
+17,Spezia,Dragowski
+17,Spezia,Amian
+17,Spezia,Kiwior
+17,Spezia,Nikolaou
+17,Spezia,Holm
+17,Spezia,Bourabia
+17,Spezia,Ampadu
+17,Spezia,Bastoni S.
+17,Spezia,Reca
+17,Spezia,Nzola
+17,Spezia,Gyasi
+17,Lecce,Colombo
+17,Lecce,Strefezza
+17,Lecce,Maleh
+17,Lecce,Blin
+17,Lecce,Gonzalez J.
+17,Lecce,Gallo
+17,Lecce,Umtiti
+17,Lecce,Baschirotto
+17,Lecce,Gendrey
+17,Lecce,Falcone
+17,Sampdoria,Audero
+17,Sampdoria,Murillo
+17,Sampdoria,Nuytinck
+17,Sampdoria,Murru
+17,Sampdoria,Leris
+17,Sampdoria,Vieira
+17,Sampdoria,Rincon
+17,Sampdoria,Augello
+17,Sampdoria,Verre
+17,Sampdoria,Gabbiadini
+17,Sampdoria,Lammers
+17,Napoli,Osimhen
+17,Napoli,Politano
+17,Napoli,Elmas
+17,Napoli,Lobotka
+17,Napoli,Zambo Anguissa
+17,Napoli,Mario Rui
+17,Napoli,Juan Jesus
+17,Napoli,Kim
+17,Napoli,Di Lorenzo
+17,Napoli,Meret
+17,Milan,Tatarusanu
+17,Milan,Calabria
+17,Milan,Kalulu
+17,Milan,Tomori
+17,Milan,Hernandez T.
+17,Milan,Bennacer
+17,Milan,Tonali
+17,Milan,Saelemaekers
+17,Milan,Diaz B.
+17,Milan,Rafael Leao
+17,Milan,Giroud
+17,Roma,Dybala
+17,Roma,Zaniolo
+17,Roma,Zalewski
+17,Roma,Cristante
+17,Roma,Pellegrini Lo.
+17,Roma,Celik
+17,Roma,Ibanez
+17,Roma,Smalling
+17,Roma,Mancini
+17,Roma,Rui Patricio
+17,Verona,Montipo'
+17,Verona,Dawidowicz
+17,Verona,Hien
+17,Verona,Ceccherini
+17,Verona,Depaoli
+17,Verona,Tameze
+17,Verona,Ilic
+17,Verona,Doig
+17,Verona,Lazovic
+17,Verona,Kallon
+17,Verona,Djuric
+17,Cremonese,Zanimacchia
+17,Cremonese,Buonaiuto
+17,Cremonese,Valeri
+17,Cremonese,Castagnetti
+17,Cremonese,Pickel
+17,Cremonese,Sernicola
+17,Cremonese,Lochoshvili
+17,Cremonese,Bianchetti
+17,Cremonese,Ferrari A.
+17,Cremonese,Carnesecchi
+17,Bologna,Skorupski
+17,Bologna,Posch
+17,Bologna,Lucumi'
+17,Bologna,Soumaoro
+17,Bologna,Lykogiannis
+17,Bologna,Medel
+17,Bologna,Dominguez
+17,Bologna,Orsolini
+17,Bologna,Ferguson
+17,Bologna,Soriano
+17,Bologna,Sansone
+17,Atalanta,Hojlund
+17,Atalanta,Pasalic
+17,Atalanta,Ruggeri
+17,Atalanta,Koopmeiners
+17,Atalanta,De Roon
+17,Atalanta,Hateboer
+17,Atalanta,Scalvini
+17,Atalanta,Palomino
+17,Atalanta,Toloi
+17,Atalanta,Musso
+18,Napoli,Meret
+18,Napoli,Di Lorenzo
+18,Napoli,Rrahmani
+18,Napoli,Kim
+18,Napoli,Mario Rui
+18,Napoli,Zambo Anguissa
+18,Napoli,Lobotka
+18,Napoli,Zielinski
+18,Napoli,Politano
+18,Napoli,Osimhen
+18,Napoli,Kvaratskhelia
+18,Juventus,Di Maria
+18,Juventus,Kostic
+18,Juventus,Rabiot
+18,Juventus,Locatelli
+18,Juventus,Mckennie
+18,Juventus,Chiesa
+18,Juventus,Alex Sandro
+18,Juventus,Bremer
+18,Juventus,Danilo
+18,Juventus,Szczesny
+18,Cremonese,Carnesecchi
+18,Cremonese,Quagliata
+18,Cremonese,Bianchetti
+18,Cremonese,Ferrari A.
+18,Cremonese,Ghiglione
+18,Cremonese,Pickel
+18,Cremonese,Meite'
+18,Cremonese,Valeri
+18,Cremonese,Tsadjout
+18,Cremonese,Dessers
+18,Cremonese,Okereke
+18,Monza,Caprari
+18,Monza,Ciurria
+18,Monza,Carlos Augusto
+18,Monza,Machin
+18,Monza,Pessina
+18,Monza,Birindelli
+18,Monza,Caldirola
+18,Monza,Mari'
+18,Monza,Izzo
+18,Monza,Di Gregorio
+18,Lecce,Falcone
+18,Lecce,Gendrey
+18,Lecce,Baschirotto
+18,Lecce,Umtiti
+18,Lecce,Pezzella Giu.
+18,Lecce,Gonzalez J.
+18,Lecce,Hjulmand
+18,Lecce,Blin
+18,Lecce,Strefezza
+18,Lecce,Colombo
+18,Lecce,Di Francesco F.
+18,Milan,Rafael Leao
+18,Milan,Diaz B.
+18,Milan,Saelemaekers
+18,Milan,Bennacer
+18,Milan,Pobega
+18,Milan,Hernandez T.
+18,Milan,Tomori
+18,Milan,Kalulu
+18,Milan,Calabria
+18,Milan,Tatarusanu
+18,Inter,Onana
+18,Inter,Skriniar
+18,Inter,Acerbi
+18,Inter,Bastoni
+18,Inter,Darmian
+18,Inter,Gagliardini
+18,Inter,Calhanoglu
+18,Inter,Mkhitaryan
+18,Inter,Dimarco
+18,Inter,Martinez L.
+18,Inter,Dzeko
+18,Verona,Lazovic
+18,Verona,Kallon
+18,Verona,Doig
+18,Verona,Ilic
+18,Verona,Tameze
+18,Verona,Depaoli
+18,Verona,Ceccherini
+18,Verona,Hien
+18,Verona,Dawidowicz
+18,Verona,Montipo'
+18,Sassuolo,Pegolo
+18,Sassuolo,Toljan
+18,Sassuolo,Ruan
+18,Sassuolo,Erlic
+18,Sassuolo,Rogerio
+18,Sassuolo,Frattesi
+18,Sassuolo,Obiang
+18,Sassuolo,Traore' Hj.
+18,Sassuolo,Berardi
+18,Sassuolo,Alvarez A.
+18,Sassuolo,Lauriente'
+18,Lazio,Immobile
+18,Lazio,Felipe Anderson
+18,Lazio,Luis Alberto
+18,Lazio,Cataldi
+18,Lazio,Milinkovic-Savic
+18,Lazio,Marusic
+18,Lazio,Romagnoli
+18,Lazio,Casale
+18,Lazio,Hysaj
+18,Lazio,Provedel
+18,Torino,Milinkovic-Savic V.
+18,Torino,Djidji
+18,Torino,Schuurs
+18,Torino,Buongiorno
+18,Torino,Singo
+18,Torino,Lukic
+18,Torino,Ricci S.
+18,Torino,Vojvoda
+18,Torino,Miranchuk
+18,Torino,Vlasic
+18,Torino,Sanabria
+18,Spezia,Nzola
+18,Spezia,Reca
+18,Spezia,Agudelo
+18,Spezia,Bourabia
+18,Spezia,Ampadu
+18,Spezia,Holm
+18,Spezia,Nikolaou
+18,Spezia,Caldara
+18,Spezia,Amian
+18,Spezia,Dragowski
+18,Udinese,Silvestri
+18,Udinese,Rodrigo Becao
+18,Udinese,Bijol
+18,Udinese,Perez N.
+18,Udinese,Pereyra
+18,Udinese,Lovric
+18,Udinese,Walace
+18,Udinese,Makengo
+18,Udinese,Udogie
+18,Udinese,Beto
+18,Udinese,Success
+18,Bologna,Aebischer
+18,Bologna,Ferguson
+18,Bologna,Orsolini
+18,Bologna,Schouten
+18,Bologna,Moro N.
+18,Bologna,Lykogiannis
+18,Bologna,Lucumi'
+18,Bologna,Soumaoro
+18,Bologna,Posch
+18,Bologna,Skorupski
+18,Atalanta,Musso
+18,Atalanta,Toloi
+18,Atalanta,Palomino
+18,Atalanta,Scalvini
+18,Atalanta,Zappacosta
+18,Atalanta,De Roon
+18,Atalanta,Koopmeiners
+18,Atalanta,Ruggeri
+18,Atalanta,Lookman
+18,Atalanta,Hojlund
+18,Atalanta,Boga
+18,Salernitana,Dia
+18,Salernitana,Bradaric
+18,Salernitana,Vilhena
+18,Salernitana,Nicolussi Caviglia
+18,Salernitana,Coulibaly L.
+18,Salernitana,Candreva
+18,Salernitana,Pirola
+18,Salernitana,Fazio
+18,Salernitana,Lovato
+18,Salernitana,Ochoa
+18,Roma,Rui Patricio
+18,Roma,Mancini
+18,Roma,Smalling
+18,Roma,Kumbulla
+18,Roma,Celik
+18,Roma,Cristante
+18,Roma,Bove
+18,Roma,Zalewski
+18,Roma,Dybala
+18,Roma,Pellegrini Lo.
+18,Roma,Abraham
+18,Fiorentina,Kouame'
+18,Fiorentina,Bonaventura
+18,Fiorentina,Ikone'
+18,Fiorentina,Amrabat
+18,Fiorentina,Duncan
+18,Fiorentina,Biraghi
+18,Fiorentina,Igor
+18,Fiorentina,Milenkovic
+18,Fiorentina,Dodo'
+18,Fiorentina,Terracciano
+18,Empoli,Vicario
+18,Empoli,Ebuehi
+18,Empoli,Ismajli
+18,Empoli,Luperto
+18,Empoli,Parisi
+18,Empoli,Akpa Akpro
+18,Empoli,Marin
+18,Empoli,Bandinelli
+18,Empoli,Baldanzi
+18,Empoli,Caputo
+18,Empoli,Satriano
+18,Sampdoria,Gabbiadini
+18,Sampdoria,Djuricic
+18,Sampdoria,Augello
+18,Sampdoria,Verre
+18,Sampdoria,Vieira
+18,Sampdoria,Leris
+18,Sampdoria,Amione
+18,Sampdoria,Colley
+18,Sampdoria,Nuytinck
+18,Sampdoria,Audero
+19,Verona,Montipo'
+19,Verona,Dawidowicz
+19,Verona,Hien
+19,Verona,Ceccherini
+19,Verona,Depaoli
+19,Verona,Tameze
+19,Verona,Ilic
+19,Verona,Doig
+19,Verona,Lasagna
+19,Verona,Lazovic
+19,Verona,Djuric
+19,Lecce,Colombo
+19,Lecce,Strefezza
+19,Lecce,Gonzalez J.
+19,Lecce,Hjulmand
+19,Lecce,Blin
+19,Lecce,Gallo
+19,Lecce,Umtiti
+19,Lecce,Baschirotto
+19,Lecce,Gendrey
+19,Lecce,Falcone
+19,Salernitana,Ochoa
+19,Salernitana,Daniliuc
+19,Salernitana,Gyomber
+19,Salernitana,Pirola
+19,Salernitana,Bradaric
+19,Salernitana,Candreva
+19,Salernitana,Coulibaly L.
+19,Salernitana,Nicolussi Caviglia
+19,Salernitana,Vilhena
+19,Salernitana,Dia
+19,Salernitana,Piatek
+19,Napoli,Osimhen
+19,Napoli,Lozano
+19,Napoli,Zielinski
+19,Napoli,Lobotka
+19,Napoli,Zambo Anguissa
+19,Napoli,Mario Rui
+19,Napoli,Kim
+19,Napoli,Rrahmani
+19,Napoli,Di Lorenzo
+19,Napoli,Meret
+19,Fiorentina,Terracciano
+19,Fiorentina,Venuti
+19,Fiorentina,Milenkovic
+19,Fiorentina,Igor
+19,Fiorentina,Biraghi
+19,Fiorentina,Amrabat
+19,Fiorentina,Duncan
+19,Fiorentina,Ikone'
+19,Fiorentina,Bonaventura
+19,Fiorentina,Saponara
+19,Fiorentina,Kouame'
+19,Torino,Vlasic
+19,Torino,Miranchuk
+19,Torino,Vojvoda
+19,Torino,Ricci S.
+19,Torino,Adopo
+19,Torino,Singo
+19,Torino,Rodriguez R.
+19,Torino,Buongiorno
+19,Torino,Djidji
+19,Torino,Milinkovic-Savic V.
+19,Sampdoria,Audero
+19,Sampdoria,Nuytinck
+19,Sampdoria,Colley
+19,Sampdoria,Amione
+19,Sampdoria,Leris
+19,Sampdoria,Winks
+19,Sampdoria,Djuricic
+19,Sampdoria,Augello
+19,Sampdoria,Sabiri
+19,Sampdoria,Lammers
+19,Sampdoria,Gabbiadini
+19,Udinese,Beto
+19,Udinese,Udogie
+19,Udinese,Arslan
+19,Udinese,Walace
+19,Udinese,Samardzic
+19,Udinese,Ehizibue
+19,Udinese,Perez N.
+19,Udinese,Bijol
+19,Udinese,Rodrigo Becao
+19,Udinese,Silvestri
+19,Monza,Di Gregorio
+19,Monza,Izzo
+19,Monza,Marlon
+19,Monza,Caldirola
+19,Monza,Birindelli
+19,Monza,Machin
+19,Monza,Pessina
+19,Monza,Carlos Augusto
+19,Monza,Ciurria
+19,Monza,Caprari
+19,Monza,Petagna
+19,Sassuolo,Defrel
+19,Sassuolo,Berardi
+19,Sassuolo,Traore' Hj.
+19,Sassuolo,Obiang
+19,Sassuolo,Frattesi
+19,Sassuolo,Rogerio
+19,Sassuolo,Ferrari G.
+19,Sassuolo,Erlic
+19,Sassuolo,Toljan
+19,Sassuolo,Pegolo
+19,Spezia,Dragowski
+19,Spezia,Hristov
+19,Spezia,Caldara
+19,Spezia,Amian
+19,Spezia,Holm
+19,Spezia,Bourabia
+19,Spezia,Ampadu
+19,Spezia,Agudelo
+19,Spezia,Reca
+19,Spezia,Gyasi
+19,Spezia,Verde
+19,Roma,El Shaarawy
+19,Roma,Dybala
+19,Roma,Zalewski
+19,Roma,Matic
+19,Roma,Cristante
+19,Roma,Celik
+19,Roma,Ibanez
+19,Roma,Smalling
+19,Roma,Mancini
+19,Roma,Rui Patricio
+19,Juventus,Szczesny
+19,Juventus,Danilo
+19,Juventus,Bremer
+19,Juventus,Alex Sandro
+19,Juventus,Mckennie
+19,Juventus,Fagioli
+19,Juventus,Locatelli
+19,Juventus,Rabiot
+19,Juventus,Kostic
+19,Juventus,Di Maria
+19,Juventus,Milik
+19,Atalanta,Lookman
+19,Atalanta,Boga
+19,Atalanta,Maehle
+19,Atalanta,Ederson D.s.
+19,Atalanta,De Roon
+19,Atalanta,Hateboer
+19,Atalanta,Scalvini
+19,Atalanta,Palomino
+19,Atalanta,Toloi
+19,Atalanta,Musso
+19,Bologna,Skorupski
+19,Bologna,Posch
+19,Bologna,Soumaoro
+19,Bologna,Lucumi'
+19,Bologna,Lykogiannis
+19,Bologna,Ferguson
+19,Bologna,Moro N.
+19,Bologna,Dominguez
+19,Bologna,Orsolini
+19,Bologna,Soriano
+19,Bologna,Barrow
+19,Cremonese,Ciofani D.
+19,Cremonese,Valeri
+19,Cremonese,Meite'
+19,Cremonese,Castagnetti
+19,Cremonese,Pickel
+19,Cremonese,Sernicola
+19,Cremonese,Vasquez
+19,Cremonese,Chiriches
+19,Cremonese,Ferrari A.
+19,Cremonese,Carnesecchi
+19,Inter,Onana
+19,Inter,Skriniar
+19,Inter,De Vrij
+19,Inter,Bastoni
+19,Inter,Darmian
+19,Inter,Barella
+19,Inter,Calhanoglu
+19,Inter,Mkhitaryan
+19,Inter,Dimarco
+19,Inter,Correa
+19,Inter,Martinez L.
+19,Empoli,Bajrami
+19,Empoli,Cambiaghi
+19,Empoli,Bandinelli
+19,Empoli,Henderson L.
+19,Empoli,Akpa Akpro
+19,Empoli,Parisi
+19,Empoli,Luperto
+19,Empoli,De Winter
+19,Empoli,Ebuehi
+19,Empoli,Vicario
+19,Lazio,Provedel
+19,Lazio,Hysaj
+19,Lazio,Casale
+19,Lazio,Romagnoli
+19,Lazio,Marusic
+19,Lazio,Milinkovic-Savic
+19,Lazio,Cataldi
+19,Lazio,Luis Alberto
+19,Lazio,Pedro
+19,Lazio,Felipe Anderson
+19,Lazio,Zaccagni
+19,Milan,Rafael Leao
+19,Milan,Diaz B.
+19,Milan,Messias
+19,Milan,Tonali
+19,Milan,Bennacer
+19,Milan,Dest
+19,Milan,Tomori
+19,Milan,Kalulu
+19,Milan,Calabria
+19,Milan,Tatarusanu
+20,Bologna,Skorupski
+20,Bologna,Posch
+20,Bologna,Soumaoro
+20,Bologna,Lucumi'
+20,Bologna,Cambiaso
+20,Bologna,Moro N.
+20,Bologna,Schouten
+20,Bologna,Orsolini
+20,Bologna,Ferguson
+20,Bologna,Soriano
+20,Bologna,Zirkzee
+20,Spezia,Gyasi
+20,Spezia,Reca
+20,Spezia,Kovalenko
+20,Spezia,Ampadu
+20,Spezia,Bourabia
+20,Spezia,Holm
+20,Spezia,Nikolaou
+20,Spezia,Caldara
+20,Spezia,Amian
+20,Spezia,Dragowski
+20,Lecce,Falcone
+20,Lecce,Gendrey
+20,Lecce,Baschirotto
+20,Lecce,Umtiti
+20,Lecce,Pezzella Giu.
+20,Lecce,Blin
+20,Lecce,Hjulmand
+20,Lecce,Maleh
+20,Lecce,Oudin
+20,Lecce,Colombo
+20,Lecce,Strefezza
+20,Salernitana,Piatek
+20,Salernitana,Vilhena
+20,Salernitana,Coulibaly L.
+20,Salernitana,Bohinen
+20,Salernitana,Candreva
+20,Salernitana,Bradaric
+20,Salernitana,Bronn
+20,Salernitana,Troost-Ekong
+20,Salernitana,Sambia
+20,Salernitana,Ochoa
+20,Empoli,Vicario
+20,Empoli,Ebuehi
+20,Empoli,De Winter
+20,Empoli,Luperto
+20,Empoli,Cacace
+20,Empoli,Akpa Akpro
+20,Empoli,Marin
+20,Empoli,Bandinelli
+20,Empoli,Baldanzi
+20,Empoli,Satriano
+20,Empoli,Caputo
+20,Torino,Vlasic
+20,Torino,Radonjic
+20,Torino,Vojvoda
+20,Torino,Linetty
+20,Torino,Ricci S.
+20,Torino,Bayeye
+20,Torino,Rodriguez R.
+20,Torino,Schuurs
+20,Torino,Buongiorno
+20,Torino,Milinkovic-Savic V.
+20,Cremonese,Carnesecchi
+20,Cremonese,Bianchetti
+20,Cremonese,Chiriches
+20,Cremonese,Vasquez
+20,Cremonese,Sernicola
+20,Cremonese,Benassi
+20,Cremonese,Castagnetti
+20,Cremonese,Meite'
+20,Cremonese,Valeri
+20,Cremonese,Ciofani D.
+20,Cremonese,Okereke
+20,Inter,Dzeko
+20,Inter,Dimarco
+20,Inter,Mkhitaryan
+20,Inter,Calhanoglu
+20,Inter,Gagliardini
+20,Inter,Dumfries
+20,Inter,Bastoni
+20,Inter,Acerbi
+20,Inter,Darmian
+20,Inter,Onana
+20,Atalanta,Musso
+20,Atalanta,Toloi
+20,Atalanta,Scalvini
+20,Atalanta,Djimsiti
+20,Atalanta,Hateboer
+20,Atalanta,De Roon
+20,Atalanta,Koopmeiners
+20,Atalanta,Maehle
+20,Atalanta,Lookman
+20,Atalanta,Hojlund
+20,Atalanta,Boga
+20,Sampdoria,Gabbiadini
+20,Sampdoria,Djuricic
+20,Sampdoria,Augello
+20,Sampdoria,Rincon
+20,Sampdoria,Winks
+20,Sampdoria,Leris
+20,Sampdoria,Murru
+20,Sampdoria,Nuytinck
+20,Sampdoria,Amione
+20,Sampdoria,Audero
+20,Milan,Tatarusanu
+20,Milan,Calabria
+20,Milan,Gabbia
+20,Milan,Kalulu
+20,Milan,Hernandez T.
+20,Milan,Tonali
+20,Milan,Krunic
+20,Milan,Saelemaekers
+20,Milan,De Ketelaere
+20,Milan,Rebic
+20,Milan,Giroud
+20,Sassuolo,Defrel
+20,Sassuolo,Berardi
+20,Sassuolo,Traore' Hj.
+20,Sassuolo,Obiang
+20,Sassuolo,Frattesi
+20,Sassuolo,Rogerio
+20,Sassuolo,Marchizza
+20,Sassuolo,Erlic
+20,Sassuolo,Ruan
+20,Sassuolo,Consigli
+20,Juventus,Szczesny
+20,Juventus,Gatti
+20,Juventus,Bremer
+20,Juventus,Danilo
+20,Juventus,De Sciglio
+20,Juventus,Fagioli
+20,Juventus,Paredes
+20,Juventus,Rabiot
+20,Juventus,Kostic
+20,Juventus,Di Maria
+20,Juventus,Kean
+20,Monza,Caprari
+20,Monza,Pessina
+20,Monza,Carlos Augusto
+20,Monza,Rovella
+20,Monza,Machin
+20,Monza,Ciurria
+20,Monza,Caldirola
+20,Monza,Mari'
+20,Monza,Izzo
+20,Monza,Di Gregorio
+20,Lazio,Provedel
+20,Lazio,Marusic
+20,Lazio,Casale
+20,Lazio,Romagnoli
+20,Lazio,Hysaj
+20,Lazio,Milinkovic-Savic
+20,Lazio,Cataldi
+20,Lazio,Luis Alberto
+20,Lazio,Pedro
+20,Lazio,Felipe Anderson
+20,Lazio,Zaccagni
+20,Fiorentina,Jovic
+20,Fiorentina,Kouame'
+20,Fiorentina,Barak
+20,Fiorentina,Amrabat
+20,Fiorentina,Bonaventura
+20,Fiorentina,Biraghi
+20,Fiorentina,Ranieri L.
+20,Fiorentina,Milenkovic
+20,Fiorentina,Dodo'
+20,Fiorentina,Terracciano
+20,Napoli,Meret
+20,Napoli,Di Lorenzo
+20,Napoli,Kim
+20,Napoli,Rrahmani
+20,Napoli,Mario Rui
+20,Napoli,Zambo Anguissa
+20,Napoli,Lobotka
+20,Napoli,Zielinski
+20,Napoli,Lozano
+20,Napoli,Osimhen
+20,Napoli,Kvaratskhelia
+20,Roma,Pellegrini Lo.
+20,Roma,Dybala
+20,Roma,Spinazzola
+20,Roma,Matic
+20,Roma,Cristante
+20,Roma,Zalewski
+20,Roma,Ibanez
+20,Roma,Smalling
+20,Roma,Mancini
+20,Roma,Rui Patricio
+20,Udinese,Silvestri
+20,Udinese,Rodrigo Becao
+20,Udinese,Bijol
+20,Udinese,Perez N.
+20,Udinese,Ehizibue
+20,Udinese,Samardzic
+20,Udinese,Walace
+20,Udinese,Arslan
+20,Udinese,Udogie
+20,Udinese,Beto
+20,Udinese,Success
+20,Verona,Braaf
+20,Verona,Lasagna
+20,Verona,Lazovic
+20,Verona,Sulemana I.
+20,Verona,Tameze
+20,Verona,Depaoli
+20,Verona,Ceccherini
+20,Verona,Hien
+20,Verona,Magnani
+20,Verona,Montipo'
+21,Cremonese,Carnesecchi
+21,Cremonese,Ferrari A.
+21,Cremonese,Chiriches
+21,Cremonese,Vasquez
+21,Cremonese,Sernicola
+21,Cremonese,Pickel
+21,Cremonese,Benassi
+21,Cremonese,Meite'
+21,Cremonese,Valeri
+21,Cremonese,Ciofani D.
+21,Cremonese,Dessers
+21,Lecce,Colombo
+21,Lecce,Strefezza
+21,Lecce,Gonzalez J.
+21,Lecce,Hjulmand
+21,Lecce,Blin
+21,Lecce,Gallo
+21,Lecce,Umtiti
+21,Lecce,Baschirotto
+21,Lecce,Gendrey
+21,Lecce,Falcone
+21,Roma,Rui Patricio
+21,Roma,Mancini
+21,Roma,Smalling
+21,Roma,Ibanez
+21,Roma,Zalewski
+21,Roma,Cristante
+21,Roma,Matic
+21,Roma,El Shaarawy
+21,Roma,Pellegrini Lo.
+21,Roma,Dybala
+21,Roma,Abraham
+21,Empoli,Caputo
+21,Empoli,Baldanzi
+21,Empoli,Bandinelli
+21,Empoli,Marin
+21,Empoli,Akpa Akpro
+21,Empoli,Parisi
+21,Empoli,Luperto
+21,Empoli,De Winter
+21,Empoli,Ebuehi
+21,Empoli,Vicario
+21,Sassuolo,Consigli
+21,Sassuolo,Zortea
+21,Sassuolo,Erlic
+21,Sassuolo,Ruan
+21,Sassuolo,Rogerio
+21,Sassuolo,Frattesi
+21,Sassuolo,Obiang
+21,Sassuolo,Matheus Henrique
+21,Sassuolo,Berardi
+21,Sassuolo,Defrel
+21,Sassuolo,Lauriente'
+21,Atalanta,Lookman
+21,Atalanta,Ederson D.s.
+21,Atalanta,Maehle
+21,Atalanta,Koopmeiners
+21,Atalanta,De Roon
+21,Atalanta,Hateboer
+21,Atalanta,Scalvini
+21,Atalanta,Djimsiti
+21,Atalanta,Toloi
+21,Atalanta,Musso
+21,Spezia,Dragowski
+21,Spezia,Ampadu
+21,Spezia,Caldara
+21,Spezia,Nikolaou
+21,Spezia,Amian
+21,Spezia,Esposito Sa.
+21,Spezia,Bourabia
+21,Spezia,Agudelo
+21,Spezia,Reca
+21,Spezia,Verde
+21,Spezia,Shomurodov
+21,Napoli,Osimhen
+21,Napoli,Lozano
+21,Napoli,Zielinski
+21,Napoli,Lobotka
+21,Napoli,Zambo Anguissa
+21,Napoli,Mario Rui
+21,Napoli,Kim
+21,Napoli,Rrahmani
+21,Napoli,Di Lorenzo
+21,Napoli,Meret
+21,Torino,Milinkovic-Savic V.
+21,Torino,Djidji
+21,Torino,Schuurs
+21,Torino,Buongiorno
+21,Torino,Aina
+21,Torino,Ricci S.
+21,Torino,Linetty
+21,Torino,Vojvoda
+21,Torino,Karamoh
+21,Torino,Miranchuk
+21,Torino,Sanabria
+21,Udinese,Beto
+21,Udinese,Udogie
+21,Udinese,Arslan
+21,Udinese,Walace
+21,Udinese,Samardzic
+21,Udinese,Ehizibue
+21,Udinese,Perez N.
+21,Udinese,Bijol
+21,Udinese,Rodrigo Becao
+21,Udinese,Silvestri
+21,Fiorentina,Terracciano
+21,Fiorentina,Dodo'
+21,Fiorentina,Milenkovic
+21,Fiorentina,Igor
+21,Fiorentina,Biraghi
+21,Fiorentina,Bonaventura
+21,Fiorentina,Amrabat
+21,Fiorentina,Barak
+21,Fiorentina,Gonzalez N.
+21,Fiorentina,Jovic
+21,Fiorentina,Saponara
+21,Bologna,Soriano
+21,Bologna,Dominguez
+21,Bologna,Orsolini
+21,Bologna,Schouten
+21,Bologna,Ferguson
+21,Bologna,Cambiaso
+21,Bologna,Lucumi'
+21,Bologna,Sosa
+21,Bologna,Posch
+21,Bologna,Skorupski
+21,Inter,Onana
+21,Inter,Skriniar
+21,Inter,Acerbi
+21,Inter,Bastoni
+21,Inter,Darmian
+21,Inter,Barella
+21,Inter,Calhanoglu
+21,Inter,Mkhitaryan
+21,Inter,Dimarco
+21,Inter,Martinez L.
+21,Inter,Dzeko
+21,Milan,Giroud
+21,Milan,Hernandez T.
+21,Milan,Krunic
+21,Milan,Tonali
+21,Milan,Messias
+21,Milan,Calabria
+21,Milan,Gabbia
+21,Milan,Kjaer
+21,Milan,Kalulu
+21,Milan,Tatarusanu
+21,Verona,Montipo'
+21,Verona,Coppola D.
+21,Verona,Hien
+21,Verona,Magnani
+21,Verona,Depaoli
+21,Verona,Duda
+21,Verona,Tameze
+21,Verona,Doig
+21,Verona,Lazovic
+21,Verona,Ngonge
+21,Verona,Lasagna
+21,Lazio,Immobile
+21,Lazio,Pedro
+21,Lazio,Luis Alberto
+21,Lazio,Cataldi
+21,Lazio,Milinkovic-Savic
+21,Lazio,Marusic
+21,Lazio,Romagnoli
+21,Lazio,Casale
+21,Lazio,Hysaj
+21,Lazio,Provedel
+21,Monza,Di Gregorio
+21,Monza,Izzo
+21,Monza,Mari'
+21,Monza,Caldirola
+21,Monza,Ciurria
+21,Monza,Pessina
+21,Monza,Machin
+21,Monza,Carlos Augusto
+21,Monza,Caprari
+21,Monza,Mota
+21,Monza,Petagna
+21,Sampdoria,Gabbiadini
+21,Sampdoria,Djuricic
+21,Sampdoria,Augello
+21,Sampdoria,Cuisance
+21,Sampdoria,Winks
+21,Sampdoria,Leris
+21,Sampdoria,Colley
+21,Sampdoria,Nuytinck
+21,Sampdoria,Amione
+21,Sampdoria,Audero
+21,Salernitana,Ochoa
+21,Salernitana,Sambia
+21,Salernitana,Troost-Ekong
+21,Salernitana,Bronn
+21,Salernitana,Bradaric
+21,Salernitana,Coulibaly L.
+21,Salernitana,Nicolussi Caviglia
+21,Salernitana,Vilhena
+21,Salernitana,Candreva
+21,Salernitana,Piatek
+21,Salernitana,Dia
+21,Juventus,Di Maria
+21,Juventus,Kostic
+21,Juventus,Rabiot
+21,Juventus,Locatelli
+21,Juventus,Miretti
+21,Juventus,De Sciglio
+21,Juventus,Alex Sandro
+21,Juventus,Bremer
+21,Juventus,Danilo
+21,Juventus,Szczesny
+22,Milan,Tatarusanu
+22,Milan,Thiaw
+22,Milan,Kjaer
+22,Milan,Kalulu
+22,Milan,Saelemaekers
+22,Milan,Tonali
+22,Milan,Krunic
+22,Milan,Hernandez T.
+22,Milan,Diaz B.
+22,Milan,Giroud
+22,Milan,Rafael Leao
+22,Torino,Vlasic
+22,Torino,Miranchuk
+22,Torino,Rodriguez R.
+22,Torino,Gineitis
+22,Torino,Adopo
+22,Torino,Singo
+22,Torino,Buongiorno
+22,Torino,Schuurs
+22,Torino,Djidji
+22,Torino,Milinkovic-Savic V.
+22,Empoli,Vicario
+22,Empoli,Ebuehi
+22,Empoli,Ismajli
+22,Empoli,Luperto
+22,Empoli,Parisi
+22,Empoli,Akpa Akpro
+22,Empoli,Marin
+22,Empoli,Baldanzi
+22,Empoli,Bandinelli
+22,Empoli,Caputo
+22,Empoli,Cambiaghi
+22,Spezia,Verde
+22,Spezia,Reca
+22,Spezia,Agudelo
+22,Spezia,Esposito Sa.
+22,Spezia,Bourabia
+22,Spezia,Gyasi
+22,Spezia,Amian
+22,Spezia,Nikolaou
+22,Spezia,Wisniewski
+22,Spezia,Dragowski
+22,Lecce,Falcone
+22,Lecce,Gendrey
+22,Lecce,Baschirotto
+22,Lecce,Umtiti
+22,Lecce,Gallo
+22,Lecce,Gonzalez J.
+22,Lecce,Hjulmand
+22,Lecce,Blin
+22,Lecce,Strefezza
+22,Lecce,Colombo
+22,Lecce,Di Francesco F.
+22,Roma,Dybala
+22,Roma,Pellegrini Lo.
+22,Roma,El Shaarawy
+22,Roma,Matic
+22,Roma,Cristante
+22,Roma,Zalewski
+22,Roma,Ibanez
+22,Roma,Smalling
+22,Roma,Mancini
+22,Roma,Rui Patricio
+22,Lazio,Provedel
+22,Lazio,Marusic
+22,Lazio,Casale
+22,Lazio,Romagnoli
+22,Lazio,Hysaj
+22,Lazio,Milinkovic-Savic
+22,Lazio,Cataldi
+22,Lazio,Luis Alberto
+22,Lazio,Felipe Anderson
+22,Lazio,Immobile
+22,Lazio,Zaccagni
+22,Atalanta,Lookman
+22,Atalanta,Ederson D.s.
+22,Atalanta,Zappacosta
+22,Atalanta,Koopmeiners
+22,Atalanta,De Roon
+22,Atalanta,Hateboer
+22,Atalanta,Scalvini
+22,Atalanta,Djimsiti
+22,Atalanta,Toloi
+22,Atalanta,Musso
+22,Udinese,Silvestri
+22,Udinese,Rodrigo Becao
+22,Udinese,Bijol
+22,Udinese,Perez N.
+22,Udinese,Ehizibue
+22,Udinese,Samardzic
+22,Udinese,Walace
+22,Udinese,Lovric
+22,Udinese,Udogie
+22,Udinese,Pereyra
+22,Udinese,Beto
+22,Sassuolo,Defrel
+22,Sassuolo,Berardi
+22,Sassuolo,Matheus Henrique
+22,Sassuolo,Obiang
+22,Sassuolo,Frattesi
+22,Sassuolo,Marchizza
+22,Sassuolo,Ruan
+22,Sassuolo,Erlic
+22,Sassuolo,Zortea
+22,Sassuolo,Consigli
+22,Bologna,Skorupski
+22,Bologna,Cambiaso
+22,Bologna,Posch
+22,Bologna,Sosa
+22,Bologna,Lykogiannis
+22,Bologna,Dominguez
+22,Bologna,Schouten
+22,Bologna,Orsolini
+22,Bologna,Aebischer
+22,Bologna,Kyriakopoulos
+22,Bologna,Ferguson
+22,Monza,Caprari
+22,Monza,Pessina
+22,Monza,Ciurria
+22,Monza,Rovella
+22,Monza,Sensi
+22,Monza,Donati
+22,Monza,Izzo
+22,Monza,Mari'
+22,Monza,Marlon
+22,Monza,Di Gregorio
+22,Juventus,Szczesny
+22,Juventus,Danilo
+22,Juventus,Bremer
+22,Juventus,Alex Sandro
+22,Juventus,De Sciglio
+22,Juventus,Locatelli
+22,Juventus,Rabiot
+22,Juventus,Kostic
+22,Juventus,Di Maria
+22,Juventus,Vlahovic
+22,Juventus,Chiesa
+22,Fiorentina,Ikone'
+22,Fiorentina,Bonaventura
+22,Fiorentina,Gonzalez N.
+22,Fiorentina,Duncan
+22,Fiorentina,Amrabat
+22,Fiorentina,Biraghi
+22,Fiorentina,Ranieri L.
+22,Fiorentina,Milenkovic
+22,Fiorentina,Dodo'
+22,Fiorentina,Terracciano
+22,Napoli,Meret
+22,Napoli,Di Lorenzo
+22,Napoli,Rrahmani
+22,Napoli,Kim
+22,Napoli,Mario Rui
+22,Napoli,Zambo Anguissa
+22,Napoli,Lobotka
+22,Napoli,Zielinski
+22,Napoli,Lozano
+22,Napoli,Osimhen
+22,Napoli,Kvaratskhelia
+22,Cremonese,Afena-Gyan
+22,Cremonese,Aiwu
+22,Cremonese,Pickel
+22,Cremonese,Meite'
+22,Cremonese,Benassi
+22,Cremonese,Sernicola
+22,Cremonese,Chiriches
+22,Cremonese,Vasquez
+22,Cremonese,Ferrari A.
+22,Cremonese,Carnesecchi
+22,Verona,Montipo'
+22,Verona,Magnani
+22,Verona,Hien
+22,Verona,Coppola D.
+22,Verona,Depaoli
+22,Verona,Duda
+22,Verona,Tameze
+22,Verona,Doig
+22,Verona,Lazovic
+22,Verona,Ngonge
+22,Verona,Gaich
+22,Salernitana,Bonazzoli
+22,Salernitana,Vilhena
+22,Salernitana,Nicolussi Caviglia
+22,Salernitana,Crnigoj
+22,Salernitana,Candreva
+22,Salernitana,Bradaric
+22,Salernitana,Pirola
+22,Salernitana,Troost-Ekong
+22,Salernitana,Bronn
+22,Salernitana,Sepe
+22,Sampdoria,Audero
+22,Sampdoria,Murillo
+22,Sampdoria,Nuytinck
+22,Sampdoria,Amione
+22,Sampdoria,Zanoli
+22,Sampdoria,Cuisance
+22,Sampdoria,Winks
+22,Sampdoria,Augello
+22,Sampdoria,Djuricic
+22,Sampdoria,Gabbiadini
+22,Sampdoria,Lammers
+22,Inter,Martinez L.
+22,Inter,Gosens
+22,Inter,Mkhitaryan
+22,Inter,Calhanoglu
+22,Inter,Barella
+22,Inter,Darmian
+22,Inter,Acerbi
+22,Inter,De Vrij
+22,Inter,Skriniar
+22,Inter,Onana
+23,Sassuolo,Consigli
+23,Sassuolo,Zortea
+23,Sassuolo,Erlic
+23,Sassuolo,Ruan
+23,Sassuolo,Rogerio
+23,Sassuolo,Frattesi
+23,Sassuolo,Lopez M.
+23,Sassuolo,Matheus Henrique
+23,Sassuolo,Bajrami
+23,Sassuolo,Defrel
+23,Sassuolo,Lauriente'
+23,Napoli,Osimhen
+23,Napoli,Politano
+23,Napoli,Elmas
+23,Napoli,Lobotka
+23,Napoli,Zambo Anguissa
+23,Napoli,Olivera
+23,Napoli,Kim
+23,Napoli,Rrahmani
+23,Napoli,Di Lorenzo
+23,Napoli,Meret
+23,Sampdoria,Audero
+23,Sampdoria,Murillo
+23,Sampdoria,Nuytinck
+23,Sampdoria,Amione
+23,Sampdoria,Leris
+23,Sampdoria,Winks
+23,Sampdoria,Cuisance
+23,Sampdoria,Augello
+23,Sampdoria,Djuricic
+23,Sampdoria,Gabbiadini
+23,Sampdoria,Lammers
+23,Bologna,Soriano
+23,Bologna,Ferguson
+23,Bologna,Orsolini
+23,Bologna,Schouten
+23,Bologna,Dominguez
+23,Bologna,Cambiaso
+23,Bologna,Sosa
+23,Bologna,Lucumi'
+23,Bologna,Posch
+23,Bologna,Skorupski
+23,Monza,Di Gregorio
+23,Monza,Izzo
+23,Monza,Mari'
+23,Monza,Marlon
+23,Monza,Birindelli
+23,Monza,Rovella
+23,Monza,Pessina
+23,Monza,Ciurria
+23,Monza,Mota
+23,Monza,Caprari
+23,Monza,Petagna
+23,Milan,Rafael Leao
+23,Milan,Diaz B.
+23,Milan,Hernandez T.
+23,Milan,Tonali
+23,Milan,Krunic
+23,Milan,Messias
+23,Milan,Thiaw
+23,Milan,Tomori
+23,Milan,Kalulu
+23,Milan,Tatarusanu
+23,Inter,Handanovic
+23,Inter,Darmian
+23,Inter,Acerbi
+23,Inter,Bastoni
+23,Inter,Dumfries
+23,Inter,Barella
+23,Inter,Brozovic
+23,Inter,Mkhitaryan
+23,Inter,Dimarco
+23,Inter,Dzeko
+23,Inter,Lukaku
+23,Udinese,Thauvin
+23,Udinese,Udogie
+23,Udinese,Lovric
+23,Udinese,Walace
+23,Udinese,Pereyra
+23,Udinese,Ehizibue
+23,Udinese,Ebosse
+23,Udinese,Bijol
+23,Udinese,Rodrigo Becao
+23,Udinese,Silvestri
+23,Atalanta,Musso
+23,Atalanta,Toloi
+23,Atalanta,Demiral
+23,Atalanta,Djimsiti
+23,Atalanta,Zappacosta
+23,Atalanta,Ederson D.s.
+23,Atalanta,Koopmeiners
+23,Atalanta,Maehle
+23,Atalanta,Lookman
+23,Atalanta,Boga
+23,Atalanta,Hojlund
+23,Lecce,Ceesay
+23,Lecce,Banda
+23,Lecce,Maleh
+23,Lecce,Hjulmand
+23,Lecce,Blin
+23,Lecce,Gallo
+23,Lecce,Tuia
+23,Lecce,Baschirotto
+23,Lecce,Gendrey
+23,Lecce,Falcone
+23,Fiorentina,Terracciano
+23,Fiorentina,Venuti
+23,Fiorentina,Milenkovic
+23,Fiorentina,Martinez Quarta
+23,Fiorentina,Terzic
+23,Fiorentina,Barak
+23,Fiorentina,Amrabat
+23,Fiorentina,Mandragora
+23,Fiorentina,Gonzalez N.
+23,Fiorentina,Jovic
+23,Fiorentina,Saponara
+23,Empoli,Cambiaghi
+23,Empoli,Baldanzi
+23,Empoli,Bandinelli
+23,Empoli,Marin
+23,Empoli,Akpa Akpro
+23,Empoli,Cacace
+23,Empoli,Luperto
+23,Empoli,Ismajli
+23,Empoli,Ebuehi
+23,Empoli,Vicario
+23,Salernitana,Sepe
+23,Salernitana,Daniliuc
+23,Salernitana,Bronn
+23,Salernitana,Pirola
+23,Salernitana,Candreva
+23,Salernitana,Coulibaly L.
+23,Salernitana,Crnigoj
+23,Salernitana,Bradaric
+23,Salernitana,Vilhena
+23,Salernitana,Bonazzoli
+23,Salernitana,Piatek
+23,Lazio,Immobile
+23,Lazio,Felipe Anderson
+23,Lazio,Luis Alberto
+23,Lazio,Cataldi
+23,Lazio,Vecino
+23,Lazio,Marusic
+23,Lazio,Patric
+23,Lazio,Casale
+23,Lazio,Hysaj
+23,Lazio,Provedel
+23,Spezia,Dragowski
+23,Spezia,Amian
+23,Spezia,Ampadu
+23,Spezia,Nikolaou
+23,Spezia,Gyasi
+23,Spezia,Agudelo
+23,Spezia,Ekdal
+23,Spezia,Bourabia
+23,Spezia,Reca
+23,Spezia,Shomurodov
+23,Spezia,Verde
+23,Juventus,Vlahovic
+23,Juventus,Kostic
+23,Juventus,Rabiot
+23,Juventus,Paredes
+23,Juventus,Locatelli
+23,Juventus,Cuadrado
+23,Juventus,Alex Sandro
+23,Juventus,Rugani
+23,Juventus,Danilo
+23,Juventus,Perin
+23,Roma,Rui Patricio
+23,Roma,Mancini
+23,Roma,Smalling
+23,Roma,Ibanez
+23,Roma,Karsdorp
+23,Roma,Cristante
+23,Roma,Bove
+23,Roma,Spinazzola
+23,Roma,El Shaarawy
+23,Roma,Solbakken
+23,Roma,Abraham
+23,Verona,Ngonge
+23,Verona,Lazovic
+23,Verona,Doig
+23,Verona,Tameze
+23,Verona,Duda
+23,Verona,Depaoli
+23,Verona,Magnani
+23,Verona,Hien
+23,Verona,Dawidowicz
+23,Verona,Montipo'
+23,Torino,Milinkovic-Savic V.
+23,Torino,Djidji
+23,Torino,Schuurs
+23,Torino,Rodriguez R.
+23,Torino,Aina
+23,Torino,Linetty
+23,Torino,Ilic
+23,Torino,Vojvoda
+23,Torino,Miranchuk
+23,Torino,Karamoh
+23,Torino,Sanabria
+23,Cremonese,Okereke
+23,Cremonese,Valeri
+23,Cremonese,Benassi
+23,Cremonese,Meite'
+23,Cremonese,Pickel
+23,Cremonese,Sernicola
+23,Cremonese,Aiwu
+23,Cremonese,Bianchetti
+23,Cremonese,Ferrari A.
+23,Cremonese,Carnesecchi
+24,Empoli,Vicario
+24,Empoli,Ebuehi
+24,Empoli,Ismajli
+24,Empoli,Luperto
+24,Empoli,Parisi
+24,Empoli,Henderson L.
+24,Empoli,Marin
+24,Empoli,Haas
+24,Empoli,Baldanzi
+24,Empoli,Piccoli
+24,Empoli,Satriano
+24,Napoli,Osimhen
+24,Napoli,Lozano
+24,Napoli,Zielinski
+24,Napoli,Lobotka
+24,Napoli,Zambo Anguissa
+24,Napoli,Mario Rui
+24,Napoli,Kim
+24,Napoli,Rrahmani
+24,Napoli,Di Lorenzo
+24,Napoli,Meret
+24,Lecce,Falcone
+24,Lecce,Gendrey
+24,Lecce,Tuia
+24,Lecce,Baschirotto
+24,Lecce,Gallo
+24,Lecce,Blin
+24,Lecce,Hjulmand
+24,Lecce,Maleh
+24,Lecce,Strefezza
+24,Lecce,Ceesay
+24,Lecce,Banda
+24,Sassuolo,Defrel
+24,Sassuolo,Berardi
+24,Sassuolo,Matheus Henrique
+24,Sassuolo,Obiang
+24,Sassuolo,Frattesi
+24,Sassuolo,Rogerio
+24,Sassuolo,Ruan
+24,Sassuolo,Erlic
+24,Sassuolo,Zortea
+24,Sassuolo,Consigli
+24,Bologna,Skorupski
+24,Bologna,Posch
+24,Bologna,Sosa
+24,Bologna,Lucumi'
+24,Bologna,Cambiaso
+24,Bologna,Schouten
+24,Bologna,Dominguez
+24,Bologna,Orsolini
+24,Bologna,Ferguson
+24,Bologna,Soriano
+24,Bologna,Barrow
+24,Inter,Lukaku
+24,Inter,Gosens
+24,Inter,Calhanoglu
+24,Inter,Brozovic
+24,Inter,Mkhitaryan
+24,Inter,Dumfries
+24,Inter,Bastoni
+24,Inter,De Vrij
+24,Inter,Darmian
+24,Inter,Onana
+24,Salernitana,Ochoa
+24,Salernitana,Daniliuc
+24,Salernitana,Gyomber
+24,Salernitana,Pirola
+24,Salernitana,Sambia
+24,Salernitana,Coulibaly L.
+24,Salernitana,Crnigoj
+24,Salernitana,Bradaric
+24,Salernitana,Candreva
+24,Salernitana,Kastanos
+24,Salernitana,Piatek
+24,Monza,Caprari
+24,Monza,Pessina
+24,Monza,Carlos Augusto
+24,Monza,Sensi
+24,Monza,Machin
+24,Monza,Ciurria
+24,Monza,Caldirola
+24,Monza,Mari'
+24,Monza,Izzo
+24,Monza,Cragno
+24,Udinese,Silvestri
+24,Udinese,Perez N.
+24,Udinese,Rodrigo Becao
+24,Udinese,Masina
+24,Udinese,Ehizibue
+24,Udinese,Pereyra
+24,Udinese,Walace
+24,Udinese,Lovric
+24,Udinese,Udogie
+24,Udinese,Success
+24,Udinese,Beto
+24,Spezia,Verde
+24,Spezia,Reca
+24,Spezia,Agudelo
+24,Spezia,Ekdal
+24,Spezia,Bourabia
+24,Spezia,Gyasi
+24,Spezia,Nikolaou
+24,Spezia,Ampadu
+24,Spezia,Amian
+24,Spezia,Dragowski
+24,Milan,Maignan
+24,Milan,Kalulu
+24,Milan,Tomori
+24,Milan,Thiaw
+24,Milan,Messias
+24,Milan,Krunic
+24,Milan,Tonali
+24,Milan,Hernandez T.
+24,Milan,Diaz B.
+24,Milan,Rafael Leao
+24,Milan,Giroud
+24,Atalanta,Hojlund
+24,Atalanta,Ederson D.s.
+24,Atalanta,Maehle
+24,Atalanta,Koopmeiners
+24,Atalanta,De Roon
+24,Atalanta,Zappacosta
+24,Atalanta,Scalvini
+24,Atalanta,Djimsiti
+24,Atalanta,Toloi
+24,Atalanta,Musso
+24,Verona,Montipo'
+24,Verona,Magnani
+24,Verona,Hien
+24,Verona,Dawidowicz
+24,Verona,Faraoni
+24,Verona,Tameze
+24,Verona,Duda
+24,Verona,Doig
+24,Verona,Ngonge
+24,Verona,Lazovic
+24,Verona,Lasagna
+24,Fiorentina,Cabral
+24,Fiorentina,Ikone'
+24,Fiorentina,Mandragora
+24,Fiorentina,Amrabat
+24,Fiorentina,Barak
+24,Fiorentina,Terzic
+24,Fiorentina,Igor
+24,Fiorentina,Martinez Quarta
+24,Fiorentina,Dodo'
+24,Fiorentina,Terracciano
+24,Lazio,Provedel
+24,Lazio,Lazzari
+24,Lazio,Casale
+24,Lazio,Patric
+24,Lazio,Marusic
+24,Lazio,Milinkovic-Savic
+24,Lazio,Cataldi
+24,Lazio,Luis Alberto
+24,Lazio,Felipe Anderson
+24,Lazio,Immobile
+24,Lazio,Pedro
+24,Sampdoria,Lammers
+24,Sampdoria,Augello
+24,Sampdoria,Cuisance
+24,Sampdoria,Winks
+24,Sampdoria,Rincon
+24,Sampdoria,Leris
+24,Sampdoria,Amione
+24,Sampdoria,Nuytinck
+24,Sampdoria,Zanoli
+24,Sampdoria,Audero
+24,Cremonese,Carnesecchi
+24,Cremonese,Ferrari A.
+24,Cremonese,Bianchetti
+24,Cremonese,Vasquez
+24,Cremonese,Sernicola
+24,Cremonese,Benassi
+24,Cremonese,Pickel
+24,Cremonese,Valeri
+24,Cremonese,Afena-Gyan
+24,Cremonese,Okereke
+24,Cremonese,Tsadjout
+24,Roma,Pellegrini Lo.
+24,Roma,Dybala
+24,Roma,Spinazzola
+24,Roma,Wijnaldum
+24,Roma,Cristante
+24,Roma,Zalewski
+24,Roma,Kumbulla
+24,Roma,Ibanez
+24,Roma,Mancini
+24,Roma,Rui Patricio
+24,Juventus,Szczesny
+24,Juventus,Danilo
+24,Juventus,Bremer
+24,Juventus,Alex Sandro
+24,Juventus,Cuadrado
+24,Juventus,Fagioli
+24,Juventus,Barrenechea
+24,Juventus,Rabiot
+24,Juventus,Kostic
+24,Juventus,Di Maria
+24,Juventus,Vlahovic
+24,Torino,Karamoh
+24,Torino,Miranchuk
+24,Torino,Rodriguez R.
+24,Torino,Linetty
+24,Torino,Ilic
+24,Torino,Singo
+24,Torino,Buongiorno
+24,Torino,Schuurs
+24,Torino,Djidji
+24,Torino,Milinkovic-Savic V.
+25,Napoli,Meret
+25,Napoli,Di Lorenzo
+25,Napoli,Rrahmani
+25,Napoli,Kim
+25,Napoli,Olivera
+25,Napoli,Zambo Anguissa
+25,Napoli,Lobotka
+25,Napoli,Zielinski
+25,Napoli,Lozano
+25,Napoli,Osimhen
+25,Napoli,Kvaratskhelia
+25,Lazio,Immobile
+25,Lazio,Felipe Anderson
+25,Lazio,Luis Alberto
+25,Lazio,Vecino
+25,Lazio,Milinkovic-Savic
+25,Lazio,Hysaj
+25,Lazio,Romagnoli
+25,Lazio,Patric
+25,Lazio,Marusic
+25,Lazio,Provedel
+25,Monza,Di Gregorio
+25,Monza,Izzo
+25,Monza,Mari'
+25,Monza,Caldirola
+25,Monza,Birindelli
+25,Monza,Pessina
+25,Monza,Sensi
+25,Monza,Carlos Augusto
+25,Monza,Ciurria
+25,Monza,Caprari
+25,Monza,Petagna
+25,Empoli,Caputo
+25,Empoli,Baldanzi
+25,Empoli,Akpa Akpro
+25,Empoli,Marin
+25,Empoli,Bandinelli
+25,Empoli,Parisi
+25,Empoli,Luperto
+25,Empoli,Ismajli
+25,Empoli,Stojanovic
+25,Empoli,Perisan
+25,Atalanta,Musso
+25,Atalanta,Toloi
+25,Atalanta,Demiral
+25,Atalanta,Djimsiti
+25,Atalanta,Maehle
+25,Atalanta,De Roon
+25,Atalanta,Koopmeiners
+25,Atalanta,Ruggeri
+25,Atalanta,Lookman
+25,Atalanta,Hojlund
+25,Atalanta,Boga
+25,Udinese,Success
+25,Udinese,Udogie
+25,Udinese,Lovric
+25,Udinese,Walace
+25,Udinese,Arslan
+25,Udinese,Ebosele
+25,Udinese,Perez N.
+25,Udinese,Bijol
+25,Udinese,Rodrigo Becao
+25,Udinese,Silvestri
+25,Fiorentina,Terracciano
+25,Fiorentina,Dodo'
+25,Fiorentina,Martinez Quarta
+25,Fiorentina,Igor
+25,Fiorentina,Biraghi
+25,Fiorentina,Bonaventura
+25,Fiorentina,Amrabat
+25,Fiorentina,Mandragora
+25,Fiorentina,Ikone'
+25,Fiorentina,Cabral
+25,Fiorentina,Gonzalez N.
+25,Milan,Rebic
+25,Milan,De Ketelaere
+25,Milan,Hernandez T.
+25,Milan,Tonali
+25,Milan,Bennacer
+25,Milan,Messias
+25,Milan,Tomori
+25,Milan,Thiaw
+25,Milan,Kalulu
+25,Milan,Maignan
+25,Spezia,Dragowski
+25,Spezia,Amian
+25,Spezia,Ampadu
+25,Spezia,Nikolaou
+25,Spezia,Reca
+25,Spezia,Bourabia
+25,Spezia,Ekdal
+25,Spezia,Verde
+25,Spezia,Agudelo
+25,Spezia,Gyasi
+25,Spezia,Nzola
+25,Verona,Lazovic
+25,Verona,Ngonge
+25,Verona,Depaoli
+25,Verona,Duda
+25,Verona,Tameze
+25,Verona,Faraoni
+25,Verona,Coppola D.
+25,Verona,Hien
+25,Verona,Magnani
+25,Verona,Perilli
+25,Sampdoria,Audero
+25,Sampdoria,Zanoli
+25,Sampdoria,Nuytinck
+25,Sampdoria,Amione
+25,Sampdoria,Leris
+25,Sampdoria,Winks
+25,Sampdoria,Rincon
+25,Sampdoria,Augello
+25,Sampdoria,Cuisance
+25,Sampdoria,Sabiri
+25,Sampdoria,Jese'
+25,Salernitana,Kastanos
+25,Salernitana,Candreva
+25,Salernitana,Bradaric
+25,Salernitana,Crnigoj
+25,Salernitana,Coulibaly L.
+25,Salernitana,Sambia
+25,Salernitana,Pirola
+25,Salernitana,Daniliuc
+25,Salernitana,Gyomber
+25,Salernitana,Ochoa
+25,Inter,Onana
+25,Inter,Darmian
+25,Inter,Acerbi
+25,Inter,Bastoni
+25,Inter,Dumfries
+25,Inter,Barella
+25,Inter,Calhanoglu
+25,Inter,Mkhitaryan
+25,Inter,Gosens
+25,Inter,Dzeko
+25,Inter,Martinez L.
+25,Lecce,Ceesay
+25,Lecce,Strefezza
+25,Lecce,Gonzalez J.
+25,Lecce,Hjulmand
+25,Lecce,Maleh
+25,Lecce,Pezzella Giu.
+25,Lecce,Umtiti
+25,Lecce,Tuia
+25,Lecce,Gendrey
+25,Lecce,Falcone
+25,Roma,Rui Patricio
+25,Roma,Mancini
+25,Roma,Smalling
+25,Roma,Ibanez
+25,Roma,Zalewski
+25,Roma,Cristante
+25,Roma,Matic
+25,Roma,Spinazzola
+25,Roma,Wijnaldum
+25,Roma,Pellegrini Lo.
+25,Roma,Dybala
+25,Juventus,Di Maria
+25,Juventus,Kostic
+25,Juventus,Rabiot
+25,Juventus,Locatelli
+25,Juventus,Fagioli
+25,Juventus,Cuadrado
+25,Juventus,Danilo
+25,Juventus,Alex Sandro
+25,Juventus,Bremer
+25,Juventus,Szczesny
+25,Sassuolo,Consigli
+25,Sassuolo,Zortea
+25,Sassuolo,Erlic
+25,Sassuolo,Ruan
+25,Sassuolo,Rogerio
+25,Sassuolo,Frattesi
+25,Sassuolo,Lopez M.
+25,Sassuolo,Matheus Henrique
+25,Sassuolo,Defrel
+25,Sassuolo,Pinamonti
+25,Sassuolo,Lauriente'
+25,Cremonese,Tsadjout
+25,Cremonese,Afena-Gyan
+25,Cremonese,Valeri
+25,Cremonese,Benassi
+25,Cremonese,Pickel
+25,Cremonese,Sernicola
+25,Cremonese,Vasquez
+25,Cremonese,Chiriches
+25,Cremonese,Bianchetti
+25,Cremonese,Carnesecchi
+25,Torino,Milinkovic-Savic V.
+25,Torino,Djidji
+25,Torino,Schuurs
+25,Torino,Buongiorno
+25,Torino,Singo
+25,Torino,Linetty
+25,Torino,Ilic
+25,Torino,Rodriguez R.
+25,Torino,Miranchuk
+25,Torino,Karamoh
+25,Torino,Sanabria
+25,Bologna,Soriano
+25,Bologna,Ferguson
+25,Bologna,Orsolini
+25,Bologna,Schouten
+25,Bologna,Moro N.
+25,Bologna,Cambiaso
+25,Bologna,Sosa
+25,Bologna,Lucumi'
+25,Bologna,Posch
+25,Bologna,Skorupski
+26,Spezia,Dragowski
+26,Spezia,Caldara
+26,Spezia,Ampadu
+26,Spezia,Nikolaou
+26,Spezia,Amian
+26,Spezia,Agudelo
+26,Spezia,Bourabia
+26,Spezia,Zurkowski
+26,Spezia,Gyasi
+26,Spezia,Nzola
+26,Spezia,Shomurodov
+26,Inter,Lukaku
+26,Inter,Gosens
+26,Inter,Mkhitaryan
+26,Inter,Brozovic
+26,Inter,Barella
+26,Inter,Darmian
+26,Inter,Bastoni
+26,Inter,Acerbi
+26,Inter,D'ambrosio
+26,Inter,Handanovic
+26,Empoli,Perisan
+26,Empoli,Stojanovic
+26,Empoli,Ismajli
+26,Empoli,Luperto
+26,Empoli,Parisi
+26,Empoli,Akpa Akpro
+26,Empoli,Marin
+26,Empoli,Bandinelli
+26,Empoli,Baldanzi
+26,Empoli,Caputo
+26,Empoli,Satriano
+26,Udinese,Beto
+26,Udinese,Udogie
+26,Udinese,Lovric
+26,Udinese,Walace
+26,Udinese,Pereyra
+26,Udinese,Ehizibue
+26,Udinese,Perez N.
+26,Udinese,Bijol
+26,Udinese,Rodrigo Becao
+26,Udinese,Silvestri
+26,Napoli,Gollini
+26,Napoli,Di Lorenzo
+26,Napoli,Rrahmani
+26,Napoli,Kim
+26,Napoli,Olivera
+26,Napoli,Zambo Anguissa
+26,Napoli,Lobotka
+26,Napoli,Zielinski
+26,Napoli,Politano
+26,Napoli,Osimhen
+26,Napoli,Kvaratskhelia
+26,Atalanta,Hojlund
+26,Atalanta,Pasalic
+26,Atalanta,Ruggeri
+26,Atalanta,Ederson D.s.
+26,Atalanta,De Roon
+26,Atalanta,Maehle
+26,Atalanta,Scalvini
+26,Atalanta,Djimsiti
+26,Atalanta,Toloi
+26,Atalanta,Musso
+26,Bologna,Skorupski
+26,Bologna,Posch
+26,Bologna,Soumaoro
+26,Bologna,Lucumi'
+26,Bologna,Cambiaso
+26,Bologna,Moro N.
+26,Bologna,Schouten
+26,Bologna,Aebischer
+26,Bologna,Ferguson
+26,Bologna,Kyriakopoulos
+26,Bologna,Barrow
+26,Lazio,Felipe Anderson
+26,Lazio,Pedro
+26,Lazio,Luis Alberto
+26,Lazio,Vecino
+26,Lazio,Milinkovic-Savic
+26,Lazio,Hysaj
+26,Lazio,Romagnoli
+26,Lazio,Casale
+26,Lazio,Lazzari
+26,Lazio,Provedel
+26,Lecce,Falcone
+26,Lecce,Gendrey
+26,Lecce,Baschirotto
+26,Lecce,Umtiti
+26,Lecce,Gallo
+26,Lecce,Gonzalez J.
+26,Lecce,Hjulmand
+26,Lecce,Blin
+26,Lecce,Strefezza
+26,Lecce,Ceesay
+26,Lecce,Di Francesco F.
+26,Torino,Radonjic
+26,Torino,Miranchuk
+26,Torino,Rodriguez R.
+26,Torino,Ilic
+26,Torino,Linetty
+26,Torino,Singo
+26,Torino,Buongiorno
+26,Torino,Schuurs
+26,Torino,Gravillon
+26,Torino,Milinkovic-Savic V.
+26,Cremonese,Carnesecchi
+26,Cremonese,Ferrari A.
+26,Cremonese,Bianchetti
+26,Cremonese,Vasquez
+26,Cremonese,Sernicola
+26,Cremonese,Pickel
+26,Cremonese,Galdames
+26,Cremonese,Benassi
+26,Cremonese,Valeri
+26,Cremonese,Tsadjout
+26,Cremonese,Dessers
+26,Fiorentina,Saponara
+26,Fiorentina,Barak
+26,Fiorentina,Ikone'
+26,Fiorentina,Mandragora
+26,Fiorentina,Amrabat
+26,Fiorentina,Biraghi
+26,Fiorentina,Martinez Quarta
+26,Fiorentina,Milenkovic
+26,Fiorentina,Dodo'
+26,Fiorentina,Sirigu
+26,Verona,Montipo'
+26,Verona,Dawidowicz
+26,Verona,Magnani
+26,Verona,Coppola D.
+26,Verona,Faraoni
+26,Verona,Tameze
+26,Verona,Duda
+26,Verona,Lazovic
+26,Verona,Verdi
+26,Verona,Kallon
+26,Verona,Gaich
+26,Monza,Caprari
+26,Monza,Ciurria
+26,Monza,Carlos Augusto
+26,Monza,Sensi
+26,Monza,Pessina
+26,Monza,Birindelli
+26,Monza,Izzo
+26,Monza,Mari'
+26,Monza,Caldirola
+26,Monza,Di Gregorio
+26,Roma,Rui Patricio
+26,Roma,Kumbulla
+26,Roma,Smalling
+26,Roma,Ibanez
+26,Roma,Zalewski
+26,Roma,Bove
+26,Roma,Matic
+26,Roma,Wijnaldum
+26,Roma,Spinazzola
+26,Roma,El Shaarawy
+26,Roma,Abraham
+26,Sassuolo,Pinamonti
+26,Sassuolo,Berardi
+26,Sassuolo,Matheus Henrique
+26,Sassuolo,Lopez M.
+26,Sassuolo,Frattesi
+26,Sassuolo,Rogerio
+26,Sassuolo,Ruan
+26,Sassuolo,Ferrari G.
+26,Sassuolo,Toljan
+26,Sassuolo,Consigli
+26,Juventus,Perin
+26,Juventus,Bremer
+26,Juventus,Bonucci
+26,Juventus,Danilo
+26,Juventus,De Sciglio
+26,Juventus,Fagioli
+26,Juventus,Barrenechea
+26,Juventus,Rabiot
+26,Juventus,Kostic
+26,Juventus,Miretti
+26,Juventus,Vlahovic
+26,Sampdoria,Djuricic
+26,Sampdoria,Leris
+26,Sampdoria,Augello
+26,Sampdoria,Winks
+26,Sampdoria,Rincon
+26,Sampdoria,Zanoli
+26,Sampdoria,Amione
+26,Sampdoria,Nuytinck
+26,Sampdoria,Gunter
+26,Sampdoria,Turk
+26,Milan,Maignan
+26,Milan,Kalulu
+26,Milan,Thiaw
+26,Milan,Tomori
+26,Milan,Saelemaekers
+26,Milan,Bennacer
+26,Milan,Krunic
+26,Milan,Hernandez T.
+26,Milan,Diaz B.
+26,Milan,Giroud
+26,Milan,Rafael Leao
+26,Salernitana,Kastanos
+26,Salernitana,Candreva
+26,Salernitana,Bradaric
+26,Salernitana,Bohinen
+26,Salernitana,Coulibaly L.
+26,Salernitana,Mazzocchi
+26,Salernitana,Pirola
+26,Salernitana,Gyomber
+26,Salernitana,Daniliuc
+26,Salernitana,Ochoa
+27,Sassuolo,Consigli
+27,Sassuolo,Toljan
+27,Sassuolo,Erlic
+27,Sassuolo,Ferrari G.
+27,Sassuolo,Rogerio
+27,Sassuolo,Thorstvedt
+27,Sassuolo,Lopez M.
+27,Sassuolo,Matheus Henrique
+27,Sassuolo,Berardi
+27,Sassuolo,Pinamonti
+27,Sassuolo,Lauriente'
+27,Spezia,Gyasi
+27,Spezia,Maldini
+27,Spezia,Agudelo
+27,Spezia,Bourabia
+27,Spezia,Ekdal
+27,Spezia,Nikolaou
+27,Spezia,Caldara
+27,Spezia,Ampadu
+27,Spezia,Amian
+27,Spezia,Dragowski
+27,Atalanta,Musso
+27,Atalanta,Toloi
+27,Atalanta,Scalvini
+27,Atalanta,Palomino
+27,Atalanta,Zappacosta
+27,Atalanta,De Roon
+27,Atalanta,Ederson D.s.
+27,Atalanta,Ruggeri
+27,Atalanta,Pasalic
+27,Atalanta,Zapata D.
+27,Atalanta,Muriel
+27,Empoli,Caputo
+27,Empoli,Baldanzi
+27,Empoli,Fazzini
+27,Empoli,Grassi
+27,Empoli,Akpa Akpro
+27,Empoli,Parisi
+27,Empoli,Luperto
+27,Empoli,De Winter
+27,Empoli,Ebuehi
+27,Empoli,Perisan
+27,Monza,Di Gregorio
+27,Monza,Izzo
+27,Monza,Mari'
+27,Monza,Caldirola
+27,Monza,Ciurria
+27,Monza,Machin
+27,Monza,Pessina
+27,Monza,Carlos Augusto
+27,Monza,Sensi
+27,Monza,Caprari
+27,Monza,Petagna
+27,Cremonese,Tsadjout
+27,Cremonese,Valeri
+27,Cremonese,Meite'
+27,Cremonese,Galdames
+27,Cremonese,Pickel
+27,Cremonese,Sernicola
+27,Cremonese,Vasquez
+27,Cremonese,Bianchetti
+27,Cremonese,Aiwu
+27,Cremonese,Carnesecchi
+27,Salernitana,Ochoa
+27,Salernitana,Daniliuc
+27,Salernitana,Gyomber
+27,Salernitana,Pirola
+27,Salernitana,Mazzocchi
+27,Salernitana,Bohinen
+27,Salernitana,Coulibaly L.
+27,Salernitana,Bradaric
+27,Salernitana,Candreva
+27,Salernitana,Kastanos
+27,Salernitana,Dia
+27,Bologna,Kyriakopoulos
+27,Bologna,Ferguson
+27,Bologna,Aebischer
+27,Bologna,Schouten
+27,Bologna,Moro N.
+27,Bologna,Cambiaso
+27,Bologna,Lucumi'
+27,Bologna,Soumaoro
+27,Bologna,Posch
+27,Bologna,Skorupski
+27,Udinese,Silvestri
+27,Udinese,Rodrigo Becao
+27,Udinese,Bijol
+27,Udinese,Perez N.
+27,Udinese,Ehizibue
+27,Udinese,Pereyra
+27,Udinese,Walace
+27,Udinese,Samardzic
+27,Udinese,Udogie
+27,Udinese,Success
+27,Udinese,Beto
+27,Milan,Rafael Leao
+27,Milan,Diaz B.
+27,Milan,Ballo-Toure'
+27,Milan,Bennacer
+27,Milan,Tonali
+27,Milan,Saelemaekers
+27,Milan,Tomori
+27,Milan,Thiaw
+27,Milan,Kalulu
+27,Milan,Maignan
+27,Sampdoria,Turk
+27,Sampdoria,Amione
+27,Sampdoria,Nuytinck
+27,Sampdoria,Gunter
+27,Sampdoria,Zanoli
+27,Sampdoria,Winks
+27,Sampdoria,Cuisance
+27,Sampdoria,Augello
+27,Sampdoria,Leris
+27,Sampdoria,Djuricic
+27,Sampdoria,Gabbiadini
+27,Verona,Lazovic
+27,Verona,Braaf
+27,Verona,Doig
+27,Verona,Duda
+27,Verona,Tameze
+27,Verona,Faraoni
+27,Verona,Coppola D.
+27,Verona,Magnani
+27,Verona,Dawidowicz
+27,Verona,Montipo'
+27,Fiorentina,Terracciano
+27,Fiorentina,Dodo'
+27,Fiorentina,Milenkovic
+27,Fiorentina,Igor
+27,Fiorentina,Biraghi
+27,Fiorentina,Amrabat
+27,Fiorentina,Mandragora
+27,Fiorentina,Gonzalez N.
+27,Fiorentina,Barak
+27,Fiorentina,Saponara
+27,Fiorentina,Kouame'
+27,Lecce,Colombo
+27,Lecce,Strefezza
+27,Lecce,Gonzalez J.
+27,Lecce,Hjulmand
+27,Lecce,Blin
+27,Lecce,Gallo
+27,Lecce,Umtiti
+27,Lecce,Baschirotto
+27,Lecce,Gendrey
+27,Lecce,Falcone
+27,Torino,Milinkovic-Savic V.
+27,Torino,Gravillon
+27,Torino,Schuurs
+27,Torino,Rodriguez R.
+27,Torino,Singo
+27,Torino,Linetty
+27,Torino,Ricci S.
+27,Torino,Vojvoda
+27,Torino,Vlasic
+27,Torino,Radonjic
+27,Torino,Sanabria
+27,Napoli,Osimhen
+27,Napoli,Lozano
+27,Napoli,Zielinski
+27,Napoli,Lobotka
+27,Napoli,Zambo Anguissa
+27,Napoli,Olivera
+27,Napoli,Kim
+27,Napoli,Rrahmani
+27,Napoli,Di Lorenzo
+27,Napoli,Meret
+27,Lazio,Provedel
+27,Lazio,Marusic
+27,Lazio,Casale
+27,Lazio,Romagnoli
+27,Lazio,Hysaj
+27,Lazio,Milinkovic-Savic
+27,Lazio,Cataldi
+27,Lazio,Luis Alberto
+27,Lazio,Pedro
+27,Lazio,Felipe Anderson
+27,Lazio,Zaccagni
+27,Roma,Pellegrini Lo.
+27,Roma,Dybala
+27,Roma,Spinazzola
+27,Roma,Wijnaldum
+27,Roma,Cristante
+27,Roma,Zalewski
+27,Roma,Ibanez
+27,Roma,Smalling
+27,Roma,Mancini
+27,Roma,Rui Patricio
+27,Inter,Onana
+27,Inter,Darmian
+27,Inter,De Vrij
+27,Inter,Acerbi
+27,Inter,Dumfries
+27,Inter,Barella
+27,Inter,Brozovic
+27,Inter,Calhanoglu
+27,Inter,Dimarco
+27,Inter,Martinez L.
+27,Inter,Lukaku
+27,Juventus,Soule'
+27,Juventus,Kostic
+27,Juventus,Rabiot
+27,Juventus,Locatelli
+27,Juventus,Fagioli
+27,Juventus,De Sciglio
+27,Juventus,Bremer
+27,Juventus,Gatti
+27,Juventus,Danilo
+27,Juventus,Szczesny
+28,Cremonese,Carnesecchi
+28,Cremonese,Aiwu
+28,Cremonese,Bianchetti
+28,Cremonese,Lochoshvili
+28,Cremonese,Pickel
+28,Cremonese,Benassi
+28,Cremonese,Castagnetti
+28,Cremonese,Meite'
+28,Cremonese,Valeri
+28,Cremonese,Tsadjout
+28,Cremonese,Ciofani D.
+28,Atalanta,Muriel
+28,Atalanta,Pasalic
+28,Atalanta,Ruggeri
+28,Atalanta,Ederson D.s.
+28,Atalanta,De Roon
+28,Atalanta,Zappacosta
+28,Atalanta,Scalvini
+28,Atalanta,Palomino
+28,Atalanta,Toloi
+28,Atalanta,Musso
+28,Inter,Onana
+28,Inter,Darmian
+28,Inter,Acerbi
+28,Inter,Bastoni
+28,Inter,Dumfries
+28,Inter,Barella
+28,Inter,Brozovic
+28,Inter,Mkhitaryan
+28,Inter,Gosens
+28,Inter,Correa
+28,Inter,Lukaku
+28,Fiorentina,Cabral
+28,Fiorentina,Ikone'
+28,Fiorentina,Castrovilli
+28,Fiorentina,Mandragora
+28,Fiorentina,Bonaventura
+28,Fiorentina,Biraghi
+28,Fiorentina,Igor
+28,Fiorentina,Martinez Quarta
+28,Fiorentina,Dodo'
+28,Fiorentina,Terracciano
+28,Juventus,Szczesny
+28,Juventus,Gatti
+28,Juventus,Bremer
+28,Juventus,Danilo
+28,Juventus,Cuadrado
+28,Juventus,Barrenechea
+28,Juventus,Locatelli
+28,Juventus,Fagioli
+28,Juventus,De Sciglio
+28,Juventus,Milik
+28,Juventus,Kean
+28,Verona,Lasagna
+28,Verona,Duda
+28,Verona,Depaoli
+28,Verona,Miguel Veloso
+28,Verona,Tameze
+28,Verona,Faraoni
+28,Verona,Ceccherini
+28,Verona,Magnani
+28,Verona,Dawidowicz
+28,Verona,Montipo'
+28,Bologna,Bardi
+28,Bologna,Posch
+28,Bologna,Soumaoro
+28,Bologna,Lucumi'
+28,Bologna,Kyriakopoulos
+28,Bologna,Schouten
+28,Bologna,Moro N.
+28,Bologna,Aebischer
+28,Bologna,Ferguson
+28,Bologna,Barrow
+28,Bologna,Sansone
+28,Udinese,Thauvin
+28,Udinese,Udogie
+28,Udinese,Pereyra
+28,Udinese,Lovric
+28,Udinese,Samardzic
+28,Udinese,Ebosele
+28,Udinese,Zeegelaar
+28,Udinese,Bijol
+28,Udinese,Ehizibue
+28,Udinese,Silvestri
+28,Monza,Di Gregorio
+28,Monza,Marlon
+28,Monza,Mari'
+28,Monza,Donati
+28,Monza,Ciurria
+28,Monza,Rovella
+28,Monza,Machin
+28,Monza,Carlos Augusto
+28,Monza,Sensi
+28,Monza,Caprari
+28,Monza,Petagna
+28,Lazio,Felipe Anderson
+28,Lazio,Pedro
+28,Lazio,Luis Alberto
+28,Lazio,Cataldi
+28,Lazio,Milinkovic-Savic
+28,Lazio,Hysaj
+28,Lazio,Romagnoli
+28,Lazio,Casale
+28,Lazio,Lazzari
+28,Lazio,Provedel
+28,Spezia,Dragowski
+28,Spezia,Amian
+28,Spezia,Ampadu
+28,Spezia,Caldara
+28,Spezia,Nikolaou
+28,Spezia,Bourabia
+28,Spezia,Ekdal
+28,Spezia,Kovalenko
+28,Spezia,Verde
+28,Spezia,Shomurodov
+28,Spezia,Gyasi
+28,Salernitana,Candreva
+28,Salernitana,Dia
+28,Salernitana,Bradaric
+28,Salernitana,Vilhena
+28,Salernitana,Coulibaly L.
+28,Salernitana,Sambia
+28,Salernitana,Pirola
+28,Salernitana,Gyomber
+28,Salernitana,Daniliuc
+28,Salernitana,Ochoa
+28,Roma,Rui Patricio
+28,Roma,Zalewski
+28,Roma,Smalling
+28,Roma,Llorente D.
+28,Roma,Spinazzola
+28,Roma,Matic
+28,Roma,Wijnaldum
+28,Roma,Dybala
+28,Roma,Pellegrini Lo.
+28,Roma,El Shaarawy
+28,Roma,Abraham
+28,Sampdoria,Gabbiadini
+28,Sampdoria,Leris
+28,Sampdoria,Cuisance
+28,Sampdoria,Rincon
+28,Sampdoria,Winks
+28,Sampdoria,Augello
+28,Sampdoria,Amione
+28,Sampdoria,Murillo
+28,Sampdoria,Zanoli
+28,Sampdoria,Ravaglia
+28,Napoli,Meret
+28,Napoli,Di Lorenzo
+28,Napoli,Rrahmani
+28,Napoli,Kim
+28,Napoli,Mario Rui
+28,Napoli,Zambo Anguissa
+28,Napoli,Lobotka
+28,Napoli,Zielinski
+28,Napoli,Politano
+28,Napoli,Simeone
+28,Napoli,Kvaratskhelia
+28,Milan,Rafael Leao
+28,Milan,Krunic
+28,Milan,Diaz B.
+28,Milan,Bennacer
+28,Milan,Tonali
+28,Milan,Hernandez T.
+28,Milan,Tomori
+28,Milan,Kjaer
+28,Milan,Calabria
+28,Milan,Maignan
+28,Empoli,Perisan
+28,Empoli,Ebuehi
+28,Empoli,Ismajli
+28,Empoli,Luperto
+28,Empoli,Parisi
+28,Empoli,Akpa Akpro
+28,Empoli,Marin
+28,Empoli,Bandinelli
+28,Empoli,Baldanzi
+28,Empoli,Caputo
+28,Empoli,Piccoli
+28,Lecce,Colombo
+28,Lecce,Strefezza
+28,Lecce,Gonzalez J.
+28,Lecce,Hjulmand
+28,Lecce,Blin
+28,Lecce,Pezzella Giu.
+28,Lecce,Tuia
+28,Lecce,Baschirotto
+28,Lecce,Gendrey
+28,Lecce,Falcone
+28,Sassuolo,Consigli
+28,Sassuolo,Toljan
+28,Sassuolo,Ferrari G.
+28,Sassuolo,Ruan
+28,Sassuolo,Rogerio
+28,Sassuolo,Frattesi
+28,Sassuolo,Lopez M.
+28,Sassuolo,Matheus Henrique
+28,Sassuolo,Berardi
+28,Sassuolo,Pinamonti
+28,Sassuolo,Lauriente'
+28,Torino,Radonjic
+28,Torino,Vlasic
+28,Torino,Rodriguez R.
+28,Torino,Linetty
+28,Torino,Ricci S.
+28,Torino,Singo
+28,Torino,Buongiorno
+28,Torino,Schuurs
+28,Torino,Gravillon
+28,Torino,Milinkovic-Savic V.
+29,Salernitana,Ochoa
+29,Salernitana,Daniliuc
+29,Salernitana,Gyomber
+29,Salernitana,Pirola
+29,Salernitana,Bronn
+29,Salernitana,Coulibaly L.
+29,Salernitana,Vilhena
+29,Salernitana,Bradaric
+29,Salernitana,Candreva
+29,Salernitana,Kastanos
+29,Salernitana,Piatek
+29,Inter,Correa
+29,Inter,Gosens
+29,Inter,Mkhitaryan
+29,Inter,Asllani
+29,Inter,Barella
+29,Inter,Dumfries
+29,Inter,Acerbi
+29,Inter,De Vrij
+29,Inter,Darmian
+29,Inter,Onana
+29,Lecce,Falcone
+29,Lecce,Gendrey
+29,Lecce,Baschirotto
+29,Lecce,Umtiti
+29,Lecce,Gallo
+29,Lecce,Gonzalez J.
+29,Lecce,Hjulmand
+29,Lecce,Maleh
+29,Lecce,Oudin
+29,Lecce,Ceesay
+29,Lecce,Di Francesco F.
+29,Napoli,Raspadori
+29,Napoli,Lozano
+29,Napoli,Elmas
+29,Napoli,Lobotka
+29,Napoli,Zambo Anguissa
+29,Napoli,Mario Rui
+29,Napoli,Kim
+29,Napoli,Rrahmani
+29,Napoli,Di Lorenzo
+29,Napoli,Meret
+29,Milan,Maignan
+29,Milan,Calabria
+29,Milan,Thiaw
+29,Milan,Tomori
+29,Milan,Hernandez T.
+29,Milan,Bennacer
+29,Milan,Tonali
+29,Milan,Saelemaekers
+29,Milan,Pobega
+29,Milan,Rebic
+29,Milan,Origi
+29,Empoli,Caputo
+29,Empoli,Baldanzi
+29,Empoli,Bandinelli
+29,Empoli,Marin
+29,Empoli,Fazzini
+29,Empoli,Parisi
+29,Empoli,Luperto
+29,Empoli,De Winter
+29,Empoli,Ebuehi
+29,Empoli,Perisan
+29,Udinese,Silvestri
+29,Udinese,Rodrigo Becao
+29,Udinese,Bijol
+29,Udinese,Perez N.
+29,Udinese,Ehizibue
+29,Udinese,Samardzic
+29,Udinese,Walace
+29,Udinese,Lovric
+29,Udinese,Udogie
+29,Udinese,Beto
+29,Udinese,Success
+29,Monza,Sensi
+29,Monza,Colpani
+29,Monza,Carlos Augusto
+29,Monza,Rovella
+29,Monza,Pessina
+29,Monza,Ciurria
+29,Monza,Izzo
+29,Monza,Mari'
+29,Monza,Antov
+29,Monza,Di Gregorio
+29,Fiorentina,Terracciano
+29,Fiorentina,Dodo'
+29,Fiorentina,Martinez Quarta
+29,Fiorentina,Igor
+29,Fiorentina,Biraghi
+29,Fiorentina,Bonaventura
+29,Fiorentina,Mandragora
+29,Fiorentina,Castrovilli
+29,Fiorentina,Ikone'
+29,Fiorentina,Cabral
+29,Fiorentina,Sottil
+29,Spezia,Nzola
+29,Spezia,Maldini
+29,Spezia,Zurkowski
+29,Spezia,Ekdal
+29,Spezia,Bourabia
+29,Spezia,Nikolaou
+29,Spezia,Wisniewski
+29,Spezia,Ampadu
+29,Spezia,Amian
+29,Spezia,Dragowski
+29,Atalanta,Musso
+29,Atalanta,Djimsiti
+29,Atalanta,Palomino
+29,Atalanta,Scalvini
+29,Atalanta,Maehle
+29,Atalanta,De Roon
+29,Atalanta,Ederson D.s.
+29,Atalanta,Zappacosta
+29,Atalanta,Pasalic
+29,Atalanta,Lookman
+29,Atalanta,Hojlund
+29,Bologna,Sansone
+29,Bologna,Soriano
+29,Bologna,Moro N.
+29,Bologna,Schouten
+29,Bologna,Ferguson
+29,Bologna,Kyriakopoulos
+29,Bologna,Lucumi'
+29,Bologna,Soumaoro
+29,Bologna,Posch
+29,Bologna,Skorupski
+29,Sampdoria,Ravaglia
+29,Sampdoria,Zanoli
+29,Sampdoria,Nuytinck
+29,Sampdoria,Amione
+29,Sampdoria,Leris
+29,Sampdoria,Rincon
+29,Sampdoria,Winks
+29,Sampdoria,Augello
+29,Sampdoria,Djuricic
+29,Sampdoria,Cuisance
+29,Sampdoria,Gabbiadini
+29,Cremonese,Dessers
+29,Cremonese,Buonaiuto
+29,Cremonese,Quagliata
+29,Cremonese,Castagnetti
+29,Cremonese,Meite'
+29,Cremonese,Ghiglione
+29,Cremonese,Lochoshvili
+29,Cremonese,Bianchetti
+29,Cremonese,Ferrari A.
+29,Cremonese,Carnesecchi
+29,Verona,Montipo'
+29,Verona,Magnani
+29,Verona,Hien
+29,Verona,Tameze
+29,Verona,Faraoni
+29,Verona,Terracciano F.
+29,Verona,Miguel Veloso
+29,Verona,Doig
+29,Verona,Verdi
+29,Verona,Duda
+29,Verona,Lasagna
+29,Sassuolo,Pinamonti
+29,Sassuolo,Berardi
+29,Sassuolo,Harroui
+29,Sassuolo,Lopez M.
+29,Sassuolo,Frattesi
+29,Sassuolo,Rogerio
+29,Sassuolo,Ruan
+29,Sassuolo,Erlic
+29,Sassuolo,Toljan
+29,Sassuolo,Consigli
+29,Torino,Milinkovic-Savic V.
+29,Torino,Gravillon
+29,Torino,Schuurs
+29,Torino,Buongiorno
+29,Torino,Singo
+29,Torino,Ricci S.
+29,Torino,Gineitis
+29,Torino,Rodriguez R.
+29,Torino,Radonjic
+29,Torino,Miranchuk
+29,Torino,Sanabria
+29,Roma,El Shaarawy
+29,Roma,Solbakken
+29,Roma,Spinazzola
+29,Roma,Wijnaldum
+29,Roma,Cristante
+29,Roma,Zalewski
+29,Roma,Llorente D.
+29,Roma,Smalling
+29,Roma,Mancini
+29,Roma,Rui Patricio
+29,Lazio,Provedel
+29,Lazio,Marusic
+29,Lazio,Casale
+29,Lazio,Romagnoli
+29,Lazio,Hysaj
+29,Lazio,Milinkovic-Savic
+29,Lazio,Cataldi
+29,Lazio,Luis Alberto
+29,Lazio,Felipe Anderson
+29,Lazio,Immobile
+29,Lazio,Zaccagni
+29,Juventus,Di Maria
+29,Juventus,Kostic
+29,Juventus,Rabiot
+29,Juventus,Locatelli
+29,Juventus,Fagioli
+29,Juventus,Cuadrado
+29,Juventus,Alex Sandro
+29,Juventus,Bremer
+29,Juventus,Gatti
+29,Juventus,Szczesny
+30,Cremonese,Carnesecchi
+30,Cremonese,Sernicola
+30,Cremonese,Vasquez
+30,Cremonese,Lochoshvili
+30,Cremonese,Valeri
+30,Cremonese,Pickel
+30,Cremonese,Castagnetti
+30,Cremonese,Meite'
+30,Cremonese,Galdames
+30,Cremonese,Tsadjout
+30,Cremonese,Dessers
+30,Empoli,Caputo
+30,Empoli,Baldanzi
+30,Empoli,Bandinelli
+30,Empoli,Marin
+30,Empoli,Fazzini
+30,Empoli,Parisi
+30,Empoli,Luperto
+30,Empoli,De Winter
+30,Empoli,Ebuehi
+30,Empoli,Perisan
+30,Spezia,Dragowski
+30,Spezia,Amian
+30,Spezia,Wisniewski
+30,Spezia,Ampadu
+30,Spezia,Nikolaou
+30,Spezia,Bourabia
+30,Spezia,Esposito Sa.
+30,Spezia,Ekdal
+30,Spezia,Verde
+30,Spezia,Nzola
+30,Spezia,Gyasi
+30,Lazio,Immobile
+30,Lazio,Felipe Anderson
+30,Lazio,Luis Alberto
+30,Lazio,Cataldi
+30,Lazio,Milinkovic-Savic
+30,Lazio,Hysaj
+30,Lazio,Romagnoli
+30,Lazio,Patric
+30,Lazio,Marusic
+30,Lazio,Provedel
+30,Bologna,Skorupski
+30,Bologna,Posch
+30,Bologna,Soumaoro
+30,Bologna,Lucumi'
+30,Bologna,Kyriakopoulos
+30,Bologna,Dominguez
+30,Bologna,Schouten
+30,Bologna,Aebischer
+30,Bologna,Ferguson
+30,Bologna,Barrow
+30,Bologna,Sansone
+30,Milan,Rebic
+30,Milan,De Ketelaere
+30,Milan,Saelemaekers
+30,Milan,Vranckx
+30,Milan,Pobega
+30,Milan,Ballo-Toure'
+30,Milan,Thiaw
+30,Milan,Kalulu
+30,Milan,Florenzi
+30,Milan,Maignan
+30,Napoli,Meret
+30,Napoli,Di Lorenzo
+30,Napoli,Kim
+30,Napoli,Juan Jesus
+30,Napoli,Olivera
+30,Napoli,Zambo Anguissa
+30,Napoli,Demme
+30,Napoli,Elmas
+30,Napoli,Politano
+30,Napoli,Raspadori
+30,Napoli,Lozano
+30,Verona,Lasagna
+30,Verona,Duda
+30,Verona,Depaoli
+30,Verona,Abildgaard
+30,Verona,Tameze
+30,Verona,Faraoni
+30,Verona,Ceccherini
+30,Verona,Hien
+30,Verona,Dawidowicz
+30,Verona,Montipo'
+30,Inter,Onana
+30,Inter,Darmian
+30,Inter,De Vrij
+30,Inter,Bastoni
+30,Inter,Dumfries
+30,Inter,Barella
+30,Inter,Asllani
+30,Inter,Mkhitaryan
+30,Inter,Gosens
+30,Inter,Lukaku
+30,Inter,Correa
+30,Monza,Sensi
+30,Monza,Colpani
+30,Monza,Carlos Augusto
+30,Monza,Rovella
+30,Monza,Pessina
+30,Monza,Ciurria
+30,Monza,Caldirola
+30,Monza,Mari'
+30,Monza,Izzo
+30,Monza,Di Gregorio
+30,Lecce,Falcone
+30,Lecce,Gendrey
+30,Lecce,Baschirotto
+30,Lecce,Umtiti
+30,Lecce,Gallo
+30,Lecce,Blin
+30,Lecce,Hjulmand
+30,Lecce,Strefezza
+30,Lecce,Oudin
+30,Lecce,Di Francesco F.
+30,Lecce,Ceesay
+30,Sampdoria,Gabbiadini
+30,Sampdoria,Djuricic
+30,Sampdoria,Augello
+30,Sampdoria,Rincon
+30,Sampdoria,Winks
+30,Sampdoria,Leris
+30,Sampdoria,Amione
+30,Sampdoria,Nuytinck
+30,Sampdoria,Zanoli
+30,Sampdoria,Ravaglia
+30,Torino,Milinkovic-Savic V.
+30,Torino,Djidji
+30,Torino,Buongiorno
+30,Torino,Rodriguez R.
+30,Torino,Singo
+30,Torino,Ricci S.
+30,Torino,Ilic
+30,Torino,Vojvoda
+30,Torino,Miranchuk
+30,Torino,Radonjic
+30,Torino,Sanabria
+30,Salernitana,Dia
+30,Salernitana,Candreva
+30,Salernitana,Bradaric
+30,Salernitana,Nicolussi Caviglia
+30,Salernitana,Vilhena
+30,Salernitana,Kastanos
+30,Salernitana,Pirola
+30,Salernitana,Gyomber
+30,Salernitana,Daniliuc
+30,Salernitana,Ochoa
+30,Sassuolo,Consigli
+30,Sassuolo,Toljan
+30,Sassuolo,Erlic
+30,Sassuolo,Ruan
+30,Sassuolo,Rogerio
+30,Sassuolo,Frattesi
+30,Sassuolo,Lopez M.
+30,Sassuolo,Matheus Henrique
+30,Sassuolo,Bajrami
+30,Sassuolo,Pinamonti
+30,Sassuolo,Lauriente'
+30,Juventus,Milik
+30,Juventus,Kostic
+30,Juventus,Rabiot
+30,Juventus,Paredes
+30,Juventus,Fagioli
+30,Juventus,Barbieri
+30,Juventus,Danilo
+30,Juventus,Bremer
+30,Juventus,Gatti
+30,Juventus,Perin
+30,Roma,Rui Patricio
+30,Roma,Mancini
+30,Roma,Smalling
+30,Roma,Llorente D.
+30,Roma,Celik
+30,Roma,Cristante
+30,Roma,Bove
+30,Roma,Wijnaldum
+30,Roma,El Shaarawy
+30,Roma,Pellegrini Lo.
+30,Roma,Belotti
+30,Udinese,Pereyra
+30,Udinese,Udogie
+30,Udinese,Lovric
+30,Udinese,Walace
+30,Udinese,Samardzic
+30,Udinese,Ehizibue
+30,Udinese,Perez N.
+30,Udinese,Bijol
+30,Udinese,Rodrigo Becao
+30,Udinese,Silvestri
+30,Fiorentina,Terracciano
+30,Fiorentina,Dodo'
+30,Fiorentina,Milenkovic
+30,Fiorentina,Martinez Quarta
+30,Fiorentina,Terzic
+30,Fiorentina,Castrovilli
+30,Fiorentina,Mandragora
+30,Fiorentina,Ikone'
+30,Fiorentina,Barak
+30,Fiorentina,Gonzalez N.
+30,Fiorentina,Cabral
+30,Atalanta,Hojlund
+30,Atalanta,Koopmeiners
+30,Atalanta,Maehle
+30,Atalanta,Ederson D.s.
+30,Atalanta,De Roon
+30,Atalanta,Zappacosta
+30,Atalanta,Scalvini
+30,Atalanta,Djimsiti
+30,Atalanta,Toloi
+30,Atalanta,Sportiello
+31,Verona,Montipo'
+31,Verona,Magnani
+31,Verona,Hien
+31,Verona,Dawidowicz
+31,Verona,Faraoni
+31,Verona,Tameze
+31,Verona,Abildgaard
+31,Verona,Depaoli
+31,Verona,Verdi
+31,Verona,Lasagna
+31,Verona,Gaich
+31,Bologna,Barrow
+31,Bologna,Ferguson
+31,Bologna,Aebischer
+31,Bologna,Dominguez
+31,Bologna,Schouten
+31,Bologna,Kyriakopoulos
+31,Bologna,Lucumi'
+31,Bologna,Soumaoro
+31,Bologna,Posch
+31,Bologna,Skorupski
+31,Salernitana,Ochoa
+31,Salernitana,Lovato
+31,Salernitana,Gyomber
+31,Salernitana,Pirola
+31,Salernitana,Kastanos
+31,Salernitana,Coulibaly L.
+31,Salernitana,Vilhena
+31,Salernitana,Bradaric
+31,Salernitana,Candreva
+31,Salernitana,Botheim
+31,Salernitana,Dia
+31,Sassuolo,Defrel
+31,Sassuolo,Bajrami
+31,Sassuolo,Matheus Henrique
+31,Sassuolo,Lopez M.
+31,Sassuolo,Frattesi
+31,Sassuolo,Rogerio
+31,Sassuolo,Ferrari G.
+31,Sassuolo,Ruan
+31,Sassuolo,Toljan
+31,Sassuolo,Consigli
+31,Lazio,Provedel
+31,Lazio,Marusic
+31,Lazio,Patric
+31,Lazio,Romagnoli
+31,Lazio,Hysaj
+31,Lazio,Milinkovic-Savic
+31,Lazio,Vecino
+31,Lazio,Luis Alberto
+31,Lazio,Pedro
+31,Lazio,Felipe Anderson
+31,Lazio,Zaccagni
+31,Torino,Radonjic
+31,Torino,Vlasic
+31,Torino,Rodriguez R.
+31,Torino,Ilic
+31,Torino,Linetty
+31,Torino,Singo
+31,Torino,Buongiorno
+31,Torino,Schuurs
+31,Torino,Djidji
+31,Torino,Milinkovic-Savic V.
+31,Sampdoria,Ravaglia
+31,Sampdoria,Gunter
+31,Sampdoria,Murillo
+31,Sampdoria,Amione
+31,Sampdoria,Zanoli
+31,Sampdoria,Leris
+31,Sampdoria,Rincon
+31,Sampdoria,Winks
+31,Sampdoria,Augello
+31,Sampdoria,Lammers
+31,Sampdoria,Gabbiadini
+31,Spezia,Nzola
+31,Spezia,Gyasi
+31,Spezia,Bourabia
+31,Spezia,Esposito Sa.
+31,Spezia,Ekdal
+31,Spezia,Bastoni S.
+31,Spezia,Wisniewski
+31,Spezia,Nikolaou
+31,Spezia,Amian
+31,Spezia,Zoet
+31,Empoli,Perisan
+31,Empoli,Ebuehi
+31,Empoli,Ismajli
+31,Empoli,Luperto
+31,Empoli,Parisi
+31,Empoli,Haas
+31,Empoli,Marin
+31,Empoli,Bandinelli
+31,Empoli,Baldanzi
+31,Empoli,Caputo
+31,Empoli,Cambiaghi
+31,Inter,Correa
+31,Inter,Gosens
+31,Inter,Calhanoglu
+31,Inter,Brozovic
+31,Inter,Gagliardini
+31,Inter,Bellanova
+31,Inter,Acerbi
+31,Inter,De Vrij
+31,Inter,D'ambrosio
+31,Inter,Handanovic
+31,Monza,Di Gregorio
+31,Monza,Izzo
+31,Monza,Mari'
+31,Monza,Caldirola
+31,Monza,Ciurria
+31,Monza,Pessina
+31,Monza,Rovella
+31,Monza,Carlos Augusto
+31,Monza,Colpani
+31,Monza,Caprari
+31,Monza,Mota
+31,Fiorentina,Saponara
+31,Fiorentina,Barak
+31,Fiorentina,Kouame'
+31,Fiorentina,Mandragora
+31,Fiorentina,Amrabat
+31,Fiorentina,Biraghi
+31,Fiorentina,Milenkovic
+31,Fiorentina,Martinez Quarta
+31,Fiorentina,Dodo'
+31,Fiorentina,Terracciano
+31,Udinese,Silvestri
+31,Udinese,Rodrigo Becao
+31,Udinese,Bijol
+31,Udinese,Perez N.
+31,Udinese,Ehizibue
+31,Udinese,Samardzic
+31,Udinese,Walace
+31,Udinese,Lovric
+31,Udinese,Udogie
+31,Udinese,Pereyra
+31,Udinese,Success
+31,Cremonese,Tsadjout
+31,Cremonese,Buonaiuto
+31,Cremonese,Benassi
+31,Cremonese,Castagnetti
+31,Cremonese,Meite'
+31,Cremonese,Valeri
+31,Cremonese,Vasquez
+31,Cremonese,Bianchetti
+31,Cremonese,Sernicola
+31,Cremonese,Carnesecchi
+31,Milan,Maignan
+31,Milan,Kalulu
+31,Milan,Thiaw
+31,Milan,Tomori
+31,Milan,Hernandez T.
+31,Milan,Krunic
+31,Milan,Tonali
+31,Milan,Messias
+31,Milan,Diaz B.
+31,Milan,Rafael Leao
+31,Milan,Rebic
+31,Lecce,Banda
+31,Lecce,Di Francesco F.
+31,Lecce,Oudin
+31,Lecce,Hjulmand
+31,Lecce,Blin
+31,Lecce,Gallo
+31,Lecce,Umtiti
+31,Lecce,Baschirotto
+31,Lecce,Gendrey
+31,Lecce,Falcone
+31,Juventus,Szczesny
+31,Juventus,Gatti
+31,Juventus,Rugani
+31,Juventus,Danilo
+31,Juventus,Cuadrado
+31,Juventus,Miretti
+31,Juventus,Locatelli
+31,Juventus,Rabiot
+31,Juventus,Kostic
+31,Juventus,Soule'
+31,Juventus,Milik
+31,Napoli,Osimhen
+31,Napoli,Lozano
+31,Napoli,Ndombele'
+31,Napoli,Lobotka
+31,Napoli,Zambo Anguissa
+31,Napoli,Olivera
+31,Napoli,Juan Jesus
+31,Napoli,Kim
+31,Napoli,Di Lorenzo
+31,Napoli,Meret
+31,Atalanta,Sportiello
+31,Atalanta,Toloi
+31,Atalanta,Djimsiti
+31,Atalanta,Scalvini
+31,Atalanta,Zappacosta
+31,Atalanta,De Roon
+31,Atalanta,Ederson D.s.
+31,Atalanta,Maehle
+31,Atalanta,Koopmeiners
+31,Atalanta,Pasalic
+31,Atalanta,Zapata D.
+31,Roma,Solbakken
+31,Roma,Pellegrini Lo.
+31,Roma,Zalewski
+31,Roma,Bove
+31,Roma,Cristante
+31,Roma,Celik
+31,Roma,Ibanez
+31,Roma,Llorente D.
+31,Roma,Mancini
+31,Roma,Rui Patricio
+32,Lecce,Falcone
+32,Lecce,Gendrey
+32,Lecce,Baschirotto
+32,Lecce,Umtiti
+32,Lecce,Gallo
+32,Lecce,Blin
+32,Lecce,Hjulmand
+32,Lecce,Oudin
+32,Lecce,Di Francesco F.
+32,Lecce,Colombo
+32,Lecce,Strefezza
+32,Udinese,Pereyra
+32,Udinese,Udogie
+32,Udinese,Lovric
+32,Udinese,Walace
+32,Udinese,Samardzic
+32,Udinese,Ehizibue
+32,Udinese,Perez N.
+32,Udinese,Bijol
+32,Udinese,Rodrigo Becao
+32,Udinese,Silvestri
+32,Spezia,Dragowski
+32,Spezia,Amian
+32,Spezia,Ampadu
+32,Spezia,Wisniewski
+32,Spezia,Bastoni S.
+32,Spezia,Ekdal
+32,Spezia,Esposito Sa.
+32,Spezia,Verde
+32,Spezia,Kovalenko
+32,Spezia,Gyasi
+32,Spezia,Shomurodov
+32,Monza,Caprari
+32,Monza,Colpani
+32,Monza,Carlos Augusto
+32,Monza,Pessina
+32,Monza,Rovella
+32,Monza,Ciurria
+32,Monza,Caldirola
+32,Monza,Mari'
+32,Monza,Izzo
+32,Monza,Di Gregorio
+32,Roma,Rui Patricio
+32,Roma,Mancini
+32,Roma,Kumbulla
+32,Roma,Ibanez
+32,Roma,Celik
+32,Roma,Cristante
+32,Roma,Matic
+32,Roma,Pellegrini Lo.
+32,Roma,Spinazzola
+32,Roma,Belotti
+32,Roma,Abraham
+32,Milan,Rafael Leao
+32,Milan,Bennacer
+32,Milan,Diaz B.
+32,Milan,Tonali
+32,Milan,Krunic
+32,Milan,Hernandez T.
+32,Milan,Tomori
+32,Milan,Kjaer
+32,Milan,Calabria
+32,Milan,Maignan
+32,Torino,Milinkovic-Savic V.
+32,Torino,Djidji
+32,Torino,Schuurs
+32,Torino,Buongiorno
+32,Torino,Lazaro
+32,Torino,Linetty
+32,Torino,Ilic
+32,Torino,Rodriguez R.
+32,Torino,Karamoh
+32,Torino,Miranchuk
+32,Torino,Sanabria
+32,Atalanta,Koopmeiners
+32,Atalanta,Pasalic
+32,Atalanta,Zappacosta
+32,Atalanta,Ederson D.s.
+32,Atalanta,De Roon
+32,Atalanta,Maehle
+32,Atalanta,Scalvini
+32,Atalanta,Djimsiti
+32,Atalanta,Toloi
+32,Atalanta,Sportiello
+32,Inter,Onana
+32,Inter,D'ambrosio
+32,Inter,Acerbi
+32,Inter,Bastoni
+32,Inter,Darmian
+32,Inter,Barella
+32,Inter,Brozovic
+32,Inter,Mkhitaryan
+32,Inter,Dimarco
+32,Inter,Correa
+32,Inter,Lukaku
+32,Lazio,Immobile
+32,Lazio,Felipe Anderson
+32,Lazio,Luis Alberto
+32,Lazio,Cataldi
+32,Lazio,Milinkovic-Savic
+32,Lazio,Marusic
+32,Lazio,Romagnoli
+32,Lazio,Casale
+32,Lazio,Hysaj
+32,Lazio,Provedel
+32,Cremonese,Carnesecchi
+32,Cremonese,Aiwu
+32,Cremonese,Lochoshvili
+32,Cremonese,Vasquez
+32,Cremonese,Valeri
+32,Cremonese,Pickel
+32,Cremonese,Castagnetti
+32,Cremonese,Meite'
+32,Cremonese,Galdames
+32,Cremonese,Ciofani D.
+32,Cremonese,Okereke
+32,Verona,Verdi
+32,Verona,Kallon
+32,Verona,Lazovic
+32,Verona,Abildgaard
+32,Verona,Tameze
+32,Verona,Depaoli
+32,Verona,Dawidowicz
+32,Verona,Hien
+32,Verona,Magnani
+32,Verona,Montipo'
+32,Napoli,Meret
+32,Napoli,Di Lorenzo
+32,Napoli,Kim
+32,Napoli,Rrahmani
+32,Napoli,Olivera
+32,Napoli,Zambo Anguissa
+32,Napoli,Lobotka
+32,Napoli,Zielinski
+32,Napoli,Lozano
+32,Napoli,Osimhen
+32,Napoli,Kvaratskhelia
+32,Salernitana,Kastanos
+32,Salernitana,Candreva
+32,Salernitana,Bradaric
+32,Salernitana,Vilhena
+32,Salernitana,Coulibaly L.
+32,Salernitana,Mazzocchi
+32,Salernitana,Pirola
+32,Salernitana,Gyomber
+32,Salernitana,Daniliuc
+32,Salernitana,Ochoa
+32,Sassuolo,Consigli
+32,Sassuolo,Toljan
+32,Sassuolo,Erlic
+32,Sassuolo,Ruan
+32,Sassuolo,Marchizza
+32,Sassuolo,Frattesi
+32,Sassuolo,Lopez M.
+32,Sassuolo,Harroui
+32,Sassuolo,Bajrami
+32,Sassuolo,Defrel
+32,Sassuolo,Lauriente'
+32,Empoli,Cambiaghi
+32,Empoli,Baldanzi
+32,Empoli,Bandinelli
+32,Empoli,Marin
+32,Empoli,Grassi
+32,Empoli,Parisi
+32,Empoli,Luperto
+32,Empoli,Walukiewicz
+32,Empoli,Ebuehi
+32,Empoli,Vicario
+32,Fiorentina,Cerofolini
+32,Fiorentina,Dodo'
+32,Fiorentina,Milenkovic
+32,Fiorentina,Ranieri L.
+32,Fiorentina,Biraghi
+32,Fiorentina,Amrabat
+32,Fiorentina,Duncan
+32,Fiorentina,Gonzalez N.
+32,Fiorentina,Castrovilli
+32,Fiorentina,Sottil
+32,Fiorentina,Jovic
+32,Sampdoria,Lammers
+32,Sampdoria,Leris
+32,Sampdoria,Augello
+32,Sampdoria,Rincon
+32,Sampdoria,Winks
+32,Sampdoria,Zanoli
+32,Sampdoria,Amione
+32,Sampdoria,Oikonomou
+32,Sampdoria,Gunter
+32,Sampdoria,Ravaglia
+32,Bologna,Skorupski
+32,Bologna,Posch
+32,Bologna,Soumaoro
+32,Bologna,Lucumi'
+32,Bologna,Kyriakopoulos
+32,Bologna,Moro N.
+32,Bologna,Schouten
+32,Bologna,Dominguez
+32,Bologna,Orsolini
+32,Bologna,Barrow
+32,Bologna,Ferguson
+32,Juventus,Milik
+32,Juventus,Kostic
+32,Juventus,Rabiot
+32,Juventus,Locatelli
+32,Juventus,Fagioli
+32,Juventus,Alex Sandro
+32,Juventus,Danilo
+32,Juventus,Gatti
+32,Juventus,Cuadrado
+32,Juventus,Szczesny
+33,Atalanta,Musso
+33,Atalanta,Toloi
+33,Atalanta,Djimsiti
+33,Atalanta,Scalvini
+33,Atalanta,Zappacosta
+33,Atalanta,Koopmeiners
+33,Atalanta,De Roon
+33,Atalanta,Maehle
+33,Atalanta,Pasalic
+33,Atalanta,Muriel
+33,Atalanta,Zapata D.
+33,Spezia,Shomurodov
+33,Spezia,Agudelo
+33,Spezia,Bastoni S.
+33,Spezia,Ampadu
+33,Spezia,Bourabia
+33,Spezia,Reca
+33,Spezia,Nikolaou
+33,Spezia,Wisniewski
+33,Spezia,Amian
+33,Spezia,Dragowski
+33,Juventus,Szczesny
+33,Juventus,Danilo
+33,Juventus,Bonucci
+33,Juventus,Bremer
+33,Juventus,De Sciglio
+33,Juventus,Fagioli
+33,Juventus,Paredes
+33,Juventus,Miretti
+33,Juventus,Kostic
+33,Juventus,Di Maria
+33,Juventus,Vlahovic
+33,Lecce,Ceesay
+33,Lecce,Oudin
+33,Lecce,Maleh
+33,Lecce,Hjulmand
+33,Lecce,Gonzalez J.
+33,Lecce,Pezzella Giu.
+33,Lecce,Umtiti
+33,Lecce,Romagnoli S.
+33,Lecce,Baschirotto
+33,Lecce,Falcone
+33,Salernitana,Ochoa
+33,Salernitana,Lovato
+33,Salernitana,Gyomber
+33,Salernitana,Pirola
+33,Salernitana,Mazzocchi
+33,Salernitana,Coulibaly L.
+33,Salernitana,Bohinen
+33,Salernitana,Bradaric
+33,Salernitana,Maggiore
+33,Salernitana,Dia
+33,Salernitana,Botheim
+33,Fiorentina,Gonzalez N.
+33,Fiorentina,Barak
+33,Fiorentina,Ikone'
+33,Fiorentina,Mandragora
+33,Fiorentina,Castrovilli
+33,Fiorentina,Biraghi
+33,Fiorentina,Igor
+33,Fiorentina,Martinez Quarta
+33,Fiorentina,Dodo'
+33,Fiorentina,Terracciano
+33,Sampdoria,Ravaglia
+33,Sampdoria,Nuytinck
+33,Sampdoria,Oikonomou
+33,Sampdoria,Amione
+33,Sampdoria,Zanoli
+33,Sampdoria,Rincon
+33,Sampdoria,Winks
+33,Sampdoria,Augello
+33,Sampdoria,Cuisance
+33,Sampdoria,Gabbiadini
+33,Sampdoria,Lammers
+33,Torino,Vlasic
+33,Torino,Seck
+33,Torino,Vojvoda
+33,Torino,Ilic
+33,Torino,Ricci S.
+33,Torino,Singo
+33,Torino,Rodriguez R.
+33,Torino,Buongiorno
+33,Torino,Schuurs
+33,Torino,Milinkovic-Savic V.
+33,Verona,Montipo'
+33,Verona,Magnani
+33,Verona,Hien
+33,Verona,Ceccherini
+33,Verona,Faraoni
+33,Verona,Tameze
+33,Verona,Abildgaard
+33,Verona,Depaoli
+33,Verona,Verdi
+33,Verona,Lazovic
+33,Verona,Gaich
+33,Inter,Martinez L.
+33,Inter,Dimarco
+33,Inter,Calhanoglu
+33,Inter,Brozovic
+33,Inter,Mkhitaryan
+33,Inter,Dumfries
+33,Inter,Acerbi
+33,Inter,De Vrij
+33,Inter,D'ambrosio
+33,Inter,Handanovic
+33,Lazio,Provedel
+33,Lazio,Lazzari
+33,Lazio,Casale
+33,Lazio,Patric
+33,Lazio,Marusic
+33,Lazio,Vecino
+33,Lazio,Marcos Antonio
+33,Lazio,Luis Alberto
+33,Lazio,Felipe Anderson
+33,Lazio,Immobile
+33,Lazio,Zaccagni
+33,Sassuolo,Defrel
+33,Sassuolo,Berardi
+33,Sassuolo,Matheus Henrique
+33,Sassuolo,Obiang
+33,Sassuolo,Frattesi
+33,Sassuolo,Rogerio
+33,Sassuolo,Ferrari G.
+33,Sassuolo,Ruan
+33,Sassuolo,Zortea
+33,Sassuolo,Consigli
+33,Milan,Maignan
+33,Milan,Calabria
+33,Milan,Kalulu
+33,Milan,Thiaw
+33,Milan,Ballo-Toure'
+33,Milan,Vranckx
+33,Milan,Bennacer
+33,Milan,Saelemaekers
+33,Milan,De Ketelaere
+33,Milan,Diaz B.
+33,Milan,Origi
+33,Cremonese,Buonaiuto
+33,Cremonese,Galdames
+33,Cremonese,Pickel
+33,Cremonese,Meite'
+33,Cremonese,Benassi
+33,Cremonese,Vasquez
+33,Cremonese,Lochoshvili
+33,Cremonese,Chiriches
+33,Cremonese,Sernicola
+33,Cremonese,Carnesecchi
+33,Monza,Di Gregorio
+33,Monza,Izzo
+33,Monza,Mari'
+33,Monza,Caldirola
+33,Monza,Ciurria
+33,Monza,Pessina
+33,Monza,Rovella
+33,Monza,Carlos Augusto
+33,Monza,Colpani
+33,Monza,Caprari
+33,Monza,Mota
+33,Roma,Solbakken
+33,Roma,El Shaarawy
+33,Roma,Zalewski
+33,Roma,Bove
+33,Roma,Pellegrini Lo.
+33,Roma,Celik
+33,Roma,Ibanez
+33,Roma,Cristante
+33,Roma,Mancini
+33,Roma,Rui Patricio
+33,Empoli,Vicario
+33,Empoli,Ebuehi
+33,Empoli,Walukiewicz
+33,Empoli,Luperto
+33,Empoli,Parisi
+33,Empoli,Marin
+33,Empoli,Grassi
+33,Empoli,Akpa Akpro
+33,Empoli,Baldanzi
+33,Empoli,Cambiaghi
+33,Empoli,Caputo
+33,Bologna,Dominguez
+33,Bologna,Aebischer
+33,Bologna,Orsolini
+33,Bologna,Schouten
+33,Bologna,Moro N.
+33,Bologna,Cambiaso
+33,Bologna,Lucumi'
+33,Bologna,Soumaoro
+33,Bologna,Posch
+33,Bologna,Skorupski
+33,Udinese,Silvestri
+33,Udinese,Rodrigo Becao
+33,Udinese,Bijol
+33,Udinese,Perez N.
+33,Udinese,Ehizibue
+33,Udinese,Samardzic
+33,Udinese,Walace
+33,Udinese,Lovric
+33,Udinese,Udogie
+33,Udinese,Pereyra
+33,Udinese,Nestorovski
+33,Napoli,Osimhen
+33,Napoli,Elmas
+33,Napoli,Ndombele'
+33,Napoli,Lobotka
+33,Napoli,Zambo Anguissa
+33,Napoli,Olivera
+33,Napoli,Kim
+33,Napoli,Rrahmani
+33,Napoli,Di Lorenzo
+33,Napoli,Meret
+34,Milan,Maignan
+34,Milan,Calabria
+34,Milan,Kjaer
+34,Milan,Tomori
+34,Milan,Hernandez T.
+34,Milan,Tonali
+34,Milan,Krunic
+34,Milan,Messias
+34,Milan,Bennacer
+34,Milan,Rafael Leao
+34,Milan,Giroud
+34,Lazio,Immobile
+34,Lazio,Felipe Anderson
+34,Lazio,Luis Alberto
+34,Lazio,Marcos Antonio
+34,Lazio,Milinkovic-Savic
+34,Lazio,Hysaj
+34,Lazio,Romagnoli
+34,Lazio,Casale
+34,Lazio,Marusic
+34,Lazio,Provedel
+34,Roma,Rui Patricio
+34,Roma,Mancini
+34,Roma,Cristante
+34,Roma,Ibanez
+34,Roma,Zalewski
+34,Roma,Camara Ma.
+34,Roma,Matic
+34,Roma,Bove
+34,Roma,Spinazzola
+34,Roma,Pellegrini Lo.
+34,Roma,Belotti
+34,Inter,Correa
+34,Inter,Dimarco
+34,Inter,Calhanoglu
+34,Inter,Brozovic
+34,Inter,Barella
+34,Inter,Dumfries
+34,Inter,Bastoni
+34,Inter,Acerbi
+34,Inter,Darmian
+34,Inter,Onana
+34,Cremonese,Carnesecchi
+34,Cremonese,Ferrari A.
+34,Cremonese,Vasquez
+34,Cremonese,Lochoshvili
+34,Cremonese,Sernicola
+34,Cremonese,Meite'
+34,Cremonese,Castagnetti
+34,Cremonese,Valeri
+34,Cremonese,Galdames
+34,Cremonese,Okereke
+34,Cremonese,Ciofani D.
+34,Spezia,Shomurodov
+34,Spezia,Agudelo
+34,Spezia,Ekdal
+34,Spezia,Esposito Sa.
+34,Spezia,Bourabia
+34,Spezia,Nikolaou
+34,Spezia,Ampadu
+34,Spezia,Wisniewski
+34,Spezia,Amian
+34,Spezia,Dragowski
+34,Atalanta,Sportiello
+34,Atalanta,Toloi
+34,Atalanta,Scalvini
+34,Atalanta,Djimsiti
+34,Atalanta,Maehle
+34,Atalanta,De Roon
+34,Atalanta,Koopmeiners
+34,Atalanta,Zappacosta
+34,Atalanta,Ederson D.s.
+34,Atalanta,Pasalic
+34,Atalanta,Zapata D.
+34,Juventus,Di Maria
+34,Juventus,Iling-Junior
+34,Juventus,Rabiot
+34,Juventus,Locatelli
+34,Juventus,Fagioli
+34,Juventus,Cuadrado
+34,Juventus,Alex Sandro
+34,Juventus,Rugani
+34,Juventus,Danilo
+34,Juventus,Szczesny
+34,Torino,Milinkovic-Savic V.
+34,Torino,Djidji
+34,Torino,Buongiorno
+34,Torino,Rodriguez R.
+34,Torino,Lazaro
+34,Torino,Ilic
+34,Torino,Ricci S.
+34,Torino,Vojvoda
+34,Torino,Miranchuk
+34,Torino,Vlasic
+34,Torino,Sanabria
+34,Monza,Valoti
+34,Monza,Ciurria
+34,Monza,Carlos Augusto
+34,Monza,Machin
+34,Monza,Pessina
+34,Monza,Birindelli
+34,Monza,Caldirola
+34,Monza,Mari'
+34,Monza,Izzo
+34,Monza,Di Gregorio
+34,Napoli,Gollini
+34,Napoli,Di Lorenzo
+34,Napoli,Ostigard
+34,Napoli,Kim
+34,Napoli,Olivera
+34,Napoli,Zambo Anguissa
+34,Napoli,Demme
+34,Napoli,Elmas
+34,Napoli,Lozano
+34,Napoli,Osimhen
+34,Napoli,Raspadori
+34,Fiorentina,Sottil
+34,Fiorentina,Bonaventura
+34,Fiorentina,Gonzalez N.
+34,Fiorentina,Duncan
+34,Fiorentina,Amrabat
+34,Fiorentina,Terzic
+34,Fiorentina,Igor
+34,Fiorentina,Milenkovic
+34,Fiorentina,Dodo'
+34,Fiorentina,Terracciano
+34,Lecce,Falcone
+34,Lecce,Gendrey
+34,Lecce,Baschirotto
+34,Lecce,Umtiti
+34,Lecce,Gallo
+34,Lecce,Blin
+34,Lecce,Hjulmand
+34,Lecce,Oudin
+34,Lecce,Strefezza
+34,Lecce,Ceesay
+34,Lecce,Di Francesco F.
+34,Verona,Verdi
+34,Verona,Duda
+34,Verona,Lazovic
+34,Verona,Tameze
+34,Verona,Abildgaard
+34,Verona,Faraoni
+34,Verona,Dawidowicz
+34,Verona,Hien
+34,Verona,Magnani
+34,Verona,Montipo'
+34,Empoli,Vicario
+34,Empoli,Ebuehi
+34,Empoli,Walukiewicz
+34,Empoli,Luperto
+34,Empoli,Parisi
+34,Empoli,Grassi
+34,Empoli,Marin
+34,Empoli,Henderson L.
+34,Empoli,Baldanzi
+34,Empoli,Cambiaghi
+34,Empoli,Caputo
+34,Salernitana,Botheim
+34,Salernitana,Maggiore
+34,Salernitana,Mazzocchi
+34,Salernitana,Vilhena
+34,Salernitana,Coulibaly L.
+34,Salernitana,Sambia
+34,Salernitana,Pirola
+34,Salernitana,Lovato
+34,Salernitana,Bronn
+34,Salernitana,Ochoa
+34,Udinese,Silvestri
+34,Udinese,Rodrigo Becao
+34,Udinese,Bijol
+34,Udinese,Masina
+34,Udinese,Ebosele
+34,Udinese,Pereyra
+34,Udinese,Walace
+34,Udinese,Lovric
+34,Udinese,Zeegelaar
+34,Udinese,Thauvin
+34,Udinese,Nestorovski
+34,Sampdoria,Quagliarella
+34,Sampdoria,Djuricic
+34,Sampdoria,Augello
+34,Sampdoria,Rincon
+34,Sampdoria,Winks
+34,Sampdoria,Zanoli
+34,Sampdoria,Murru
+34,Sampdoria,Nuytinck
+34,Sampdoria,Gunter
+34,Sampdoria,Ravaglia
+34,Sassuolo,Consigli
+34,Sassuolo,Toljan
+34,Sassuolo,Ruan
+34,Sassuolo,Erlic
+34,Sassuolo,Rogerio
+34,Sassuolo,Frattesi
+34,Sassuolo,Lopez M.
+34,Sassuolo,Matheus Henrique
+34,Sassuolo,Berardi
+34,Sassuolo,Defrel
+34,Sassuolo,Bajrami
+34,Bologna,Orsolini
+34,Bologna,Ferguson
+34,Bologna,Barrow
+34,Bologna,Dominguez
+34,Bologna,Schouten
+34,Bologna,Cambiaso
+34,Bologna,Lucumi'
+34,Bologna,Bonifazi
+34,Bologna,Posch
+34,Bologna,Skorupski
+35,Lazio,Provedel
+35,Lazio,Lazzari
+35,Lazio,Casale
+35,Lazio,Romagnoli
+35,Lazio,Hysaj
+35,Lazio,Milinkovic-Savic
+35,Lazio,Marcos Antonio
+35,Lazio,Luis Alberto
+35,Lazio,Felipe Anderson
+35,Lazio,Immobile
+35,Lazio,Zaccagni
+35,Lecce,Colombo
+35,Lecce,Strefezza
+35,Lecce,Oudin
+35,Lecce,Hjulmand
+35,Lecce,Blin
+35,Lecce,Gallo
+35,Lecce,Umtiti
+35,Lecce,Baschirotto
+35,Lecce,Gendrey
+35,Lecce,Falcone
+35,Salernitana,Ochoa
+35,Salernitana,Daniliuc
+35,Salernitana,Lovato
+35,Salernitana,Pirola
+35,Salernitana,Mazzocchi
+35,Salernitana,Coulibaly L.
+35,Salernitana,Vilhena
+35,Salernitana,Bradaric
+35,Salernitana,Dia
+35,Salernitana,Botheim
+35,Salernitana,Piatek
+35,Atalanta,Koopmeiners
+35,Atalanta,Pasalic
+35,Atalanta,Zappacosta
+35,Atalanta,Ederson D.s.
+35,Atalanta,De Roon
+35,Atalanta,Soppy
+35,Atalanta,Scalvini
+35,Atalanta,Djimsiti
+35,Atalanta,Toloi
+35,Atalanta,Sportiello
+35,Spezia,Dragowski
+35,Spezia,Wisniewski
+35,Spezia,Ampadu
+35,Spezia,Nikolaou
+35,Spezia,Amian
+35,Spezia,Esposito Sa.
+35,Spezia,Ekdal
+35,Spezia,Bourabia
+35,Spezia,Reca
+35,Spezia,Gyasi
+35,Spezia,Nzola
+35,Milan,Origi
+35,Milan,Diaz B.
+35,Milan,Saelemaekers
+35,Milan,Pobega
+35,Milan,Tonali
+35,Milan,Hernandez T.
+35,Milan,Tomori
+35,Milan,Kjaer
+35,Milan,Kalulu
+35,Milan,Maignan
+35,Inter,Handanovic
+35,Inter,D'ambrosio
+35,Inter,De Vrij
+35,Inter,Acerbi
+35,Inter,Bellanova
+35,Inter,Gagliardini
+35,Inter,Brozovic
+35,Inter,Mkhitaryan
+35,Inter,Dimarco
+35,Inter,Lukaku
+35,Inter,Correa
+35,Sassuolo,Defrel
+35,Sassuolo,Berardi
+35,Sassuolo,Matheus Henrique
+35,Sassuolo,Lopez M.
+35,Sassuolo,Frattesi
+35,Sassuolo,Rogerio
+35,Sassuolo,Ruan
+35,Sassuolo,Erlic
+35,Sassuolo,Toljan
+35,Sassuolo,Consigli
+35,Verona,Montipo'
+35,Verona,Magnani
+35,Verona,Hien
+35,Verona,Dawidowicz
+35,Verona,Faraoni
+35,Verona,Abildgaard
+35,Verona,Tameze
+35,Verona,Lazovic
+35,Verona,Verdi
+35,Verona,Ngonge
+35,Verona,Djuric
+35,Torino,Vlasic
+35,Torino,Karamoh
+35,Torino,Vojvoda
+35,Torino,Ricci S.
+35,Torino,Ilic
+35,Torino,Singo
+35,Torino,Rodriguez R.
+35,Torino,Buongiorno
+35,Torino,Djidji
+35,Torino,Milinkovic-Savic V.
+35,Fiorentina,Cerofolini
+35,Fiorentina,Venuti
+35,Fiorentina,Milenkovic
+35,Fiorentina,Igor
+35,Fiorentina,Biraghi
+35,Fiorentina,Castrovilli
+35,Fiorentina,Duncan
+35,Fiorentina,Ikone'
+35,Fiorentina,Barak
+35,Fiorentina,Brekalo
+35,Fiorentina,Kouame'
+35,Udinese,Pereyra
+35,Udinese,Zeegelaar
+35,Udinese,Lovric
+35,Udinese,Walace
+35,Udinese,Samardzic
+35,Udinese,Ebosele
+35,Udinese,Perez N.
+35,Udinese,Bijol
+35,Udinese,Rodrigo Becao
+35,Udinese,Silvestri
+35,Monza,Di Gregorio
+35,Monza,Izzo
+35,Monza,Marlon
+35,Monza,Caldirola
+35,Monza,Ciurria
+35,Monza,Rovella
+35,Monza,Pessina
+35,Monza,Carlos Augusto
+35,Monza,Caprari
+35,Monza,Mota
+35,Monza,Petagna
+35,Napoli,Osimhen
+35,Napoli,Elmas
+35,Napoli,Zielinski
+35,Napoli,Lobotka
+35,Napoli,Zambo Anguissa
+35,Napoli,Olivera
+35,Napoli,Juan Jesus
+35,Napoli,Rrahmani
+35,Napoli,Bereszynski
+35,Napoli,Gollini
+35,Bologna,Skorupski
+35,Bologna,De Silvestri
+35,Bologna,Bonifazi
+35,Bologna,Sosa
+35,Bologna,Cambiaso
+35,Bologna,Dominguez
+35,Bologna,Schouten
+35,Bologna,Orsolini
+35,Bologna,Ferguson
+35,Bologna,Barrow
+35,Bologna,Arnautovic
+35,Roma,Solbakken
+35,Roma,Zalewski
+35,Roma,Wijnaldum
+35,Roma,Camara Ma.
+35,Roma,Tahirovic
+35,Roma,Missori
+35,Roma,Ibanez
+35,Roma,Cristante
+35,Roma,Celik
+35,Roma,Svilar
+35,Juventus,Perin
+35,Juventus,Gatti
+35,Juventus,Bremer
+35,Juventus,Danilo
+35,Juventus,Cuadrado
+35,Juventus,Fagioli
+35,Juventus,Paredes
+35,Juventus,Rabiot
+35,Juventus,Chiesa
+35,Juventus,Pogba
+35,Juventus,Vlahovic
+35,Cremonese,Afena-Gyan
+35,Cremonese,Galdames
+35,Cremonese,Meite'
+35,Cremonese,Benassi
+35,Cremonese,Quagliata
+35,Cremonese,Vasquez
+35,Cremonese,Lochoshvili
+35,Cremonese,Chiriches
+35,Cremonese,Ferrari A.
+35,Cremonese,Carnesecchi
+35,Sampdoria,Ravaglia
+35,Sampdoria,Amione
+35,Sampdoria,Nuytinck
+35,Sampdoria,Gunter
+35,Sampdoria,Zanoli
+35,Sampdoria,Winks
+35,Sampdoria,Rincon
+35,Sampdoria,Augello
+35,Sampdoria,Djuricic
+35,Sampdoria,Quagliarella
+35,Sampdoria,Gabbiadini
+35,Empoli,Caputo
+35,Empoli,Baldanzi
+35,Empoli,Henderson L.
+35,Empoli,Marin
+35,Empoli,Grassi
+35,Empoli,Parisi
+35,Empoli,Luperto
+35,Empoli,Walukiewicz
+35,Empoli,Ebuehi
+35,Empoli,Vicario
+36,Sassuolo,Consigli
+36,Sassuolo,Toljan
+36,Sassuolo,Ruan
+36,Sassuolo,Erlic
+36,Sassuolo,Rogerio
+36,Sassuolo,Frattesi
+36,Sassuolo,Lopez M.
+36,Sassuolo,Matheus Henrique
+36,Sassuolo,Berardi
+36,Sassuolo,Pinamonti
+36,Sassuolo,Bajrami
+36,Monza,Caprari
+36,Monza,Mota
+36,Monza,Carlos Augusto
+36,Monza,Sensi
+36,Monza,Pessina
+36,Monza,Ciurria
+36,Monza,Caldirola
+36,Monza,Mari'
+36,Monza,Izzo
+36,Monza,Di Gregorio
+36,Cremonese,Carnesecchi
+36,Cremonese,Sernicola
+36,Cremonese,Chiriches
+36,Cremonese,Vasquez
+36,Cremonese,Valeri
+36,Cremonese,Castagnetti
+36,Cremonese,Pickel
+36,Cremonese,Meite'
+36,Cremonese,Galdames
+36,Cremonese,Okereke
+36,Cremonese,Tsadjout
+36,Bologna,Barrow
+36,Bologna,Ferguson
+36,Bologna,Orsolini
+36,Bologna,Schouten
+36,Bologna,Dominguez
+36,Bologna,Cambiaso
+36,Bologna,Bonifazi
+36,Bologna,Lucumi'
+36,Bologna,Posch
+36,Bologna,Skorupski
+36,Atalanta,Sportiello
+36,Atalanta,Toloi
+36,Atalanta,Djimsiti
+36,Atalanta,Scalvini
+36,Atalanta,Zappacosta
+36,Atalanta,De Roon
+36,Atalanta,Koopmeiners
+36,Atalanta,Maehle
+36,Atalanta,Pasalic
+36,Atalanta,Muriel
+36,Atalanta,Hojlund
+36,Verona,Ngonge
+36,Verona,Lazovic
+36,Verona,Depaoli
+36,Verona,Sulemana I.
+36,Verona,Tameze
+36,Verona,Terracciano F.
+36,Verona,Cabal
+36,Verona,Hien
+36,Verona,Ceccherini
+36,Verona,Montipo'
+36,Milan,Maignan
+36,Milan,Calabria
+36,Milan,Thiaw
+36,Milan,Tomori
+36,Milan,Hernandez T.
+36,Milan,Krunic
+36,Milan,Tonali
+36,Milan,Messias
+36,Milan,Diaz B.
+36,Milan,Rafael Leao
+36,Milan,Giroud
+36,Sampdoria,Gabbiadini
+36,Sampdoria,Djuricic
+36,Sampdoria,Rincon
+36,Sampdoria,Winks
+36,Sampdoria,Leris
+36,Sampdoria,Augello
+36,Sampdoria,Nuytinck
+36,Sampdoria,Gunter
+36,Sampdoria,Zanoli
+36,Sampdoria,Ravaglia
+36,Lecce,Falcone
+36,Lecce,Gendrey
+36,Lecce,Baschirotto
+36,Lecce,Umtiti
+36,Lecce,Gallo
+36,Lecce,Gonzalez J.
+36,Lecce,Blin
+36,Lecce,Oudin
+36,Lecce,Strefezza
+36,Lecce,Colombo
+36,Lecce,Di Francesco F.
+36,Spezia,Shomurodov
+36,Spezia,Reca
+36,Spezia,Ekdal
+36,Spezia,Esposito Sa.
+36,Spezia,Bourabia
+36,Spezia,Gyasi
+36,Spezia,Nikolaou
+36,Spezia,Ampadu
+36,Spezia,Wisniewski
+36,Spezia,Dragowski
+36,Torino,Milinkovic-Savic V.
+36,Torino,Djidji
+36,Torino,Schuurs
+36,Torino,Buongiorno
+36,Torino,Singo
+36,Torino,Ilic
+36,Torino,Ricci S.
+36,Torino,Rodriguez R.
+36,Torino,Vlasic
+36,Torino,Karamoh
+36,Torino,Sanabria
+36,Fiorentina,Kouame'
+36,Fiorentina,Saponara
+36,Fiorentina,Barak
+36,Fiorentina,Mandragora
+36,Fiorentina,Duncan
+36,Fiorentina,Terzic
+36,Fiorentina,Igor
+36,Fiorentina,Martinez Quarta
+36,Fiorentina,Venuti
+36,Fiorentina,Cerofolini
+36,Napoli,Meret
+36,Napoli,Di Lorenzo
+36,Napoli,Rrahmani
+36,Napoli,Kim
+36,Napoli,Olivera
+36,Napoli,Zambo Anguissa
+36,Napoli,Lobotka
+36,Napoli,Zielinski
+36,Napoli,Elmas
+36,Napoli,Osimhen
+36,Napoli,Kvaratskhelia
+36,Inter,Correa
+36,Inter,Gosens
+36,Inter,Gagliardini
+36,Inter,Asllani
+36,Inter,Barella
+36,Inter,Bellanova
+36,Inter,Bastoni
+36,Inter,De Vrij
+36,Inter,D'ambrosio
+36,Inter,Onana
+36,Udinese,Silvestri
+36,Udinese,Perez N.
+36,Udinese,Bijol
+36,Udinese,Masina
+36,Udinese,Pereyra
+36,Udinese,Arslan
+36,Udinese,Walace
+36,Udinese,Lovric
+36,Udinese,Udogie
+36,Udinese,Samardzic
+36,Udinese,Beto
+36,Lazio,Immobile
+36,Lazio,Felipe Anderson
+36,Lazio,Luis Alberto
+36,Lazio,Vecino
+36,Lazio,Milinkovic-Savic
+36,Lazio,Hysaj
+36,Lazio,Romagnoli
+36,Lazio,Casale
+36,Lazio,Lazzari
+36,Lazio,Provedel
+36,Roma,Rui Patricio
+36,Roma,Bove
+36,Roma,Smalling
+36,Roma,Ibanez
+36,Roma,Zalewski
+36,Roma,Tahirovic
+36,Roma,Camara Ma.
+36,Roma,El Shaarawy
+36,Roma,Solbakken
+36,Roma,Wijnaldum
+36,Roma,Belotti
+36,Salernitana,Dia
+36,Salernitana,Candreva
+36,Salernitana,Bradaric
+36,Salernitana,Coulibaly L.
+36,Salernitana,Bohinen
+36,Salernitana,Kastanos
+36,Salernitana,Pirola
+36,Salernitana,Gyomber
+36,Salernitana,Daniliuc
+36,Salernitana,Ochoa
+36,Empoli,Vicario
+36,Empoli,Ebuehi
+36,Empoli,Ismajli
+36,Empoli,Luperto
+36,Empoli,Parisi
+36,Empoli,Grassi
+36,Empoli,Bandinelli
+36,Empoli,Akpa Akpro
+36,Empoli,Fazzini
+36,Empoli,Cambiaghi
+36,Empoli,Caputo
+36,Juventus,Milik
+36,Juventus,Kostic
+36,Juventus,Rabiot
+36,Juventus,Locatelli
+36,Juventus,Miretti
+36,Juventus,Barbieri
+36,Juventus,Alex Sandro
+36,Juventus,Bremer
+36,Juventus,Gatti
+36,Juventus,Szczesny
+37,Sampdoria,Turk
+37,Sampdoria,Oikonomou
+37,Sampdoria,Nuytinck
+37,Sampdoria,Amione
+37,Sampdoria,Zanoli
+37,Sampdoria,Winks
+37,Sampdoria,Rincon
+37,Sampdoria,Augello
+37,Sampdoria,Leris
+37,Sampdoria,Gabbiadini
+37,Sampdoria,Quagliarella
+37,Sassuolo,Pinamonti
+37,Sassuolo,Berardi
+37,Sassuolo,Matheus Henrique
+37,Sassuolo,Obiang
+37,Sassuolo,Thorstvedt
+37,Sassuolo,Rogerio
+37,Sassuolo,Ferrari G.
+37,Sassuolo,Erlic
+37,Sassuolo,Zortea
+37,Sassuolo,Consigli
+37,Salernitana,Fiorillo
+37,Salernitana,Bronn
+37,Salernitana,Troost-Ekong
+37,Salernitana,Pirola
+37,Salernitana,Kastanos
+37,Salernitana,Coulibaly L.
+37,Salernitana,Vilhena
+37,Salernitana,Mazzocchi
+37,Salernitana,Candreva
+37,Salernitana,Botheim
+37,Salernitana,Piatek
+37,Udinese,Thauvin
+37,Udinese,Zeegelaar
+37,Udinese,Lovric
+37,Udinese,Walace
+37,Udinese,Samardzic
+37,Udinese,Pereyra
+37,Udinese,Masina
+37,Udinese,Bijol
+37,Udinese,Perez N.
+37,Udinese,Silvestri
+37,Spezia,Dragowski
+37,Spezia,Ampadu
+37,Spezia,Wisniewski
+37,Spezia,Nikolaou
+37,Spezia,Amian
+37,Spezia,Bourabia
+37,Spezia,Ekdal
+37,Spezia,Esposito Sa.
+37,Spezia,Reca
+37,Spezia,Gyasi
+37,Spezia,Nzola
+37,Torino,Vlasic
+37,Torino,Miranchuk
+37,Torino,Vojvoda
+37,Torino,Ilic
+37,Torino,Ricci S.
+37,Torino,Singo
+37,Torino,Rodriguez R.
+37,Torino,Buongiorno
+37,Torino,Schuurs
+37,Torino,Milinkovic-Savic V.
+37,Fiorentina,Cerofolini
+37,Fiorentina,Venuti
+37,Fiorentina,Martinez Quarta
+37,Fiorentina,Igor
+37,Fiorentina,Biraghi
+37,Fiorentina,Duncan
+37,Fiorentina,Mandragora
+37,Fiorentina,Ikone'
+37,Fiorentina,Barak
+37,Fiorentina,Saponara
+37,Fiorentina,Jovic
+37,Roma,El Shaarawy
+37,Roma,Wijnaldum
+37,Roma,Solbakken
+37,Roma,Bove
+37,Roma,Tahirovic
+37,Roma,Zalewski
+37,Roma,Smalling
+37,Roma,Llorente D.
+37,Roma,Missori
+37,Roma,Svilar
+37,Inter,Onana
+37,Inter,D'ambrosio
+37,Inter,Acerbi
+37,Inter,Bastoni
+37,Inter,Dumfries
+37,Inter,Barella
+37,Inter,Brozovic
+37,Inter,Calhanoglu
+37,Inter,Dimarco
+37,Inter,Martinez L.
+37,Inter,Lukaku
+37,Atalanta,Koopmeiners
+37,Atalanta,Pasalic
+37,Atalanta,Maehle
+37,Atalanta,De Roon
+37,Atalanta,Ederson D.s.
+37,Atalanta,Zappacosta
+37,Atalanta,Scalvini
+37,Atalanta,Djimsiti
+37,Atalanta,Toloi
+37,Atalanta,Sportiello
+37,Verona,Montipo'
+37,Verona,Magnani
+37,Verona,Hien
+37,Verona,Cabal
+37,Verona,Terracciano F.
+37,Verona,Miguel Veloso
+37,Verona,Sulemana I.
+37,Verona,Depaoli
+37,Verona,Tameze
+37,Verona,Ngonge
+37,Verona,Djuric
+37,Empoli,Cambiaghi
+37,Empoli,Fazzini
+37,Empoli,Akpa Akpro
+37,Empoli,Grassi
+37,Empoli,Haas
+37,Empoli,Cacace
+37,Empoli,Luperto
+37,Empoli,Ismajli
+37,Empoli,Ebuehi
+37,Empoli,Vicario
+37,Bologna,Skorupski
+37,Bologna,Posch
+37,Bologna,Bonifazi
+37,Bologna,Lucumi'
+37,Bologna,Cambiaso
+37,Bologna,Ferguson
+37,Bologna,Schouten
+37,Bologna,Dominguez
+37,Bologna,Aebischer
+37,Bologna,Arnautovic
+37,Bologna,Barrow
+37,Napoli,Osimhen
+37,Napoli,Zerbin
+37,Napoli,Zielinski
+37,Napoli,Lobotka
+37,Napoli,Zambo Anguissa
+37,Napoli,Olivera
+37,Napoli,Kim
+37,Napoli,Rrahmani
+37,Napoli,Bereszynski
+37,Napoli,Gollini
+37,Monza,Di Gregorio
+37,Monza,Marlon
+37,Monza,Mari'
+37,Monza,Izzo
+37,Monza,Ciurria
+37,Monza,Pessina
+37,Monza,Rovella
+37,Monza,Carlos Augusto
+37,Monza,Caprari
+37,Monza,Mota
+37,Monza,Petagna
+37,Lecce,Ceesay
+37,Lecce,Banda
+37,Lecce,Oudin
+37,Lecce,Blin
+37,Lecce,Askildsen
+37,Lecce,Gallo
+37,Lecce,Umtiti
+37,Lecce,Baschirotto
+37,Lecce,Gendrey
+37,Lecce,Falcone
+37,Lazio,Provedel
+37,Lazio,Lazzari
+37,Lazio,Casale
+37,Lazio,Romagnoli
+37,Lazio,Hysaj
+37,Lazio,Milinkovic-Savic
+37,Lazio,Vecino
+37,Lazio,Luis Alberto
+37,Lazio,Pedro
+37,Lazio,Immobile
+37,Lazio,Zaccagni
+37,Cremonese,Tsadjout
+37,Cremonese,Galdames
+37,Cremonese,Valeri
+37,Cremonese,Meite'
+37,Cremonese,Pickel
+37,Cremonese,Sernicola
+37,Cremonese,Lochoshvili
+37,Cremonese,Ferrari A.
+37,Cremonese,Bianchetti
+37,Cremonese,Sarr M.
+37,Juventus,Szczesny
+37,Juventus,Gatti
+37,Juventus,Bremer
+37,Juventus,Danilo
+37,Juventus,Cuadrado
+37,Juventus,Locatelli
+37,Juventus,Rabiot
+37,Juventus,Kostic
+37,Juventus,Chiesa
+37,Juventus,Kean
+37,Juventus,Di Maria
+37,Milan,Rafael Leao
+37,Milan,Diaz B.
+37,Milan,Messias
+37,Milan,Krunic
+37,Milan,Tonali
+37,Milan,Hernandez T.
+37,Milan,Tomori
+37,Milan,Thiaw
+37,Milan,Calabria
+37,Milan,Maignan
+38,Sassuolo,Russo A.
+38,Sassuolo,Toljan
+38,Sassuolo,Ruan
+38,Sassuolo,Ferrari G.
+38,Sassuolo,Rogerio
+38,Sassuolo,Harroui
+38,Sassuolo,Lopez M.
+38,Sassuolo,Matheus Henrique
+38,Sassuolo,Berardi
+38,Sassuolo,Pinamonti
+38,Sassuolo,Ceide
+38,Fiorentina,Cabral
+38,Fiorentina,Ikone'
+38,Fiorentina,Duncan
+38,Fiorentina,Amrabat
+38,Fiorentina,Castrovilli
+38,Fiorentina,Terzic
+38,Fiorentina,Ranieri L.
+38,Fiorentina,Martinez Quarta
+38,Fiorentina,Dodo'
+38,Fiorentina,Cerofolini
+38,Torino,Milinkovic-Savic V.
+38,Torino,Buongiorno
+38,Torino,Schuurs
+38,Torino,Rodriguez R.
+38,Torino,Singo
+38,Torino,Ilic
+38,Torino,Ricci S.
+38,Torino,Vojvoda
+38,Torino,Miranchuk
+38,Torino,Vlasic
+38,Torino,Sanabria
+38,Inter,Lukaku
+38,Inter,Gosens
+38,Inter,Calhanoglu
+38,Inter,Brozovic
+38,Inter,Gagliardini
+38,Inter,Dumfries
+38,Inter,Bastoni
+38,Inter,De Vrij
+38,Inter,Darmian
+38,Inter,Handanovic
+38,Cremonese,Sarr M.
+38,Cremonese,Aiwu
+38,Cremonese,Chiriches
+38,Cremonese,Vasquez
+38,Cremonese,Ghiglione
+38,Cremonese,Meite'
+38,Cremonese,Pickel
+38,Cremonese,Galdames
+38,Cremonese,Valeri
+38,Cremonese,Buonaiuto
+38,Cremonese,Ciofani D.
+38,Salernitana,Botheim
+38,Salernitana,Candreva
+38,Salernitana,Mazzocchi
+38,Salernitana,Bohinen
+38,Salernitana,Coulibaly L.
+38,Salernitana,Kastanos
+38,Salernitana,Pirola
+38,Salernitana,Gyomber
+38,Salernitana,Daniliuc
+38,Salernitana,Ochoa
+38,Empoli,Vicario
+38,Empoli,Stojanovic
+38,Empoli,Walukiewicz
+38,Empoli,Luperto
+38,Empoli,Cacace
+38,Empoli,Grassi
+38,Empoli,Bandinelli
+38,Empoli,Akpa Akpro
+38,Empoli,Fazzini
+38,Empoli,Cambiaghi
+38,Empoli,Piccoli
+38,Lazio,Immobile
+38,Lazio,Felipe Anderson
+38,Lazio,Luis Alberto
+38,Lazio,Vecino
+38,Lazio,Milinkovic-Savic
+38,Lazio,Pellegrini Lu.
+38,Lazio,Romagnoli
+38,Lazio,Patric
+38,Lazio,Hysaj
+38,Lazio,Provedel
+38,Napoli,Meret
+38,Napoli,Di Lorenzo
+38,Napoli,Rrahmani
+38,Napoli,Ostigard
+38,Napoli,Mario Rui
+38,Napoli,Zambo Anguissa
+38,Napoli,Lobotka
+38,Napoli,Zielinski
+38,Napoli,Elmas
+38,Napoli,Osimhen
+38,Napoli,Kvaratskhelia
+38,Sampdoria,Gabbiadini
+38,Sampdoria,Leris
+38,Sampdoria,Augello
+38,Sampdoria,Rincon
+38,Sampdoria,Paoletti
+38,Sampdoria,Zanoli
+38,Sampdoria,Murru
+38,Sampdoria,Amione
+38,Sampdoria,Gunter
+38,Sampdoria,Turk
+38,Atalanta,Sportiello
+38,Atalanta,Toloi
+38,Atalanta,Djimsiti
+38,Atalanta,Scalvini
+38,Atalanta,Maehle
+38,Atalanta,De Roon
+38,Atalanta,Ederson D.s.
+38,Atalanta,Zappacosta
+38,Atalanta,Koopmeiners
+38,Atalanta,Pasalic
+38,Atalanta,Hojlund
+38,Monza,Caprari
+38,Monza,Colpani
+38,Monza,Carlos Augusto
+38,Monza,Rovella
+38,Monza,Pessina
+38,Monza,Ciurria
+38,Monza,Caldirola
+38,Monza,Mari'
+38,Monza,Izzo
+38,Monza,Di Gregorio
+38,Lecce,Falcone
+38,Lecce,Gendrey
+38,Lecce,Baschirotto
+38,Lecce,Umtiti
+38,Lecce,Gallo
+38,Lecce,Blin
+38,Lecce,Hjulmand
+38,Lecce,Oudin
+38,Lecce,Strefezza
+38,Lecce,Colombo
+38,Lecce,Banda
+38,Bologna,Arnautovic
+38,Bologna,Orsolini
+38,Bologna,Aebischer
+38,Bologna,Medel
+38,Bologna,Moro N.
+38,Bologna,Cambiaso
+38,Bologna,Bonifazi
+38,Bologna,Lucumi'
+38,Bologna,Posch
+38,Bologna,Skorupski
+38,Milan,Maignan
+38,Milan,Calabria
+38,Milan,Thiaw
+38,Milan,Tomori
+38,Milan,Hernandez T.
+38,Milan,Krunic
+38,Milan,Tonali
+38,Milan,Messias
+38,Milan,Diaz B.
+38,Milan,Rafael Leao
+38,Milan,Giroud
+38,Verona,Ngonge
+38,Verona,Depaoli
+38,Verona,Tameze
+38,Verona,Miguel Veloso
+38,Verona,Sulemana I.
+38,Verona,Faraoni
+38,Verona,Cabal
+38,Verona,Hien
+38,Verona,Magnani
+38,Verona,Montipo'
+38,Roma,Svilar
+38,Roma,Celik
+38,Roma,Smalling
+38,Roma,Mancini
+38,Roma,Zalewski
+38,Roma,Bove
+38,Roma,Cristante
+38,Roma,El Shaarawy
+38,Roma,Pellegrini Lo.
+38,Roma,Dybala
+38,Roma,Belotti
+38,Spezia,Gyasi
+38,Spezia,Reca
+38,Spezia,Zurkowski
+38,Spezia,Esposito Sa.
+38,Spezia,Bourabia
+38,Spezia,Amian
+38,Spezia,Nikolaou
+38,Spezia,Ampadu
+38,Spezia,Wisniewski
+38,Spezia,Zoet
+38,Udinese,Silvestri
+38,Udinese,Abankwah
+38,Udinese,Perez N.
+38,Udinese,Guessand A.
+38,Udinese,Pereyra
+38,Udinese,Samardzic
+38,Udinese,Walace
+38,Udinese,Lovric
+38,Udinese,Udogie
+38,Udinese,Thauvin
+38,Udinese,Beto
+38,Juventus,Chiesa
+38,Juventus,Kostic
+38,Juventus,Rabiot
+38,Juventus,Locatelli
+38,Juventus,Miretti
+38,Juventus,Cuadrado
+38,Juventus,Danilo
+38,Juventus,Bonucci
+38,Juventus,Gatti
+38,Juventus,Szczesny

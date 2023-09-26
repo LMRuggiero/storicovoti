@@ -1,7 +1,5 @@
-import pandas as pd
 import os
 
-from root import ROOT_DIR
 from storicovoti.modello_fantacalcio import modello_fantacalcio
 from utils.SeasonDf import *
 from utils.metodi import *
@@ -10,18 +8,20 @@ from utils.metodi import *
 def consigli_di_giornata(
         ultima_giornata,
         n_giornate,
+        stagione,
         salva_consigli=False,
         salva_modello=False,
         create_season_df=True,
         perc_presenze=0.375,
-        file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
     lista_excel, risultato_finale = modello_fantacalcio(
         ultima_giornata,
         n_giornate,
+        stagione,
         salva_modello,
         perc_presenze,
-        file_quotazioni
+        # file_quotazioni
     )
     stagioni = list(
         set([int([x[-2:] for x in ex.split("_") if "20" in x and "xlsx" not in x][0]) for ex in lista_excel]))
@@ -85,7 +85,7 @@ def consigli_di_giornata(
 
     voti_contro.to_excel(f"voti_contro.xlsx")
 
-    giornate_soup = ottieni_giornate_soup(22)
+    giornate_soup = ottieni_giornate_soup(stagione)
     giornata_soup = [g_s for g_s in giornate_soup if f"GIORNATA {giornata}<" in str(g_s).upper()][0]
     squadre_soup = giornata_soup.find_all("span", attrs={"class": "ftbl__match-row__team--desktop"})
     casa_soup_coi_none = [el.find("span", attrs={
@@ -105,23 +105,30 @@ def consigli_di_giornata(
     fantavoti_potenziali = []
     voti = []
     fantavoti = []
-    for ruolo, nome, squad, partite, med, fantaMedia, voto_piu_probabile, fantavoto_piu_probabile, posizione in risultato_finale.values:
-        squadra = squad.upper()
-        squadra_avversaria = lista_incontri[squadra]
-        # ruolo = row[0]
-        lista = voti_contro.loc[voti_contro.index != squadra][f"MediaVoti_{ruolo}"]
-        fanta_lista = voti_contro.loc[voti_contro.index != squadra][f"MediaFantaVoti_{ruolo}"]
-        voto_medio = sum(lista) / len(lista)
-        fantavoto_medio = sum(fanta_lista) / len(fanta_lista)
-        voto_previsto = med / voto_medio * voti_contro.loc[squadra_avversaria][f"MediaVoti_{ruolo}"]
-        fantavoto_previsto = fantaMedia / fantavoto_medio * voti_contro.loc[squadra_avversaria][
-            f"MediaFantaVoti_{ruolo}"]
-        voto_previsto_t = 0.5 * int((voto_previsto + 0.25) / 0.5)
-        voti.append(voto_previsto_t)
-        fantavoto_previsto_t = 0.5 * int((fantavoto_previsto + 0.25) / 0.5)
-        fantavoti.append(fantavoto_previsto_t)
-        voti_potenziali.append(voto_previsto)
-        fantavoti_potenziali.append(fantavoto_previsto)
+    for cod, ruolo, nome, squad, partite, med, fantaMedia, voto_piu_probabile, fantavoto_piu_probabile, posizione in risultato_finale.values:
+        try:
+            squadra = squad.upper()
+            squadra_avversaria = lista_incontri[squadra]
+            # ruolo = row[0]
+            lista = voti_contro.loc[voti_contro.index != squadra][f"MediaVoti_{ruolo}"]
+            fanta_lista = voti_contro.loc[voti_contro.index != squadra][f"MediaFantaVoti_{ruolo}"]
+            voto_medio = sum(lista) / len(lista)
+            fantavoto_medio = sum(fanta_lista) / len(fanta_lista)
+            voto_previsto = med / voto_medio * voti_contro.loc[squadra_avversaria][f"MediaVoti_{ruolo}"]
+            fantavoto_previsto = fantaMedia / fantavoto_medio * voti_contro.loc[squadra_avversaria][
+                f"MediaFantaVoti_{ruolo}"]
+            voto_previsto_t = 0.5 * int((voto_previsto + 0.25) / 0.5)
+            voti.append(voto_previsto_t)
+            fantavoto_previsto_t = 0.5 * int((fantavoto_previsto + 0.25) / 0.5)
+            fantavoti.append(fantavoto_previsto_t)
+            voti_potenziali.append(voto_previsto)
+            fantavoti_potenziali.append(fantavoto_previsto)
+        except KeyError:
+            print(f"{nome} non più in serie A, ultima squadra {squadra}")
+            voti.append(0)
+            fantavoti.append(0)
+            voti_potenziali.append(0)
+            fantavoti_potenziali.append(0)
 
     risultato_finale["VotoPotenziale"] = voti_potenziali
     risultato_finale["Voto"] = voti
@@ -129,7 +136,7 @@ def consigli_di_giornata(
     risultato_finale["FantaVoto"] = fantavoti
 
     risultato_finale = risultato_finale[
-        ["R", "Nome", "Squadra", "VotoPotenziale", "FantaVotoPotenziale", "Voto", "FantaVoto"]]
+        ["Cod", "R", "Nome", "Squadra", "VotoPotenziale", "FantaVotoPotenziale", "Voto", "FantaVoto"]]
     p = risultato_finale.loc[risultato_finale.R == "P"]
     d = risultato_finale.loc[risultato_finale.R == "D"]
     c = risultato_finale.loc[risultato_finale.R == "C"]

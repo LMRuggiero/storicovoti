@@ -9,16 +9,52 @@ def voto_troncato(x):
     return 0.5 * round(int(x * 100 / 25) / 2 + 0.1)
 
 
-def dataframe_corretto(file):
+def squadra(valore):
+    try:
+        int(valore)
+        return False
+    except ValueError:
+        return valore != 'Cod.'
+
+
+def dataframe_corretto(file: str) -> pd.DataFrame:
     dataframe = pd.DataFrame([])
-    colonne = ["Cod.", "Ruolo", "Nome", "Voto", "Gf", "Gs", "Rp", "Rs", "Rf", "Au", "Amm", "Esp", "Ass"]
+    colonne = [
+        "COD",
+        "RUOLO",
+        "NOME",
+        "VOTO",
+        "GOL_FATTI",
+        "GOL_SUBITI",
+        "RIGORI_PARATI",
+        "RIGORI_SBAGLIATI",
+        "RIGORI_FATTI",
+        "AUTOGOL",
+        "AMMONIZIONI",
+        "ESPULSIONI",
+        "ASSIST"
+    ]
+    squadre = pd.read_excel(file).iloc[:, :1].loc[3:]
+    squadre = squadre.loc[squadre[squadre.columns[0]].apply(squadra)]
+    squadre = squadre[squadre.columns[0]].values.tolist()
     dataframe[colonne] = pd.read_excel(file).dropna().iloc[:, :13]
-    dataframe = dataframe.loc[dataframe.Ruolo != 'ALL']
-    dataframe = dataframe.loc[dataframe.Voto.apply(estrai_voto)]
+    dataframe = dataframe.loc[dataframe.RUOLO != 'ALL']
+    dataframe = dataframe.loc[dataframe.VOTO.apply(estrai_voto)]
     fantavoti = [voto + 3 * (Gf + Rp - Rs + Rf) - 2 * Au - Gs - Esp + Ass - 0.5 * Amm for
                  _, _, _, voto, Gf, Gs, Rp, Rs, Rf, Au, Amm, Esp, Ass in dataframe.values]
-    dataframe["FantaVoto"] = fantavoti
-    dataframe["Nome"] = dataframe.Nome.str.upper()
+    dataframe["FANTAVOTO"] = fantavoti
+    dataframe["NOME"] = dataframe.NOME.str.upper()
+    indice = 0
+    colonnaSquadra = []
+    vecchioRuolo = 'P'
+    for el in dataframe.values:
+        s = squadre[indice]
+        if el[1] == 'P' and vecchioRuolo != 'P':
+            indice += 1
+            s = squadre[indice]
+        vecchioRuolo = el[1]
+        colonnaSquadra.append(s)
+    dataframe["SQUADRA"] = colonnaSquadra
     return dataframe
 
 

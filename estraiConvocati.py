@@ -1,16 +1,20 @@
+from root import ROOT_DIR
 from storicovoti.consigli_di_giornata import *
 from storicovoti.titolari_e_panchinari import *
 
-create = True
-
-ultima_giornata = 3
-l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
+create = False
+stagione = 23
+ultima_giornata = 5
+# l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
+l = range(3, 9)
 if create:
     [consigli_di_giornata(ultima_giornata,
                           n_giornate,
+                          stagione,
                           salva_consigli=create,
                           salva_modello=create,
-                          file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2023_24_15_09_23.xlsx")
+                          # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2023_24_15_09_23.xlsx"
+                          )
      for n_giornate in l]
 
 
@@ -28,14 +32,13 @@ def consigli_di_giornata_formazione(ultima_giornata, n_giornate, lega, team='Io'
 dfs = [pd.read_excel(f"estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}/consigli_ultime_{n}.xlsx") for n in
        l]
 
-dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
-# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
-# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FANTABERTEBOOM", "Io") for n in l]
+# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
+dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
 
 squadra_titolare, panchinari, listone = titolari_e_panchinari3(
     dfs,
     num_df=6,
-    # esclusioni=["VOJVODA", "BONAVENTURA", "IKONE'"],
+    esclusioni=["TERRACCIANO"],
     # aggiunte=["IBRAHIMOVIC"],
     # modulo=["3-4-3"],
     # modulo=["3-5-2"],

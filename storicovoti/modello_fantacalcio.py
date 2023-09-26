@@ -1,5 +1,6 @@
-import pandas as pd
 import os
+
+import pandas as pd
 
 import utils.metodi as me
 from root import ROOT_DIR
@@ -10,53 +11,52 @@ pd.options.mode.chained_assignment = None
 def modello_fantacalcio(
         giornata_esaminata,
         numero_giornate,
+        stagione,
         salva_excel=False,
         percentuale_presenze=0.375,
-        file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
     root = ROOT_DIR
     percorso = f"{ROOT_DIR}/Voti_Fantacalcio"
-    nomi_excel = [file for (root, dirs, file) in os.walk(percorso)][0]
+    nomi_excel: list = [file for (root, dirs, file) in os.walk(percorso)][0]
     nomi_excel.reverse()
-    ultima_file_scaricato = nomi_excel[0]
-    ultima_giornata_scaricata = int(ultima_file_scaricato.split("_")[-1].split(".xlsx")[0])
-    if ultima_giornata_scaricata < giornata_esaminata:
-        raise Exception(f"non è presente file Voti_Fantacalcio per la giornata {giornata_esaminata}")
-    indice_file = ultima_giornata_scaricata - giornata_esaminata
-    percorsi_excel = [f"{ROOT_DIR}/Voti_Fantacalcio/{ex}" for ex in nomi_excel][
-                     indice_file:indice_file + numero_giornate]
+    indiceMax = nomi_excel.index(
+        f"Voti_Fantacalcio_Stagione_20{stagione}_{stagione + 1}_Giornata_{f'0{giornata_esaminata}' if giornata_esaminata < 10 else giornata_esaminata}.xlsx")
+    percorsi_excel = [f"{ROOT_DIR}/Voti_Fantacalcio/{n}" for n in nomi_excel[indiceMax:indiceMax + numero_giornate]]
 
     lista_dataframe = [me.dataframe_corretto(ex) for ex in percorsi_excel]
 
     dizionario_statistiche = {}
     for dataframe in lista_dataframe:
-        for _, ruolo, nome, voto, gol_fatti, gol_subiti, rigori_parati, rigori_sbagliati, rigori_fatti, autogol, ammonizioni, espulsione, assist, fanta_voto in dataframe.values:
+        for cod, ruolo, nome, voto, gol_fatti, gol_subiti, rigori_parati, rigori_sbagliati, rigori_fatti, autogol, ammonizioni, espulsione, assist, fanta_voto, squadra in dataframe.values:
             # line = ndarray.tolist()
             try:
-                dizionario_statistiche[nome]["GolFatti"].append(gol_fatti + rigori_fatti)
-                dizionario_statistiche[nome]["Assist"].append(assist)
-                dizionario_statistiche[nome]["GolSubiti"].append(gol_subiti)
-                dizionario_statistiche[nome]["RigoriParati"].append(rigori_parati)
-                dizionario_statistiche[nome]["RigoriSbagliati"].append(rigori_sbagliati)
-                dizionario_statistiche[nome]["Autogol"].append(autogol)
-                dizionario_statistiche[nome]["Gialli"].append(ammonizioni)
-                dizionario_statistiche[nome]["Rossi"].append(espulsione)
-                dizionario_statistiche[nome]["Voti"].append(voto)
-                dizionario_statistiche[nome]["FantaVoti"].append(fanta_voto)
-                dizionario_statistiche[nome]["Partite"] += 1
+                dizionario_statistiche[cod]["GolFatti"].append(gol_fatti + rigori_fatti)
+                dizionario_statistiche[cod]["Assist"].append(assist)
+                dizionario_statistiche[cod]["GolSubiti"].append(gol_subiti)
+                dizionario_statistiche[cod]["RigoriParati"].append(rigori_parati)
+                dizionario_statistiche[cod]["RigoriSbagliati"].append(rigori_sbagliati)
+                dizionario_statistiche[cod]["Autogol"].append(autogol)
+                dizionario_statistiche[cod]["Gialli"].append(ammonizioni)
+                dizionario_statistiche[cod]["Rossi"].append(espulsione)
+                dizionario_statistiche[cod]["Voti"].append(voto)
+                dizionario_statistiche[cod]["FantaVoti"].append(fanta_voto)
+                dizionario_statistiche[cod]["Partite"] += 1
             except KeyError:
-                dizionario_statistiche[nome] = {"R": ruolo,
-                                                "GolFatti": [gol_fatti + rigori_fatti],
-                                                "Assist": [assist],
-                                                "GolSubiti": [gol_subiti],
-                                                "RigoriParati": [rigori_parati],
-                                                "RigoriSbagliati": [rigori_sbagliati],
-                                                "Autogol": [autogol],
-                                                "Gialli": [ammonizioni],
-                                                "Rossi": [espulsione],
-                                                "Voti": [voto],
-                                                "FantaVoti": [fanta_voto],
-                                                "Partite": 1}
+                dizionario_statistiche[cod] = {"Nome": nome,
+                                               "R": ruolo,
+                                               "GolFatti": [gol_fatti + rigori_fatti],
+                                               "Assist": [assist],
+                                               "GolSubiti": [gol_subiti],
+                                               "RigoriParati": [rigori_parati],
+                                               "RigoriSbagliati": [rigori_sbagliati],
+                                               "Autogol": [autogol],
+                                               "Gialli": [ammonizioni],
+                                               "Rossi": [espulsione],
+                                               "Voti": [voto],
+                                               "FantaVoti": [fanta_voto],
+                                               "Partite": 1,
+                                               "Squadra": squadra}
 
     statistiche = pd.DataFrame.from_dict(dizionario_statistiche).transpose()
     statistiche["Media"] = statistiche.Voti.apply(me.media)
@@ -67,15 +67,16 @@ def modello_fantacalcio(
     statistiche["FantaVotoTroncato"] = statistiche.FantaMedia.apply(me.voto_troncato)
 
     statistiche = statistiche[
-        ["Partite", "Media", "FantaMedia", "VotoCentrale", "FantaVotoCentrale", "VotoTroncato", "FantaVotoTroncato"]
+        ["Nome", "R", "Partite", "Media", "FantaMedia", "VotoCentrale", "FantaVotoCentrale", "VotoTroncato",
+         "FantaVotoTroncato", "Squadra"]
     ]
 
-    quotazioni = pd.read_excel(file_quotazioni, header=1)
-    quotazioni["Nome"] = quotazioni["Nome"].str.upper()
+    # quotazioni = pd.read_excel(file_quotazioni, header=1)
+    # quotazioni["Nome"] = quotazioni["Nome"].str.upper()
 
-    statistiche['Nome'] = statistiche.index
+    statistiche['Cod'] = statistiche.index
 
-    statistiche = pd.merge(quotazioni, statistiche, on="Nome", how='inner')
+    # statistiche = pd.merge(quotazioni, statistiche, on="Nome", how='inner')
     statistiche = statistiche.loc[(statistiche.Partite >= percentuale_presenze * numero_giornate)]
 
     porta = statistiche.loc[statistiche.R == "P"]
@@ -94,7 +95,7 @@ def modello_fantacalcio(
     attacco = attacco.sort_values(["FantaMedia", "Media"], ascending=(False, False))
     attacco["Posizione"] = range(1, len(attacco) + 1)
 
-    colonne = ["R", "Nome", "Squadra", "Partite", "Media", "FantaMedia", "VotoCentrale", "FantaVotoCentrale",
+    colonne = ["Cod", "R", "Nome", "Squadra", "Partite", "Media", "FantaMedia", "VotoCentrale", "FantaVotoCentrale",
                "Posizione"]
 
     modello_fantacalcio = pd.concat([porta, difesa, centrocampo, attacco])[colonne]
@@ -132,5 +133,5 @@ if __name__ == "__main__":
         numero_giornate=4,
         salva_excel=True,
         percentuale_presenze=0.375,
-        file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
     )
