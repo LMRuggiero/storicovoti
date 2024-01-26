@@ -119,7 +119,7 @@ def modello_fantacalcio(
         attacco[colonne].to_excel(writer, index=False, sheet_name='ATTACCANTI')
 
         # Close the Pandas Excel writer and output the Excel file.
-        writer.save()
+        writer.close()
 
         print(
             f"salvato modello fantacalcio {giornata_esaminata} considerando le precedenti {numero_giornate} in {path_finale_modello_fantacalcio}")

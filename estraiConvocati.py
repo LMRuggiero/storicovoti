@@ -32,8 +32,8 @@ def consigli_di_giornata_formazione(ultima_giornata, n_giornate, lega, team='Io'
 dfs = [pd.read_excel(f"estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}/consigli_ultime_{n}.xlsx") for n in
        l]
 
-dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
-# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
+# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
+dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
 
 squadra_titolare, panchinari, listone = titolari_e_panchinari3(
     dfs,
