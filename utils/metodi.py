@@ -1,4 +1,6 @@
 import pandas as pd
+from pandasql import sqldf
+from utils.SeasonDf import leggi
 
 
 def estrai_voto(x):
@@ -18,6 +20,8 @@ def squadra(valore):
 
 
 def dataframe_corretto(file: str) -> pd.DataFrame:
+    stagione = file.split("Stagione_")[-1].split("_Giornata")[0].replace("_", "")[2:]
+    giornata = int(file.split("_")[-1].split(".")[0])
     dataframe = pd.DataFrame([])
     colonne = [
         "COD",
@@ -55,6 +59,48 @@ def dataframe_corretto(file: str) -> pd.DataFrame:
         vecchioRuolo = el[1]
         colonnaSquadra.append(s)
     dataframe["SQUADRA"] = colonnaSquadra
+    dataframe["STAGIONE"] = stagione
+    dataframe["GIORNATA"] = giornata
+
+    # season_df = leggi(int(stagione[:2]), create=False)
+    # season_df = season_df[season_df.Giornata == int(giornata)]
+    # season_df_hometeam = season_df[["Data", "HomeTeam"]]
+    # season_df_hometeam["TEAM"] = season_df_hometeam["HomeTeam"]
+    # season_df_awayteam = season_df[["Data", "AwayTeam"]]
+    # season_df_awayteam["TEAM"] = season_df_awayteam["AwayTeam"]
+    # season = pd.concat([season_df_hometeam[["Data", "TEAM"]], season_df_awayteam[["Data", "TEAM"]]])
+
+    # dataframe = sqldf(f"""
+    # select
+    #     df.COD,
+    #     df.RUOLO,
+    #     df.NOME,
+    #     df.VOTO,
+    #     df.GOL_FATTI,
+    #     df.GOL_SUBITI,
+    #     df.RIGORI_PARATI,
+    #     df.RIGORI_SBAGLIATI,
+    #     df.RIGORI_FATTI,
+    #     df.AUTOGOL,
+    #     df.AMMONIZIONI,
+    #     df.ESPULSIONI,
+    #     df.ASSIST,
+    #     df.FANTAVOTO,
+    #     df.SQUADRA,
+    #     df.STAGIONE,
+    #     s.DATA as DATA,
+    #     dense_rank() over (partition by df.squadra order by s.data desc) as GIORNATA
+    # from dataframe df
+    # join (
+    #     select Data, HomeTeam as TEAM
+    #     from season_df
+    #     union all
+    #     select Data, AwayTeam as TEAM
+    #     from season_df
+    # ) s
+    # on df.squadra = s.team
+    # """)
+    # dataframe["GIORNATA"] = giornata
     return dataframe
 
 
