@@ -11,7 +11,6 @@ def consigli_di_giornata(
         stagione,
         salva_consigli=False,
         salva_modello=False,
-        create_season_df=True,
         perc_presenze=0.375,
         # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
@@ -30,7 +29,7 @@ def consigli_di_giornata(
            ["Voti_P", "Voti_D", "Voti_C", "Voti_A", "FantaVoti_P", "FantaVoti_D", "FantaVoti_C", "FantaVoti_A"]}
 
     for stagione in stagioni:
-        df_season = leggi(stagione, create=create_season_df)
+        df_season = leggi(stagione, create=False)
         for ex in lista_excel:
             giornata = int(ex.split(".")[0].split("_")[-1])
             s = int([x[-2:] for x in ex.split("_") if "20" in x and "xlsx" not in x][0])

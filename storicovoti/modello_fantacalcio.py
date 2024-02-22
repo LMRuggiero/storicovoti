@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-import utils.metodi as me
+from utils.metodi import *
 from root import ROOT_DIR
 
 pd.options.mode.chained_assignment = None
@@ -20,14 +20,68 @@ def modello_fantacalcio(
     percorso = f"{ROOT_DIR}/Voti_Fantacalcio"
     nomi_excel: list = [file for (root, dirs, file) in os.walk(percorso)][0]
     nomi_excel.reverse()
-    indiceMax = nomi_excel.index(
-        f"Voti_Fantacalcio_Stagione_20{stagione}_{stagione + 1}_Giornata_{f'0{giornata_esaminata}' if giornata_esaminata < 10 else giornata_esaminata}.xlsx")
-    percorsi_excel = [f"{ROOT_DIR}/Voti_Fantacalcio/{n}" for n in nomi_excel[indiceMax:indiceMax + numero_giornate]]
+    # indiceMax = nomi_excel.index(
+    #     f"Voti_Fantacalcio_Stagione_20{stagione}_{stagione + 1}_Giornata_{f'0{giornata_esaminata}' if giornata_esaminata < 10 else giornata_esaminata}.xlsx")
+    # percorsi_excel = [f"{ROOT_DIR}/Voti_Fantacalcio/{n}" for n in nomi_excel[indiceMax:indiceMax + numero_giornate]]
 
-    lista_dataframe = [me.dataframe_corretto(ex) for ex in percorsi_excel]
+    percorsi_excel = [f"{ROOT_DIR}/Voti_Fantacalcio/{n}" for n in nomi_excel]
 
+    lista_dataframe = [dataframe_corretto(ex) for ex in percorsi_excel]
+    season_df = pd.concat([leggi(s, create=False) for s in range(stagione - 1, stagione + 1)]) \
+        if giornata_esaminata < numero_giornate else leggi(stagione, create=False)
+    season = sqldf("""
+    select
+        data,
+        team,
+        giornata,
+        stagione,
+        dense_rank() over (partition by team order by stagione desc, data desc) as GIORNATA_CALCOLATA                
+    from (
+        select
+            Data,
+            HomeTeam as TEAM,
+            giornata,
+            stagione
+        from season_df
+        union all
+        select
+            Data,
+            AwayTeam as TEAM,
+            giornata,
+            stagione
+        from season_df
+    )
+    """)
+    lista_dataframe_filtrati = []
+    for df in lista_dataframe:
+        dataframe = sqldf(f"""
+        select
+            df.COD,
+            df.RUOLO,
+            df.NOME,
+            CAST(df.VOTO AS FLOAT) AS VOTO,
+            df.GOL_FATTI,
+            df.GOL_SUBITI,
+            df.RIGORI_PARATI,
+            df.RIGORI_SBAGLIATI,
+            df.RIGORI_FATTI,
+            df.AUTOGOL,
+            df.AMMONIZIONI,
+            df.ESPULSIONI,
+            df.ASSIST,
+            df.FANTAVOTO,
+            df.SQUADRA
+        from df
+        join season s
+         on df.squadra = s.team
+        and df.giornata = s.giornata
+        and df.stagione = s.stagione
+        where GIORNATA_CALCOLATA <= {numero_giornate}
+        """)
+        if len(dataframe) > 0:
+            lista_dataframe_filtrati.append(dataframe)
     dizionario_statistiche = {}
-    for dataframe in lista_dataframe:
+    for dataframe in lista_dataframe_filtrati:
         for cod, ruolo, nome, voto, gol_fatti, gol_subiti, rigori_parati, rigori_sbagliati, rigori_fatti, autogol, ammonizioni, espulsione, assist, fanta_voto, squadra in dataframe.values:
             # line = ndarray.tolist()
             try:
@@ -59,12 +113,12 @@ def modello_fantacalcio(
                                                "Squadra": squadra}
 
     statistiche = pd.DataFrame.from_dict(dizionario_statistiche).transpose()
-    statistiche["Media"] = statistiche.Voti.apply(me.media)
-    statistiche["FantaMedia"] = statistiche.FantaVoti.apply(me.media)
-    statistiche["VotoCentrale"] = statistiche.Voti.apply(me.voto_centrale)
-    statistiche["FantaVotoCentrale"] = statistiche.FantaVoti.apply(me.voto_centrale)
-    statistiche["VotoTroncato"] = statistiche.Media.apply(me.voto_troncato)
-    statistiche["FantaVotoTroncato"] = statistiche.FantaMedia.apply(me.voto_troncato)
+    statistiche["Media"] = statistiche.Voti.apply(media)
+    statistiche["FantaMedia"] = statistiche.FantaVoti.apply(media)
+    statistiche["VotoCentrale"] = statistiche.Voti.apply(voto_centrale)
+    statistiche["FantaVotoCentrale"] = statistiche.FantaVoti.apply(voto_centrale)
+    statistiche["VotoTroncato"] = statistiche.Media.apply(voto_troncato)
+    statistiche["FantaVotoTroncato"] = statistiche.FantaMedia.apply(voto_troncato)
 
     statistiche = statistiche[
         ["Nome", "R", "Partite", "Media", "FantaMedia", "VotoCentrale", "FantaVotoCentrale", "VotoTroncato",
