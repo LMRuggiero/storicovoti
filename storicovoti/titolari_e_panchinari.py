@@ -354,7 +354,8 @@ def titolari_e_panchinari3(dfs, num_df=None, esclusioni=None, aggiunte=None, lis
             ["R", "FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"],
             ascending=(False, False, False, False, False))
         merged = pd.merge(listone, squadra_titolare, how='outer', indicator=True)
-        merged = merged[merged['_merge'] == 'left_only'][listone.columns.tolist()]
+        merged = merged[merged['_merge'] == 'left_only'][listone.columns.tolist()].sort_values(
+            ["FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"], ascending=(False, False, False, False))
         return squadra_titolare, merged, listone
     return squadra_titolare, None, None
 

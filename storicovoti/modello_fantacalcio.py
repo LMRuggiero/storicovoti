@@ -1,5 +1,6 @@
 import os
 
+import duckdb
 import pandas as pd
 
 from utils.metodi import *
@@ -29,7 +30,7 @@ def modello_fantacalcio(
     lista_dataframe = [dataframe_corretto(ex) for ex in percorsi_excel]
     season_df = pd.concat([leggi(s, create=False) for s in range(stagione - 1, stagione + 1)]) \
         if giornata_esaminata < numero_giornate else leggi(stagione, create=False)
-    season = sqldf("""
+    season = duckdb.query("""
     select
         data,
         team,
@@ -51,10 +52,10 @@ def modello_fantacalcio(
             stagione
         from season_df
     )
-    """)
+    """).df()
     lista_dataframe_filtrati = []
     for df in lista_dataframe:
-        dataframe = sqldf(f"""
+        dataframe = duckdb.query(f"""
         select
             df.COD,
             df.RUOLO,
@@ -77,7 +78,7 @@ def modello_fantacalcio(
         and df.giornata = s.giornata
         and df.stagione = s.stagione
         where GIORNATA_CALCOLATA <= {numero_giornate}
-        """)
+        """).df()
         if len(dataframe) > 0:
             lista_dataframe_filtrati.append(dataframe)
     dizionario_statistiche = {}
