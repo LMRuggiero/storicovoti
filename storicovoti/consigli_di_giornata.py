@@ -1,5 +1,8 @@
 import os
 
+import duckdb
+import pandas as pd
+
 from storicovoti.modello_fantacalcio import modello_fantacalcio
 from utils.SeasonDf import *
 from utils.metodi import *
@@ -9,83 +12,149 @@ def consigli_di_giornata(
         ultima_giornata,
         n_giornate,
         stagione,
+        lista_dataframe,
         salva_consigli=False,
         salva_modello=False,
         perc_presenze=0.375,
         # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
-    lista_excel, risultato_finale = modello_fantacalcio(
+    lista_dataframe_filtrati = []
+    for df in lista_dataframe:
+        dataframe = duckdb.query(f"""
+            select
+                COD,
+                RUOLO,
+                NOME,
+                VOTO,
+                GOL_FATTI,
+                GOL_SUBITI,
+                RIGORI_PARATI,
+                RIGORI_SBAGLIATI,
+                RIGORI_FATTI,
+                AUTOGOL,
+                AMMONIZIONI,
+                ESPULSIONI,
+                ASSIST,
+                FANTAVOTO,
+                SQUADRA,
+                AVVERSARIO
+            from df
+            where GIORNATA_CALCOLATA <= {n_giornate}
+              and case when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
+                       else STAGIONE = '{stagione}{stagione + 1}'
+                  end
+            """).df()
+        if not dataframe.empty:
+            lista_dataframe_filtrati.append(dataframe)
+    dataframe_filtrato = pd.concat(lista_dataframe_filtrati)
+
+    risultato_finale = modello_fantacalcio(
         ultima_giornata,
         n_giornate,
-        stagione,
+        dataframe_filtrato,
         salva_modello,
         perc_presenze,
         # file_quotazioni
     )
-    stagioni = list(
-        set([int([x[-2:] for x in ex.split("_") if "20" in x and "xlsx" not in x][0]) for ex in lista_excel]))
 
-    diz = {x: {} for x in
-           ["Voti_P", "Voti_D", "Voti_C", "Voti_A", "FantaVoti_P", "FantaVoti_D", "FantaVoti_C", "FantaVoti_A"]}
+    lista_dataframe_avversari_filtrati = []
+    for df in lista_dataframe:
+        dataframe = duckdb.query(f"""
+                select
+                    COD,
+                    RUOLO,
+                    NOME,
+                    VOTO,
+                    GOL_FATTI,
+                    GOL_SUBITI,
+                    RIGORI_PARATI,
+                    RIGORI_SBAGLIATI,
+                    RIGORI_FATTI,
+                    AUTOGOL,
+                    AMMONIZIONI,
+                    ESPULSIONI,
+                    ASSIST,
+                    FANTAVOTO,
+                    SQUADRA,
+                    AVVERSARIO
+                from df
+                where GIORNATA_CALCOLATA_AVVERSARI <= {n_giornate}
+                  and case when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
+                           else STAGIONE = '{stagione}{stagione + 1}'
+                      end
+                """).df()
+        if not dataframe.empty:
+            lista_dataframe_avversari_filtrati.append(dataframe)
+    dataframe_avversari_filtrato = pd.concat(lista_dataframe_avversari_filtrati)
 
-    for stagione in stagioni:
-        df_season = leggi(stagione, create=False)
-        for ex in lista_excel:
-            giornata = int(ex.split(".")[0].split("_")[-1])
-            s = int([x[-2:] for x in ex.split("_") if "20" in x and "xlsx" not in x][0])
-            if s == stagione:
-                df_voti = pd.read_excel(ex, usecols="A:M",
-                                        names=["Cod.", "Ruolo", "Nome", "Voto", "Gf", "Gs", "Rp", "Rs", "Rf", "Au",
-                                               "Amm", "Esp", "Ass"])
-                df_voti["Cod."] = df_voti["Cod."].str.upper()
-                df_voti["Nome"] = df_voti["Nome"].str.upper()
-                for line in df_voti.values:
-                    el = line[0]
-                    if isinstance(el, str) and el != "COD." and len(el.split(" ")) == 1:
-                        squadra = el.upper()
-                        df_partita = df_season.loc[
-                            (df_season.Giornata == giornata) & ((df_season.HomeTeam.apply(maiuscolo) == squadra) | (
-                                    df_season.AwayTeam.apply(maiuscolo) == squadra))]
-                        squadra_sfidante = estrai_sfidante(df_partita, squadra)
-                        df_voti_sfidante = estrai_voti(df_voti, squadra_sfidante)
-                        df_voti_sfidante["FantaVoto"] = [ottieni_fantavoto(row) for row in df_voti_sfidante[
-                            ["Voto", "Gf", "Gs", "Rp", "Rs", "Rf", "Au", "Amm", "Esp", "Ass"]].values]
-                        media_sfidante_p = df_voti_sfidante.loc[df_voti_sfidante.Ruolo == "P"].Voto.tolist()
-                        media_sfidante_d = df_voti_sfidante.loc[df_voti_sfidante.Ruolo == "D"].Voto.tolist()
-                        media_sfidante_c = df_voti_sfidante.loc[df_voti_sfidante.Ruolo == "C"].Voto.tolist()
-                        media_sfidante_a = df_voti_sfidante.loc[df_voti_sfidante.Ruolo == "A"].Voto.tolist()
-                        inserisci(diz, "Voti_P", squadra, media_sfidante_p)
-                        inserisci(diz, "Voti_D", squadra, media_sfidante_d)
-                        inserisci(diz, "Voti_C", squadra, media_sfidante_c)
-                        inserisci(diz, "Voti_A", squadra, media_sfidante_a)
-                        fantamedia_sfidante_p = df_voti_sfidante.loc[
-                            df_voti_sfidante.Ruolo == "P"].FantaVoto.tolist()
-                        fantamedia_sfidante_d = df_voti_sfidante.loc[
-                            df_voti_sfidante.Ruolo == "D"].FantaVoto.tolist()
-                        fantamedia_sfidante_c = df_voti_sfidante.loc[
-                            df_voti_sfidante.Ruolo == "C"].FantaVoto.tolist()
-                        fantamedia_sfidante_a = df_voti_sfidante.loc[
-                            df_voti_sfidante.Ruolo == "A"].FantaVoto.tolist()
-                        inserisci(diz, "FantaVoti_P", squadra, fantamedia_sfidante_p)
-                        inserisci(diz, "FantaVoti_D", squadra, fantamedia_sfidante_d)
-                        inserisci(diz, "FantaVoti_C", squadra, fantamedia_sfidante_c)
-                        inserisci(diz, "FantaVoti_A", squadra, fantamedia_sfidante_a)
-
-    a = pd.DataFrame.from_dict(diz)
-
-    voti_contro = pd.DataFrame([])
-    for c in a.columns:
-        new_c = f"Media{c}"
-        voti_contro[new_c] = a[c].apply(media)
-    voti_contro["MediaConMod_P"] = voto_con_modificatore(
-        list(zip(voti_contro.MediaVoti_P, voti_contro.MediaFantaVoti_P)))
-    voti_contro["MediaConMod_D"] = voto_con_modificatore(
-        list(zip(voti_contro.MediaVoti_D, voti_contro.MediaFantaVoti_D)))
-
+    A = 2
+    B = -21
+    C = 55
+    voti_contro = duckdb.query(f"""
+    select
+        upper(incontri.squadra) as squadra,
+        voti_p.MediaVoti_P,
+        voti_d.MediaVoti_D,
+        voti_c.MediaVoti_C,
+        voti_a.MediaVoti_A,
+        voti_p.MediaFantaVoti_P,
+        voti_d.MediaFantaVoti_D,
+        voti_c.MediaFantaVoti_C,
+        voti_a.MediaFantaVoti_A,
+        voti_p.MediaConMod_P,
+        voti_d.MediaConMod_D
+    from (
+        select distinct
+            squadra
+        from dataframe_avversari_filtrato
+    ) incontri
+    join (
+        select
+            avversario,
+            avg(voto) as MediaVoti_P,
+            avg(fantavoto) as MediaFantaVoti_P,
+            avg(({A} * voto ** 2 + {B} * voto + {C}) / 4 + fantavoto) as MediaConMod_P
+        from dataframe_avversari_filtrato df
+        where ruolo = 'P'
+        group by avversario
+    ) voti_p
+    on incontri.squadra = voti_p.avversario
+    join (
+        select
+            avversario,
+            avg(voto) as MediaVoti_D,
+            avg(fantavoto) as MediaFantaVoti_D,
+            avg(({A} * voto ** 2 + {B} * voto + {C}) / 4 + fantavoto) as MediaConMod_D
+        from dataframe_avversari_filtrato df
+        where ruolo = 'D'
+        group by avversario
+    ) voti_d
+    on incontri.squadra = voti_d.avversario
+    join (
+        select
+            avversario,
+            avg(voto) as MediaVoti_C,
+            avg(fantavoto) as MediaFantaVoti_C
+        from dataframe_avversari_filtrato df
+        where ruolo = 'C'
+        group by avversario
+    ) voti_c
+    on incontri.squadra = voti_c.avversario
+    join (
+        select
+            avversario,
+            avg(voto) as MediaVoti_A,
+            avg(fantavoto) as MediaFantaVoti_A
+        from dataframe_avversari_filtrato df
+        where ruolo = 'A'
+        group by avversario
+    ) voti_a
+    on incontri.squadra = voti_a.avversario
+    """).df()
     voti_contro.to_excel(f"voti_contro.xlsx")
 
     giornate_soup = ottieni_giornate_soup(stagione)
-    giornata_soup = [g_s for g_s in giornate_soup if f"GIORNATA {giornata}<" in str(g_s).upper()][0]
+    giornata_soup = [g_s for g_s in giornate_soup if f"GIORNATA {ultima_giornata + 1}<" in str(g_s).upper()][0]
     squadre_soup = giornata_soup.find_all("span", attrs={"class": "ftbl__match-row__team--desktop"})
     casa_soup_coi_none = [el.find("span", attrs={
         "class": "ftbl__text ftbl__text--span ftbl__text--color-blue ftbl__text--font-size-14 ftbl__text--weight-500 ftbl__team__name ftbl__team__name--right"})
@@ -100,57 +169,57 @@ def consigli_di_giornata(
         lista_incontri[casa] = ospite
         lista_incontri[ospite] = casa
 
-    voti_potenziali = []
-    fantavoti_potenziali = []
-    voti = []
-    fantavoti = []
-    for cod, ruolo, nome, squad, partite, med, fantaMedia, voto_piu_probabile, fantavoto_piu_probabile, posizione in risultato_finale.values:
-        try:
-            squadra = squad.upper()
-            squadra_avversaria = lista_incontri[squadra]
-            # ruolo = row[0]
-            lista = voti_contro.loc[voti_contro.index != squadra][f"MediaVoti_{ruolo}"]
-            fanta_lista = voti_contro.loc[voti_contro.index != squadra][f"MediaFantaVoti_{ruolo}"]
-            voto_medio = sum(lista) / len(lista)
-            fantavoto_medio = sum(fanta_lista) / len(fanta_lista)
-            voto_previsto = med / voto_medio * voti_contro.loc[squadra_avversaria][f"MediaVoti_{ruolo}"]
-            fantavoto_previsto = fantaMedia / fantavoto_medio * voti_contro.loc[squadra_avversaria][
-                f"MediaFantaVoti_{ruolo}"]
-            voto_previsto_t = 0.5 * int((voto_previsto + 0.25) / 0.5)
-            voti.append(voto_previsto_t)
-            fantavoto_previsto_t = 0.5 * int((fantavoto_previsto + 0.25) / 0.5)
-            fantavoti.append(fantavoto_previsto_t)
-            voti_potenziali.append(voto_previsto)
-            fantavoti_potenziali.append(fantavoto_previsto)
-        except KeyError:
-            print(f"{nome} non più in serie A, ultima squadra {squadra}")
-            voti.append(0)
-            fantavoti.append(0)
-            voti_potenziali.append(0)
-            fantavoti_potenziali.append(0)
+    incontri = pd.DataFrame(zip(squadre_casa + squadre_ospiti, squadre_ospiti + squadre_casa),
+                            columns=["SQUADRA", "AVVERSARIO"])
 
-    risultato_finale["VotoPotenziale"] = voti_potenziali
-    risultato_finale["Voto"] = voti
-    risultato_finale["FantaVotoPotenziale"] = fantavoti_potenziali
-    risultato_finale["FantaVoto"] = fantavoti
+    consigli_giornata = duckdb.query("""
+    select
+        Cod,
+        R,
+        Nome,
+        Squadra,
+        VotoPotenziale,
+        FantaVotoPotenziale,
+        0.5 * cast((VotoPotenziale + 0.25) / 0.5 as int) as Voto,
+        0.5 * cast((FantaVotoPotenziale + 0.25) / 0.5 as int) as FantaVoto
+    from (
+        select
+            r.*,
+            r.media * case r
+                        when 'P' then mediavoti_p / voto_medio_p
+                        when 'D' then mediavoti_d / voto_medio_d
+                        when 'C' then mediavoti_c / voto_medio_c
+                        when 'A' then mediavoti_a / voto_medio_a
+                      end as VotoPotenziale,
+            r.media * case r
+                        when 'P' then mediafantavoti_p / fantavoto_medio_p
+                        when 'D' then mediafantavoti_d / fantavoto_medio_d
+                        when 'C' then mediafantavoti_c / fantavoto_medio_c
+                        when 'A' then mediafantavoti_a / fantavoto_medio_a
+                      end as FantaVotoPotenziale
+        from incontri i
+        join risultato_finale r
+          on i.squadra = upper(r.squadra)
+        join (
+            select
+                v1.*,
+                avg(v2.mediavoti_p) as voto_medio_p,
+                avg(v2.mediavoti_d) as voto_medio_d,
+                avg(v2.mediavoti_c) as voto_medio_c,
+                avg(v2.mediavoti_a) as voto_medio_a,
+                avg(v2.mediafantavoti_p) as fantavoto_medio_p,
+                avg(v2.mediafantavoti_d) as fantavoto_medio_d,
+                avg(v2.mediafantavoti_c) as fantavoto_medio_c,
+                avg(v2.mediafantavoti_a) as fantavoto_medio_a
+            from voti_contro v1
+            join voti_contro v2
+              on v1.squadra != v2.squadra
+            group by v1.*
+        ) v
+          on v.squadra = i.squadra
+    )
+    """).df()
 
-    risultato_finale = risultato_finale[
-        ["Cod", "R", "Nome", "Squadra", "VotoPotenziale", "FantaVotoPotenziale", "Voto", "FantaVoto"]]
-    p = risultato_finale.loc[risultato_finale.R == "P"]
-    d = risultato_finale.loc[risultato_finale.R == "D"]
-    c = risultato_finale.loc[risultato_finale.R == "C"]
-    a = risultato_finale.loc[risultato_finale.R == "A"]
-
-    p = p.sort_values("VotoPotenziale", ascending=False)
-    p["Posizione"] = range(1, len(p) + 1)
-    d = d.sort_values("VotoPotenziale", ascending=False)
-    d["Posizione"] = range(1, len(d) + 1)
-    c = c.sort_values("VotoPotenziale", ascending=False)
-    c["Posizione"] = range(1, len(c) + 1)
-    a = a.sort_values("VotoPotenziale", ascending=False)
-    a["Posizione"] = range(1, len(a) + 1)
-
-    consigli_giornata = pd.concat([p, d, c, a])
     print(f"creato consigli di giornata {ultima_giornata + 1} considerando le precedenti {n_giornate}")
 
     if salva_consigli:
