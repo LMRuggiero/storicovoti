@@ -1,7 +1,6 @@
 import os
 
 import duckdb
-import pandas as pd
 
 from storicovoti.modello_fantacalcio import modello_fantacalcio
 from utils.SeasonDf import *
@@ -21,23 +20,7 @@ def consigli_di_giornata(
     lista_dataframe_filtrati = []
     for df in lista_dataframe:
         dataframe = duckdb.query(f"""
-            select
-                COD,
-                RUOLO,
-                NOME,
-                VOTO,
-                GOL_FATTI,
-                GOL_SUBITI,
-                RIGORI_PARATI,
-                RIGORI_SBAGLIATI,
-                RIGORI_FATTI,
-                AUTOGOL,
-                AMMONIZIONI,
-                ESPULSIONI,
-                ASSIST,
-                FANTAVOTO,
-                SQUADRA,
-                AVVERSARIO
+            select COD, RUOLO, NOME, VOTO, GOL_FATTI, GOL_SUBITI, RIGORI_PARATI, RIGORI_SBAGLIATI, RIGORI_FATTI, AUTOGOL, AMMONIZIONI, ESPULSIONI, ASSIST, FANTAVOTO, SQUADRA, AVVERSARIO
             from df
             where GIORNATA_CALCOLATA <= {n_giornate}
               and case when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
@@ -60,23 +43,7 @@ def consigli_di_giornata(
     lista_dataframe_avversari_filtrati = []
     for df in lista_dataframe:
         dataframe = duckdb.query(f"""
-                select
-                    COD,
-                    RUOLO,
-                    NOME,
-                    VOTO,
-                    GOL_FATTI,
-                    GOL_SUBITI,
-                    RIGORI_PARATI,
-                    RIGORI_SBAGLIATI,
-                    RIGORI_FATTI,
-                    AUTOGOL,
-                    AMMONIZIONI,
-                    ESPULSIONI,
-                    ASSIST,
-                    FANTAVOTO,
-                    SQUADRA,
-                    AVVERSARIO
+                select COD, RUOLO, NOME, VOTO, GOL_FATTI, GOL_SUBITI, RIGORI_PARATI, RIGORI_SBAGLIATI, RIGORI_FATTI, AUTOGOL, AMMONIZIONI, ESPULSIONI, ASSIST, FANTAVOTO, SQUADRA, AVVERSARIO
                 from df
                 where GIORNATA_CALCOLATA_AVVERSARI <= {n_giornate}
                   and case when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
@@ -104,47 +71,32 @@ def consigli_di_giornata(
         voti_p.MediaConMod_P,
         voti_d.MediaConMod_D
     from (
-        select distinct
-            squadra
+        select distinct squadra
         from dataframe_avversari_filtrato
     ) incontri
     join (
-        select
-            avversario,
-            avg(voto) as MediaVoti_P,
-            avg(fantavoto) as MediaFantaVoti_P,
-            avg(({A} * voto ** 2 + {B} * voto + {C}) / 4 + fantavoto) as MediaConMod_P
+        select avversario, avg(voto) as MediaVoti_P, avg(fantavoto) as MediaFantaVoti_P, avg(({A} * voto ** 2 + {B} * voto + {C}) / 4 + fantavoto) as MediaConMod_P
         from dataframe_avversari_filtrato df
         where ruolo = 'P'
         group by avversario
     ) voti_p
     on incontri.squadra = voti_p.avversario
     join (
-        select
-            avversario,
-            avg(voto) as MediaVoti_D,
-            avg(fantavoto) as MediaFantaVoti_D,
-            avg(({A} * voto ** 2 + {B} * voto + {C}) / 4 + fantavoto) as MediaConMod_D
+        select avversario, avg(voto) as MediaVoti_D, avg(fantavoto) as MediaFantaVoti_D, avg(({A} * voto ** 2 + {B} * voto + {C}) / 4 + fantavoto) as MediaConMod_D
         from dataframe_avversari_filtrato df
         where ruolo = 'D'
         group by avversario
     ) voti_d
     on incontri.squadra = voti_d.avversario
     join (
-        select
-            avversario,
-            avg(voto) as MediaVoti_C,
-            avg(fantavoto) as MediaFantaVoti_C
+        select avversario, avg(voto) as MediaVoti_C, avg(fantavoto) as MediaFantaVoti_C
         from dataframe_avversari_filtrato df
         where ruolo = 'C'
         group by avversario
     ) voti_c
     on incontri.squadra = voti_c.avversario
     join (
-        select
-            avversario,
-            avg(voto) as MediaVoti_A,
-            avg(fantavoto) as MediaFantaVoti_A
+        select avversario, avg(voto) as MediaVoti_A, avg(fantavoto) as MediaFantaVoti_A
         from dataframe_avversari_filtrato df
         where ruolo = 'A'
         group by avversario

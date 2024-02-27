@@ -2,7 +2,7 @@ from root import ROOT_DIR
 from storicovoti.consigli_di_giornata import *
 from storicovoti.titolari_e_panchinari import *
 
-create = False
+create = True
 stagione = 23
 ultima_giornata = 25
 # l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
@@ -21,28 +21,14 @@ if create:
     season_df = pd.concat([leggi(s, create=False) for s in range(stagione - 1, stagione + 1)])
     season = duckdb.query(f"""
         select
-            data,
-            team,
-            opponent,
-            giornata,
-            stagione,
+            *,
             dense_rank() over (partition by team order by stagione desc, data desc) as GIORNATA_CALCOLATA,
             dense_rank() over (partition by opponent order by stagione desc, data desc) as GIORNATA_CALCOLATA_AVVERSARI
         from (
-            select
-                Data,
-                HomeTeam as TEAM,
-                AwayTeam as OPPONENT,
-                giornata,
-                stagione
+            select Data, HomeTeam as TEAM, AwayTeam as OPPONENT, giornata, stagione
             from season_df
             union all
-            select
-                Data,
-                AwayTeam as TEAM,
-                HomeTeam as OPPONENT,
-                giornata,
-                stagione
+            select Data, AwayTeam as TEAM, HomeTeam as OPPONENT, giornata, stagione
             from season_df
         )
         where stagione = '{stagione - 1}{stagione}'
