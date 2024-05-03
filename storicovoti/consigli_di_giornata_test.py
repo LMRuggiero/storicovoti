@@ -2,37 +2,32 @@ import os
 
 import duckdb
 
-from storicovoti.modello_fantacalcio import modello_fantacalcio
+from storicovoti.modello_fantacalcio_test import modello_fantacalcio_test
 from utils.SeasonDf import *
 from utils.metodi import *
 
 
-def consigli_di_giornata(
+def consigli_di_giornata_test(
         ultima_giornata,
         n_giornate,
         stagione,
-        lista_dataframe,
+        dataframe,
         salva_consigli=False,
         salva_modello=False,
         perc_presenze=0.375,
         # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
-    lista_dataframe_filtrati = []
-    for df in lista_dataframe:
-        dataframe = duckdb.query(f"""
-            select *
-            from df
-            where GIORNATA_CALCOLATA <= {n_giornate}
+    dataframe_filtrato = duckdb.query(f"""
+        select *
+        from dataframe
+        where GIORNATA_GIOCATORE <= {n_giornate}
               and case
                     when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
                     else STAGIONE = '{stagione}{stagione + 1}'
                   end
-            """).df()
-        if not dataframe.empty:
-            lista_dataframe_filtrati.append(dataframe)
-    dataframe_filtrato = pd.concat(lista_dataframe_filtrati)
+    """)
 
-    risultato_finale = modello_fantacalcio(
+    risultato_finale = modello_fantacalcio_test(
         ultima_giornata,
         n_giornate,
         dataframe_filtrato,
@@ -41,20 +36,15 @@ def consigli_di_giornata(
         # file_quotazioni
     )
 
-    lista_dataframe_avversari_filtrati = []
-    for df in lista_dataframe:
-        dataframe = duckdb.query(f"""
-            select *
-            from df
-            where GIORNATA_CALCOLATA_AVVERSARI <= {n_giornate}
+    dataframe_avversari_filtrato = duckdb.query(f"""
+        select *
+        from dataframe
+        where GIORNATA_CALCOLATA_AVVERSARI <= {n_giornate}
               and case
                     when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
                     else STAGIONE = '{stagione}{stagione + 1}'
                   end
-            """).df()
-        if not dataframe.empty:
-            lista_dataframe_avversari_filtrati.append(dataframe)
-    dataframe_avversari_filtrato = pd.concat(lista_dataframe_avversari_filtrati)
+    """)
 
     A = 2
     B = -21
@@ -126,7 +116,7 @@ def consigli_di_giornata(
     incontri = pd.DataFrame(zip(squadre_casa + squadre_ospiti, squadre_ospiti + squadre_casa),
                             columns=["SQUADRA", "AVVERSARIO"])
 
-    consigli_giornata = duckdb.query("""
+    consigli_giornata_test = duckdb.query("""
     select
         Cod,
         R,
@@ -177,14 +167,14 @@ def consigli_di_giornata(
     print(f"creato consigli di giornata {ultima_giornata + 1} considerando le precedenti {n_giornate}")
 
     if salva_consigli:
-        path_consigli_di_giornata = f"estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}"
+        path_consigli_di_giornata = f"estrazioni/consigli_giornata_test/giornata_{ultima_giornata + 1}"
         file_consigli_di_giornata = f"consigli_ultime_{n_giornate}.xlsx"
         if not os.path.exists(path_consigli_di_giornata):
             os.makedirs(path_consigli_di_giornata)
 
         path_finale_consigli_di_giornata = os.path.join(path_consigli_di_giornata, file_consigli_di_giornata)
-        consigli_giornata.to_excel(path_finale_consigli_di_giornata)
+        consigli_giornata_test.to_excel(path_finale_consigli_di_giornata)
         print(
             f"salvato consigli di giornata {ultima_giornata + 1} considerando le precedenti {n_giornate} in {path_finale_consigli_di_giornata}")
 
-    return consigli_giornata
+    return consigli_giornata_test

@@ -1,5 +1,6 @@
 from math import isnan
 
+import duckdb
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -293,26 +294,61 @@ def titolari_e_panchinari3(dfs, num_df=None, esclusioni=None, aggiunte=None, lis
     i = 0
     medie_punteggi = []
     dizionario_titolari_per_modulo = {f: [] for f in formazioni}
-    non_schierabili_default = [""]
-    lista_esclusi = [""]
+    non_schierabili_default = pd.DataFrame([], columns=["NOME"])
+    lista_esclusi = pd.DataFrame([], columns=["NOME"])
     if lista_giocatori_titolari is None:
         squalificati, indisponibili, in_dubbio = non_schierabili()
-        non_schierabili_default = [giocatore for giocatore in squalificati + indisponibili if giocatore not in aggiunte]
-        lista_esclusi = non_schierabili_default + esclusioni
-        sub_dfs_complete = [df.query(f"""Nome not in {to_string_list(non_schierabili_default)}""").sort_values(
-            ["R", "FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"],
-            ascending=(False, False, False, False, False)) for df in dfs[:num_df]]
+        non_schierabili_default = pd.DataFrame(
+            [giocatore for giocatore in squalificati + indisponibili if giocatore not in aggiunte], columns=["NOME"])
+        esclusi = pd.DataFrame(esclusioni, columns=["NOME"])
+        lista_esclusi = pd.concat([non_schierabili_default, esclusi])
+        sub_dfs_complete = [
+            duckdb.query(f"""
+            select df.*
+            from df
+            left join non_schierabili_default l
+              on df.nome = l.nome
+            where l.nome is null
+            order by R desc, FantaVoto desc, Voto desc, FantaVotoPotenziale desc, VotoPotenziale desc
+            """).df() for df in dfs[:num_df]
+        ]
     else:
-        sub_dfs_complete = [df.query(f"""Nome in {to_string_list(lista_giocatori_titolari)}""").sort_values(
-            ["R", "FantaVoto", "FantaVotoPotenziale"], ascending=(False, False, False)) for df in dfs[:num_df]]
+        lista_giocatori_titolari = pd.DataFrame(lista_giocatori_titolari, columns=["NOME"])
+        sub_dfs_complete = [
+            duckdb.query(f"""
+            select df.*
+            from df
+            left join lista_giocatori_titolari l
+              on df.nome = l.nome
+            where l.nome is not null
+            order by R desc, FantaVoto desc, FantaVotoPotenziale desc
+            """).df() for df in dfs[:num_df]]
     t = pd.concat(sub_dfs_complete)
-    listone = t.groupby(["R", "Nome", "Squadra"])[["FantaVotoPotenziale", "VotoPotenziale"]].mean().query(
-        f"Nome not in {to_string_list(non_schierabili_default)}").reset_index()
+    listone = duckdb.query("""
+    select
+        R,
+        t.Nome,
+        Squadra,
+        avg(FantaVotoPotenziale) as FantaVotoPotenziale,
+        avg(VotoPotenziale) as VotoPotenziale
+    from t
+    left join non_schierabili_default n
+      on t.nome = n.nome
+    where n.nome is null
+    group by R, t.Nome, Squadra
+    """).df()
     listone["FantaVoto"] = listone.FantaVotoPotenziale.apply(troncato)
     listone["Voto"] = listone.VotoPotenziale.apply(troncato)
-    listone = listone.sort_values(["FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"],
+    listone = listone.sort_values(by=["FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"],
                                   ascending=(False, False, False, False))
-    listone_per_squadra_titolare = listone.query(f"""Nome not in {to_string_list(lista_esclusi)}""")
+    listone_per_squadra_titolare = duckdb.query("""
+    select l.*
+    from listone l
+    left join lista_esclusi le
+      on l.nome = le.nome
+    where le.nome is null
+    order by FantaVoto desc, Voto desc, FantaVotoPotenziale desc, VotoPotenziale desc
+    """).df()
     for formazione in formazioni:
         punteggi = []
         n_dif, n_cen, n_att, squadra_prescelta = ottieniTitolari(formazione, listone_per_squadra_titolare)

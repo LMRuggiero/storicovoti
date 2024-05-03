@@ -5,18 +5,6 @@ import pandas as pd
 headers = {'User-Agent': 'Chrome'}
 
 
-# def estrai_gol_casa(squadra, risultato):
-#     if squadra == 'casa':
-#         if ":" in risultato or risultato == "LIVE":
-#             return "-"
-#         return risultato.split(" - ")[0]
-#     if squadra == 'ospite':
-#         if ":" in risultato or risultato == "LIVE":
-#             return "-"
-#         return risultato.split(" - ")[1]
-#     raise ValueError("assegnare 'casa' o 'ospite' al parametro 'squadra'")
-
-
 def ottieni_giornate_soup(anno_inizio):
     http_stagione_attuale = "https://sport.sky.it/calcio/serie-a/calendario-risultati"
     re_stagione_attuale = requests.get(http_stagione_attuale)

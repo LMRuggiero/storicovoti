@@ -9,7 +9,7 @@ from root import ROOT_DIR
 pd.options.mode.chained_assignment = None
 
 
-def modello_fantacalcio(
+def modello_fantacalcio_test(
         giornata_esaminata,
         numero_giornate,
         dataframe_filtrato,
@@ -43,7 +43,7 @@ def modello_fantacalcio(
         """).df()
     duckdb.remove_function("voto_centrale")
     if salva_excel:
-        path_modello_fantacalcio = f"{ROOT_DIR}/estrazioni/modello_fantacalcio/giornata_{giornata_esaminata}"
+        path_modello_fantacalcio = f"{ROOT_DIR}/estrazioni/modello_fantacalcio_test/giornata_{giornata_esaminata}"
         file_modello_fantacalcio = f"modello_fantacalcio_ultime_{numero_giornate}.xlsx"
         if not os.path.exists(path_modello_fantacalcio):
             os.makedirs(path_modello_fantacalcio)
@@ -70,7 +70,7 @@ def modello_fantacalcio(
 
 
 if __name__ == "__main__":
-    modello_fantacalcio(
+    modello_fantacalcio_test(
         giornata_esaminata=19,
         numero_giornate=4,
         salva_excel=True,

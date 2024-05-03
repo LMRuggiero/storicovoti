@@ -1,7 +1,4 @@
 import pandas as pd
-from pandasql import sqldf
-from utils.SeasonDf import leggi
-
 
 def estrai_voto(x):
     return x not in ["Voto", "6*"]
@@ -85,9 +82,7 @@ def estrai_probabilita(numero_possibili_voti, voto, voto_minimo, media):
     return binomiale(numero_possibili_voti, k, p)
 
 
-def voto_centrale(lista):
-    media = sum(lista) / len(lista)
-    minimo, massimo = min(lista), max(lista)
+def voto_centrale(media, minimo, massimo):
     numero_possibili_voti = int(2 * (massimo - minimo)) + 1
     voti_possibili = [minimo + 0.5 * i for i in range(numero_possibili_voti)]
     probabilita = [estrai_probabilita(numero_possibili_voti, voto_possibile, minimo, media) for voto_possibile in
