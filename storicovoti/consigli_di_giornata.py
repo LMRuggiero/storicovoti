@@ -12,41 +12,14 @@ def consigli_di_giornata(
         ultima_giornata,
         n_giornate,
         stagione,
+        dataframe_filtrato,
         lista_dataframe,
         salva_consigli=False,
         salva_modello=False,
         perc_presenze=0.375,
+        test=False
         # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
 ):
-    lista_dataframe_filtrati = []
-    for df in lista_dataframe:
-        dataframe = duckdb.query(f"""
-            select
-                COD,
-                RUOLO,
-                NOME,
-                VOTO,
-                GOL_FATTI,
-                GOL_SUBITI,
-                RIGORI_PARATI,
-                RIGORI_SBAGLIATI,
-                RIGORI_FATTI,
-                AUTOGOL,
-                AMMONIZIONI,
-                ESPULSIONI,
-                ASSIST,
-                FANTAVOTO,
-                SQUADRA,
-                AVVERSARIO
-            from df
-            where GIORNATA_CALCOLATA <= {n_giornate}
-              and case when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
-                       else STAGIONE = '{stagione}{stagione + 1}'
-                  end
-            """).df()
-        if not dataframe.empty:
-            lista_dataframe_filtrati.append(dataframe)
-    dataframe_filtrato = pd.concat(lista_dataframe_filtrati)
 
     risultato_finale = modello_fantacalcio(
         ultima_giornata,
@@ -223,7 +196,7 @@ def consigli_di_giornata(
     print(f"creato consigli di giornata {ultima_giornata + 1} considerando le precedenti {n_giornate}")
 
     if salva_consigli:
-        path_consigli_di_giornata = f"estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}"
+        path_consigli_di_giornata = f"estrazioni/consigli_giornata{'_test' if test else ''}/giornata_{ultima_giornata + 1}"
         file_consigli_di_giornata = f"consigli_ultime_{n_giornate}.xlsx"
         if not os.path.exists(path_consigli_di_giornata):
             os.makedirs(path_consigli_di_giornata)

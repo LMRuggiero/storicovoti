@@ -1,10 +1,13 @@
+import duckdb
+import pandas as pd
+
 from root import ROOT_DIR
 from storicovoti.consigli_di_giornata import *
 from storicovoti.titolari_e_panchinari import *
 
 create = False
 stagione = 23
-ultima_giornata = 33
+ultima_giornata = 34
 # l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
 l = range(3, 9)
 if create:
@@ -26,7 +29,6 @@ if create:
             opponent,
             giornata,
             stagione,
-            dense_rank() over (partition by team order by stagione desc, data desc) as GIORNATA_CALCOLATA,
             dense_rank() over (partition by opponent order by stagione desc, data desc) as GIORNATA_CALCOLATA_AVVERSARI
         from (
             select
@@ -69,8 +71,8 @@ if create:
                 df.SQUADRA,
                 s.OPPONENT as AVVERSARIO,
                 df.STAGIONE,
-                s.GIORNATA_CALCOLATA,
-                s.GIORNATA_CALCOLATA_AVVERSARI
+                s.GIORNATA_CALCOLATA_AVVERSARI,
+                s.DATA
             from df
             join season s
              on df.squadra = s.team
@@ -78,35 +80,37 @@ if create:
             and df.stagione = s.stagione
             """).df() for df in lista_dataframe]
     for n_giornate in l:
-        lista_dataframe_filtrati = []
-        for df in lista_dataframe_arricchito:
-            dataframe = duckdb.query(f"""
-                    select
-                        COD,
-                        RUOLO,
-                        NOME,
-                        VOTO,
-                        GOL_FATTI,
-                        GOL_SUBITI,
-                        RIGORI_PARATI,
-                        RIGORI_SBAGLIATI,
-                        RIGORI_FATTI,
-                        AUTOGOL,
-                        AMMONIZIONI,
-                        ESPULSIONI,
-                        ASSIST,
-                        FANTAVOTO,
-                        SQUADRA,
-                        AVVERSARIO
-                    from df
-                    where GIORNATA_CALCOLATA <= {n_giornate}
-                      and case when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
-                               else STAGIONE = '{stagione}{stagione + 1}'
-                          end
-                    """).df()
-            if not dataframe.empty:
-                lista_dataframe_filtrati.append(dataframe)
-        dataframe_filtrato = pd.concat(lista_dataframe_filtrati)
+        dataframeArricchito = pd.concat(lista_dataframe_arricchito)
+        dataframe_filtrato = duckdb.query(f"""
+            select
+                COD,
+                RUOLO,
+                NOME,
+                VOTO,
+                GOL_FATTI,
+                GOL_SUBITI,
+                RIGORI_PARATI,
+                RIGORI_SBAGLIATI,
+                RIGORI_FATTI,
+                AUTOGOL,
+                AMMONIZIONI,
+                ESPULSIONI,
+                ASSIST,
+                FANTAVOTO,
+                SQUADRA,
+                AVVERSARIO,
+                GIORNATA_CALCOLATA
+            from (
+                select
+                    *,
+                    dense_rank() over (partition by nome order by stagione desc, data desc) as GIORNATA_CALCOLATA
+                from dataframeArricchito
+            )
+            where GIORNATA_CALCOLATA <= {n_giornate}
+              and case when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
+                       else STAGIONE = '{stagione}{stagione + 1}'
+                  end 
+            """)
 
         consigli_di_giornata(ultima_giornata,
                              n_giornate,
@@ -115,6 +119,7 @@ if create:
                              lista_dataframe_arricchito,
                              salva_consigli=create,
                              salva_modello=create,
+                             test=True
                              # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2023_24_15_09_23.xlsx"
                              )
 
@@ -124,17 +129,17 @@ def consigli_di_giornata_formazione(ultima_giornata, n_giornate, lega, team='Io'
 
     team = listone[(listone.Lega == lega) & (listone.Proprietario == team)].Nome.tolist()
     lista_nomi = '("' + '", "'.join(team) + '")'
-    path = f"{ROOT_DIR}/estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}/consigli_ultime_{n_giornate}.xlsx"
+    path = f"{ROOT_DIR}/estrazioni/consigli_giornata_test/giornata_{ultima_giornata + 1}/consigli_ultime_{n_giornate}.xlsx"
     print(f"letto il file {path}")
     return pd.read_excel(path).query(f'Nome in {lista_nomi}').sort_values(
         ["FantaVoto", "FantaVotoPotenziale", "Voto", "VotoPotenziale"], ascending=(False, False, False, False))
 
 
-dfs = [pd.read_excel(f"estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}/consigli_ultime_{n}.xlsx") for n in
+dfs = [pd.read_excel(f"estrazioni/consigli_giornata_test/giornata_{ultima_giornata + 1}/consigli_ultime_{n}.xlsx") for n in
        l]
 
-# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
-dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
+dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
+# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
 
 squadra_titolare, panchinari, listone = titolari_e_panchinari3(
     dfs,
@@ -143,7 +148,7 @@ squadra_titolare, panchinari, listone = titolari_e_panchinari3(
     # aggiunte=["IBRAHIMOVIC"],
     # modulo=["3-4-3"],
     # modulo=["3-5-2"],
-    modulo=["4-3-3"],
+    # modulo=["4-3-3"],
     # modulo=["4-4-2"],
     # modulo=["4-5-1-"],
     # lista_giocatori_titolari=["MERET", "SKRINIAR", "UDOGIE", "KIM", "PASALIC", "LUIS ALBERTO", "PESSINA", "CANDREVA",
