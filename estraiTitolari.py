@@ -10,14 +10,14 @@ def estraiTitolariPerStagione(stagione):
     linkBase = [f"https://www.fantacalcio.it/serie-a/calendario/{giornata}/20{stagione}-{stagione + 1}".lower() for
                 giornata in range(1, 39)]
 
-    soupLinkBase = [BeautifulSoup(requests.get(lb, headers=headers).content, 'html.parser') for lb in linkBase]
+    soupLinkBase = [BeautifulSoup(requests.get(lb, headers=headers).content, 'html.parser', verify=False) for lb in linkBase]
     linkPartitePerGiornata = [[f"{lb}/{'-'.join(el['value'].split('/')[:2])}/{el['value'].split('/')[-1]}" for el in
                                slb.find("select", {"id": "matchControl"}).findAll("option")] for lb, slb in
                               zip(linkBase, soupLinkBase)]
     array = []
     for numero, lppg in enumerate(linkPartitePerGiornata):
         for linkPartita in lppg:
-            request = requests.get(linkPartita, headers=headers)
+            request = requests.get(linkPartita, headers=headers, verify=False)
             soup = BeautifulSoup(request.content, 'html.parser')
             titolari = [el.text.strip() for el in soup.find("section", {"class": "mt-4", "id": "pitch"}).findAll("a", {
                 "class": "player-name player-link"})[:22]]

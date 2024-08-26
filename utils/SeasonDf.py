@@ -7,14 +7,14 @@ headers = {'User-Agent': 'Chrome'}
 
 def ottieni_giornate_soup(anno_inizio):
     http_stagione_attuale = "https://sport.sky.it/calcio/serie-a/calendario-risultati"
-    re_stagione_attuale = requests.get(http_stagione_attuale)
+    re_stagione_attuale = requests.get(http_stagione_attuale, verify=False)
     soup_stagione_attuale = BeautifulSoup(re_stagione_attuale.text, "html.parser")
     data_stagione_corrente_soup = soup_stagione_attuale.find("span", attrs={
         "class": "ftbl__text ftbl__text--span ftbl__text--color-blue ftbl__text--font-size-14--16 ftbl__match-data-row__date-long"})
     anno_inizio_stagione_corrente = int(data_stagione_corrente_soup.text.split(" ")[-1][-2:])
     anno = f"20{anno_inizio}/" if anno_inizio < anno_inizio_stagione_corrente else ""
     http = f"https://sport.sky.it/calcio/serie-a/{anno}calendario-risultati"
-    re = requests.get(http)
+    re = requests.get(http, verify=False)
     soup = BeautifulSoup(re.text, "html.parser")
     giornate_soup = soup.find_all("div", attrs={"data-intersect": "true"})
     return giornate_soup
@@ -22,7 +22,7 @@ def ottieni_giornate_soup(anno_inizio):
 
 def costruisci_excel(anno_inizio):
     url_serie_a = f"https://www.transfermarkt.it/serie-a/gesamtspielplan/wettbewerb/IT1/saison_id/20{anno_inizio}"
-    serie_a_res = requests.get(url_serie_a, headers=headers)
+    serie_a_res = requests.get(url_serie_a, headers=headers, verify=False)
     serie_a_soup = BeautifulSoup(serie_a_res.content, 'html.parser')
     giornate_soup = serie_a_soup.findAll("div", "large-6 columns")
     giornate_soup.append(serie_a_soup.find("div", "large-6 columns end"))
