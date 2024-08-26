@@ -2,9 +2,9 @@ from root import ROOT_DIR
 from storicovoti.consigli_di_giornata import *
 from storicovoti.titolari_e_panchinari import *
 
-create = False
-stagione = 23
-ultima_giornata = 33
+create = True
+stagione = 24
+ultima_giornata = 1
 # l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
 l = range(3, 9)
 if create:
@@ -139,7 +139,7 @@ dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") f
 squadra_titolare, panchinari, listone = titolari_e_panchinari3(
     dfs,
     num_df=6,
-    esclusioni=["DIA"],
+    esclusioni=["FOLORUNSHO"],
     # aggiunte=["IBRAHIMOVIC"],
     # modulo=["3-4-3"],
     # modulo=["3-5-2"],
