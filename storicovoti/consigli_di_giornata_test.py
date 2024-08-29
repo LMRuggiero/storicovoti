@@ -20,12 +20,12 @@ def consigli_di_giornata_test(
     dataframe_filtrato = duckdb.query(f"""
         select *
         from dataframe
-        where GIORNATA_GIOCATORE <= {n_giornate}
-              and case
-                    when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
-                    else STAGIONE = '{stagione}{stagione + 1}'
-                  end
-    """)
+        where GIORNATA_CALCOLATA <= {n_giornate}
+          and case
+                when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
+                else STAGIONE = '{stagione}{stagione + 1}'
+              end
+        """).df()
 
     risultato_finale = modello_fantacalcio_test(
         ultima_giornata,
@@ -40,11 +40,11 @@ def consigli_di_giornata_test(
         select *
         from dataframe
         where GIORNATA_CALCOLATA_AVVERSARI <= {n_giornate}
-              and case
-                    when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
-                    else STAGIONE = '{stagione}{stagione + 1}'
-                  end
-    """)
+          and case
+                when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
+                else STAGIONE = '{stagione}{stagione + 1}'
+              end
+        """).df()
 
     A = 2
     B = -21
