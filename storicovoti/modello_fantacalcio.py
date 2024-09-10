@@ -14,8 +14,7 @@ def modello_fantacalcio(
         numero_giornate,
         dataframe_filtrato,
         salva_excel=False,
-        percentuale_presenze=0.375,
-        # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        percentuale_presenze=0.375
 ):
     duckdb.create_function(
         "voto_centrale",
@@ -67,13 +66,3 @@ def modello_fantacalcio(
             f"salvato modello fantacalcio {giornata_esaminata} considerando le precedenti {numero_giornate} in {path_finale_modello_fantacalcio}")
 
     return dataframe_finale
-
-
-if __name__ == "__main__":
-    modello_fantacalcio(
-        giornata_esaminata=19,
-        numero_giornate=4,
-        salva_excel=True,
-        percentuale_presenze=0.375,
-        # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
-    )

@@ -3,11 +3,11 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def estraiTitolariPerStagione(stagione):
+def estraiTitolariPerStagione(season):
     headers = {'User-Agent': 'Chrome'}
-    df = pd.read_excel(f"season\\season-{stagione}{stagione + 1}_csv.xlsx")
+    df = pd.read_excel(f"season\\season-{season}{season + 1}_csv.xlsx")
     partiteDf = df[["Giornata", "HomeTeam", "AwayTeam"]]
-    linkBase = [f"https://www.fantacalcio.it/serie-a/calendario/{giornata}/20{stagione}-{stagione + 1}".lower() for
+    linkBase = [f"https://www.fantacalcio.it/serie-a/calendario/{giornata}/20{season}-{season + 1}".lower() for
                 giornata in range(1, 39)]
 
     soupLinkBase = [BeautifulSoup(requests.get(lb, headers=headers).content, 'html.parser') for lb in linkBase]
@@ -26,9 +26,9 @@ def estraiTitolariPerStagione(stagione):
             [array.append([numero + 1, squadra_ospite, giocatore.upper()]) for giocatore in titolari[11:]]
 
     df = pd.DataFrame(array, columns=["giornata", "squadra", "titolare"])
-    df.to_csv(f"titolari_{stagione}{stagione + 1}.csv", index=False)
+    df.to_csv(f"titolari_{season}{season + 1}.csv", index=False)
 
 
 if __name__ == '__main__':
-    stagione = 22
+    stagione = 24
     estraiTitolariPerStagione(stagione)

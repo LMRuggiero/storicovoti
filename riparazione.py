@@ -8,8 +8,7 @@ _, modello = modello_fantacalcio(
     giornata_esaminata=20,
     numero_giornate=10,
     salva_excel=False,
-    percentuale_presenze=0.3,
-    file_quotazioni=file_quotazioni
+    percentuale_presenze=0.3
 )
 
 df_quotazioni = pd.read_excel(file_quotazioni, header=1)

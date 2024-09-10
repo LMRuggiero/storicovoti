@@ -49,18 +49,17 @@ if create:
                           stagione,
                           lista_dataframe_arricchito,
                           salva_consigli=create,
-                          salva_modello=create,
-                          # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2023_24_15_09_23.xlsx"
+                          salva_modello=create
                           )
      for n_giornate in l]
 
 
-def consigli_di_giornata_formazione(ultima_giornata, n_giornate, lega, team='Io'):
-    listone = pd.read_excel("sorgenti/Listone_produzione.xlsx")
+def consigli_di_giornata_formazione(giornata, n_giornate, lega, team='Io'):
+    rose = pd.read_excel("sorgenti/Listone_produzione.xlsx")
 
-    team = listone[(listone.Lega == lega) & (listone.Proprietario == team)].Nome.tolist()
+    team = rose[(rose.Lega == lega) & (rose.Proprietario == team)].Nome.tolist()
     lista_nomi = '("' + '", "'.join(team) + '")'
-    path = f"{ROOT_DIR}/estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}/consigli_ultime_{n_giornate}.xlsx"
+    path = f"{ROOT_DIR}/estrazioni/consigli_giornata/giornata_{giornata + 1}/consigli_ultime_{n_giornate}.xlsx"
     print(f"letto il file {path}")
     return pd.read_excel(path).query(f'Nome in {lista_nomi}').sort_values(
         ["FantaVoto", "FantaVotoPotenziale", "Voto", "VotoPotenziale"], ascending=(False, False, False, False))
@@ -69,22 +68,11 @@ def consigli_di_giornata_formazione(ultima_giornata, n_giornate, lega, team='Io'
 dfs = [pd.read_excel(f"estrazioni/consigli_giornata/giornata_{ultima_giornata + 1}/consigli_ultime_{n}.xlsx") for n in
        l]
 
-# dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
-dfs = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
+# dfsLega = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
+# dfsLega = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
+dfsLega = [consigli_di_giornata_formazione(ultima_giornata, n, "FANTABERTEBOOM", "Io") for n in l]
 
-squadra_titolare, panchinari, listone = titolari_e_panchinari3(
-    dfs,
-    num_df=6,
-    # esclusioni=["POSCH"],
-    # aggiunte=["DYBALA"],
-    # modulo=["3-4-3"],
-    # modulo=["3-5-2"],
-    # modulo=["4-3-3"],
-    # modulo=["4-4-2"],
-    # modulo=["4-5-1-"],
-    # lista_giocatori_titolari=["MERET", "SKRINIAR", "UDOGIE", "KIM", "PASALIC", "LUIS ALBERTO", "PESSINA", "CANDREVA",
-    #                           "LOZANO", "ARNAUTOVIC", "MARTINEZ L."]
-)
+squadra_titolare, panchinari, listone = titolari_e_panchinari(dfsLega, num_df=6)
 print(squadra_titolare)
 print(panchinari)
 print(listone)

@@ -14,8 +14,7 @@ def consigli_di_giornata(
         lista_dataframe,
         salva_consigli=False,
         salva_modello=False,
-        perc_presenze=0.375,
-        # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        perc_presenze=0.375
 ):
     lista_dataframe_filtrati = []
     for df in lista_dataframe:
@@ -37,8 +36,7 @@ def consigli_di_giornata(
         n_giornate,
         dataframe_filtrato,
         salva_modello,
-        perc_presenze,
-        # file_quotazioni
+        perc_presenze
     )
 
     lista_dataframe_avversari_filtrati = []

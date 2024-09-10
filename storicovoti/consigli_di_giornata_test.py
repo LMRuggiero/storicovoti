@@ -14,17 +14,16 @@ def consigli_di_giornata_test(
         dataframe,
         salva_consigli=False,
         salva_modello=False,
-        perc_presenze=0.375,
-        # file_quotazioni=f"{ROOT_DIR}/sorgenti/Quotazioni_Fantacalcio_Stagione_2022_23.xlsx"
+        perc_presenze=0.375
 ):
     dataframe_filtrato = duckdb.query(f"""
         select *
         from dataframe
         where GIORNATA_GIOCATORE <= {n_giornate}
-              and case
-                    when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
-                    else STAGIONE = '{stagione}{stagione + 1}'
-                  end
+          and case
+                when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
+                else STAGIONE = '{stagione}{stagione + 1}'
+              end
     """)
 
     risultato_finale = modello_fantacalcio_test(
@@ -33,17 +32,16 @@ def consigli_di_giornata_test(
         dataframe_filtrato,
         salva_modello,
         perc_presenze,
-        # file_quotazioni
     )
 
     dataframe_avversari_filtrato = duckdb.query(f"""
         select *
         from dataframe
         where GIORNATA_CALCOLATA_AVVERSARI <= {n_giornate}
-              and case
-                    when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
-                    else STAGIONE = '{stagione}{stagione + 1}'
-                  end
+          and case
+                when {ultima_giornata} < {n_giornate} then STAGIONE in ('{stagione - 1}{stagione}', '{stagione}{stagione + 1}')
+                else STAGIONE = '{stagione}{stagione + 1}'
+              end
     """)
 
     A = 2

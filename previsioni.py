@@ -3,15 +3,6 @@ import pandas as pd
 from storicovoti.consigli_di_giornata import consigli_di_giornata
 
 
-# def estraiEsito(punteggioCasa, punteggioOspiti):
-#     delta = punteggioCasa - punteggioOspiti
-#     if delta >= 4 and punteggioCasa > 66:
-#         return "1"
-#     if delta <= -4 and punteggioOspiti > 66:
-#         return "2"
-#     return "x"
-
-
 def estraiEsito(punteggioCasa, punteggioOspiti):
     delta = punteggioCasa - punteggioOspiti
     if delta > 30:

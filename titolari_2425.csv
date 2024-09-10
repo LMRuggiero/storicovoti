@@ -1,0 +1,661 @@
+giornata,squadra,titolare
+1,Genoa,GOLLINI
+1,Genoa,VOGLIACCO
+1,Genoa,BANI
+1,Genoa,DE WINTER
+1,Genoa,ZANOLI
+1,Genoa,FRENDRUP
+1,Genoa,BADELJ
+1,Genoa,MALINOVSKYI
+1,Genoa,MARTIN
+1,Genoa,MESSIAS
+1,Genoa,VITINHA O.
+1,Inter,MARTINEZ L.
+1,Inter,THURAM
+1,Inter,DIMARCO
+1,Inter,MKHITARYAN
+1,Inter,CALHANOGLU
+1,Inter,BARELLA
+1,Inter,DARMIAN
+1,Inter,BASTONI
+1,Inter,ACERBI
+1,Inter,BISSECK
+1,Inter,SOMMER
+1,Parma,SUZUKI
+1,Parma,COULIBALY W.
+1,Parma,CIRCATI
+1,Parma,BALOGH
+1,Parma,VALERI
+1,Parma,ESTEVEZ
+1,Parma,SOHM
+1,Parma,MAN
+1,Parma,BERNABE'
+1,Parma,MIHAILA
+1,Parma,BONNY
+1,Fiorentina,KEAN
+1,Fiorentina,KOUAME'
+1,Fiorentina,COLPANI
+1,Fiorentina,BIRAGHI
+1,Fiorentina,AMRABAT
+1,Fiorentina,MANDRAGORA
+1,Fiorentina,DODO'
+1,Fiorentina,COMUZZO
+1,Fiorentina,MARTINEZ QUARTA
+1,Fiorentina,PONGRACIC
+1,Fiorentina,TERRACCIANO
+1,Empoli,VASQUEZ D.
+1,Empoli,WALUKIEWICZ
+1,Empoli,ISMAJLI
+1,Empoli,VITI
+1,Empoli,GYASI
+1,Empoli,HENDERSON L.
+1,Empoli,MALEH
+1,Empoli,PEZZELLA GIU.
+1,Empoli,FAZZINI
+1,Empoli,ESPOSITO SE.
+1,Empoli,COLOMBO
+1,Monza,PETAGNA
+1,Monza,VIGNATO S.
+1,Monza,MALDINI
+1,Monza,KYRIAKOPOULOS
+1,Monza,PESSINA
+1,Monza,BONDO
+1,Monza,BIRINDELLI
+1,Monza,CALDIROLA
+1,Monza,MARI'
+1,Monza,IZZO
+1,Monza,PIZZIGNACCO
+1,Milan,MAIGNAN
+1,Milan,CALABRIA
+1,Milan,TOMORI
+1,Milan,THIAW
+1,Milan,SAELEMAEKERS
+1,Milan,BENNACER
+1,Milan,LOFTUS-CHEEK
+1,Milan,CHUKWUEZE
+1,Milan,PULISIC
+1,Milan,LEAO
+1,Milan,JOVIC
+1,Torino,SANABRIA
+1,Torino,ZAPATA D.
+1,Torino,LAZARO
+1,Torino,ILIC
+1,Torino,RICCI S.
+1,Torino,LINETTY
+1,Torino,BELLANOVA
+1,Torino,MASINA
+1,Torino,COCO
+1,Torino,VOJVODA
+1,Torino,MILINKOVIC-SAVIC V.
+1,Bologna,SKORUPSKI
+1,Bologna,POSCH
+1,Bologna,ERLIC
+1,Bologna,BEUKEMA
+1,Bologna,LYKOGIANNIS
+1,Bologna,MORO N.
+1,Bologna,FREULER
+1,Bologna,FABBIAN
+1,Bologna,ORSOLINI
+1,Bologna,CASTRO S.
+1,Bologna,NDOYE
+1,Udinese,LUCCA
+1,Udinese,BRENNER
+1,Udinese,THAUVIN
+1,Udinese,KAMARA H.
+1,Udinese,LOVRIC
+1,Udinese,PAYERO
+1,Udinese,EHIZIBUE
+1,Udinese,GIANNETTI L.
+1,Udinese,BIJOL
+1,Udinese,PEREZ N.
+1,Udinese,OKOYE
+1,Verona,MONTIPO'
+1,Verona,TCHATCHOUA
+1,Verona,COPPOLA D.
+1,Verona,DAWIDOWICZ
+1,Verona,FRESE
+1,Verona,DUDA
+1,Verona,SERDAR
+1,Verona,ROCHA LIVRAMENTO
+1,Verona,KASTANOS
+1,Verona,LAZOVIC
+1,Verona,TENGSTEDT
+1,Napoli,SIMEONE
+1,Napoli,KVARATSKHELIA
+1,Napoli,POLITANO
+1,Napoli,SPINAZZOLA
+1,Napoli,ZAMBO ANGUISSA
+1,Napoli,LOBOTKA
+1,Napoli,MAZZOCCHI
+1,Napoli,JUAN JESUS
+1,Napoli,RRAHMANI
+1,Napoli,DI LORENZO
+1,Napoli,MERET
+1,Cagliari,SCUFFET
+1,Cagliari,ZAPPA
+1,Cagliari,WIETESKA
+1,Cagliari,LUPERTO
+1,Cagliari,AZZI
+1,Cagliari,DEIOLA
+1,Cagliari,PRATI
+1,Cagliari,MARIN
+1,Cagliari,AUGELLO
+1,Cagliari,PICCOLI
+1,Cagliari,LUVUMBO
+1,Roma,ZALEWSKI
+1,Roma,DOVBYK
+1,Roma,SOULE'
+1,Roma,PELLEGRINI LO.
+1,Roma,CRISTANTE
+1,Roma,LE FEE
+1,Roma,ANGELINO
+1,Roma,N'DICKA
+1,Roma,MANCINI
+1,Roma,CELIK
+1,Roma,SVILAR
+1,Lazio,PROVEDEL
+1,Lazio,LAZZARI
+1,Lazio,CASALE
+1,Lazio,ROMAGNOLI
+1,Lazio,MARUSIC
+1,Lazio,GUENDOUZI
+1,Lazio,ROVELLA
+1,Lazio,DELE-BASHIRU
+1,Lazio,NOSLIN
+1,Lazio,CASTELLANOS
+1,Lazio,ZACCAGNI
+1,Venezia,GYTKJAER
+1,Venezia,ELLERTSSON
+1,Venezia,ORISTANIO
+1,Venezia,ZAMPANO
+1,Venezia,DUNCAN
+1,Venezia,ANDERSEN M.K.
+1,Venezia,SAGRADO
+1,Venezia,SVERKO
+1,Venezia,SVOBODA
+1,Venezia,ALTARE
+1,Venezia,JORONEN
+1,Lecce,FALCONE
+1,Lecce,GENDREY
+1,Lecce,GASPAR K.
+1,Lecce,BASCHIROTTO
+1,Lecce,GALLO
+1,Lecce,RAMADANI
+1,Lecce,PIERRET
+1,Lecce,TETE MORENTE
+1,Lecce,RAFIA
+1,Lecce,DORGU
+1,Lecce,KRSTOVIC
+1,Atalanta,RETEGUI
+1,Atalanta,DE KETELAERE
+1,Atalanta,PASALIC
+1,Atalanta,RUGGERI
+1,Atalanta,BRESCIANINI
+1,Atalanta,EDERSON D.S.
+1,Atalanta,ZAPPACOSTA
+1,Atalanta,DE ROON
+1,Atalanta,HIEN
+1,Atalanta,DJIMSITI
+1,Atalanta,MUSSO
+1,Juventus,DI GREGORIO
+1,Juventus,CAMBIASO
+1,Juventus,BREMER
+1,Juventus,GATTI
+1,Juventus,CABAL
+1,Juventus,LOCATELLI
+1,Juventus,THURAM K.
+1,Juventus,WEAH
+1,Juventus,YILDIZ
+1,Juventus,MBANGULA
+1,Juventus,VLAHOVIC
+1,Como,CUTRONE
+1,Como,BELOTTI
+1,Como,DA CUNHA
+1,Como,BRAUNODER
+1,Como,BASELLI
+1,Como,STREFEZZA
+1,Como,SALA M.
+1,Como,BARBA
+1,Como,GOLDANIGA
+1,Como,MORENO ALB.
+1,Como,REINA
+2,Parma,SUZUKI
+2,Parma,COULIBALY W.
+2,Parma,BALOGH
+2,Parma,CIRCATI
+2,Parma,VALERI
+2,Parma,ESTEVEZ
+2,Parma,SOHM
+2,Parma,MAN
+2,Parma,BERNABE'
+2,Parma,MIHAILA
+2,Parma,BONNY
+2,Milan,OKAFOR
+2,Milan,LEAO
+2,Milan,LOFTUS-CHEEK
+2,Milan,PULISIC
+2,Milan,REIJNDERS
+2,Milan,MUSAH
+2,Milan,HERNANDEZ T.
+2,Milan,PAVLOVIC
+2,Milan,TOMORI
+2,Milan,CALABRIA
+2,Milan,MAIGNAN
+2,Udinese,OKOYE
+2,Udinese,PEREZ N.
+2,Udinese,BIJOL
+2,Udinese,GIANNETTI L.
+2,Udinese,EHIZIBUE
+2,Udinese,KARLSTROM
+2,Udinese,PAYERO
+2,Udinese,KAMARA H.
+2,Udinese,THAUVIN
+2,Udinese,BRENNER
+2,Udinese,LUCCA
+2,Lazio,ZACCAGNI
+2,Lazio,CASTELLANOS
+2,Lazio,NOSLIN
+2,Lazio,DELE-BASHIRU
+2,Lazio,VECINO
+2,Lazio,GUENDOUZI
+2,Lazio,MARUSIC
+2,Lazio,ROMAGNOLI
+2,Lazio,CASALE
+2,Lazio,LAZZARI
+2,Lazio,PROVEDEL
+2,Inter,SOMMER
+2,Inter,PAVARD
+2,Inter,ACERBI
+2,Inter,BASTONI
+2,Inter,DARMIAN
+2,Inter,BARELLA
+2,Inter,CALHANOGLU
+2,Inter,MKHITARYAN
+2,Inter,DIMARCO
+2,Inter,TAREMI
+2,Inter,THURAM
+2,Lecce,KRSTOVIC
+2,Lecce,DORGU
+2,Lecce,RAFIA
+2,Lecce,BANDA
+2,Lecce,PIERRET
+2,Lecce,RAMADANI
+2,Lecce,GALLO
+2,Lecce,GASPAR K.
+2,Lecce,BASCHIROTTO
+2,Lecce,GENDREY
+2,Lecce,FALCONE
+2,Monza,PIZZIGNACCO
+2,Monza,IZZO
+2,Monza,MARI'
+2,Monza,CALDIROLA
+2,Monza,BIRINDELLI
+2,Monza,PESSINA
+2,Monza,BONDO
+2,Monza,KYRIAKOPOULOS
+2,Monza,MALDINI
+2,Monza,MOTA
+2,Monza,PETAGNA
+2,Genoa,VITINHA O.
+2,Genoa,PINAMONTI
+2,Genoa,MARTIN
+2,Genoa,MESSIAS
+2,Genoa,BADELJ
+2,Genoa,FRENDRUP
+2,Genoa,SABELLI
+2,Genoa,VASQUEZ
+2,Genoa,BANI
+2,Genoa,DE WINTER
+2,Genoa,GOLLINI
+2,Fiorentina,TERRACCIANO
+2,Fiorentina,COMUZZO
+2,Fiorentina,RANIERI L.
+2,Fiorentina,BIRAGHI
+2,Fiorentina,DODO'
+2,Fiorentina,RICHARDSON
+2,Fiorentina,AMRABAT
+2,Fiorentina,PARISI
+2,Fiorentina,BARAK
+2,Fiorentina,KOUAME'
+2,Fiorentina,KEAN
+2,Venezia,GYTKJAER
+2,Venezia,ORISTANIO
+2,Venezia,ELLERTSSON
+2,Venezia,ZAMPANO
+2,Venezia,DUNCAN
+2,Venezia,ANDERSEN M.K.
+2,Venezia,CANDELA
+2,Venezia,SVERKO
+2,Venezia,ALTARE
+2,Venezia,IDZES
+2,Venezia,JORONEN
+2,Torino,MILINKOVIC-SAVIC V.
+2,Torino,TAMEZE
+2,Torino,COCO
+2,Torino,MASINA
+2,Torino,VOJVODA
+2,Torino,LINETTY
+2,Torino,RICCI S.
+2,Torino,ILIC
+2,Torino,LAZARO
+2,Torino,ADAMS C.
+2,Torino,ZAPATA D.
+2,Atalanta,RETEGUI
+2,Atalanta,DE KETELAERE
+2,Atalanta,PASALIC
+2,Atalanta,RUGGERI
+2,Atalanta,BRESCIANINI
+2,Atalanta,EDERSON D.S.
+2,Atalanta,ZAPPACOSTA
+2,Atalanta,DJIMSITI
+2,Atalanta,HIEN
+2,Atalanta,DE ROON
+2,Atalanta,CARNESECCHI
+2,Napoli,MERET
+2,Napoli,DI LORENZO
+2,Napoli,RRAHMANI
+2,Napoli,BUONGIORNO
+2,Napoli,MAZZOCCHI
+2,Napoli,ZAMBO ANGUISSA
+2,Napoli,LOBOTKA
+2,Napoli,OLIVERA
+2,Napoli,POLITANO
+2,Napoli,KVARATSKHELIA
+2,Napoli,RASPADORI
+2,Bologna,NDOYE
+2,Bologna,CASTRO S.
+2,Bologna,ORSOLINI
+2,Bologna,AEBISCHER
+2,Bologna,FREULER
+2,Bologna,MORO N.
+2,Bologna,LYKOGIANNIS
+2,Bologna,ERLIC
+2,Bologna,BEUKEMA
+2,Bologna,POSCH
+2,Bologna,SKORUPSKI
+2,Roma,SVILAR
+2,Roma,CELIK
+2,Roma,N'DICKA
+2,Roma,MANCINI
+2,Roma,ANGELINO
+2,Roma,CRISTANTE
+2,Roma,PAREDES
+2,Roma,PELLEGRINI LO.
+2,Roma,SOULE'
+2,Roma,DYBALA
+2,Roma,DOVBYK
+2,Empoli,COLOMBO
+2,Empoli,SOLBAKKEN
+2,Empoli,FAZZINI
+2,Empoli,PEZZELLA GIU.
+2,Empoli,MALEH
+2,Empoli,HENDERSON L.
+2,Empoli,GYASI
+2,Empoli,VITI
+2,Empoli,ISMAJLI
+2,Empoli,WALUKIEWICZ
+2,Empoli,VASQUEZ D.
+2,Cagliari,SCUFFET
+2,Cagliari,ZAPPA
+2,Cagliari,MINA
+2,Cagliari,LUPERTO
+2,Cagliari,AZZI
+2,Cagliari,DEIOLA
+2,Cagliari,PRATI
+2,Cagliari,MARIN
+2,Cagliari,AUGELLO
+2,Cagliari,LUVUMBO
+2,Cagliari,PICCOLI
+2,Como,CUTRONE
+2,Como,BELOTTI
+2,Como,DA CUNHA
+2,Como,BRAUNODER
+2,Como,MAZZITELLI
+2,Como,STREFEZZA
+2,Como,MORENO ALB.
+2,Como,BARBA
+2,Como,DOSSENA
+2,Como,IOVINE
+2,Como,REINA
+2,Verona,MONTIPO'
+2,Verona,DAWIDOWICZ
+2,Verona,COPPOLA D.
+2,Verona,MAGNANI
+2,Verona,TCHATCHOUA
+2,Verona,BELAHYANE
+2,Verona,DUDA
+2,Verona,LAZOVIC
+2,Verona,SUSLOV
+2,Verona,ROCHA LIVRAMENTO
+2,Verona,MOSQUERA
+2,Juventus,VLAHOVIC
+2,Juventus,MBANGULA
+2,Juventus,YILDIZ
+2,Juventus,CAMBIASO
+2,Juventus,LOCATELLI
+2,Juventus,FAGIOLI
+2,Juventus,CABAL
+2,Juventus,BREMER
+2,Juventus,GATTI
+2,Juventus,SAVONA
+2,Juventus,DI GREGORIO
+3,Venezia,JORONEN
+3,Venezia,IDZES
+3,Venezia,SVOBODA
+3,Venezia,SVERKO
+3,Venezia,CANDELA
+3,Venezia,NICOLUSSI CAVIGLIA
+3,Venezia,DUNCAN
+3,Venezia,ZAMPANO
+3,Venezia,ELLERTSSON
+3,Venezia,ORISTANIO
+3,Venezia,POHJANPALO
+3,Torino,ZAPATA D.
+3,Torino,ADAMS C.
+3,Torino,SOSA B.
+3,Torino,ILIC
+3,Torino,LINETTY
+3,Torino,RICCI S.
+3,Torino,LAZARO
+3,Torino,MASINA
+3,Torino,COCO
+3,Torino,VOJVODA
+3,Torino,MILINKOVIC-SAVIC V.
+3,Inter,SOMMER
+3,Inter,PAVARD
+3,Inter,ACERBI
+3,Inter,BASTONI
+3,Inter,DARMIAN
+3,Inter,BARELLA
+3,Inter,CALHANOGLU
+3,Inter,MKHITARYAN
+3,Inter,DIMARCO
+3,Inter,MARTINEZ L.
+3,Inter,THURAM
+3,Atalanta,RETEGUI
+3,Atalanta,BRESCIANINI
+3,Atalanta,SAMARDZIC
+3,Atalanta,ZAPPACOSTA
+3,Atalanta,EDERSON D.S.
+3,Atalanta,PASALIC
+3,Atalanta,BELLANOVA
+3,Atalanta,RUGGERI
+3,Atalanta,DJIMSITI
+3,Atalanta,DE ROON
+3,Atalanta,CARNESECCHI
+3,Bologna,SKORUPSKI
+3,Bologna,POSCH
+3,Bologna,BEUKEMA
+3,Bologna,LUCUMI'
+3,Bologna,MIRANDA J.
+3,Bologna,FABBIAN
+3,Bologna,FREULER
+3,Bologna,MORO N.
+3,Bologna,ORSOLINI
+3,Bologna,CASTRO S.
+3,Bologna,KARLSSON
+3,Empoli,COLOMBO
+3,Empoli,SOLBAKKEN
+3,Empoli,FAZZINI
+3,Empoli,PEZZELLA GIU.
+3,Empoli,HENDERSON L.
+3,Empoli,GRASSI
+3,Empoli,GYASI
+3,Empoli,VITI
+3,Empoli,ISMAJLI
+3,Empoli,GOGLICHIDZE
+3,Empoli,VASQUEZ D.
+3,Lecce,FALCONE
+3,Lecce,GUILBERT
+3,Lecce,BASCHIROTTO
+3,Lecce,GASPAR K.
+3,Lecce,GALLO
+3,Lecce,RAMADANI
+3,Lecce,PIERRET
+3,Lecce,BANDA
+3,Lecce,OUDIN
+3,Lecce,DORGU
+3,Lecce,KRSTOVIC
+3,Cagliari,PICCOLI
+3,Cagliari,LUVUMBO
+3,Cagliari,AUGELLO
+3,Cagliari,MARIN
+3,Cagliari,PRATI
+3,Cagliari,DEIOLA
+3,Cagliari,AZZI
+3,Cagliari,LUPERTO
+3,Cagliari,MINA
+3,Cagliari,ZAPPA
+3,Cagliari,SCUFFET
+3,Lazio,PROVEDEL
+3,Lazio,LAZZARI
+3,Lazio,PATRIC
+3,Lazio,ROMAGNOLI
+3,Lazio,TAVARES N.
+3,Lazio,GUENDOUZI
+3,Lazio,ROVELLA
+3,Lazio,ZACCAGNI
+3,Lazio,DIA
+3,Lazio,TCHAOUNA
+3,Lazio,CASTELLANOS
+3,Milan,OKAFOR
+3,Milan,PULISIC
+3,Milan,LOFTUS-CHEEK
+3,Milan,CHUKWUEZE
+3,Milan,REIJNDERS
+3,Milan,FOFANA Y.
+3,Milan,TERRACCIANO F.
+3,Milan,PAVLOVIC
+3,Milan,TOMORI
+3,Milan,EMERSON ROYAL
+3,Milan,MAIGNAN
+3,Napoli,MERET
+3,Napoli,DI LORENZO
+3,Napoli,RRAHMANI
+3,Napoli,BUONGIORNO
+3,Napoli,MAZZOCCHI
+3,Napoli,LOBOTKA
+3,Napoli,ZAMBO ANGUISSA
+3,Napoli,OLIVERA
+3,Napoli,POLITANO
+3,Napoli,KVARATSKHELIA
+3,Napoli,RASPADORI
+3,Parma,BONNY
+3,Parma,MIHAILA
+3,Parma,KOWALSKI
+3,Parma,MAN
+3,Parma,BERNABE'
+3,Parma,SOHM
+3,Parma,VALERI
+3,Parma,CIRCATI
+3,Parma,BALOGH
+3,Parma,COULIBALY W.
+3,Parma,SUZUKI
+3,Fiorentina,TERRACCIANO
+3,Fiorentina,COMUZZO
+3,Fiorentina,RANIERI L.
+3,Fiorentina,BIRAGHI
+3,Fiorentina,DODO'
+3,Fiorentina,CATALDI
+3,Fiorentina,MANDRAGORA
+3,Fiorentina,GOSENS
+3,Fiorentina,COLPANI
+3,Fiorentina,BELTRAN L.
+3,Fiorentina,KEAN
+3,Monza,DJURIC
+3,Monza,MALDINI
+3,Monza,CAPRARI
+3,Monza,KYRIAKOPOULOS
+3,Monza,PESSINA
+3,Monza,BONDO
+3,Monza,PEREIRA P.
+3,Monza,CARBONI A.
+3,Monza,MARI'
+3,Monza,IZZO
+3,Monza,TURATI
+3,Genoa,GOLLINI
+3,Genoa,DE WINTER
+3,Genoa,VOGLIACCO
+3,Genoa,VASQUEZ
+3,Genoa,SABELLI
+3,Genoa,FRENDRUP
+3,Genoa,BADELJ
+3,Genoa,MESSIAS
+3,Genoa,MARTIN
+3,Genoa,PINAMONTI
+3,Genoa,VITINHA O.
+3,Verona,TENGSTEDT
+3,Verona,LAZOVIC
+3,Verona,SUSLOV
+3,Verona,HARROUI
+3,Verona,BELAHYANE
+3,Verona,DUDA
+3,Verona,FRESE
+3,Verona,DAWIDOWICZ
+3,Verona,COPPOLA D.
+3,Verona,TCHATCHOUA
+3,Verona,MONTIPO'
+3,Juventus,DI GREGORIO
+3,Juventus,SAVONA
+3,Juventus,GATTI
+3,Juventus,BREMER
+3,Juventus,CAMBIASO
+3,Juventus,CABAL
+3,Juventus,LOCATELLI
+3,Juventus,FAGIOLI
+3,Juventus,YILDIZ
+3,Juventus,MBANGULA
+3,Juventus,VLAHOVIC
+3,Roma,DOVBYK
+3,Roma,SAELEMAEKERS
+3,Roma,SOULE'
+3,Roma,PELLEGRINI LO.
+3,Roma,CRISTANTE
+3,Roma,PISILLI
+3,Roma,ANGELINO
+3,Roma,N'DICKA
+3,Roma,MANCINI
+3,Roma,CELIK
+3,Roma,SVILAR
+3,Udinese,OKOYE
+3,Udinese,KABASELE
+3,Udinese,BIJOL
+3,Udinese,GIANNETTI L.
+3,Udinese,EHIZIBUE
+3,Udinese,KARLSTROM
+3,Udinese,LOVRIC
+3,Udinese,ZEMURA
+3,Udinese,THAUVIN
+3,Udinese,BRENNER
+3,Udinese,LUCCA
+3,Como,CUTRONE
+3,Como,BELOTTI
+3,Como,DA CUNHA
+3,Como,PERRONE
+3,Como,MAZZITELLI
+3,Como,STREFEZZA
+3,Como,MORENO ALB.
+3,Como,KEMPF
+3,Como,DOSSENA
+3,Como,IOVINE
+3,Como,REINA
