@@ -9,7 +9,7 @@ import utils.metodi as me
 
 
 def non_schierabili():
-    re = requests.get("https://www.fantacalcio.it/indisponibili-serie-a")
+    re = requests.get("https://www.fantacalcio.it/indisponibili-serie-a", verify=False)
     soup = BeautifulSoup(re.text, "html.parser")
 
     info_squadre = soup.find_all("div", attrs={"class": "row row-responsive"})

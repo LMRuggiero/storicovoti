@@ -2,9 +2,9 @@ from root import ROOT_DIR
 from storicovoti.consigli_di_giornata import *
 from storicovoti.titolari_e_panchinari import *
 
-create = False
-stagione = 23
-ultima_giornata = 32
+create = True
+stagione = 24
+ultima_giornata = 2
 # l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
 l = range(3, 9)
 if create:
