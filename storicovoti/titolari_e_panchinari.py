@@ -50,11 +50,18 @@ def to_string_list(lista_giocatori):
 
 def ottieniTitolari(formazione, df):
     n_dif, n_cen, n_att = [int(n) for n in formazione.split("-")]
+    n_dif -= len(df.query("R == 'D' and titolare"))
+    n_cen -= len(df.query("R == 'C' and titolare"))
+    n_att -= len(df.query("R == 'A' and titolare"))
     return n_dif, n_cen, n_att, pd.concat(
-        [df.loc[df.R == "P"].head(1),
-         df.loc[df.R == "D"].head(n_dif),
-         df.loc[df.R == "C"].head(n_cen),
-         df.loc[df.R == "A"].head(n_att)])
+        [df.loc[df.R == "P"].head(1) if len(df.query("R == 'P' and titolare")) == 0 else df.query(
+            "R == 'P' and titolare"),
+         df.query("R == 'D' and not titolare").head(n_dif),
+         df.query("R == 'D' and titolare"),
+         df.query("R == 'C' and not titolare").head(n_cen),
+         df.query("R == 'C' and titolare"),
+         df.query("R == 'A' and not titolare").head(n_att),
+         df.query("R == 'A' and titolare")])
 
 
 def unicita(formazioni):
@@ -87,8 +94,7 @@ def troncato(x):
     return 0.5 * round(int(x / 0.25) / 2 + 0.25000001)
 
 
-def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, lista_giocatori_titolari=None,
-                          modulo=None):
+def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, lista_giocatori_titolari=None, modulo=None):
     if aggiunte is None:
         aggiunte = []
     if esclusioni is None:
@@ -106,7 +112,8 @@ def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, list
     dizionario_titolari_per_modulo = {f: [] for f in formazioni}
     non_schierabili_default = pd.DataFrame([], columns=["NOME"])
     lista_esclusi = pd.DataFrame([], columns=["NOME"])
-    if lista_giocatori_titolari is None:
+    lista_giocatori_titolari = pd.DataFrame(lista_giocatori_titolari, columns=["NOME"]).drop_duplicates()
+    if len(lista_giocatori_titolari) < 11:
         squalificati, indisponibili, in_dubbio = non_schierabili()
         non_schierabili_default = pd.DataFrame(
             [giocatore for giocatore in squalificati + indisponibili if giocatore not in aggiunte], columns=["NOME"])
@@ -116,8 +123,11 @@ def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, list
             duckdb.query(f"""
             select df.*
             from df
+            left join lista_giocatori_titolari lgt
+              on df.nome = lgt.nome
             left join non_schierabili_default l
               on df.nome = l.nome
+             and lgt.nome is null
             where l.nome is null
             order by R desc, FantaVoto desc, Voto desc, FantaVotoPotenziale desc, VotoPotenziale desc
             """).df() for df in dfs[:num_df]
@@ -145,8 +155,11 @@ def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, list
     from t
     join quotazioni q
       on t.cod = q.id
+    left join lista_giocatori_titolari lgt
+      on t.nome = lgt.nome
     left join non_schierabili_default n
       on t.nome = n.nome
+     and lgt.nome is null
     where n.nome is null
     group by q.R, q.Squadra, q.Nome
     """).df()
@@ -155,13 +168,40 @@ def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, list
     listone = listone.sort_values(by=["FantaVoto", "Voto", "FantaVotoPotenziale", "VotoPotenziale"],
                                   ascending=(False, False, False, False))
     listone_per_squadra_titolare = duckdb.query("""
-    select l.*
+    select
+        l.*,
+        lgt.nome is not null as titolare
     from listone l
+    left join lista_giocatori_titolari lgt
+      on l.nome = lgt.nome
     left join lista_esclusi le
       on l.nome = le.nome
+     and lgt.nome is null
     where le.nome is null
     order by FantaVoto desc, Voto desc, FantaVotoPotenziale desc, VotoPotenziale desc
     """).df()
+    slot_bloccati_per_ruolo = duckdb.query("""
+            select
+                r,
+                count(1) as n
+            from listone_per_squadra_titolare
+            where titolare
+            group by r, nome
+        """).df()
+    formazioni = [
+        f for f in formazioni
+        if int(f.split("-")[0]) >= len(slot_bloccati_per_ruolo.query("R == 'D'"))
+           and int(f.split("-")[1]) >= len(slot_bloccati_per_ruolo.query("R == 'C'"))
+           and int(f.split("-")[2]) >= len(slot_bloccati_per_ruolo.query("R == 'A'"))
+    ]
+    if not formazioni:
+        duckdb.query("""
+                select l.*
+                from listone l
+                inner join lista_giocatori_titolari lgt
+                   on l.nome = lgt.nome
+            """).show()
+        raise Exception("nessun modulo disponibile per i titolari selezionati")
     for formazione in formazioni:
         punteggi = []
         n_dif, n_cen, n_att, squadra_prescelta = ottieniTitolari(formazione, listone_per_squadra_titolare)
@@ -183,19 +223,19 @@ def titolari_e_panchinari(dfs, num_df=None, esclusioni=None, aggiunte=None, list
 
     dubbi, squadra_titolare = unicita(tit)
     n = 11 - len(squadra_titolare)
-    if lista_giocatori_titolari is None:
+    if len(lista_giocatori_titolari) < 11:
         if n != 0:
             merge = listone.merge(dubbi, on=["R", "Nome"])[
-                ["R", "Nome", "Squadra", "counts", "FantaVotoTroncato", "VotoTroncato", "FantaVotoPotenziale",
+                ["R", "Nome", "Squadra_x", "counts", "FantaVotoPotenziale",
                  "VotoPotenziale"]]
             merge = merge.sort_values(
-                by=['R', 'counts', 'FantaVotoTroncato', 'VotoTroncato', 'FantaVotoPotenziale', 'VotoPotenziale'],
-                ascending=(False, False, False, False, False, False))
+                by=['R', 'counts', 'FantaVotoPotenziale', 'VotoPotenziale'],
+                ascending=(False, False, False, False))
             d_p_r = dubbi_per_ruolo(squadra_titolare, modulo_migliore)
             ultimi_titolari = pd.DataFrame()
             for ruolo in d_p_r:
                 ultimi_titolari = pd.concat(
-                    [ultimi_titolari, merge[merge.R == ruolo][:d_p_r[ruolo]][["R", "Nome", "Squadra", "counts"]]])
+                    [ultimi_titolari, merge[merge.R == ruolo][:d_p_r[ruolo]][["R", "Nome", "Squadra_x", "counts"]]])
             squadra_titolare = pd.concat([squadra_titolare, ultimi_titolari]).sort_values("R", ascending=False)
         squadra_titolare = pd.merge(listone, squadra_titolare, how='outer', indicator=True)
         squadra_titolare = squadra_titolare[squadra_titolare['_merge'] == 'both'][listone.columns.tolist()]

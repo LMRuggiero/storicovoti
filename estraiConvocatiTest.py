@@ -4,12 +4,11 @@ from storicovoti.titolari_e_panchinari import *
 
 create = False
 stagione = 24
-ultima_giornata = 3
+ultima_giornata = 23
 # l = range(min(ultima_giornata, 3), min(ultima_giornata + 1, 9))
 l = range(3, 9)
 if create:
     leggi(stagione, create=True)
-    root = ROOT_DIR
     percorso = f"{ROOT_DIR}/Voti_Fantacalcio"
     nomi_excel: list = [file for (_, _, file) in os.walk(percorso)][0]
     nomi_excel.reverse()
@@ -45,41 +44,69 @@ if create:
             and df.stagione = s.stagione
             """).df() for df in lista_dataframe])
 
-    dataframe_arricchito_finale = duckdb.query("""
+    dataframe_arricchito_finale = duckdb.query(f"""
         select
             *,
             dense_rank() over (partition by nome order by stagione desc, giornata desc) giornata_giocatore
         from dataframe_arricchito
     """)
-    [consigli_di_giornata_test(ultima_giornata,
-                          n_giornate,
-                          stagione,
-                          dataframe_arricchito_finale,
-                          salva_consigli=create,
-                          salva_modello=create
-                          )
-     for n_giornate in l]
+    for n_giornate in l:
+        consigli_di_giornata_test(
+            ultima_giornata,
+            n_giornate,
+            stagione,
+            dataframe_arricchito_finale,
+            salva_consigli=create,
+            salva_modello=create
+        )
 
 
-def consigli_di_giornata_formazione(giornata, n_giornate, lega, team='Io'):
+def consigli_di_giornata_formazione(giornata, giornate_tot, nomeLega, team='Io', modPortiere=False):
     rose = pd.read_excel("sorgenti/Listone_produzione.xlsx")
 
-    team = rose[(rose.Lega == lega) & (rose.Proprietario == team)].Nome.tolist()
+    team = rose[(rose.Lega == nomeLega) & (rose.Proprietario == team)].Nome.tolist()
     lista_nomi = '("' + '", "'.join(team) + '")'
-    path = f"{ROOT_DIR}/estrazioni/consigli_giornata_test/giornata_{giornata + 1}/consigli_ultime_{n_giornate}.xlsx"
+    path = f"estrazioni/consigli_giornata_test/giornata_{giornata + 1}/consigli_ultime_{giornate_tot}.xlsx"
     print(f"letto il file {path}")
-    return pd.read_excel(path).query(f'Nome in {lista_nomi}').sort_values(
-        ["FantaVoto", "FantaVotoPotenziale", "Voto", "VotoPotenziale"], ascending=(False, False, False, False))
+
+    df = pd.read_excel(path).query(f'Nome in {lista_nomi}')
+    if modPortiere:
+        df.rename(
+            columns={
+                "FantaVoto": "FantaVotoOld",
+                "FantaVotoPotenziale": "FantaVotoPotenzialeOld",
+                "FantaVotoModP": "FantaVoto",
+                "FantaVotoPotenzialeModP": "FantaVotoPotenziale"
+            }
+        )
+    return df.sort_values(["FantaVoto", "FantaVotoPotenziale", "Voto", "VotoPotenziale"],
+                          ascending=(False, False, False, False))
 
 
-dfs = [pd.read_excel(f"estrazioni/consigli_giornata_test/giornata_{ultima_giornata + 1}/consigli_ultime_{n}.xlsx") for n in
-       l]
+dfs = [pd.read_excel(f"estrazioni/consigli_giornata_test/giornata_{ultima_giornata + 1}/consigli_ultime_{n}.xlsx") for n
+       in l]
 
-# dfsLega = [consigli_di_giornata_formazione(ultima_giornata, n, "Fantacalcio Massa", "Io") for n in l]
-# dfsLega = [consigli_di_giornata_formazione(ultima_giornata, n, "FantaRoars", "Io") for n in l]
-dfsLega = [consigli_di_giornata_formazione(ultima_giornata, n, "FANTABERTEBOOM", "Io") for n in l]
+# lega = "Fantacalcio Massa"
+lega = "FantaRoars"
+# lega = "FANTABERTEBOOM"
 
-squadra_titolare, panchinari, listone = titolari_e_panchinari(dfsLega, num_df=6, esclusioni=["DANILO"])
+dfsLega = [consigli_di_giornata_formazione(ultima_giornata, n, lega, "Io", lega != "Fantacalcio Massa") for n in l]
+squadra_titolare, panchinari, listone = titolari_e_panchinari(
+    dfsLega,
+    num_df=6,
+    # modulo=["5-4-1"],
+    # modulo=["3-4-3"],
+    # modulo=["4-4-2"],
+    # modulo=["4-3-3"],
+    # modulo=["5-3-2"],
+    esclusioni=[
+        # "ACERBI",
+        # "MARTINEZ QUARTA"
+    ],
+    lista_giocatori_titolari=[
+        # "MARTINEZ QUARTA"
+    ]
+)
 print(squadra_titolare)
 print(panchinari)
 print(listone)

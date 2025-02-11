@@ -24,22 +24,25 @@ def modello_fantacalcio_test(
     )
 
     dataframe_finale = duckdb.query(f"""
-        select
-            Cod as Cod,
-            ruolo as R,
-            Nome as Nome,
-            first(Squadra) as Squadra,
-            count(1) as Partite,
-            avg(Voto) as Media,
-            avg(FantaVoto) as FantaMedia,
-            voto_centrale(Media, min(Voto), max(Voto)) as VotoCentrale,
-            voto_centrale(FantaMedia, min(FantaVoto), max(FantaVoto)) as FantaVotoCentrale,
-            dense_rank() over (partition by R order by FantaMedia desc, Media desc, Nome) as Posizione
-        from dataframe_filtrato
-        group by Cod, Nome, R
-        having partite >= {percentuale_presenze} * {numero_giornate}
-        order by R desc, Posizione
-        """).df()
+            select
+                *,
+                dense_rank() over (partition by R order by FantaMedia desc, Media desc, Nome) as Posizione
+            from (
+                select distinct
+                    Cod as Cod,
+                    first(ruolo) over (partition by Cod order by stagione desc, giornata desc) as R,
+                    first(Nome) over (partition by Cod order by stagione desc, giornata desc) as Nome,
+                    first(Squadra) over (partition by Cod order by stagione desc, giornata desc) as Squadra,
+                    count(1) over (partition by Cod) as Partite,
+                    avg(Voto) over (partition by Cod) as Media,
+                    avg(FantaVoto) over (partition by Cod) as FantaMedia,
+                    avg(FantaVotoModP) over (partition by Cod) as FantaMediaModP
+                from dataframe_filtrato
+            )
+            where partite >= {percentuale_presenze} * {numero_giornate}
+            order by R desc, Posizione
+            """).df()
+
     duckdb.remove_function("voto_centrale")
     if salva_excel:
         path_modello_fantacalcio = f"{ROOT_DIR}/estrazioni/modello_fantacalcio_test/giornata_{giornata_esaminata}"

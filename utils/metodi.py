@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def estrai_voto(x):
     return x not in ["Voto", "6*"]
 
@@ -44,6 +45,9 @@ def dataframe_corretto(file: str) -> pd.DataFrame:
     fantavoti = [voto + 3 * (Gf + Rp - Rs + Rf) - 2 * Au - Gs - Esp + Ass - 0.5 * Amm for
                  _, _, _, voto, Gf, Gs, Rp, Rs, Rf, Au, Amm, Esp, Ass in dataframe.values]
     dataframe["FANTAVOTO"] = fantavoti
+    fanta_voti_mod_p = [fv + (1 if r == "P" and gs == 0 else 0) for r, fv, gs in
+                    dataframe[["RUOLO", "FANTAVOTO", "GOL_SUBITI"]].values]
+    dataframe["FANTAVOTOMODP"] = fanta_voti_mod_p
     dataframe["NOME"] = dataframe.NOME.str.upper()
     indice = 0
     colonnaSquadra = []
